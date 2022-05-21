@@ -1,7 +1,0 @@
-secury_form_sec_groups_mob.php
-gestao_focus_pronto
-secury_form_sec_groups_mob
-SIM
-form
-secury_form_sec_groups
-LigMd5

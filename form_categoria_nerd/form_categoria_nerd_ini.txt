@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-form_categoria_nerd
-SIM
-form
-form_categoria_nerd
-LigMd5

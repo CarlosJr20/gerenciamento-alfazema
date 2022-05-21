@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-menu_teste
-SIM
-
-menu_teste
-LigMd5

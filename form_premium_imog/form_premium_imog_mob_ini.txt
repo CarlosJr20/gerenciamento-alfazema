@@ -1,7 +1,0 @@
-form_premium_imog_mob.php
-gestao_focus_pronto
-form_premium_imog_mob
-SIM
-form
-form_premium_imog
-LigMd5

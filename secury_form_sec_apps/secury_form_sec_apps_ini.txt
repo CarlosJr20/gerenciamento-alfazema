@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-secury_form_sec_apps
-SIM
-form
-secury_form_sec_apps
-LigMd5

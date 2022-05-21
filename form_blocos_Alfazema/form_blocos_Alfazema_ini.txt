@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-form_blocos_Alfazema
-NAO
-form
-form_blocos_Alfazema
-LigMd5

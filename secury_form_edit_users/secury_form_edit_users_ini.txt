@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-secury_form_edit_users
-SIM
-form
-secury_form_edit_users
-LigMd5

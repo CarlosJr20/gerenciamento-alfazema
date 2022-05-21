@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-grid_comprar_imog
-SIM
-cons
-grid_comprar_imog
-LigMd5

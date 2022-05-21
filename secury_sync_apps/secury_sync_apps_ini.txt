@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-secury_sync_apps
-SIM
-contr
-secury_sync_apps
-LigMd5

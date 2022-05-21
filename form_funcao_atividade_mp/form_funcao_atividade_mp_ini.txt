@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-form_funcao_atividade_mp
-NAO
-form
-form_funcao_atividade_mp
-LigMd5

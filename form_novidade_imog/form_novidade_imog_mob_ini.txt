@@ -1,7 +1,0 @@
-form_novidade_imog_mob.php
-gestao_focus_pronto
-form_novidade_imog_mob
-SIM
-form
-form_novidade_imog
-LigMd5

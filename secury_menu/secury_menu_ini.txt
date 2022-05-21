@@ -1,7 +1,0 @@
-index.php
-gestao_focus_pronto
-secury_menu
-SIM
-
-secury_menu
-LigMd5
