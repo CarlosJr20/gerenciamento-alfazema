@@ -1,0 +1,14 @@
+.css_selecao_projeto_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_selecao_projeto_grid_line {vertical-align: top;text-align: right;}
+.css_transporte_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_transporte_grid_line {vertical-align: top;text-align: right;}
+.css_alimentacao_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_alimentacao_grid_line {vertical-align: top;text-align: right;}
+.css_outros_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_outros_grid_line {vertical-align: top;text-align: right;}
+.css_data_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_data_grid_line {vertical-align: top;text-align: center;}
+.css_hora_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hora_grid_line {vertical-align: top;text-align: center;}
+.css_id_despesas_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_despesas_grid_line {vertical-align: top;text-align: right;}

@@ -1,0 +1,16 @@
+.css_selecao_projetos_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_selecao_projetos_grid_line {vertical-align: top;text-align: right;}
+.css_tag_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tag_grid_line {vertical-align: top;text-align: right;}
+.css_selecao_atividade_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_selecao_atividade_grid_line {vertical-align: top;text-align: right;}
+.css_data_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_data_grid_line {vertical-align: top;text-align: center;}
+.css_hora_inicio_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hora_inicio_grid_line {vertical-align: top;text-align: center;}
+.css_hora_final_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hora_final_grid_line {vertical-align: top;text-align: center;}
+.css_descricao_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_descricao_grid_line {vertical-align: top;text-align: right;}
+.css_id_atividade_mp_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_atividade_mp_grid_line {vertical-align: top;text-align: right;}

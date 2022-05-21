@@ -1,0 +1,7 @@
+calendar_gestao_alfazema_area_mob.php
+gestao_focus_pronto
+calendar_gestao_alfazema_area_mob
+NAO
+calendar
+calendar_gestao_alfazema_area
+LigMd5

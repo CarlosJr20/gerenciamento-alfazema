@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+card_helder
+NAO
+blank
+card_helder
+LigMd5

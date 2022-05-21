@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+apl_sync_apps
+SIM
+contr
+apl_sync_apps
+LigMd5

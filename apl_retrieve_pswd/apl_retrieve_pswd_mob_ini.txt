@@ -1,0 +1,7 @@
+apl_retrieve_pswd_mob.php
+gestao_focus_pronto
+apl_retrieve_pswd_mob
+NAO
+contr
+apl_retrieve_pswd
+LigMd5

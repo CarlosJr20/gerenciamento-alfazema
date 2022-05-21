@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+menu_alfazema
+NAO
+blank
+menu_alfazema
+LigMd5

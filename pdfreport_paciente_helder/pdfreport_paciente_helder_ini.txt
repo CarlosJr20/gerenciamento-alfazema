@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+pdfreport_paciente_helder
+NAO
+reportpdf
+pdfreport_paciente_helder
+LigMd5

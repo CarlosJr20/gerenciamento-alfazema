@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+apl_change_pswd
+NAO
+contr
+apl_change_pswd
+LigMd5

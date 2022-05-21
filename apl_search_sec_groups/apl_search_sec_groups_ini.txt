@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+apl_search_sec_groups
+SIM
+filter
+apl_search_sec_groups
+LigMd5

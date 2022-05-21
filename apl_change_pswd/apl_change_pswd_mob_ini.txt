@@ -1,0 +1,7 @@
+apl_change_pswd_mob.php
+gestao_focus_pronto
+apl_change_pswd_mob
+NAO
+contr
+apl_change_pswd
+LigMd5

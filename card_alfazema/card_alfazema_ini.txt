@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+card_alfazema
+NAO
+blank
+card_alfazema
+LigMd5

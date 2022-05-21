@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+secury_retrieve_pswd
+SIM
+contr
+secury_retrieve_pswd
+LigMd5

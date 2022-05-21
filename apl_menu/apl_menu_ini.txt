@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+apl_menu
+SIM
+
+apl_menu
+LigMd5
