@@ -36,9 +36,17 @@ E depois de feito, o agendamento ficará marcado no calendário:
 
 ![Agendamento](https://user-images.githubusercontent.com/59017718/171939239-5e8eea0f-8f2e-4250-867b-cb6c64aabe51.png)
 
+## Tecnologias utilizadas: 
+
+- [X] Trello:
+- Para gestão de roadmap das aplicações, visão geral da realização das atividades, utilizamos o Trello, principalmente pela sua simplicidade e facilidade.
+- [X] SricptCase:
+- Fizemos o uso de uma plataforma chamada scriptcase, que basicamente, é uma ferramenta que permite o uso de uma interface gráfica acessada diretamente via navegador.
+- [x] SQL:
+- Usamos o SQL, no nosso banco de dados, para armazenar os cadastros que serão feitos na nossa aplicação.
+- [x] HostGator:
+- Para o deploy do site, fizemos o uso de uma site de hospedangem chamado Hostgator, que a partir dele, faz com que a nossa aplicação esteja no ar o tempo todo.
+
 ## Conclusão:
 
 Por fim, esse foi o nosso projeto gestao-alfazema de maneira resumida, para que vocês possam entender um pouco da nossa aplicação, espero que tenham gostado 😁.
-
-
-
