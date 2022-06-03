@@ -1,0 +1,23 @@
+package br.com.testautomacao;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class testeWeb {
+
+	@Before
+	public void start() {
+		
+	}
+	
+	@After
+	public void end() {
+		
+	}
+	
+	@Test
+	public void test() {
+		
+	}
+}

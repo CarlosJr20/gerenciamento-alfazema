@@ -2826,22 +2826,22 @@ $_SESSION['scriptcase']['apl_Login']['contr_erro'] = 'off';
 //
    function nm_limpa_alfa(&$str)
    {
-       if (get_magic_quotes_gpc())
-       {
-           if (is_array($str))
-           {
-               $x = 0;
-               foreach ($str as $cada_str)
-               {
-                   $str[$x] = stripslashes($str[$x]);
-                   $x++;
-               }
-           }
-           else
-           {
-               $str = stripslashes($str);
-           }
-       }
+    //    if (get_magic_quotes_gpc())
+    //    {
+    //        if (is_array($str))
+    //        {
+    //            $x = 0;
+    //            foreach ($str as $cada_str)
+    //            {
+    //                $str[$x] = stripslashes($str[$x]);
+    //                $x++;
+    //            }
+    //        }
+    //        else
+    //        {
+    //            $str = stripslashes($str);
+    //        }
+    //    }
    }
    function nm_conv_data_db($dt_in, $form_in, $form_out, $replaces = array())
    {
@@ -3418,7 +3418,7 @@ if($this->remember_me  == 1){
     $code = "cookie_";
     for($i=0; $i < 25; $i++)
     {
-        $code .= $chars{mt_rand(0, $max)};
+        // $code .= $chars{mt_rand(0, $max)};
     }
     
     $slogin = $this->Db->qstr($this->login );

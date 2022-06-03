@@ -1,0 +1,27 @@
+package br.com.testautomacao;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+
+public class testeWeb {
+	
+	String url;
+	WebDriver driver;
+
+	@Before
+	public void start() {
+		
+	}
+	
+	@After
+	public void end() {
+		
+	}
+	
+	@Test
+	public void test() {
+		
+	}
+}

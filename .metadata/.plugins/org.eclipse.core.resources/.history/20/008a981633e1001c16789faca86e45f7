@@ -1,0 +1,41 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class SiteTestOpen {
+
+	private WebDriver driver;
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		
+		const edge = require('selenium-webdriver/edge');
+
+		let options = new edge.Options();
+		options.setBinaryPath("C:\\Program Files (x86)\\Microsoft\\Edge Beta\\Application\\msedge.exe");
+
+		let driver = edge.Driver.createSession(options);
+		
+		//System.setProperty("webdriver.chrome.driver" , "C:\\Drivers\\chromedrive.exe");
+	//	driver = new ChromeDriver();
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

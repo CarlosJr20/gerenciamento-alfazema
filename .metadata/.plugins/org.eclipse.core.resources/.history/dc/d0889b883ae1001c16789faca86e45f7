@@ -1,0 +1,39 @@
+package br.com.testautomacao;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class testeWeb {
+	
+	String url;
+	WebDriver driver;
+
+	@Before
+	public void start() {
+		
+		url = "https://www.saucedemo.com/";
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\webca\\OneDrive\\Documentos\\UNICAP\\ENGENHARIA DE SOFTWARE\\chromedrive.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+	
+	@After
+	public void end() {
+
+		driver.quit();
+		
+	}
+	
+	@Test
+	public void test() {
+		
+	driver.get(url);
+	driver.findElement(By.id("")).sendKeys(keysToSend);
+	
+	
+	}
+	
+}
