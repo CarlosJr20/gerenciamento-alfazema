@@ -1,0 +1,40 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+
+
+public class SiteTestOpen {
+
+	private WebDriver driver;
+	
+	@Before
+	public void setUp() throws Exception {
+		
+		EdgeOptions options = new EdgeOptions();
+		options.setBinary("C:\\Users\\webca\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+
+		EdgeDriver driver = new EdgeDriver(options);
+		
+		//System.setProperty("webdriver.chrome.driver" , "C:\\Drivers\\chromedrive.exe");
+	//	driver = new ChromeDriver();
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

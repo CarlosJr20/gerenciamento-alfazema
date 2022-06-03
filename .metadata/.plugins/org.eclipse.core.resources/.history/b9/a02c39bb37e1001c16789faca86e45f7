@@ -1,0 +1,14 @@
+package br.com.testautomacao;
+
+public class testeWeb {
+
+	@Before
+	public void start() {
+		
+	}
+	
+	@After
+	public void end() {
+		
+	}
+}
