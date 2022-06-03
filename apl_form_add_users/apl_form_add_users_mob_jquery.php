@@ -56,6 +56,7 @@ function scEventControl_init(iSeqRow) {
   scEventControl_data["confirm_pswd" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["name" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["email" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
+  scEventControl_data["priv_admin" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
 }
 
 function scEventControl_active(iSeqRow) {
@@ -87,6 +88,12 @@ function scEventControl_active(iSeqRow) {
     return true;
   }
   if (scEventControl_data["email" + iSeqRow]["change"]) {
+    return true;
+  }
+  if (scEventControl_data["priv_admin" + iSeqRow]["blur"]) {
+    return true;
+  }
+  if (scEventControl_data["priv_admin" + iSeqRow]["change"]) {
     return true;
   }
   return false;
@@ -128,8 +135,11 @@ function scJQEventsAdd(iSeqRow) {
                                   .bind('focus', function() { sc_apl_form_add_users_name_onfocus(this, iSeqRow) });
   $('#id_sc_field_email' + iSeqRow).bind('blur', function() { sc_apl_form_add_users_email_onblur(this, iSeqRow) })
                                    .bind('focus', function() { sc_apl_form_add_users_email_onfocus(this, iSeqRow) });
+  $('#id_sc_field_priv_admin' + iSeqRow).bind('blur', function() { sc_apl_form_add_users_priv_admin_onblur(this, iSeqRow) })
+                                        .bind('focus', function() { sc_apl_form_add_users_priv_admin_onfocus(this, iSeqRow) });
   $('#id_sc_field_confirm_pswd' + iSeqRow).bind('blur', function() { sc_apl_form_add_users_confirm_pswd_onblur(this, iSeqRow) })
                                           .bind('focus', function() { sc_apl_form_add_users_confirm_pswd_onfocus(this, iSeqRow) });
+  $('.sc-ui-radio-priv_admin' + iSeqRow).on('click', function() { scMarkFormAsChanged(); });
 } // scJQEventsAdd
 
 function sc_apl_form_add_users_login_onblur(oThis, iSeqRow) {
@@ -172,6 +182,16 @@ function sc_apl_form_add_users_email_onfocus(oThis, iSeqRow) {
   scCssFocus(oThis);
 }
 
+function sc_apl_form_add_users_priv_admin_onblur(oThis, iSeqRow) {
+  do_ajax_apl_form_add_users_mob_validate_priv_admin();
+  scCssBlur(oThis);
+}
+
+function sc_apl_form_add_users_priv_admin_onfocus(oThis, iSeqRow) {
+  scEventControl_onFocus(oThis, iSeqRow);
+  scCssFocus(oThis);
+}
+
 function sc_apl_form_add_users_confirm_pswd_onblur(oThis, iSeqRow) {
   do_ajax_apl_form_add_users_mob_validate_confirm_pswd();
   scCssBlur(oThis);
@@ -194,6 +214,7 @@ function displayChange_block_0(status) {
 	displayChange_field("confirm_pswd", "", status);
 	displayChange_field("name", "", status);
 	displayChange_field("email", "", status);
+	displayChange_field("priv_admin", "", status);
 }
 
 function displayChange_row(row, status) {
@@ -202,6 +223,7 @@ function displayChange_row(row, status) {
 	displayChange_field_confirm_pswd(row, status);
 	displayChange_field_name(row, status);
 	displayChange_field_email(row, status);
+	displayChange_field_priv_admin(row, status);
 }
 
 function displayChange_field(field, row, status) {
@@ -220,6 +242,9 @@ function displayChange_field(field, row, status) {
 	if ("email" == field) {
 		displayChange_field_email(row, status);
 	}
+	if ("priv_admin" == field) {
+		displayChange_field_priv_admin(row, status);
+	}
 }
 
 function displayChange_field_login(row, status) {
@@ -235,6 +260,9 @@ function displayChange_field_name(row, status) {
 }
 
 function displayChange_field_email(row, status) {
+}
+
+function displayChange_field_priv_admin(row, status) {
 }
 
 function scRecreateSelect2() {

@@ -1,0 +1,118 @@
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("https://www.freepik.es/foto-gratis/angulo-vista-rascacielos_1193707.htm#query=empresa&position=0&from_view=search");
+  background-size: cover;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  padding: 50px 50px;
+  background-color: rgba(206, 206, 206, 0.65);
+  border-radius: 20px;
+}
+
+form img {
+  max-width: 25%;
+}
+
+form label {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+form input {
+  margin-bottom: 25px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  border: none;
+  color: #000000;
+}
+
+form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: 0;
+}
+
+form .login {
+  background: #00021a;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+form .login:hover {
+  cursor: pointer;
+  background: tomato;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.alert-message {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-150%);
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 450px;
+    text-align: center;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    background: #1FB6FF;
+    transition: all .2s;
+    transition-delay: .2s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 1px 2px 0 rgba(31,45,61,.15)
+}
+
+.alert-message span.close {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    color: rgba(255,255,255,0.65);
+    content: "\00d7";
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.alert-message span.close.hover {
+    color: white;
+}
+
+.alert-message.active   { transform: translate(-50%,0); }
+
+.alert-message.primary  { background-color: #1FB6FF; }
+.alert-message.positive { background-color: #13CE66; }
+.alert-message.negative { background-color: #FF4949; }
+.alert-message.warning  { background-color: #FFC82C; }
+
+/*# sourceMappingURL=style.css.map */

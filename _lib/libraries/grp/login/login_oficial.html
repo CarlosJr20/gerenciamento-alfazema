@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		
+        <!--SC_PAGE_CHARSET-->
+        <title>WebCase IoT</title>
+		<link rel="stylesheet"  href="{SC_LIB_PROJECT}login/libs/css/boot/bootstrap.css">
+		<link rel="stylesheet"  href="{SC_LIB_PROJECT}login/libs/css/boot/font-awesome.css">
+		<link rel="stylesheet"  href="{SC_LIB_PROJECT}login/libs/css/boot/fontastic.css">
+		<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+		<link rel="stylesheet"  href="{SC_LIB_PROJECT}login/libs/css/boot/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet"  href="{SC_LIB_PROJECT}login/libs/css/boot/custom.css">
+        <link rel="stylesheet" type="text/css" href="{SC_LIB_PROJECT}login/login/css/login.css">
+        <link rel="stylesheet" type="text/css" href="{SC_LIB_PROJECT}login/libs/css/styles.css">
+     	      <link rel="icon" type="imagem/ico" href= "shortcut icon""{SC_IMG_URL}login/imgs/favicon.ico"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="login1" class="page">
+            <div class="header">
+                <img src="{SC_LIB_PROJECT}login/imgs/LOGO_nova.png" alt="logo" >
+            </div>
+		
+            <form class="form form-center" action="" {SC_FORM_ATTR}>
+                <!--SC_FORM_HIDDEN-->
+                <h2>
+                    Entrar
+                </h2>
+                <div class="control">
+                    <label class="form-label">Usuário</label>
+                    <input class="input {SC_FIELD_CLASS}" type="text" placeholder="Usuário" {SC_FIELD_INFO_login}>					
+                </div>
+                <div class="control">
+                    <label class="form-label">Senha</label>
+                    <input class="input {SC_FIELD_CLASS}" type="password" placeholder="Senha" {SC_FIELD_INFO_pswd}>					
+                </div>
+				<!--SC_CAPTCHA-->
+				<!--SC_REQUIRED_MSG-->
+                <div class="submit">
+                    <input class="button button-block" type="button" value="Entrar" {SC_FORM_SUBMIT_CALL} />
+                </div>
+                {SC_FIELD_INFO_Links}
+            </form>
+        </div>
+
+        <div class="alert-message negative">
+            <span class="message"></span>
+			<span class="close">&times;</span>
+        </div>
+        
+        <!--SC_JS_LIB-->
+        <script type="text/javascript" src="{SC_LIB_PROJECT}login/libs/js/error.js"></script>
+		<br>
+		
+	
+			
+    </body>
+		<footer class="main-footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>WebCase IoT & casePanel &copy; 2020</p>
+            </div>
+            <div class="col-sm-6 text-right">
+              <p>Version Started 1.0.1 </p>
+           
+            </div>
+          </div>
+        </div>
+      </footer>
+</html>

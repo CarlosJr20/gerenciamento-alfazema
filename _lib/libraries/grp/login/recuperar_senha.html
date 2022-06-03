@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!--SC_PAGE_CHARSET-->
+        <title>WebCase IoT</title>
+        <link rel="stylesheet" type="text/css" href="{SC_LIB_PROJECT}login/login/css/recuperar_senha.css">
+        <link rel="stylesheet" type="text/css" href="{SC_LIB_PROJECT}login/libs/css/styles.css">
+     	      <link rel="icon" type="imagem/png" href= "{SC_IMG_URL}login/imgs/favicon.png"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="login1" class="page">
+            <div class="header">
+                <img src="{SC_LIB_PROJECT}login/imgs/logo_of.png" alt="">
+            </div>
+            <form class="form form-center" action="" {SC_FORM_ATTR}>
+                <!--SC_FORM_HIDDEN-->
+                <h2>
+                    Recuperar Senha
+                </h2>
+                <div class="control">
+                    <label class="form-label"></label>
+                    <input class="input {SC_FIELD_CLASS}" type="text" placeholder="E-mail" {SC_FIELD_INFO_email}>					
+                </div>
+            
+				<!--SC_CAPTCHA-->
+				<!--SC_REQUIRED_MSG-->
+                <div class="submit">
+                    <input class="button button-block" type="button" value="Enviar" {SC_FORM_SUBMIT_CALL} />
+                </div>
+                {SC_FIELD_INFO_Links}
+            </form>
+        </div>
+
+        <div class="alert-message negative">
+            <span class="message"></span>
+			<span class="close">&times;</span>
+        </div>
+        
+        <!--SC_JS_LIB-->
+        <script type="text/javascript" src="{SC_LIB_PROJECT}login/libs/js/error.js"></script>
+    </body>
+</html>

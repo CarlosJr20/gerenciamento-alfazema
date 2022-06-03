@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+menu_letacio
+NAO
+blank
+menu_letacio
+LigMd5

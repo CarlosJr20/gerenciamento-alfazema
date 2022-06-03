@@ -1,0 +1,126 @@
+AM@nm@Agrovila São Sebastião do Caburi@nm@69159000@nm@@nm@-2.6377762@nm@-56.7295262@nm@
+AM@nm@Alvarães@nm@69540000@nm@@nm@-3.2276337@nm@-64.8011816@nm@
+AM@nm@Amatari@nm@69110000@nm@@nm@-3.2681929@nm@-58.8730817@nm@
+AM@nm@Amaturá@nm@69620000@nm@@nm@-3.3749094@nm@-68.2010001@nm@
+AM@nm@Anamã@nm@69445000@nm@@nm@-3.5673331@nm@-61.3968465@nm@
+AM@nm@Anori@nm@69440000@nm@@nm@-3.7488199@nm@-61.6590871@nm@
+AM@nm@Apuí@nm@69265000@nm@@nm@-7.1996171@nm@-59.8918255@nm@
+AM@nm@Araras@nm@69429800@nm@@nm@-3.3157379@nm@-61.2210654@nm@
+AM@nm@Ariaú@nm@69424000@nm@@nm@-3.2500000@nm@-60.1000000@nm@
+AM@nm@Ariaú@nm@69165000@nm@@nm@-3.1758151@nm@-57.2399396@nm@
+AM@nm@Atalaia do Norte@nm@69650000@nm@@nm@-4.3670123@nm@-70.1907872@nm@
+AM@nm@Augusto Montenegro@nm@69182000@nm@@nm@-2.7731816@nm@-57.7621317@nm@
+AM@nm@Autazes@nm@69240000@nm@@nm@-3.5861115@nm@-59.1260854@nm@
+AM@nm@Axinim@nm@69210000@nm@@nm@-4.1699609@nm@-58.7120492@nm@
+AM@nm@Badajós@nm@69452000@nm@@nm@-3.8398683@nm@-62.0609867@nm@
+AM@nm@Balbina@nm@69736000@nm@@nm@-1.9181842@nm@-59.4898518@nm@
+AM@nm@Barcelos@nm@69700000@nm@@nm@-0.9739872@nm@-62.9255828@nm@
+AM@nm@Barreirinha@nm@69160000@nm@@nm@-2.7992280@nm@-57.0683804@nm@
+AM@nm@Belém de Solimões@nm@69649800@nm@@nm@-4.2314555@nm@-69.9369359@nm@
+AM@nm@Benjamin Constant@nm@69630000@nm@@nm@-4.3759905@nm@-70.0301629@nm@
+AM@nm@Beruri@nm@69430000@nm@@nm@-3.8991048@nm@-61.3621295@nm@
+AM@nm@Boa Vista do Ramos@nm@69195000@nm@@nm@-2.9744528@nm@-57.5878197@nm@
+AM@nm@Boca do Acre@nm@69850000@nm@@nm@-8.7516568@nm@-67.3985275@nm@
+AM@nm@Borba@nm@69200000@nm@@nm@-4.3919115@nm@-59.5878796@nm@
+AM@nm@Caapiranga@nm@69425000@nm@@nm@-3.3157379@nm@-61.2210654@nm@
+AM@nm@Cacau Pirêra@nm@69421000@nm@@nm@-3.2500000@nm@-60.1000000@nm@
+AM@nm@Caiambé@nm@69559000@nm@@nm@-3.5429383@nm@-64.4096928@nm@
+AM@nm@Cametá@nm@69162000@nm@@nm@-2.8395491@nm@-57.4148457@nm@
+AM@nm@Canumã@nm@69212000@nm@@nm@-4.0448660@nm@-59.0791483@nm@
+AM@nm@Canutama@nm@69820000@nm@@nm@-6.5261985@nm@-64.3958081@nm@
+AM@nm@Carauari@nm@69500000@nm@@nm@-4.8817621@nm@-66.9047049@nm@
+AM@nm@Careiro@nm@69250000@nm@@nm@-3.8194444@nm@-60.3612225@nm@
+AM@nm@Careiro da Várzea@nm@69255000@nm@@nm@-3.1974418@nm@-59.8256028@nm@
+AM@nm@Careiro Parauá@nm@69254600@nm@@nm@-3.8194444@nm@-60.3612225@nm@
+AM@nm@Carvoeiro@nm@69725000@nm@@nm@-1.3993747@nm@-61.9804640@nm@
+AM@nm@Coari@nm@69460000@nm@@nm@-4.0944897@nm@-63.1446104@nm@
+AM@nm@Codajás@nm@69450000@nm@@nm@-3.8398683@nm@-62.0609867@nm@
+AM@nm@Cucuí@nm@69765000@nm@@nm@1.1959142@nm@-66.8306279@nm@
+AM@nm@Eirunepé@nm@69880000@nm@@nm@-6.6571401@nm@-69.8667141@nm@
+AM@nm@Envira@nm@69870000@nm@@nm@-7.4382645@nm@-70.0286988@nm@
+AM@nm@Estirão do Equador@nm@69659800@nm@@nm@-4.5360144@nm@-71.6236404@nm@
+AM@nm@Feijoal@nm@69639800@nm@@nm@-4.2993111@nm@-69.5431846@nm@
+AM@nm@Floriano Peixoto@nm@69855000@nm@@nm@-9.0580955@nm@-67.4067082@nm@
+AM@nm@Fonte Boa@nm@69670000@nm@@nm@-2.5237839@nm@-66.0947457@nm@
+AM@nm@Freguesia do Andirá@nm@69170000@nm@@nm@-2.8636574@nm@-56.9963979@nm@
+AM@nm@Guajará@nm@69895000@nm@@nm@-7.5383435@nm@-72.5912793@nm@
+AM@nm@Humaitá@nm@69800000@nm@@nm@-7.5169609@nm@-63.0298508@nm@
+AM@nm@Iauaretê@nm@69790000@nm@@nm@0.6119692@nm@-69.1857845@nm@
+AM@nm@Içanã@nm@69760000@nm@@nm@-0.1194389@nm@-67.0845800@nm@
+AM@nm@Ipixuna@nm@69890000@nm@@nm@-7.0482812@nm@-71.6939881@nm@
+AM@nm@Iranduba@nm@69415000@nm@@nm@-3.2500000@nm@-60.1000000@nm@
+AM@nm@Itacoatiara@nm@@nm@@nm@@nm@@nm@
+AM@nm@Itamarati@nm@69510000@nm@@nm@-6.4249651@nm@-68.2605738@nm@
+AM@nm@Itapeaçu@nm@69184000@nm@@nm@-2.9634166@nm@-58.0516905@nm@
+AM@nm@Itapiranga@nm@69120000@nm@@nm@-2.7459709@nm@-58.0258598@nm@
+AM@nm@Japurá@nm@69495000@nm@@nm@-1.7901460@nm@-66.5682080@nm@
+AM@nm@Juruá@nm@69520000@nm@@nm@-3.4847481@nm@-66.0723291@nm@
+AM@nm@Jutaí@nm@69660000@nm@@nm@-5.1811330@nm@-68.9051670@nm@
+AM@nm@Lábrea@nm@69830000@nm@@nm@-7.2645142@nm@-64.7952960@nm@
+AM@nm@Lago do Limão@nm@69423000@nm@@nm@-3.2500000@nm@-60.1000000@nm@
+AM@nm@Lago Preto@nm@69196000@nm@@nm@-3.1556727@nm@-57.8987657@nm@
+AM@nm@Limoeiro@nm@69499700@nm@@nm@-1.7901460@nm@-66.5682080@nm@
+AM@nm@Manacapuru@nm@@nm@@nm@@nm@@nm@
+AM@nm@Manaquiri@nm@69435000@nm@@nm@-3.4411510@nm@-60.4617431@nm@
+AM@nm@Manaus@nm@@nm@@nm@@nm@@nm@
+AM@nm@Manicoré@nm@69280000@nm@@nm@-5.8049963@nm@-61.2899935@nm@
+AM@nm@Maraã@nm@69490000@nm@@nm@-1.8534860@nm@-65.5735259@nm@
+AM@nm@Massauari@nm@69197000@nm@@nm@-3.0613513@nm@-57.6390100@nm@
+AM@nm@Maués@nm@69190000@nm@@nm@-3.3932592@nm@-57.7072186@nm@
+AM@nm@Mocambo@nm@69158000@nm@@nm@-2.4262358@nm@-57.2898496@nm@
+AM@nm@Moura@nm@69720000@nm@@nm@-1.4573921@nm@-61.6299860@nm@
+AM@nm@Murituba@nm@69459800@nm@@nm@-3.8398683@nm@-62.0609867@nm@
+AM@nm@Murutinga@nm@69245000@nm@@nm@-3.4086635@nm@-59.2004067@nm@
+AM@nm@Nhamundá@nm@69140000@nm@@nm@-2.1920036@nm@-56.7161619@nm@
+AM@nm@Nova Olinda do Norte@nm@69230000@nm@@nm@-3.7567850@nm@-59.0483400@nm@
+AM@nm@Novo Airão@nm@69730000@nm@@nm@-2.6367335@nm@-60.9439105@nm@
+AM@nm@Novo Aripuanã@nm@69260000@nm@@nm@-5.1263047@nm@-60.3736837@nm@
+AM@nm@Novo Céu@nm@69249800@nm@@nm@-3.5861115@nm@-59.1260854@nm@
+AM@nm@Novo Remanso@nm@69112000@nm@@nm@-3.1350210@nm@-58.4385440@nm@
+AM@nm@Osório da Fonseca@nm@69192000@nm@@nm@-3.5974371@nm@-58.1095962@nm@
+AM@nm@Palmeiras@nm@69649700@nm@@nm@-4.2314555@nm@-69.9369359@nm@
+AM@nm@Paricatuba@nm@69422000@nm@@nm@-3.1142439@nm@-60.4349670@nm@
+AM@nm@Parintins@nm@@nm@@nm@@nm@@nm@
+AM@nm@Pauini@nm@69860000@nm@@nm@-7.7134893@nm@-66.9925814@nm@
+AM@nm@Pedras@nm@69175000@nm@@nm@-2.7994520@nm@-57.2804747@nm@
+AM@nm@Platô do Piquiá@nm@69859800@nm@@nm@-8.7725226@nm@-67.3321992@nm@
+AM@nm@Presidente Figueiredo@nm@69735000@nm@@nm@-2.0301726@nm@-60.0238810@nm@
+AM@nm@Purupuru@nm@69254800@nm@@nm@-3.8194444@nm@-60.3612225@nm@
+AM@nm@Repartimento@nm@69193000@nm@@nm@-3.6966810@nm@-57.5283397@nm@
+AM@nm@Repartimento de Tuiué@nm@69414400@nm@@nm@-3.2897156@nm@-60.6318987@nm@
+AM@nm@Rio Preto da Eva@nm@69117000@nm@@nm@-2.6986264@nm@-59.7002794@nm@
+AM@nm@Santa Isabel do Rio Negro@nm@69740000@nm@@nm@-0.4111743@nm@-65.0097328@nm@
+AM@nm@Santa Rita@nm@69610000@nm@@nm@-3.4732814@nm@-68.9651285@nm@
+AM@nm@Santana@nm@69139800@nm@@nm@-2.5595103@nm@-57.8735373@nm@
+AM@nm@Santo Antônio do Içá@nm@69680000@nm@@nm@-3.0958045@nm@-67.9468217@nm@
+AM@nm@Santo Antônio do Matupi@nm@69299800@nm@@nm@-7.9257858@nm@-61.5661655@nm@
+AM@nm@São Felipe@nm@69752000@nm@@nm@0.3816233@nm@-67.3231411@nm@
+AM@nm@São Gabriel da Cachoeira@nm@69750000@nm@@nm@-0.1194389@nm@-67.0845800@nm@
+AM@nm@São Paulo de Olivença@nm@69600000@nm@@nm@-3.4732814@nm@-68.9651285@nm@
+AM@nm@São Sebastião do Uatumã@nm@69135000@nm@@nm@-2.5595103@nm@-57.8735373@nm@
+AM@nm@Silves@nm@69114000@nm@@nm@-2.8178447@nm@-58.2485217@nm@
+AM@nm@Tabatinga@nm@69640000@nm@@nm@-4.2314555@nm@-69.9369359@nm@
+AM@nm@Tapauá@nm@69480000@nm@@nm@-5.6250293@nm@-63.1890251@nm@
+AM@nm@Tefé@nm@@nm@@nm@@nm@@nm@
+AM@nm@Terra Indígena Alto Rio Negro@nm@69499810@nm@@nm@0.5582388@nm@-68.1431414@nm@
+AM@nm@Terra Indígena Hi Merimã@nm@69849810@nm@@nm@-@nm@-@nm@
+AM@nm@Terra Indígena Juma@nm@69829810@nm@@nm@-7.3582263@nm@-63.9749054@nm@
+AM@nm@Terra Indígena Pirahã@nm@69819810@nm@@nm@-3.4168427@nm@-65.8560646@nm@
+AM@nm@Terra Indígena Vale do Javari@nm@69659810@nm@@nm@-5.3583880@nm@-70.9859719@nm@
+AM@nm@Terra Indígena Waimiri-Atroari@nm@69734810@nm@@nm@-0.7620091@nm@-60.6486679@nm@
+AM@nm@Terra Indígena Yanomami@nm@69729810@nm@@nm@2.1967619@nm@-62.7994753@nm@
+AM@nm@Terra Indígena Zuruahã@nm@69519810@nm@@nm@2.1967619@nm@-62.7994753@nm@
+AM@nm@Terra Nova@nm@69254700@nm@@nm@-3.8194444@nm@-60.3612225@nm@
+AM@nm@Tonantins@nm@69685000@nm@@nm@-2.8661856@nm@-67.7924459@nm@
+AM@nm@Uarini@nm@69530000@nm@@nm@-2.9822367@nm@-65.1592576@nm@
+AM@nm@Urucará@nm@69130000@nm@@nm@-2.5297272@nm@-57.7542845@nm@
+AM@nm@Urucurituba@nm@69180000@nm@@nm@-2.6844250@nm@-57.6691090@nm@
+AM@nm@Vila Amazônia@nm@69158700@nm@@nm@-2.6168051@nm@-56.6578497@nm@
+AM@nm@Vila Bittencourt@nm@69499800@nm@@nm@-1.4000860@nm@-69.4197327@nm@
+AM@nm@Vila de Campinas@nm@69414800@nm@@nm@-3.2833330@nm@-61.1000000@nm@
+AM@nm@Vila de Sacambu@nm@69414600@nm@@nm@-3.2666670@nm@-60.9500000@nm@
+AM@nm@Vila do Lago do Jacaré@nm@69414000@nm@@nm@-3.2897156@nm@-60.6318987@nm@
+AM@nm@Vila Lindóia@nm@69113800@nm@@nm@-2.9111118@nm@-59.0632236@nm@
+AM@nm@Vila Pitinga@nm@69737000@nm@@nm@-0.7920018@nm@-60.1368664@nm@
+AM@nm@Vila Rica de Caviana@nm@69414200@nm@@nm@-3.2897156@nm@-60.6318987@nm@
+AM@nm@Vila Zé Açu@nm@69158800@nm@@nm@-2.6377762@nm@-56.7295262@nm@

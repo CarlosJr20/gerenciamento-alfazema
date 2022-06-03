@@ -1355,68 +1355,6 @@ sc_userSweetAlertDisplayed = false;
 
 
    <?php
-    if (!isset($this->nm_new_label['data']))
-    {
-        $this->nm_new_label['data'] = "Data";
-    }
-?>
-<?php
-   $nm_cor_fun_cel  = ($nm_cor_fun_cel  == $this->Ini->cor_grid_impar ? $this->Ini->cor_grid_par : $this->Ini->cor_grid_impar);
-   $nm_img_fun_cel  = ($nm_img_fun_cel  == $this->Ini->img_fun_imp    ? $this->Ini->img_fun_par  : $this->Ini->img_fun_imp);
-   $data = $this->data;
-   $sStyleHidden_data = '';
-   if (isset($this->nmgp_cmp_hidden['data']) && $this->nmgp_cmp_hidden['data'] == 'off')
-   {
-       unset($this->nmgp_cmp_hidden['data']);
-       $sStyleHidden_data = 'display: none;';
-   }
-   $bTestReadOnly = true;
-   $sStyleReadLab_data = 'display: none;';
-   $sStyleReadInp_data = '';
-   if (/*$this->nmgp_opcao != "novo" && */isset($this->nmgp_cmp_readonly['data']) && $this->nmgp_cmp_readonly['data'] == 'on')
-   {
-       $bTestReadOnly = false;
-       unset($this->nmgp_cmp_readonly['data']);
-       $sStyleReadLab_data = '';
-       $sStyleReadInp_data = 'display: none;';
-   }
-?>
-<?php if (isset($this->nmgp_cmp_hidden['data']) && $this->nmgp_cmp_hidden['data'] == 'off') { $sc_hidden_yes++;  ?>
-<input type="hidden" name="data" value="<?php echo $this->form_encode_input($data) . "\">"; ?>
-<?php } else { $sc_hidden_no++; ?>
-
-    <TD class="scFormDataOdd css_data_line" id="hidden_field_data_data" style="<?php echo $sStyleHidden_data; ?>"> <table style="border-width: 0px; border-collapse: collapse; width: 100%"><tr><td  class="scFormDataFontOdd css_data_line" style="vertical-align: top;padding: 0px"><span class="scFormLabelOddFormat css_data_label" style=""><span id="id_label_data"><?php echo $this->nm_new_label['data']; ?></span><?php if (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['php_cmp_required']['data']) || $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['php_cmp_required']['data'] == "on") { ?> <span class="scFormRequiredOdd">*</span> <?php }?></span><br>
-<?php if ($bTestReadOnly && $this->nmgp_opcao != "novo" && isset($this->nmgp_cmp_readonly["data"]) &&  $this->nmgp_cmp_readonly["data"] == "on") { 
-
- ?>
-<input type="hidden" name="data" value="<?php echo $this->form_encode_input($data) . "\">" . $data . ""; ?>
-<?php } else { ?>
-<span id="id_read_on_data" class="sc-ui-readonly-data css_data_line" style="<?php echo $sStyleReadLab_data; ?>"><?php echo $this->form_format_readonly("data", $this->form_encode_input($data)); ?></span><span id="id_read_off_data" class="css_read_off_data<?php echo $this->classes_100perc_fields['span_input'] ?>" style="white-space: nowrap;<?php echo $sStyleReadInp_data; ?>"><?php
-$tmp_form_data = $this->field_config['data']['date_format'];
-$tmp_form_data = str_replace('aaaa', 'yyyy', $tmp_form_data);
-$tmp_form_data = str_replace('dd'  , $this->Ini->Nm_lang['lang_othr_date_days'], $tmp_form_data);
-$tmp_form_data = str_replace('mm'  , $this->Ini->Nm_lang['lang_othr_date_mnth'], $tmp_form_data);
-$tmp_form_data = str_replace('yyyy', $this->Ini->Nm_lang['lang_othr_date_year'], $tmp_form_data);
-$tmp_form_data = str_replace('hh'  , $this->Ini->Nm_lang['lang_othr_date_hour'], $tmp_form_data);
-$tmp_form_data = str_replace('ii'  , $this->Ini->Nm_lang['lang_othr_date_mint'], $tmp_form_data);
-$tmp_form_data = str_replace('ss'  , $this->Ini->Nm_lang['lang_othr_date_scnd'], $tmp_form_data);
-$tmp_form_data = str_replace(';'   , ' '                                       , $tmp_form_data);
-?>
-<?php
-$miniCalendarButton = $this->jqueryButtonText('calendar');
-if ('scButton_' == substr($miniCalendarButton[1], 0, 9)) {
-    $miniCalendarButton[1] = substr($miniCalendarButton[1], 9);
-}
-?>
-<span class='trigger-picker-<?php echo $miniCalendarButton[1]; ?>' style='display: inherit; width: 100%'>
-
- <input class="sc-js-input scFormObjectOdd css_data_obj<?php echo $this->classes_100perc_fields['input'] ?>" style="" id="id_sc_field_data" type=text name="data" value="<?php echo $this->form_encode_input($data) ?>"
- <?php if ($this->classes_100perc_fields['keep_field_size']) { echo "size=10"; } ?> alt="{datatype: 'date', dateSep: '<?php echo $this->field_config['data']['date_sep']; ?>', dateFormat: '<?php echo $this->field_config['data']['date_format']; ?>', enterTab: true, enterSubmit: false, autoTab: true, selectOnFocus: true, watermark: '<?php echo $tmp_form_data; ?>', watermarkClass: 'scFormObjectOddWm', maskChars: '(){}[].,;:-+/ '}" ></span>
-</span><?php } ?>
-</td><td style="vertical-align: top; padding: 0"><table class="scFormFieldErrorTable" style="display: none; position: absolute" id="id_error_display_data_frame"><tr><td class="scFormFieldErrorMessage"><span id="id_error_display_data_text"></span></td></tr></table></td></tr></table> </TD>
-   <?php }?>
-
-   <?php
     if (!isset($this->nm_new_label['horario_inic']))
     {
         $this->nm_new_label['horario_inic'] = "Horario Inic";
@@ -1470,28 +1408,6 @@ $tmp_form_data = str_replace(';'   , ' '                                       ,
 </td><td style="vertical-align: top; padding: 0"><table class="scFormFieldErrorTable" style="display: none; position: absolute" id="id_error_display_horario_inic_frame"><tr><td class="scFormFieldErrorMessage"><span id="id_error_display_horario_inic_text"></span></td></tr></table></td></tr></table> </TD>
    <?php }?>
 
-
-
-
-
-<?php if ($sc_hidden_yes > 0 && $sc_hidden_no > 0) { ?>
-
-
-    <TD class="scFormDataOdd" colspan="<?php echo $sc_hidden_yes * 1; ?>" >&nbsp;</TD>
-
-
-
-
-<?php } 
-?> 
-<?php $sStyleHidden_data_dumb = ('' == $sStyleHidden_data) ? 'display: none' : ''; ?>
-    <TD class="scFormDataOdd" id="hidden_field_data_data_dumb" style="<?php echo $sStyleHidden_data_dumb; ?>"></TD>
-<?php $sStyleHidden_horario_inic_dumb = ('' == $sStyleHidden_horario_inic) ? 'display: none' : ''; ?>
-    <TD class="scFormDataOdd" id="hidden_field_data_horario_inic_dumb" style="<?php echo $sStyleHidden_horario_inic_dumb; ?>"></TD>
-<?php if ($sc_hidden_no > 0) { echo "<tr>"; }; 
-      $sc_hidden_yes = 0; $sc_hidden_no = 0; ?>
-
-
    <?php
     if (!isset($this->nm_new_label['horario_fim']))
     {
@@ -1544,88 +1460,6 @@ $tmp_form_data = str_replace(';'   , ' '                                       ,
  <input class="sc-js-input scFormObjectOdd css_horario_fim_obj<?php echo $this->classes_100perc_fields['input'] ?>" style="" id="id_sc_field_horario_fim" type=text name="horario_fim" value="<?php echo $this->form_encode_input($horario_fim) ?>"
  <?php if ($this->classes_100perc_fields['keep_field_size']) { echo "size=8"; } ?> alt="{datatype: 'time', timeSep: '<?php echo $this->field_config['horario_fim']['time_sep']; ?>', timeFormat: '<?php echo $this->field_config['horario_fim']['date_format']; ?>', enterTab: true, enterSubmit: false, autoTab: true, selectOnFocus: true, watermark: '<?php echo $tmp_form_data; ?>', watermarkClass: 'scFormObjectOddWm', maskChars: '(){}[].,;:-+/ '}" ></span><?php } ?>
 </td><td style="vertical-align: top; padding: 0"><table class="scFormFieldErrorTable" style="display: none; position: absolute" id="id_error_display_horario_fim_frame"><tr><td class="scFormFieldErrorMessage"><span id="id_error_display_horario_fim_text"></span></td></tr></table></td></tr></table> </TD>
-   <?php }?>
-
-   <?php
-   if (!isset($this->nm_new_label['__calend_all_day__']))
-   {
-       $this->nm_new_label['__calend_all_day__'] = "" . $this->Ini->Nm_lang['lang_per_allday'] . "";
-   }
-   $nm_cor_fun_cel  = ($nm_cor_fun_cel  == $this->Ini->cor_grid_impar ? $this->Ini->cor_grid_par : $this->Ini->cor_grid_impar);
-   $nm_img_fun_cel  = ($nm_img_fun_cel  == $this->Ini->img_fun_imp    ? $this->Ini->img_fun_par  : $this->Ini->img_fun_imp);
-   $__calend_all_day__ = $this->__calend_all_day__;
-   $sStyleHidden___calend_all_day__ = '';
-   if (isset($this->nmgp_cmp_hidden['__calend_all_day__']) && $this->nmgp_cmp_hidden['__calend_all_day__'] == 'off')
-   {
-       unset($this->nmgp_cmp_hidden['__calend_all_day__']);
-       $sStyleHidden___calend_all_day__ = 'display: none;';
-   }
-   $bTestReadOnly = true;
-   $sStyleReadLab___calend_all_day__ = 'display: none;';
-   $sStyleReadInp___calend_all_day__ = '';
-   if (/*$this->nmgp_opcao != "novo" && */isset($this->nmgp_cmp_readonly['__calend_all_day__']) && $this->nmgp_cmp_readonly['__calend_all_day__'] == 'on')
-   {
-       $bTestReadOnly = false;
-       unset($this->nmgp_cmp_readonly['__calend_all_day__']);
-       $sStyleReadLab___calend_all_day__ = '';
-       $sStyleReadInp___calend_all_day__ = 'display: none;';
-   }
-?>
-<?php if (isset($this->nmgp_cmp_hidden['__calend_all_day__']) && $this->nmgp_cmp_hidden['__calend_all_day__'] == 'off') { $sc_hidden_yes++; ?>
-<input type=hidden name="__calend_all_day__" value="<?php echo $this->form_encode_input($this->__calend_all_day__) . "\">"; ?>
-<?php } else { $sc_hidden_no++; ?>
-<?php 
-  if ($this->nmgp_opcao != "recarga") 
-  {
-      $this->__calend_all_day___1 = explode(";", trim($this->__calend_all_day__));
-  } 
-  else
-  {
-      if (empty($this->__calend_all_day__))
-      {
-          $this->__calend_all_day___1= array(); 
-          $this->__calend_all_day__= "";
-      } 
-      else
-      {
-          $this->__calend_all_day___1= $this->__calend_all_day__; 
-          $this->__calend_all_day__= ""; 
-          foreach ($this->__calend_all_day___1 as $cada___calend_all_day__)
-          {
-             if (!empty($__calend_all_day__))
-             {
-                 $this->__calend_all_day__.= ";"; 
-             } 
-             $this->__calend_all_day__.= $cada___calend_all_day__; 
-          } 
-      } 
-  } 
-?> 
-
-    <TD class="scFormDataOdd css___calend_all_day___line" id="hidden_field_data___calend_all_day__" style="<?php echo $sStyleHidden___calend_all_day__; ?>"> <table style="border-width: 0px; border-collapse: collapse; width: 100%"><tr><td  class="scFormDataFontOdd css___calend_all_day___line" style="vertical-align: top;padding: 0px"><span class="scFormLabelOddFormat css___calend_all_day___label" style=""><span id="id_label___calend_all_day__"><?php echo $this->nm_new_label['__calend_all_day__']; ?></span></span><br>
-<?php if ($bTestReadOnly && $this->nmgp_opcao != "novo" && isset($this->nmgp_cmp_readonly["__calend_all_day__"]) &&  $this->nmgp_cmp_readonly["__calend_all_day__"] == "on") { 
-
-$__calend_all_day___look = "";
- if ($this->__calend_all_day__ == "Y") { $__calend_all_day___look .= "" . $this->Ini->Nm_lang['lang_per_allday'] . "" ;} 
- if (empty($__calend_all_day___look)) { $__calend_all_day___look = $this->__calend_all_day__; }
-?>
-<input type="hidden" name="__calend_all_day__" value="<?php echo $this->form_encode_input($__calend_all_day__) . "\">" . $__calend_all_day___look . ""; ?>
-<?php } else { ?>
-
-<?php
-
-$__calend_all_day___look = "";
- if ($this->__calend_all_day__ == "Y") { $__calend_all_day___look .= "" . $this->Ini->Nm_lang['lang_per_allday'] . "" ;} 
- if (empty($__calend_all_day___look)) { $__calend_all_day___look = $this->__calend_all_day__; }
-?>
-<span id="id_read_on___calend_all_day__" class="css___calend_all_day___line" style="<?php echo $sStyleReadLab___calend_all_day__; ?>"><?php echo $this->form_format_readonly("__calend_all_day__", $this->form_encode_input($__calend_all_day___look)); ?></span><span id="id_read_off___calend_all_day__" class="css_read_off___calend_all_day__ css___calend_all_day___line" style="<?php echo $sStyleReadInp___calend_all_day__; ?>"><?php echo "<div id=\"idAjaxCheckbox___calend_all_day__\" style=\"display: inline-block\" class=\"css___calend_all_day___line\">\r\n"; ?><TABLE cellspacing=0 cellpadding=0 border=0><TR>
-  <TD class="scFormDataFontOdd css___calend_all_day___line"><?php $tempOptionId = "id-opt-__calend_all_day__" . $sc_seq_vert . "-1"; ?>
- <input type=checkbox id="<?php echo $tempOptionId ?>" class="sc-ui-checkbox-__calend_all_day__ sc-ui-checkbox-__calend_all_day__ sc-js-input" name="__calend_all_day__[]" value="Y"
- alt="{type: 'checkbox', enterTab: true}"<?php $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['Lookup___calend_all_day__'][] = 'Y'; ?>
-<?php  if (in_array("Y", $this->__calend_all_day___1))  { echo " checked" ;} ?> onClick="sc___calend_all_day___onclick()"><label for="<?php echo $tempOptionId ?>"><?php echo $this->Ini->Nm_lang['lang_per_allday']; ?></label></TD>
-</TR></TABLE>
-<?php echo "</div>\r\n"; ?></span><?php  }?>
-</td><td style="vertical-align: top; padding: 0"><table class="scFormFieldErrorTable" style="display: none; position: absolute" id="id_error_display___calend_all_day___frame"><tr><td class="scFormFieldErrorMessage"><span id="id_error_display___calend_all_day___text"></span></td></tr></table></td></tr></table> </TD>
    <?php }?>
 
 

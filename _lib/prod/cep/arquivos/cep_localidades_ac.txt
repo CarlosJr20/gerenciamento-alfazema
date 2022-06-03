@@ -1,0 +1,30 @@
+AC@nm@Acrelândia@nm@69945000@nm@@nm@-10.0764608@nm@-67.0586512@nm@
+AC@nm@Assis Brasil@nm@69935000@nm@@nm@-10.9318548@nm@-69.5638629@nm@
+AC@nm@Brasiléia@nm@69932000@nm@@nm@-10.9953826@nm@-68.7502517@nm@
+AC@nm@Bujari@nm@69926000@nm@@nm@-9.8156632@nm@-67.9555790@nm@
+AC@nm@Campinas@nm@69929000@nm@@nm@-10.0681088@nm@-67.2948906@nm@
+AC@nm@Capixaba@nm@69931000@nm@@nm@-10.5721119@nm@-67.6751217@nm@
+AC@nm@Cruzeiro do Sul@nm@69980000@nm@@nm@-7.6279977@nm@-72.6761487@nm@
+AC@nm@Epitaciolândia@nm@69934000@nm@@nm@-11.0307015@nm@-68.7436340@nm@
+AC@nm@Feijó@nm@69960000@nm@@nm@-8.1642601@nm@-70.3529311@nm@
+AC@nm@Jordão@nm@69975000@nm@@nm@-9.4312907@nm@-71.8979573@nm@
+AC@nm@Mâncio Lima@nm@69990000@nm@@nm@-7.6169473@nm@-72.9002755@nm@
+AC@nm@Manoel Urbano@nm@69950000@nm@@nm@-8.8378983@nm@-69.2619624@nm@
+AC@nm@Marechal Thaumaturgo@nm@69983000@nm@@nm@-8.9393590@nm@-72.8002730@nm@
+AC@nm@Plácido de Castro@nm@69928000@nm@@nm@-10.2810291@nm@-67.1376799@nm@
+AC@nm@Porto Acre@nm@69927000@nm@@nm@-9.5936386@nm@-67.5411079@nm@
+AC@nm@Porto Walter@nm@69982000@nm@@nm@-8.2636073@nm@-72.7543149@nm@
+AC@nm@Rio Branco@nm@@nm@@nm@@nm@@nm@
+AC@nm@Rodrigues Alves@nm@69985000@nm@@nm@-7.7390110@nm@-72.6615818@nm@
+AC@nm@Santa Rosa do Purus@nm@69955000@nm@@nm@-9.4468960@nm@-70.4908106@nm@
+AC@nm@Sena Madureira@nm@69940000@nm@@nm@-9.0638816@nm@-68.6718301@nm@
+AC@nm@Senador Guiomard@nm@69925000@nm@@nm@-10.1500737@nm@-67.7367345@nm@
+AC@nm@Tarauacá@nm@69970000@nm@@nm@-8.1609244@nm@-70.7651846@nm@
+AC@nm@Terra Indígena Alto Tarauacá@nm@69969810@nm@@nm@-9.6052857@nm@-71.9132677@nm@
+AC@nm@Terra Indígena Igarapé Taboca do Alto Tarauacá@nm@69979810@nm@@nm@-7.8170709@nm@-71.0164690@nm@
+AC@nm@Terra Indígena Kampa e Isolados do Rio Envira@nm@69969820@nm@@nm@-9.8203881@nm@-71.7662744@nm@
+AC@nm@Terra Indígena Kaxinawá do Rio Humaitá@nm@69969830@nm@@nm@-9.2400338@nm@-71.5092647@nm@
+AC@nm@Terra Indígena Kulina do Rio Envira@nm@69969840@nm@@nm@-9.4297379@nm@-71.3787892@nm@
+AC@nm@Terra Indígena Mamoadate@nm@69939810@nm@@nm@-10.7103186@nm@-70.2256443@nm@
+AC@nm@Terra Indígena Riozinho do Alto Envira@nm@69969850@nm@@nm@-9.7736968@nm@-71.2415678@nm@
+AC@nm@Xapuri@nm@69930000@nm@@nm@-10.6519860@nm@-68.4974109@nm@

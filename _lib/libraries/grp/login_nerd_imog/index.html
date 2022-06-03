@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<!--SC_PAGE_CHARSET-->
+	<!--SC_JS_LIB-->
+	
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> <!--SC_PAGE_TITLE-->FOCUS - Login</title>
+  <link rel="stylesheet" href="{SC_LIB_PROJECT}assets/style.css">
+</head>
+<body>
+  
+  <form {SC_FORM_ATTR}>
+
+    <!--SC_FORM_HIDDEN-->
+    <!--SC_FIELD_LABEL_my_field-->
+    <!-- <br /> -->
+    <!--SC_FIELD_INI_my_field-->
+    <label for="">Usuário</label>
+    <input  class="input {SC_FIELD_CLASS}" type="text" placeholder="Usuário" {SC_FIELD_INFO_login}>
+    <label for="">Senha</label>3
+    <input  class="input {SC_FIELD_CLASS}" type="password" placeholder="Senha" {SC_FIELD_INFO_pswd}>
+    <!--SC_FIELD_END_my_field  {SC_FORM_SUBMIT_INFO}  -->
+    <!-- <br /> -->
+    <input class="login" type="button" value="Entrar" {SC_FORM_SUBMIT_CALL} />
+	     <!--{SC_FIELD_INFO_Links}-->
+  </form>
+	
+	 <div class="alert-message negative">
+            <span class="message"></span>
+            <span class="close">&times;</span>
+        </div>
+	
+	  <!--SC_JS_LIB-->
+        <script type="text/javascript" src="{SC_LIB_PROJECT}assets/js/erro.js"></script>
+
+</body>
+</html>

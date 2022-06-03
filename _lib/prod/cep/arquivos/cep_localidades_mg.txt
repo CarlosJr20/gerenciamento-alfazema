@@ -1,0 +1,1600 @@
+MG@nm@Abadia dos Dourados@nm@38540000@nm@@nm@-18.4868648@nm@-47.4030649@nm@
+MG@nm@Abaeté@nm@35620000@nm@@nm@-19.1574380@nm@-45.4447859@nm@
+MG@nm@Abaeté dos Mendes@nm@38812000@nm@@nm@-19.1450510@nm@-46.1219753@nm@
+MG@nm@Abaíba@nm@36708200@nm@@nm@-21.5861864@nm@-42.4987961@nm@
+MG@nm@Abre Campo@nm@35365000@nm@@nm@-20.3001336@nm@-42.4747054@nm@
+MG@nm@Abreus@nm@36263000@nm@@nm@-21.0057344@nm@-43.2876344@nm@
+MG@nm@Acaiaca@nm@35438000@nm@@nm@-20.3624577@nm@-43.1436736@nm@
+MG@nm@Açucena@nm@35147000@nm@@nm@-19.0699400@nm@-42.5425406@nm@
+MG@nm@Acuruí@nm@35451000@nm@@nm@@nm@@nm@
+MG@nm@Adão Colares@nm@39597000@nm@@nm@-16.7121554@nm@-43.0930496@nm@
+MG@nm@Água Boa@nm@39790000@nm@@nm@-17.9955855@nm@-42.3922222@nm@
+MG@nm@Água Branca de Minas@nm@39629000@nm@@nm@-16.1917756@nm@-41.7287312@nm@
+MG@nm@Água Comprida@nm@38110000@nm@@nm@-20.0580418@nm@-48.1073269@nm@
+MG@nm@Água Santa de Minas@nm@36845000@nm@@nm@-20.8766505@nm@-42.1548911@nm@
+MG@nm@Água Viva@nm@36728000@nm@@nm@-21.6820498@nm@-42.5405447@nm@
+MG@nm@Aguanil@nm@37273000@nm@@nm@-20.9444250@nm@-45.3918842@nm@
+MG@nm@Águas de Araxá@nm@@nm@@nm@@nm@@nm@
+MG@nm@Águas de Contendas@nm@37435000@nm@@nm@-21.8946686@nm@-45.0248588@nm@
+MG@nm@Águas Férreas@nm@35362000@nm@@nm@-20.0923567@nm@-42.6165015@nm@
+MG@nm@Águas Formosas@nm@39880000@nm@@nm@-17.0806813@nm@-40.9387356@nm@
+MG@nm@Águas Vermelhas@nm@39990000@nm@@nm@-15.7435192@nm@-41.4575095@nm@
+MG@nm@Aimorés@nm@35200000@nm@@nm@-19.4959312@nm@-41.0713439@nm@
+MG@nm@Aiuruoca@nm@37450000@nm@@nm@-21.9753902@nm@-44.6035401@nm@
+MG@nm@Alagoa@nm@37458000@nm@@nm@-22.1714670@nm@-44.6417694@nm@
+MG@nm@Albertina@nm@37596000@nm@@nm@-22.2022609@nm@-46.6143541@nm@
+MG@nm@Alberto Isaacson@nm@35608000@nm@@nm@-19.4937293@nm@-45.0592904@nm@
+MG@nm@Albertos@nm@35579400@nm@@nm@-20.5745998@nm@-45.4933180@nm@
+MG@nm@Aldeia@nm@35245000@nm@@nm@-19.1739275@nm@-41.4733731@nm@
+MG@nm@Alegre@nm@38560000@nm@@nm@-18.2688234@nm@-47.0069903@nm@
+MG@nm@Alegria@nm@36935000@nm@@nm@-19.9254228@nm@-41.9171606@nm@
+MG@nm@Além Paraíba@nm@36660000@nm@@nm@-21.8833835@nm@-42.6985095@nm@
+MG@nm@Alexandrita@nm@38282000@nm@@nm@-19.6992960@nm@-50.4572633@nm@
+MG@nm@Alfenas@nm@@nm@@nm@@nm@@nm@
+MG@nm@Alfredo Vasconcelos@nm@36272000@nm@@nm@-21.1485640@nm@-43.7668725@nm@
+MG@nm@Almeida@nm@35835000@nm@@nm@-19.4289743@nm@-43.8185302@nm@
+MG@nm@Almeidas@nm@36409200@nm@@nm@-20.6466445@nm@-43.7744741@nm@
+MG@nm@Almenara@nm@39900000@nm@@nm@-16.1796844@nm@-40.6953223@nm@
+MG@nm@Alpercata@nm@35138000@nm@@nm@-18.9903784@nm@-41.9899003@nm@
+MG@nm@Alpinópolis@nm@37940000@nm@@nm@-20.8609004@nm@-46.3865617@nm@
+MG@nm@Alterosa@nm@37145000@nm@@nm@-21.2492346@nm@-46.1391013@nm@
+MG@nm@Alto Belo@nm@39394000@nm@@nm@-16.9349341@nm@-43.7325483@nm@
+MG@nm@Alto Caparaó@nm@36979000@nm@@nm@-20.4481139@nm@-41.8731777@nm@
+MG@nm@Alto Capim@nm@35210000@nm@@nm@-19.8500000@nm@-41.2500000@nm@
+MG@nm@Alto de Santa Helena@nm@35102000@nm@@nm@-18.6558914@nm@-41.5743835@nm@
+MG@nm@Alto Jequitibá@nm@36976000@nm@@nm@-20.4267378@nm@-41.9644965@nm@
+MG@nm@Alto Maranhão@nm@36417000@nm@@nm@@nm@@nm@
+MG@nm@Alto Rio Doce@nm@36260000@nm@@nm@-21.0235026@nm@-43.4116113@nm@
+MG@nm@Altolândia@nm@38985000@nm@@nm@-19.8881827@nm@-46.1727267@nm@
+MG@nm@Alvação@nm@39347000@nm@@nm@-16.4119161@nm@-44.2215523@nm@
+MG@nm@Alvarenga@nm@35249000@nm@@nm@-19.4178864@nm@-41.7321327@nm@
+MG@nm@Alvinópolis@nm@35950000@nm@@nm@-20.1076100@nm@-43.0574762@nm@
+MG@nm@Alvorada@nm@36803000@nm@@nm@-20.7298747@nm@-42.1379596@nm@
+MG@nm@Alvorada de Minas@nm@39140000@nm@@nm@-18.7338380@nm@-43.3642122@nm@
+MG@nm@Amanda@nm@35734000@nm@@nm@-19.3519173@nm@-43.8766871@nm@
+MG@nm@Amanhece@nm@38455000@nm@@nm@-18.5366701@nm@-48.1897604@nm@
+MG@nm@Amarantina@nm@35412000@nm@@nm@-20.3085458@nm@-43.7181952@nm@
+MG@nm@Amparo da Serra@nm@35444000@nm@@nm@-20.5083433@nm@-42.7984234@nm@
+MG@nm@Andiroba@nm@35745000@nm@@nm@-19.6580042@nm@-44.2217173@nm@
+MG@nm@Andradas@nm@37795000@nm@@nm@-22.0699763@nm@-46.5728156@nm@
+MG@nm@Andrelândia@nm@37300000@nm@@nm@-21.7415777@nm@-44.3121113@nm@
+MG@nm@Andrequicé@nm@39207000@nm@@nm@-18.2770310@nm@-44.9813508@nm@
+MG@nm@Angaturama@nm@36746000@nm@@nm@-21.4837461@nm@-42.3959069@nm@
+MG@nm@Angelândia@nm@39685000@nm@@nm@-17.7284106@nm@-42.2645165@nm@
+MG@nm@Angicos de Minas@nm@39332000@nm@@nm@-16.0943399@nm@-44.3872330@nm@
+MG@nm@Angueretá@nm@35798400@nm@@nm@-19.1477428@nm@-44.6524850@nm@
+MG@nm@Angustura@nm@36664000@nm@@nm@-21.7475622@nm@-42.6764689@nm@
+MG@nm@Antônio Carlos@nm@36220000@nm@@nm@-21.3191527@nm@-43.7502275@nm@
+MG@nm@Antônio Dias@nm@35177000@nm@@nm@-19.6536350@nm@-42.8723393@nm@
+MG@nm@Antônio dos Santos@nm@34960000@nm@@nm@-19.7939134@nm@-43.5577715@nm@
+MG@nm@Antônio Ferreira@nm@39697000@nm@@nm@-17.9324445@nm@-41.9224930@nm@
+MG@nm@Antônio Pereira@nm@35411000@nm@@nm@-20.3031846@nm@-43.4802806@nm@
+MG@nm@Antônio Prado de Minas@nm@36850000@nm@@nm@-21.0196743@nm@-42.1113371@nm@
+MG@nm@Antunes@nm@35698000@nm@@nm@-19.9047929@nm@-44.7013829@nm@
+MG@nm@Aparecida de Minas@nm@38205000@nm@@nm@@nm@@nm@
+MG@nm@Aparecida do Mundo Novo@nm@39429100@nm@@nm@-16.1133779@nm@-43.9292962@nm@
+MG@nm@Araçaí@nm@35777000@nm@@nm@-19.1959836@nm@-44.2497229@nm@
+MG@nm@Araçaji de Minas@nm@39976000@nm@@nm@-15.8443914@nm@-41.0971896@nm@
+MG@nm@Aracati de Minas@nm@36776000@nm@@nm@-21.4132481@nm@-42.5969029@nm@
+MG@nm@Aracitaba@nm@36255000@nm@@nm@-21.3451090@nm@-43.3740320@nm@
+MG@nm@Araçuaí@nm@39600000@nm@@nm@-16.8488172@nm@-42.0633003@nm@
+MG@nm@Araguari@nm@@nm@@nm@@nm@@nm@
+MG@nm@Aramirim@nm@35147100@nm@@nm@-18.9936526@nm@-42.4780976@nm@
+MG@nm@Aranha@nm@35462000@nm@@nm@-20.2034283@nm@-44.1057612@nm@
+MG@nm@Arantina@nm@37360000@nm@@nm@-21.9106617@nm@-44.2559403@nm@
+MG@nm@Araponga@nm@36594000@nm@@nm@-20.6690965@nm@-42.5182528@nm@
+MG@nm@Araporã@nm@38465000@nm@@nm@-18.4361882@nm@-49.1851980@nm@
+MG@nm@Arapuá@nm@38860000@nm@@nm@-19.0354510@nm@-46.1539508@nm@
+MG@nm@Araújos@nm@35603000@nm@@nm@-19.9475164@nm@-45.1661304@nm@
+MG@nm@Araúna@nm@37180000@nm@@nm@-20.6903913@nm@-45.9169510@nm@
+MG@nm@Araxá@nm@@nm@@nm@@nm@@nm@
+MG@nm@Arceburgo@nm@37820000@nm@@nm@-21.3654679@nm@-46.9418639@nm@
+MG@nm@Arcos@nm@35588000@nm@@nm@-20.2877726@nm@-45.5396954@nm@
+MG@nm@Areado@nm@37140000@nm@@nm@-21.3577890@nm@-46.1496185@nm@
+MG@nm@Argenita@nm@38955000@nm@@nm@-19.6729934@nm@-46.6797133@nm@
+MG@nm@Argirita@nm@36710000@nm@@nm@-21.6121229@nm@-42.8365052@nm@
+MG@nm@Aricanduva@nm@39678000@nm@@nm@-17.8676658@nm@-42.5557771@nm@
+MG@nm@Arinos@nm@38680000@nm@@nm@-15.9119052@nm@-46.1040098@nm@
+MG@nm@Aristides Batista@nm@39341000@nm@@nm@-16.5906183@nm@-44.1366829@nm@
+MG@nm@Arraial dos Montes@nm@36708100@nm@@nm@-21.5672777@nm@-42.5888804@nm@
+MG@nm@Ascenção@nm@35665000@nm@@nm@-19.7951720@nm@-44.5694531@nm@
+MG@nm@Assaraí@nm@36966000@nm@@nm@-19.5997360@nm@-41.4620508@nm@
+MG@nm@Astolfo Dutra@nm@36780000@nm@@nm@-21.3087815@nm@-42.8616642@nm@
+MG@nm@Ataléia@nm@39850000@nm@@nm@-18.0442817@nm@-41.1152852@nm@
+MG@nm@Augusto de Lima@nm@39219000@nm@@nm@-18.1086772@nm@-44.2606305@nm@
+MG@nm@Avaí do Jacinto@nm@39931000@nm@@nm@-16.0256238@nm@-40.4165920@nm@
+MG@nm@Azurita@nm@35672000@nm@@nm@-20.0119244@nm@-44.4708008@nm@
+MG@nm@Babilônia@nm@37915000@nm@@nm@-20.5028606@nm@-46.6375823@nm@
+MG@nm@Bação@nm@35453000@nm@@nm@-20.3438127@nm@-43.8277362@nm@
+MG@nm@Baependi@nm@37443000@nm@@nm@-21.9574833@nm@-44.8878528@nm@
+MG@nm@Baguari@nm@35105000@nm@@nm@-18.9478750@nm@-42.0723526@nm@
+MG@nm@Baiões@nm@35579200@nm@@nm@-20.6135135@nm@-45.3259777@nm@
+MG@nm@Baixa@nm@38101000@nm@@nm@-19.9278175@nm@-47.9457052@nm@
+MG@nm@Baixa Quente@nm@39652000@nm@@nm@-17.2666670@nm@-42.3333330@nm@
+MG@nm@Balbinópolis@nm@39877000@nm@@nm@-17.0594809@nm@-40.5803504@nm@
+MG@nm@Baldim@nm@35732000@nm@@nm@-19.2903630@nm@-43.9573864@nm@
+MG@nm@Bambuí@nm@38900000@nm@@nm@-20.0170955@nm@-45.9795138@nm@
+MG@nm@Bandeira@nm@39917000@nm@@nm@-15.8787796@nm@-40.5625380@nm@
+MG@nm@Bandeira do Sul@nm@37740000@nm@@nm@-21.7287997@nm@-46.3860492@nm@
+MG@nm@Bandeirantes@nm@35423000@nm@@nm@-20.3504980@nm@-43.3575019@nm@
+MG@nm@Barão de Cocais@nm@35970000@nm@@nm@-19.9409462@nm@-43.4812978@nm@
+MG@nm@Barão de Monte Alto@nm@36870000@nm@@nm@-21.2448952@nm@-42.2375868@nm@
+MG@nm@Barbacena@nm@@nm@@nm@@nm@@nm@
+MG@nm@Barra Alegre@nm@35165000@nm@@nm@-19.4368926@nm@-42.5992193@nm@
+MG@nm@Barra da Figueira@nm@36963000@nm@@nm@-19.6065828@nm@-41.5577696@nm@
+MG@nm@Barra do Ariranha@nm@35295000@nm@@nm@-18.6667354@nm@-41.1040794@nm@
+MG@nm@Barra do Cuieté@nm@35243000@nm@@nm@-19.0740868@nm@-41.5376362@nm@
+MG@nm@Barra Feliz@nm@35963000@nm@@nm@-19.9631062@nm@-43.4589582@nm@
+MG@nm@Barra Longa@nm@35447000@nm@@nm@-20.2826348@nm@-43.0410145@nm@
+MG@nm@Barranco Alto@nm@37139200@nm@@nm@-21.1838454@nm@-45.9591856@nm@
+MG@nm@Barreiro@nm@@nm@@nm@@nm@@nm@
+MG@nm@Barreiro Branco@nm@39526700@nm@@nm@-15.3897220@nm@-43.1186110@nm@
+MG@nm@Barreiro da Raiz@nm@39449300@nm@@nm@-16.0457067@nm@-43.2719796@nm@
+MG@nm@Barretos de Alvinópolis@nm@35952000@nm@@nm@-20.0556806@nm@-43.1926830@nm@
+MG@nm@Barro Branco@nm@35422500@nm@@nm@-20.7166670@nm@-41.9333330@nm@
+MG@nm@Barrocão@nm@39572000@nm@@nm@-16.4070570@nm@-43.2273279@nm@
+MG@nm@Barroso@nm@36212000@nm@@nm@-21.1880429@nm@-43.9759925@nm@
+MG@nm@Baú@nm@35615000@nm@@nm@-19.6716825@nm@-45.7879250@nm@
+MG@nm@Bela Vista de Minas@nm@35938000@nm@@nm@-19.8306926@nm@-43.0925696@nm@
+MG@nm@Belisário@nm@36892200@nm@@nm@-20.9229320@nm@-42.4518968@nm@
+MG@nm@Belmiro Braga@nm@36126000@nm@@nm@-21.9497756@nm@-43.4156529@nm@
+MG@nm@Belo Horizonte@nm@@nm@@nm@@nm@@nm@
+MG@nm@Belo Oriente@nm@35195000@nm@@nm@-19.2203866@nm@-42.4831938@nm@
+MG@nm@Belo Oriente@nm@39806000@nm@@nm@-17.8600089@nm@-41.5091042@nm@
+MG@nm@Belo Vale@nm@35473000@nm@@nm@-20.4092733@nm@-44.0257154@nm@
+MG@nm@Beltrão@nm@39203000@nm@@nm@-18.0743679@nm@-44.5311445@nm@
+MG@nm@Bentópolis de Minas@nm@39325000@nm@@nm@-16.3864024@nm@-45.0176068@nm@
+MG@nm@Berilo@nm@39640000@nm@@nm@-16.9571577@nm@-42.4610135@nm@
+MG@nm@Berizal@nm@39555000@nm@@nm@-15.6104888@nm@-41.7435867@nm@
+MG@nm@Bertópolis@nm@39875000@nm@@nm@-17.0594809@nm@-40.5803504@nm@
+MG@nm@Betim@nm@@nm@@nm@@nm@@nm@
+MG@nm@Bias Fortes@nm@36230000@nm@@nm@-21.6024514@nm@-43.7577821@nm@
+MG@nm@Bicas@nm@36600000@nm@@nm@-21.7171886@nm@-43.0628041@nm@
+MG@nm@Bicuíba@nm@35352000@nm@@nm@-20.0881897@nm@-42.3506518@nm@
+MG@nm@Biquinhas@nm@35621000@nm@@nm@-18.7758815@nm@-45.4977953@nm@
+MG@nm@Bituri@nm@35497000@nm@@nm@-20.5423761@nm@-44.0863980@nm@
+MG@nm@Boa Esperança@nm@37170000@nm@@nm@-21.0928252@nm@-45.5629603@nm@
+MG@nm@Boa Esperança@nm@38208700@nm@@nm@-21.0928252@nm@-45.5629603@nm@
+MG@nm@Boa Esperança@nm@35579600@nm@@nm@-21.0928252@nm@-45.5629603@nm@
+MG@nm@Boa Família@nm@36892100@nm@@nm@-21.2084774@nm@-42.5035391@nm@
+MG@nm@Boa União de Itabirinha@nm@35285000@nm@@nm@-18.4918330@nm@-41.3010888@nm@
+MG@nm@Boa Vista de Minas@nm@35529000@nm@@nm@-19.8276673@nm@-44.9591828@nm@
+MG@nm@Boa Vista de Santa Maria@nm@38621000@nm@@nm@-16.3596675@nm@-46.9025860@nm@
+MG@nm@Bocaina de Minas@nm@37340000@nm@@nm@-22.1675310@nm@-44.3947127@nm@
+MG@nm@Bocaiúva@nm@39390000@nm@@nm@-17.1113356@nm@-43.8203315@nm@
+MG@nm@Bom Despacho@nm@35600000@nm@@nm@-19.7369189@nm@-45.2510125@nm@
+MG@nm@Bom Jardim das Pedras@nm@35535000@nm@@nm@-20.5408120@nm@-44.6386557@nm@
+MG@nm@Bom Jardim de Minas@nm@37310000@nm@@nm@-21.9483692@nm@-44.1889854@nm@
+MG@nm@Bom Jesus da Cachoeira@nm@36892000@nm@@nm@-21.2591919@nm@-42.4031173@nm@
+MG@nm@Bom Jesus da Penha@nm@37948000@nm@@nm@-21.0152664@nm@-46.5178067@nm@
+MG@nm@Bom Jesus de Angicos@nm@35559000@nm@@nm@-20.1851206@nm@-44.7711099@nm@
+MG@nm@Bom Jesus de Cardosos@nm@35381000@nm@@nm@-20.3388890@nm@-42.7794440@nm@
+MG@nm@Bom Jesus do Amparo@nm@35908000@nm@@nm@-19.7078985@nm@-43.4757653@nm@
+MG@nm@Bom Jesus do Divino@nm@36825000@nm@@nm@-20.5987357@nm@-42.2640293@nm@
+MG@nm@Bom Jesus do Galho@nm@35340000@nm@@nm@-19.8364904@nm@-42.3168709@nm@
+MG@nm@Bom Jesus do Madeira@nm@36817000@nm@@nm@-20.7178210@nm@-42.4218130@nm@
+MG@nm@Bom Jesus do Prata@nm@35112800@nm@@nm@-18.5625456@nm@-41.9066949@nm@
+MG@nm@Bom Pastor@nm@35233000@nm@@nm@-19.2694230@nm@-41.0395443@nm@
+MG@nm@Bom Repouso@nm@37610000@nm@@nm@-22.4676099@nm@-46.1501341@nm@
+MG@nm@Bom Retiro@nm@36218000@nm@@nm@-21.2416952@nm@-43.4877567@nm@
+MG@nm@Bom Sucesso@nm@37220000@nm@@nm@-21.0350635@nm@-44.7593214@nm@
+MG@nm@Bom Sucesso de Patos@nm@38712000@nm@@nm@-18.5915303@nm@-45.9140711@nm@
+MG@nm@Bonança@nm@39456000@nm@@nm@-15.7389361@nm@-44.2277829@nm@
+MG@nm@Bonfim@nm@35480000@nm@@nm@-20.3298888@nm@-44.2408983@nm@
+MG@nm@Bonfim da Barra@nm@35449500@nm@@nm@-20.2247859@nm@-43.0280150@nm@
+MG@nm@Bonfinópolis de Minas@nm@38650000@nm@@nm@-16.5684925@nm@-45.9842811@nm@
+MG@nm@Bonito de Minas@nm@39490000@nm@@nm@-15.3235827@nm@-44.7546765@nm@
+MG@nm@Borba Gato@nm@35803000@nm@@nm@-19.1300440@nm@-43.0047341@nm@
+MG@nm@Borda da Mata@nm@37564000@nm@@nm@-22.2691578@nm@-46.1640692@nm@
+MG@nm@Botelhos@nm@37720000@nm@@nm@-21.6425236@nm@-46.3938591@nm@
+MG@nm@Boticão@nm@37274000@nm@@nm@-20.9444250@nm@-45.3918842@nm@
+MG@nm@Botumirim@nm@39596000@nm@@nm@-16.8662071@nm@-43.0089760@nm@
+MG@nm@Brás Pires@nm@36542000@nm@@nm@-20.8423997@nm@-43.2409655@nm@
+MG@nm@Brasilândia de Minas@nm@38779000@nm@@nm@-17.0103224@nm@-46.0085329@nm@
+MG@nm@Brasília de Minas@nm@39330000@nm@@nm@-16.2131693@nm@-44.4336490@nm@
+MG@nm@Braúnas@nm@35189000@nm@@nm@-19.0576546@nm@-42.7188384@nm@
+MG@nm@Brazópolis@nm@37530000@nm@@nm@-22.4738710@nm@-45.6179988@nm@
+MG@nm@Brejaúba@nm@35858000@nm@@nm@-19.2002411@nm@-43.1475485@nm@
+MG@nm@Brejaubinha@nm@35106000@nm@@nm@-18.7764407@nm@-42.2134394@nm@
+MG@nm@Brejo Bonito@nm@38738000@nm@@nm@-19.0067391@nm@-46.6177360@nm@
+MG@nm@Brejo do Amparo@nm@39482000@nm@@nm@-15.4409861@nm@-44.4007848@nm@
+MG@nm@Brejo Mata Fome@nm@39477300@nm@@nm@-14.8833330@nm@-44.2166670@nm@
+MG@nm@Brumadinho@nm@35460000@nm@@nm@-20.1514708@nm@-44.2010909@nm@
+MG@nm@Brumal@nm@35966000@nm@@nm@-19.9903307@nm@-43.4505111@nm@
+MG@nm@Buarque de Macedo@nm@36409000@nm@@nm@-20.7514959@nm@-43.7754949@nm@
+MG@nm@Bueno@nm@35244000@nm@@nm@-19.4266059@nm@-41.5001537@nm@
+MG@nm@Bueno Brandão@nm@37578000@nm@@nm@-22.4390913@nm@-46.3487401@nm@
+MG@nm@Buenópolis@nm@39230000@nm@@nm@-17.8749015@nm@-44.1779141@nm@
+MG@nm@Bugre@nm@35193000@nm@@nm@-19.4258672@nm@-42.2559500@nm@
+MG@nm@Buritis@nm@38660000@nm@@nm@-15.6236274@nm@-46.4248497@nm@
+MG@nm@Buritizeiro@nm@39280000@nm@@nm@-17.3624793@nm@-44.9663359@nm@
+MG@nm@Caatinga@nm@38778000@nm@@nm@-17.1477389@nm@-45.8868136@nm@
+MG@nm@Cabeceira Grande@nm@38625000@nm@@nm@-16.0297276@nm@-47.0869404@nm@
+MG@nm@Cabo Verde@nm@37880000@nm@@nm@-21.4704280@nm@-46.3922950@nm@
+MG@nm@Caburu@nm@36317000@nm@@nm@-21.1315407@nm@-44.2530650@nm@
+MG@nm@Caçaratiba@nm@39662000@nm@@nm@-17.2551813@nm@-43.0420541@nm@
+MG@nm@Caçarema@nm@39473000@nm@@nm@-16.0346921@nm@-43.5518319@nm@
+MG@nm@Cachoeira Alegre@nm@36876000@nm@@nm@-21.2500950@nm@-42.3134915@nm@
+MG@nm@Cachoeira da Prata@nm@35765000@nm@@nm@-19.5235616@nm@-44.4563046@nm@
+MG@nm@Cachoeira de Minas@nm@37545000@nm@@nm@-22.3542550@nm@-45.7793522@nm@
+MG@nm@Cachoeira de Pajeú@nm@39980000@nm@@nm@-15.9692915@nm@-41.4951492@nm@
+MG@nm@Cachoeira de Santa Cruz@nm@36579500@nm@@nm@-20.7490693@nm@-42.7739552@nm@
+MG@nm@Cachoeira do Aranã@nm@39842000@nm@@nm@-18.0800251@nm@-41.5500590@nm@
+MG@nm@Cachoeira do Brumado@nm@35424000@nm@@nm@-20.3950467@nm@-43.2718042@nm@
+MG@nm@Cachoeira do Campo@nm@35410000@nm@@nm@-20.3515775@nm@-43.6616949@nm@
+MG@nm@Cachoeira do Manteiga@nm@39288000@nm@@nm@-16.6560728@nm@-45.0889960@nm@
+MG@nm@Cachoeira do Vale@nm@@nm@@nm@@nm@@nm@
+MG@nm@Cachoeira dos Antunes@nm@35487000@nm@@nm@-20.2312950@nm@-44.2778298@nm@
+MG@nm@Cachoeira Dourada@nm@38370000@nm@@nm@-18.5166078@nm@-49.5043307@nm@
+MG@nm@Cachoeirinha@nm@38995000@nm@@nm@-19.7182951@nm@-46.0232928@nm@
+MG@nm@Cacimbas@nm@35639800@nm@@nm@-7.2111216@nm@-37.0578923@nm@
+MG@nm@Caetano Lopes@nm@35499000@nm@@nm@-20.5420445@nm@-43.9400707@nm@
+MG@nm@Caetanópolis@nm@35770000@nm@@nm@-19.2975518@nm@-44.4192866@nm@
+MG@nm@Caeté@nm@34800000@nm@@nm@-19.8852788@nm@-43.6644238@nm@
+MG@nm@Caeté@nm@36102000@nm@@nm@-21.7820793@nm@-43.2808047@nm@
+MG@nm@Cafemirim@nm@35141000@nm@@nm@-19.3139762@nm@-42.0108959@nm@
+MG@nm@Caiana@nm@36832000@nm@@nm@-20.6960690@nm@-41.9296057@nm@
+MG@nm@Caiapó@nm@36735000@nm@@nm@-21.6913591@nm@-42.4175826@nm@
+MG@nm@Cajuri@nm@36560000@nm@@nm@-20.7907895@nm@-42.7929095@nm@
+MG@nm@Caldas@nm@37780000@nm@@nm@-21.9234077@nm@-46.3885416@nm@
+MG@nm@Calixto@nm@35232000@nm@@nm@-19.2529517@nm@-41.1518092@nm@
+MG@nm@Camacho@nm@35555000@nm@@nm@-20.6268312@nm@-45.1554398@nm@
+MG@nm@Camanducaia@nm@37650000@nm@@nm@-22.7486590@nm@-46.1352278@nm@
+MG@nm@Camargos@nm@35427000@nm@@nm@-20.2712887@nm@-43.4020091@nm@
+MG@nm@Cambuí@nm@37600000@nm@@nm@-22.6118831@nm@-46.0577071@nm@
+MG@nm@Cambuquira@nm@37420000@nm@@nm@-21.8544727@nm@-45.2900020@nm@
+MG@nm@Campanário@nm@39835000@nm@@nm@-18.2390252@nm@-41.7257229@nm@
+MG@nm@Campanha@nm@37400000@nm@@nm@-21.8343864@nm@-45.3990201@nm@
+MG@nm@Campestre@nm@37730000@nm@@nm@-21.7113788@nm@-46.2468753@nm@
+MG@nm@Campestrinho@nm@37797000@nm@@nm@-22.1437660@nm@-46.4505756@nm@
+MG@nm@Campina Verde@nm@38270000@nm@@nm@-19.5387307@nm@-49.4866375@nm@
+MG@nm@Campo Alegre@nm@38809000@nm@@nm@-19.5280337@nm@-45.9649354@nm@
+MG@nm@Campo Alegre de Minas@nm@39457000@nm@@nm@-15.5879455@nm@-44.0887685@nm@
+MG@nm@Campo Alegre de Minas@nm@35238000@nm@@nm@-19.1006701@nm@-41.0319268@nm@
+MG@nm@Campo Azul@nm@39338000@nm@@nm@-16.5032655@nm@-44.8100363@nm@
+MG@nm@Campo Belo@nm@37270000@nm@@nm@-20.8938356@nm@-45.2721363@nm@
+MG@nm@Campo do Meio@nm@37165000@nm@@nm@-21.1101207@nm@-45.8303259@nm@
+MG@nm@Campo Florido@nm@38130000@nm@@nm@-19.7635542@nm@-48.5720738@nm@
+MG@nm@Campo Redondo@nm@39452000@nm@@nm@-15.6414350@nm@-43.9725036@nm@
+MG@nm@Campolide@nm@36223000@nm@@nm@-21.2906546@nm@-43.8274698@nm@
+MG@nm@Campos Altos@nm@38970000@nm@@nm@-19.6918841@nm@-46.1736055@nm@
+MG@nm@Campos Gerais@nm@37160000@nm@@nm@-21.2370782@nm@-45.7592067@nm@
+MG@nm@Cana Verde@nm@37267000@nm@@nm@-21.0236909@nm@-45.1804886@nm@
+MG@nm@Canaã@nm@36592000@nm@@nm@-20.6873774@nm@-42.6170797@nm@
+MG@nm@Canabrava@nm@39581000@nm@@nm@-16.3295781@nm@-43.4182384@nm@
+MG@nm@Canabrava@nm@38773000@nm@@nm@-17.3889903@nm@-45.8278216@nm@
+MG@nm@Canápolis@nm@38380000@nm@@nm@-18.7216916@nm@-49.2040029@nm@
+MG@nm@Canastrão@nm@38890000@nm@@nm@-18.5595508@nm@-45.7351967@nm@
+MG@nm@Candeias@nm@37280000@nm@@nm@-20.7676040@nm@-45.2763633@nm@
+MG@nm@Canoeiros@nm@38792000@nm@@nm@-18.0290205@nm@-45.5158936@nm@
+MG@nm@Cantagalo@nm@39703000@nm@@nm@-18.5252484@nm@-42.6226574@nm@
+MG@nm@Caparaó@nm@36834000@nm@@nm@-20.5243936@nm@-41.9059711@nm@
+MG@nm@Capela Nova@nm@36290000@nm@@nm@-20.9240240@nm@-43.6180954@nm@
+MG@nm@Capelinha@nm@39680000@nm@@nm@-17.6929945@nm@-42.5172107@nm@
+MG@nm@Capetinga@nm@37993000@nm@@nm@-20.6167911@nm@-47.0575820@nm@
+MG@nm@Capim Branco@nm@35730000@nm@@nm@-19.5475458@nm@-44.1307647@nm@
+MG@nm@Capinópolis@nm@38360000@nm@@nm@-18.6828360@nm@-49.5706568@nm@
+MG@nm@Capitânia@nm@39499000@nm@@nm@-14.4234520@nm@-44.3694792@nm@
+MG@nm@Capitão Andrade@nm@35123000@nm@@nm@-19.0753162@nm@-41.8618070@nm@
+MG@nm@Capitão Enéas@nm@39472000@nm@@nm@-16.3239833@nm@-43.7154461@nm@
+MG@nm@Capitólio@nm@37930000@nm@@nm@-20.6141323@nm@-46.0478758@nm@
+MG@nm@Caputira@nm@36925000@nm@@nm@-20.1708284@nm@-42.2687193@nm@
+MG@nm@Caraí@nm@39810000@nm@@nm@-17.1866315@nm@-41.7007464@nm@
+MG@nm@Caranaíba@nm@36428000@nm@@nm@-20.8745625@nm@-43.7375912@nm@
+MG@nm@Carandaí@nm@36280000@nm@@nm@-20.9508706@nm@-43.8028073@nm@
+MG@nm@Carangola@nm@36800000@nm@@nm@-20.7314751@nm@-42.0299263@nm@
+MG@nm@Caratinga@nm@@nm@@nm@@nm@@nm@
+MG@nm@Carbonita@nm@39665000@nm@@nm@-17.5259619@nm@-43.0140875@nm@
+MG@nm@Careaçu@nm@37582000@nm@@nm@-22.0440458@nm@-45.6973068@nm@
+MG@nm@Carioca@nm@35665300@nm@@nm@-19.8214114@nm@-44.7682582@nm@
+MG@nm@Carlos Alves@nm@36686000@nm@@nm@-21.6063430@nm@-43.1078445@nm@
+MG@nm@Carlos Chagas@nm@39864000@nm@@nm@-17.6978103@nm@-40.7726564@nm@
+MG@nm@Carmésia@nm@35878000@nm@@nm@-19.0881965@nm@-43.1386521@nm@
+MG@nm@Carmo da Cachoeira@nm@37225000@nm@@nm@-21.4612439@nm@-45.2202356@nm@
+MG@nm@Carmo da Mata@nm@35547000@nm@@nm@-20.5584753@nm@-44.8698308@nm@
+MG@nm@Carmo de Minas@nm@37472000@nm@@nm@-22.1208554@nm@-45.1311194@nm@
+MG@nm@Carmo do Cajuru@nm@35557000@nm@@nm@-20.1851206@nm@-44.7711099@nm@
+MG@nm@Carmo do Paranaíba@nm@38840000@nm@@nm@-19.0012649@nm@-46.3092185@nm@
+MG@nm@Carmo do Rio Claro@nm@37150000@nm@@nm@-20.9733112@nm@-46.1184521@nm@
+MG@nm@Carmópolis de Minas@nm@35534000@nm@@nm@-20.5408120@nm@-44.6386557@nm@
+MG@nm@Carneirinho@nm@38290000@nm@@nm@-19.6991644@nm@-50.6899080@nm@
+MG@nm@Carrancas@nm@37245000@nm@@nm@-21.4899717@nm@-44.6453592@nm@
+MG@nm@Carvalho de Brito@nm@@nm@@nm@@nm@@nm@
+MG@nm@Carvalhópolis@nm@37760000@nm@@nm@-21.7783171@nm@-45.8417096@nm@
+MG@nm@Carvalhos@nm@37456000@nm@@nm@-22.0004936@nm@-44.4635873@nm@
+MG@nm@Casa Grande@nm@36422000@nm@@nm@-20.7930068@nm@-43.9347214@nm@
+MG@nm@Cascalho Rico@nm@38460000@nm@@nm@-18.5776340@nm@-47.8720850@nm@
+MG@nm@Cássia@nm@37980000@nm@@nm@-20.5849457@nm@-46.9191613@nm@
+MG@nm@Cataguarino@nm@36779000@nm@@nm@-21.2956902@nm@-42.7277694@nm@
+MG@nm@Cataguases@nm@@nm@@nm@@nm@@nm@
+MG@nm@Catajás@nm@39937000@nm@@nm@-16.6281346@nm@-40.3503795@nm@
+MG@nm@Catas Altas@nm@35969000@nm@@nm@-20.0738862@nm@-43.4065239@nm@
+MG@nm@Catas Altas da Noruega@nm@36450000@nm@@nm@-20.6902239@nm@-43.4990942@nm@
+MG@nm@Catiara@nm@38762000@nm@@nm@-19.1729239@nm@-46.6773780@nm@
+MG@nm@Catuji@nm@39816000@nm@@nm@-17.3022348@nm@-41.5167505@nm@
+MG@nm@Catuné@nm@36846000@nm@@nm@-20.9159907@nm@-42.1461681@nm@
+MG@nm@Catuni@nm@39585000@nm@@nm@-16.2326768@nm@-43.2698199@nm@
+MG@nm@Catuti@nm@39526000@nm@@nm@-15.3603135@nm@-42.9625111@nm@
+MG@nm@Caxambu@nm@37440000@nm@@nm@-21.9779538@nm@-44.9331310@nm@
+MG@nm@Cedro do Abaeté@nm@35624000@nm@@nm@-19.1462400@nm@-45.7124200@nm@
+MG@nm@Centenário@nm@36957000@nm@@nm@-19.6956575@nm@-41.4681311@nm@
+MG@nm@Central de Minas@nm@35260000@nm@@nm@-18.7610353@nm@-41.3067873@nm@
+MG@nm@Central de Santa Helena@nm@35267000@nm@@nm@-18.7547279@nm@-41.5692277@nm@
+MG@nm@Centralina@nm@38390000@nm@@nm@-18.5856789@nm@-49.2018495@nm@
+MG@nm@Cervo@nm@37565000@nm@@nm@-22.1860228@nm@-46.2386839@nm@
+MG@nm@Chácara@nm@36110000@nm@@nm@-21.6728417@nm@-43.2193919@nm@
+MG@nm@Chalé@nm@36985000@nm@@nm@-20.0437690@nm@-41.6895379@nm@
+MG@nm@Chapada de Minas@nm@38528000@nm@@nm@-18.5966027@nm@-47.6312591@nm@
+MG@nm@Chapada do Norte@nm@39648000@nm@@nm@-17.0885873@nm@-42.5395815@nm@
+MG@nm@Chapada Gaúcha@nm@38689000@nm@@nm@-15.5694079@nm@-45.3745358@nm@
+MG@nm@Chapéu D'Uvas@nm@36103800@nm@@nm@-21.5915889@nm@-43.4878251@nm@
+MG@nm@Chaves@nm@38819000@nm@@nm@-19.1989953@nm@-46.2360029@nm@
+MG@nm@Chaveslândia@nm@38325000@nm@@nm@-19.0396939@nm@-50.4900016@nm@
+MG@nm@Chiador@nm@36630000@nm@@nm@-22.0031073@nm@-43.0563802@nm@
+MG@nm@Chonim@nm@35109000@nm@@nm@-18.6450263@nm@-42.0379946@nm@
+MG@nm@Chonin de Baixo@nm@35109500@nm@@nm@-18.6814417@nm@-41.9855382@nm@
+MG@nm@Chumbo@nm@38713000@nm@@nm@-18.6353119@nm@-46.1864381@nm@
+MG@nm@Cipotânea@nm@36265000@nm@@nm@-20.9048660@nm@-43.3653970@nm@
+MG@nm@Cisneiros@nm@36753000@nm@@nm@-21.4396250@nm@-42.3518594@nm@
+MG@nm@Claraval@nm@37997000@nm@@nm@-20.3974865@nm@-47.2772702@nm@
+MG@nm@Claro de Minas@nm@38782000@nm@@nm@-17.9309897@nm@-46.9904633@nm@
+MG@nm@Claro dos Poções@nm@39380000@nm@@nm@-17.0824950@nm@-44.2065056@nm@
+MG@nm@Cláudio@nm@35530000@nm@@nm@-20.4438418@nm@-44.7653198@nm@
+MG@nm@Cláudio Manuel@nm@35429000@nm@@nm@-20.2175005@nm@-43.2001725@nm@
+MG@nm@Cocais@nm@35975000@nm@@nm@-19.8665520@nm@-43.4567188@nm@
+MG@nm@Coco@nm@35472000@nm@@nm@-20.3050020@nm@-44.0195298@nm@
+MG@nm@Coimbra@nm@36550000@nm@@nm@-20.8572711@nm@-42.8012759@nm@
+MG@nm@Coluna@nm@39770000@nm@@nm@-18.2326645@nm@-42.8376834@nm@
+MG@nm@Comendador Gomes@nm@38250000@nm@@nm@-19.6972964@nm@-49.0836213@nm@
+MG@nm@Comercinho@nm@39628000@nm@@nm@-16.2967230@nm@-41.7949225@nm@
+MG@nm@Comunidade Colônia Padre Damião@nm@36509000@nm@@nm@-21.1201230@nm@-42.9426188@nm@
+MG@nm@Conceição da Aparecida@nm@37148000@nm@@nm@-21.0966990@nm@-46.2016174@nm@
+MG@nm@Conceição da Barra de Minas@nm@36360000@nm@@nm@-21.1282863@nm@-44.4721267@nm@
+MG@nm@Conceição da Boa Vista@nm@36743000@nm@@nm@-21.5430703@nm@-42.4277393@nm@
+MG@nm@Conceição da Brejaúba@nm@39721000@nm@@nm@-18.8718507@nm@-42.4725379@nm@
+MG@nm@Conceição da Ibitipoca@nm@36144000@nm@@nm@-21.7205205@nm@-43.9268919@nm@
+MG@nm@Conceição das Alagoas@nm@38120000@nm@@nm@-19.9241693@nm@-48.3811173@nm@
+MG@nm@Conceição das Pedras@nm@37527000@nm@@nm@-22.1598488@nm@-45.4550434@nm@
+MG@nm@Conceição de Ipanema@nm@36947000@nm@@nm@-19.9298223@nm@-41.6922888@nm@
+MG@nm@Conceição de Itaguá@nm@35466000@nm@@nm@-20.1481599@nm@-44.2402009@nm@
+MG@nm@Conceição de Minas@nm@35985000@nm@@nm@-19.8062800@nm@-42.6825429@nm@
+MG@nm@Conceição de Piracicaba@nm@35943000@nm@@nm@-19.9040320@nm@-43.1015598@nm@
+MG@nm@Conceição de Tronqueiras@nm@39711000@nm@@nm@-18.7014232@nm@-42.2428095@nm@
+MG@nm@Conceição do Capim@nm@35202000@nm@@nm@-19.6682004@nm@-41.2538660@nm@
+MG@nm@Conceição do Formoso@nm@36248000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Conceição do Mato Dentro@nm@35860000@nm@@nm@-19.0347794@nm@-43.4230000@nm@
+MG@nm@Conceição do Pará@nm@35668000@nm@@nm@-19.7460770@nm@-44.8949317@nm@
+MG@nm@Conceição do Rio Acima@nm@35968000@nm@@nm@-20.0735758@nm@-43.5909565@nm@
+MG@nm@Conceição do Rio Verde@nm@37430000@nm@@nm@-21.8803570@nm@-45.0881465@nm@
+MG@nm@Conceição dos Ouros@nm@37548000@nm@@nm@-22.4126179@nm@-45.7975235@nm@
+MG@nm@Concórdia de Mucuri@nm@39826000@nm@@nm@-17.6283590@nm@-41.7492128@nm@
+MG@nm@Condado do Norte@nm@39435000@nm@@nm@-15.8234532@nm@-44.0249834@nm@
+MG@nm@Cônego João Pio@nm@35993000@nm@@nm@-20.0116130@nm@-42.9168675@nm@
+MG@nm@Cônego Marinho@nm@39489000@nm@@nm@-15.2965315@nm@-44.4142053@nm@
+MG@nm@Confins@nm@33500000@nm@@nm@-19.6286625@nm@-43.9935608@nm@
+MG@nm@Congonhal@nm@37584000@nm@@nm@-22.1541237@nm@-46.0427891@nm@
+MG@nm@Congonhas@nm@36415000@nm@@nm@-20.4993469@nm@-43.8613566@nm@
+MG@nm@Congonhas do Norte@nm@35850000@nm@@nm@-18.8107723@nm@-43.6785377@nm@
+MG@nm@Conquista@nm@38195000@nm@@nm@-19.9380535@nm@-47.5442582@nm@
+MG@nm@Conselheiro Lafaiete@nm@@nm@@nm@@nm@@nm@
+MG@nm@Conselheiro Mata@nm@39106000@nm@@nm@-18.2871442@nm@-43.9803294@nm@
+MG@nm@Conselheiro Pena@nm@35240000@nm@@nm@-19.1739275@nm@-41.4733731@nm@
+MG@nm@Consolação@nm@37670000@nm@@nm@-22.5529547@nm@-45.9239831@nm@
+MG@nm@Contagem@nm@@nm@@nm@@nm@@nm@
+MG@nm@Contrato@nm@39676000@nm@@nm@-17.7762527@nm@-42.6799427@nm@
+MG@nm@Contria@nm@39202000@nm@@nm@-18.2152607@nm@-44.5062666@nm@
+MG@nm@Coqueiral@nm@37235000@nm@@nm@-21.1893557@nm@-45.4410580@nm@
+MG@nm@Coração de Jesus@nm@39340000@nm@@nm@-16.6845294@nm@-44.3639260@nm@
+MG@nm@Cordeiro de Minas@nm@35318000@nm@@nm@-19.5477110@nm@-42.3680145@nm@
+MG@nm@Cordisburgo@nm@35780000@nm@@nm@-19.1253022@nm@-44.3204518@nm@
+MG@nm@Cordislândia@nm@37498000@nm@@nm@-21.7928424@nm@-45.7015979@nm@
+MG@nm@Corinto@nm@39200000@nm@@nm@-18.3647127@nm@-44.4521249@nm@
+MG@nm@Coroaci@nm@39710000@nm@@nm@-18.6160477@nm@-42.2794946@nm@
+MG@nm@Coromandel@nm@38550000@nm@@nm@-18.4785912@nm@-47.1978694@nm@
+MG@nm@Coronel Fabriciano@nm@@nm@@nm@@nm@@nm@
+MG@nm@Coronel Murta@nm@39635000@nm@@nm@-16.6153132@nm@-42.1843424@nm@
+MG@nm@Coronel Pacheco@nm@36155000@nm@@nm@-21.5882924@nm@-43.2632813@nm@
+MG@nm@Coronel Xavier Chaves@nm@36330000@nm@@nm@-21.0235012@nm@-44.2232491@nm@
+MG@nm@Córrego Danta@nm@38990000@nm@@nm@-19.8238155@nm@-45.9042482@nm@
+MG@nm@Córrego do Barro@nm@35665200@nm@@nm@-19.7284936@nm@-44.4911223@nm@
+MG@nm@Córrego do Bom Jesus@nm@37605000@nm@@nm@-22.6298895@nm@-46.0191663@nm@
+MG@nm@Córrego do Ouro@nm@37163000@nm@@nm@-21.3638891@nm@-45.7733866@nm@
+MG@nm@Córrego dos Bernardes@nm@35100800@nm@@nm@-18.8549317@nm@-41.9559233@nm@
+MG@nm@Córrego dos Borges@nm@35100600@nm@@nm@-18.8549317@nm@-41.9559233@nm@
+MG@nm@Córrego dos Melquíades@nm@35100400@nm@@nm@-18.8549317@nm@-41.9559233@nm@
+MG@nm@Córrego Fundo@nm@35568000@nm@@nm@-20.4502059@nm@-45.5548332@nm@
+MG@nm@Córrego Novo@nm@35345000@nm@@nm@-19.8316486@nm@-42.4021128@nm@
+MG@nm@Córregos@nm@35864000@nm@@nm@-18.8858406@nm@-43.5049808@nm@
+MG@nm@Correia de Almeida@nm@36208000@nm@@nm@-21.3013370@nm@-43.6267335@nm@
+MG@nm@Correntinho@nm@39741000@nm@@nm@-18.6747760@nm@-42.7715090@nm@
+MG@nm@Costa Sena@nm@35859000@nm@@nm@-18.6696490@nm@-43.6630826@nm@
+MG@nm@Costas@nm@37665000@nm@@nm@-22.6591143@nm@-45.9231298@nm@
+MG@nm@Costas da Mantiqueira@nm@36206000@nm@@nm@-21.2458521@nm@-43.6537239@nm@
+MG@nm@Couto de Magalhães de Minas@nm@39188000@nm@@nm@-18.0725817@nm@-43.4715434@nm@
+MG@nm@Crisólia@nm@37572000@nm@@nm@-22.2488526@nm@-46.4132586@nm@
+MG@nm@Crisólita@nm@39885000@nm@@nm@-17.2386290@nm@-40.9130546@nm@
+MG@nm@Crispim Jaques@nm@39809000@nm@@nm@-17.8288158@nm@-41.1442233@nm@
+MG@nm@Cristais@nm@37275000@nm@@nm@-20.8740775@nm@-45.5178387@nm@
+MG@nm@Cristália@nm@39598000@nm@@nm@-16.7193865@nm@-42.8661525@nm@
+MG@nm@Cristiano Otoni@nm@36426000@nm@@nm@-20.8249342@nm@-43.8124157@nm@
+MG@nm@Cristina@nm@37476000@nm@@nm@-22.2102702@nm@-45.2630555@nm@
+MG@nm@Crucilândia@nm@35478000@nm@@nm@-20.3943074@nm@-44.3367804@nm@
+MG@nm@Cruzeiro da Fortaleza@nm@38735000@nm@@nm@-18.9469558@nm@-46.6732883@nm@
+MG@nm@Cruzeiro dos Peixotos@nm@38439500@nm@@nm@-18.7295476@nm@-48.3686043@nm@
+MG@nm@Cruzília@nm@37445000@nm@@nm@-21.8402280@nm@-44.8102693@nm@
+MG@nm@Cruzinha@nm@39653000@nm@@nm@-17.2861568@nm@-42.3465032@nm@
+MG@nm@Cubas@nm@35806000@nm@@nm@-19.2908264@nm@-42.7889686@nm@
+MG@nm@Cuité Velho@nm@35242000@nm@@nm@-19.1739275@nm@-41.4733731@nm@
+MG@nm@Cuparaque@nm@35246000@nm@@nm@-18.9690589@nm@-41.0982464@nm@
+MG@nm@Curimataí@nm@39235000@nm@@nm@-17.8716489@nm@-43.9534132@nm@
+MG@nm@Curral de Dentro@nm@39569000@nm@@nm@-15.9331716@nm@-41.8560703@nm@
+MG@nm@Curral Novo de Minas@nm@36222000@nm@@nm@-21.3191527@nm@-43.7502275@nm@
+MG@nm@Curvelo@nm@@nm@@nm@@nm@@nm@
+MG@nm@Datas@nm@39130000@nm@@nm@-18.4482348@nm@-43.6594920@nm@
+MG@nm@Delfim Moreira@nm@37514000@nm@@nm@-22.5085014@nm@-45.2803019@nm@
+MG@nm@Delfinópolis@nm@37910000@nm@@nm@-20.3463875@nm@-46.8458245@nm@
+MG@nm@Delta@nm@38108000@nm@@nm@-19.9719267@nm@-47.7757685@nm@
+MG@nm@Deputado Augusto Clementino@nm@39152000@nm@@nm@-18.6910616@nm@-43.4348327@nm@
+MG@nm@Derribadinha@nm@35103000@nm@@nm@-18.8711060@nm@-41.8519855@nm@
+MG@nm@Descoberto@nm@36690000@nm@@nm@-21.4604816@nm@-42.9621748@nm@
+MG@nm@Desembargador Otoni@nm@39113000@nm@@nm@-17.6945522@nm@-43.3336116@nm@
+MG@nm@Desemboque@nm@38193000@nm@@nm@-20.0169923@nm@-47.0225920@nm@
+MG@nm@Desterro de Entre Rios@nm@35494000@nm@@nm@-20.6604014@nm@-44.3327716@nm@
+MG@nm@Desterro do Melo@nm@36210000@nm@@nm@-21.1460856@nm@-43.5170617@nm@
+MG@nm@Diamante de Ubá@nm@36509100@nm@@nm@-21.2126705@nm@-42.8827794@nm@
+MG@nm@Diamantina@nm@39100000@nm@@nm@-18.2474542@nm@-43.6012135@nm@
+MG@nm@Dias@nm@37532000@nm@@nm@-22.4606249@nm@-45.5602201@nm@
+MG@nm@Dias Tavares@nm@36105000@nm@@nm@-21.7624237@nm@-43.3433999@nm@
+MG@nm@Diogo de Vasconcelos@nm@35437000@nm@@nm@-20.4865202@nm@-43.1990011@nm@
+MG@nm@Dionísio@nm@35984000@nm@@nm@-19.8413453@nm@-42.7765266@nm@
+MG@nm@Divinésia@nm@36546000@nm@@nm@-20.9903302@nm@-43.0048871@nm@
+MG@nm@Divino@nm@36820000@nm@@nm@-20.6087581@nm@-42.1450035@nm@
+MG@nm@Divino das Laranjeiras@nm@35265000@nm@@nm@-18.7759713@nm@-41.4784700@nm@
+MG@nm@Divino de Virgolândia@nm@39716000@nm@@nm@-18.3950955@nm@-42.2441358@nm@
+MG@nm@Divino Espírito Santo@nm@37147000@nm@@nm@-21.1628883@nm@-46.0952387@nm@
+MG@nm@Divinolândia de Minas@nm@39735000@nm@@nm@-18.8008580@nm@-42.6107439@nm@
+MG@nm@Divinópolis@nm@@nm@@nm@@nm@@nm@
+MG@nm@Divisa Alegre@nm@39995000@nm@@nm@-15.7225332@nm@-41.3466725@nm@
+MG@nm@Divisa Nova@nm@37142000@nm@@nm@-21.5096437@nm@-46.1908215@nm@
+MG@nm@Divisópolis@nm@39912000@nm@@nm@-15.7258129@nm@-41.0000685@nm@
+MG@nm@Dois de Abril@nm@39948000@nm@@nm@-16.8412830@nm@-40.3277417@nm@
+MG@nm@Dom Bosco@nm@38654000@nm@@nm@-16.6524154@nm@-46.2601495@nm@
+MG@nm@Dom Cavati@nm@35148000@nm@@nm@-19.3739393@nm@-42.1125279@nm@
+MG@nm@Dom Corrêa@nm@36909800@nm@@nm@-20.0498362@nm@-42.1807277@nm@
+MG@nm@Dom Joaquim@nm@35865000@nm@@nm@-18.9669567@nm@-43.2551604@nm@
+MG@nm@Dom Lara@nm@35314000@nm@@nm@-19.7896207@nm@-42.1415419@nm@
+MG@nm@Dom Modesto@nm@35313000@nm@@nm@-19.7699823@nm@-42.1543367@nm@
+MG@nm@Dom Silvério@nm@35440000@nm@@nm@-20.1632107@nm@-42.9630783@nm@
+MG@nm@Dom Viçoso@nm@37474000@nm@@nm@-22.2516000@nm@-45.1647471@nm@
+MG@nm@Dona Euzébia@nm@36784000@nm@@nm@-21.3215100@nm@-42.8058509@nm@
+MG@nm@Dores da Vitória@nm@36792000@nm@@nm@-21.1071596@nm@-42.5951426@nm@
+MG@nm@Dores de Campos@nm@36213000@nm@@nm@-21.1094506@nm@-44.0206193@nm@
+MG@nm@Dores de Guanhães@nm@35894000@nm@@nm@-19.0520857@nm@-42.9257752@nm@
+MG@nm@Dores do Indaiá@nm@35610000@nm@@nm@-19.4608252@nm@-45.5963160@nm@
+MG@nm@Dores do Paraibuna@nm@36243000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Dores do Turvo@nm@36513000@nm@@nm@-20.9749980@nm@-43.1890712@nm@
+MG@nm@Doresópolis@nm@37926000@nm@@nm@-20.2873064@nm@-45.9011556@nm@
+MG@nm@Douradinho@nm@37755000@nm@@nm@-21.7447300@nm@-45.7607756@nm@
+MG@nm@Douradoquara@nm@38530000@nm@@nm@-18.4342489@nm@-47.5997495@nm@
+MG@nm@Doutor Campolina@nm@35768000@nm@@nm@-19.3044207@nm@-43.9998710@nm@
+MG@nm@Doutor Lund@nm@33650000@nm@@nm@-19.6469388@nm@-44.0074159@nm@
+MG@nm@Durandé@nm@36974000@nm@@nm@-20.2063046@nm@-41.7981152@nm@
+MG@nm@Edgard Melo@nm@35122000@nm@@nm@-19.2248809@nm@-41.9285430@nm@
+MG@nm@Elói Mendes@nm@37110000@nm@@nm@-21.6097595@nm@-45.5662674@nm@
+MG@nm@Emboabas@nm@36319000@nm@@nm@-21.2954149@nm@-44.1186653@nm@
+MG@nm@Engenheiro Caldas@nm@35130000@nm@@nm@-19.1995840@nm@-42.0469413@nm@
+MG@nm@Engenheiro Correia@nm@35416000@nm@@nm@-20.3333330@nm@-43.7833330@nm@
+MG@nm@Engenheiro Dolabela@nm@39395000@nm@@nm@-17.4667095@nm@-44.0083877@nm@
+MG@nm@Engenheiro Navarro@nm@39363000@nm@@nm@-17.2873440@nm@-43.9514819@nm@
+MG@nm@Engenheiro Schnoor@nm@39602000@nm@@nm@-17.1573191@nm@-42.0835899@nm@
+MG@nm@Engenho@nm@33999000@nm@@nm@-19.6890120@nm@-43.7788850@nm@
+MG@nm@Engenho do Ribeiro@nm@35602000@nm@@nm@-19.5690491@nm@-45.3047937@nm@
+MG@nm@Engenho Novo@nm@36643000@nm@@nm@-21.8121454@nm@-42.9924440@nm@
+MG@nm@Entre Folhas@nm@35324000@nm@@nm@-19.6222944@nm@-42.2309526@nm@
+MG@nm@Entre Rios de Minas@nm@35490000@nm@@nm@-20.6685664@nm@-44.0666504@nm@
+MG@nm@Epaminondas Otoni@nm@39866000@nm@@nm@-17.9110471@nm@-41.0184830@nm@
+MG@nm@Era Nova@nm@35139000@nm@@nm@-18.9537193@nm@-41.9553804@nm@
+MG@nm@Ermidinha@nm@39410000@nm@@nm@-16.4257874@nm@-44.0882832@nm@
+MG@nm@Ervália@nm@36555000@nm@@nm@-20.8375261@nm@-42.6562703@nm@
+MG@nm@Esmeraldas@nm@35740000@nm@@nm@-19.8073042@nm@-44.1815176@nm@
+MG@nm@Esmeraldas de Ferros@nm@35804000@nm@@nm@-19.3337644@nm@-42.8775635@nm@
+MG@nm@Espera Feliz@nm@36830000@nm@@nm@-20.6520530@nm@-41.9091561@nm@
+MG@nm@Espinosa@nm@39510000@nm@@nm@-14.9208652@nm@-42.8110595@nm@
+MG@nm@Espírito Santo do Dourado@nm@37566000@nm@@nm@-22.0478729@nm@-45.9509784@nm@
+MG@nm@Esteios@nm@35596000@nm@@nm@-19.9293990@nm@-45.7134720@nm@
+MG@nm@Estevão de Araújo@nm@36596000@nm@@nm@-20.6690965@nm@-42.5182528@nm@
+MG@nm@Estiva@nm@37542000@nm@@nm@-22.4581827@nm@-46.0194880@nm@
+MG@nm@Estrela da Barra@nm@38294000@nm@@nm@-19.9034603@nm@-50.7213139@nm@
+MG@nm@Estrela Dalva@nm@36725000@nm@@nm@-21.7427784@nm@-42.4619026@nm@
+MG@nm@Estrela de Jordânia@nm@39923000@nm@@nm@-15.8638480@nm@-40.2740824@nm@
+MG@nm@Estrela do Indaiá@nm@35613000@nm@@nm@-19.5221638@nm@-45.7879510@nm@
+MG@nm@Estrela do Sul@nm@38525000@nm@@nm@-18.7450679@nm@-47.6927332@nm@
+MG@nm@Eugenópolis@nm@36855000@nm@@nm@-21.1006446@nm@-42.1882350@nm@
+MG@nm@Euxenita@nm@39751000@nm@@nm@-18.5394077@nm@-43.0213008@nm@
+MG@nm@Ewbank da Câmara@nm@36108000@nm@@nm@-21.5493727@nm@-43.5073264@nm@
+MG@nm@Expedicionário Alício@nm@35204000@nm@@nm@-19.6442376@nm@-41.2989867@nm@
+MG@nm@Extração@nm@39105000@nm@@nm@-18.2816791@nm@-43.5271535@nm@
+MG@nm@Extrema@nm@37640000@nm@@nm@-22.8532103@nm@-46.3216978@nm@
+MG@nm@Fama@nm@37144000@nm@@nm@-21.4093821@nm@-45.8290502@nm@
+MG@nm@Faria@nm@36209800@nm@@nm@-21.2350896@nm@-43.8559436@nm@
+MG@nm@Faria Lemos@nm@36840000@nm@@nm@-20.8052255@nm@-42.0134290@nm@
+MG@nm@Farias@nm@39744000@nm@@nm@-19.0090437@nm@-42.8209631@nm@
+MG@nm@Fechados@nm@35788000@nm@@nm@-18.7990762@nm@-43.9041300@nm@
+MG@nm@Felicina@nm@35147200@nm@@nm@-19.1169409@nm@-42.3874369@nm@
+MG@nm@Felício dos Santos@nm@39180000@nm@@nm@-18.0779106@nm@-43.2503789@nm@
+MG@nm@Felisburgo@nm@39895000@nm@@nm@-16.6352969@nm@-40.7608801@nm@
+MG@nm@Felixlândia@nm@39237000@nm@@nm@-18.7511417@nm@-44.9007942@nm@
+MG@nm@Fernandes Tourinho@nm@35135000@nm@@nm@-19.1545681@nm@-42.0806541@nm@
+MG@nm@Fernão Dias@nm@39334000@nm@@nm@-16.3781636@nm@-44.4424280@nm@
+MG@nm@Ferreiras@nm@37493000@nm@@nm@-21.9412713@nm@-45.4893689@nm@
+MG@nm@Ferreirópolis@nm@39562000@nm@@nm@-15.9906593@nm@-42.2278266@nm@
+MG@nm@Ferros@nm@35800000@nm@@nm@-19.2347885@nm@-43.0196355@nm@
+MG@nm@Ferruginha@nm@35245500@nm@@nm@-18.8934044@nm@-41.2458182@nm@
+MG@nm@Fervedouro@nm@36815000@nm@@nm@-20.7260722@nm@-42.2762515@nm@
+MG@nm@Fidalgo@nm@33620000@nm@@nm@-19.5140630@nm@-43.9530626@nm@
+MG@nm@Fidelândia@nm@39851000@nm@@nm@-18.1973634@nm@-41.2423606@nm@
+MG@nm@Flor de Minas@nm@38315000@nm@@nm@-18.9403381@nm@-49.8365844@nm@
+MG@nm@Florália@nm@35961000@nm@@nm@-19.9508978@nm@-43.3144438@nm@
+MG@nm@Floresta@nm@35263000@nm@@nm@-18.8150979@nm@-41.2627362@nm@
+MG@nm@Florestal@nm@35690000@nm@@nm@-19.8885229@nm@-44.4321752@nm@
+MG@nm@Florestina@nm@38450000@nm@@nm@-18.5095313@nm@-48.0228190@nm@
+MG@nm@Fonseca@nm@35955000@nm@@nm@-20.1590159@nm@-43.2986862@nm@
+MG@nm@Formiga@nm@@nm@@nm@@nm@@nm@
+MG@nm@Formoso@nm@38690000@nm@@nm@-14.9450818@nm@-46.2374958@nm@
+MG@nm@Fortaleza de Minas@nm@37905000@nm@@nm@-20.8512441@nm@-46.7124679@nm@
+MG@nm@Fortuna de Minas@nm@35760000@nm@@nm@-19.5629640@nm@-44.4480709@nm@
+MG@nm@Francisco Badaró@nm@39644000@nm@@nm@-16.9887521@nm@-42.3572057@nm@
+MG@nm@Francisco Dumont@nm@39387000@nm@@nm@-17.3111442@nm@-44.2321193@nm@
+MG@nm@Francisco Sá@nm@39580000@nm@@nm@-16.4786911@nm@-43.4911330@nm@
+MG@nm@Franciscópolis@nm@39695000@nm@@nm@-17.9582404@nm@-42.0097738@nm@
+MG@nm@Frei Eustáquio@nm@37237000@nm@@nm@-21.1754412@nm@-45.3710516@nm@
+MG@nm@Frei Gaspar@nm@39840000@nm@@nm@-18.0713743@nm@-41.4329090@nm@
+MG@nm@Frei Inocêncio@nm@35112000@nm@@nm@-18.5625456@nm@-41.9066949@nm@
+MG@nm@Frei Lagonegro@nm@39708000@nm@@nm@-18.1677308@nm@-42.7664155@nm@
+MG@nm@Frei Orlando@nm@35629000@nm@@nm@-18.8413719@nm@-45.2264417@nm@
+MG@nm@Frei Serafim@nm@39832000@nm@@nm@-18.1350208@nm@-41.8625889@nm@
+MG@nm@Freire Cardoso@nm@39637000@nm@@nm@-16.5266228@nm@-42.1094876@nm@
+MG@nm@Fronteira@nm@38230000@nm@@nm@-20.2819164@nm@-49.2030593@nm@
+MG@nm@Fronteira dos Vales@nm@39870000@nm@@nm@-16.8902772@nm@-40.9233721@nm@
+MG@nm@Fruta de Leite@nm@39558000@nm@@nm@-16.1161174@nm@-42.5267670@nm@
+MG@nm@Frutal@nm@38200000@nm@@nm@-20.0263764@nm@-48.9359943@nm@
+MG@nm@Funchal@nm@38802000@nm@@nm@-19.2989634@nm@-45.8905368@nm@
+MG@nm@Funilândia@nm@35736000@nm@@nm@-19.3692180@nm@-44.0597068@nm@
+MG@nm@Furquim@nm@35426000@nm@@nm@-20.3541684@nm@-43.2086530@nm@
+MG@nm@Gagé@nm@36409800@nm@@nm@-20.6850848@nm@-43.7525619@nm@
+MG@nm@Galego@nm@36206100@nm@@nm@-21.2372220@nm@-43.7286110@nm@
+MG@nm@Galena@nm@38753000@nm@@nm@-18.3011196@nm@-46.1222822@nm@
+MG@nm@Galiléia@nm@35250000@nm@@nm@-19.0009454@nm@-41.5390430@nm@
+MG@nm@Gama@nm@35147300@nm@@nm@-19.1206683@nm@-42.3895477@nm@
+MG@nm@Gameleiras@nm@39505000@nm@@nm@-15.0833102@nm@-43.1253775@nm@
+MG@nm@Garapuava@nm@38615000@nm@@nm@-16.0857726@nm@-46.5565697@nm@
+MG@nm@Garimpo do Bandeira@nm@38208000@nm@@nm@-20.1253135@nm@-48.7623224@nm@
+MG@nm@Gaspar Lopes@nm@37139000@nm@@nm@-21.3654546@nm@-45.9313092@nm@
+MG@nm@Gavião@nm@36858000@nm@@nm@-20.9234865@nm@-42.2562521@nm@
+MG@nm@Glaucilândia@nm@39592000@nm@@nm@-16.8501863@nm@-43.6976275@nm@
+MG@nm@Glaura@nm@35408000@nm@@nm@-20.2980663@nm@-43.6418088@nm@
+MG@nm@Glória de Cataguases@nm@36776500@nm@@nm@-21.2614732@nm@-42.6791917@nm@
+MG@nm@Glucínio@nm@39782000@nm@@nm@-18.2089722@nm@-42.3340021@nm@
+MG@nm@Goiabal@nm@35108000@nm@@nm@-18.7353123@nm@-42.2835479@nm@
+MG@nm@Goiabeira@nm@35248000@nm@@nm@-18.9811410@nm@-41.2239132@nm@
+MG@nm@Goiaminas@nm@38693000@nm@@nm@-14.9450818@nm@-46.2374958@nm@
+MG@nm@Goianá@nm@36152000@nm@@nm@-21.5365364@nm@-43.1960750@nm@
+MG@nm@Goianases@nm@37994000@nm@@nm@-20.6957936@nm@-47.0194759@nm@
+MG@nm@Gonçalves@nm@37680000@nm@@nm@-22.6593169@nm@-45.8544526@nm@
+MG@nm@Gonzaga@nm@39720000@nm@@nm@-18.8200864@nm@-42.4773058@nm@
+MG@nm@Gororós@nm@35868000@nm@@nm@-18.8054566@nm@-43.2361037@nm@
+MG@nm@Gorutuba@nm@39522500@nm@@nm@-15.8303867@nm@-43.1916888@nm@
+MG@nm@Gouveia@nm@39120000@nm@@nm@-18.4524176@nm@-43.7427018@nm@
+MG@nm@Governador Valadares@nm@@nm@@nm@@nm@@nm@
+MG@nm@Gramínea@nm@37796000@nm@@nm@-22.1677016@nm@-46.6244064@nm@
+MG@nm@Granada@nm@35365700@nm@@nm@-20.1746881@nm@-42.3895673@nm@
+MG@nm@Grão Mogol@nm@39570000@nm@@nm@-16.5653072@nm@-42.8932326@nm@
+MG@nm@Grota@nm@35395000@nm@@nm@-20.4100710@nm@-42.5574210@nm@
+MG@nm@Grupiara@nm@38470000@nm@@nm@-18.4947980@nm@-47.7186616@nm@
+MG@nm@Guaicui@nm@39265000@nm@@nm@-17.1941694@nm@-44.8136339@nm@
+MG@nm@Guaipava@nm@37125000@nm@@nm@-21.6639837@nm@-45.7240370@nm@
+MG@nm@Guanhães@nm@39740000@nm@@nm@-18.7770579@nm@-42.9374773@nm@
+MG@nm@Guapé@nm@37177000@nm@@nm@-20.7635597@nm@-45.9156650@nm@
+MG@nm@Guaraciaba@nm@35436000@nm@@nm@-20.5720578@nm@-43.0097958@nm@
+MG@nm@Guaraciama@nm@39397000@nm@@nm@-17.0146386@nm@-43.6679289@nm@
+MG@nm@Guaranésia@nm@37810000@nm@@nm@-21.3018037@nm@-46.7984919@nm@
+MG@nm@Guarani@nm@36160000@nm@@nm@-21.3599045@nm@-43.0446891@nm@
+MG@nm@Guaranilândia@nm@39965000@nm@@nm@-16.2973578@nm@-40.7995268@nm@
+MG@nm@Guarará@nm@36606000@nm@@nm@-21.7308448@nm@-43.0338442@nm@
+MG@nm@Guarataia@nm@39833000@nm@@nm@-18.2793586@nm@-41.8846624@nm@
+MG@nm@Guarda dos Ferreiros@nm@38803000@nm@@nm@-19.3107686@nm@-46.0489795@nm@
+MG@nm@Guarda-Mor@nm@38570000@nm@@nm@-17.7677696@nm@-47.1001898@nm@
+MG@nm@Guardinha@nm@37952000@nm@@nm@-20.9105623@nm@-47.1555887@nm@
+MG@nm@Guaxima@nm@38198000@nm@@nm@-19.8490251@nm@-47.5818611@nm@
+MG@nm@Guaxupé@nm@37800000@nm@@nm@-21.3054884@nm@-46.7084932@nm@
+MG@nm@Guidoval@nm@36515000@nm@@nm@-21.1555244@nm@-42.7891524@nm@
+MG@nm@Guimarânia@nm@38730000@nm@@nm@-18.8429289@nm@-46.7905790@nm@
+MG@nm@Guinda@nm@39103000@nm@@nm@-18.2527147@nm@-43.6800258@nm@
+MG@nm@Guiricema@nm@36525000@nm@@nm@-21.0103398@nm@-42.7210644@nm@
+MG@nm@Gurinhatã@nm@38310000@nm@@nm@-19.2121470@nm@-49.7863021@nm@
+MG@nm@Heliodora@nm@37484000@nm@@nm@-22.0665234@nm@-45.5422214@nm@
+MG@nm@Hematita@nm@35178000@nm@@nm@-19.5102681@nm@-43.0153711@nm@
+MG@nm@Hermilo Alves@nm@36285000@nm@@nm@-21.0224773@nm@-43.7860747@nm@
+MG@nm@Honorópolis@nm@38272000@nm@@nm@-19.5678434@nm@-50.0047308@nm@
+MG@nm@Humaitá@nm@36107800@nm@@nm@-21.7481099@nm@-43.3912706@nm@
+MG@nm@Iapu@nm@35190000@nm@@nm@-19.4391864@nm@-42.2151220@nm@
+MG@nm@Ibertioga@nm@36225000@nm@@nm@-21.4335210@nm@-43.9643134@nm@
+MG@nm@Ibiá@nm@38950000@nm@@nm@-19.4878116@nm@-46.5450499@nm@
+MG@nm@Ibiaí@nm@39350000@nm@@nm@-16.8595393@nm@-44.9050359@nm@
+MG@nm@Ibiracatu@nm@39455000@nm@@nm@-15.6609818@nm@-44.1671123@nm@
+MG@nm@Ibiraci@nm@37990000@nm@@nm@-20.4615342@nm@-47.1225911@nm@
+MG@nm@Ibirité@nm@@nm@@nm@@nm@@nm@
+MG@nm@Ibitira@nm@35607000@nm@@nm@-19.4207047@nm@-45.1546680@nm@
+MG@nm@Ibitiúra de Minas@nm@37790000@nm@@nm@-22.0625996@nm@-46.4406019@nm@
+MG@nm@Ibituruna@nm@37223000@nm@@nm@-21.1522427@nm@-44.7488651@nm@
+MG@nm@Icaraí de Minas@nm@39318000@nm@@nm@-16.2174503@nm@-44.9038420@nm@
+MG@nm@Igarapé@nm@32900000@nm@@nm@-20.0711521@nm@-44.2998655@nm@
+MG@nm@Igaratinga@nm@35695000@nm@@nm@-19.9500874@nm@-44.7111421@nm@
+MG@nm@Iguatama@nm@38910000@nm@@nm@-20.1773835@nm@-45.7081801@nm@
+MG@nm@Ijaci@nm@37218000@nm@@nm@-21.1742703@nm@-44.9236899@nm@
+MG@nm@Ilha do Rio Doce@nm@35317000@nm@@nm@-19.7896207@nm@-42.1415419@nm@
+MG@nm@Ilhéus do Prata@nm@35994000@nm@@nm@-19.9902321@nm@-42.8151006@nm@
+MG@nm@Ilicínea@nm@37175000@nm@@nm@-20.9382789@nm@-45.8272383@nm@
+MG@nm@Imbé de Minas@nm@35323000@nm@@nm@-19.6022049@nm@-41.9698502@nm@
+MG@nm@Inconfidentes@nm@37576000@nm@@nm@-22.3140482@nm@-46.3268521@nm@
+MG@nm@Indaiabira@nm@39536000@nm@@nm@-15.4915153@nm@-42.2009024@nm@
+MG@nm@Independência@nm@35236000@nm@@nm@-19.1773183@nm@-41.2600761@nm@
+MG@nm@Indianópolis@nm@38490000@nm@@nm@-19.0346082@nm@-47.9159006@nm@
+MG@nm@Ingaí@nm@37215000@nm@@nm@-21.4016728@nm@-44.9187409@nm@
+MG@nm@Inhaí@nm@39111000@nm@@nm@-17.9426360@nm@-43.6227606@nm@
+MG@nm@Inhapim@nm@35330000@nm@@nm@-19.5500692@nm@-42.1213236@nm@
+MG@nm@Inhaúma@nm@35763000@nm@@nm@-19.4903208@nm@-44.3938098@nm@
+MG@nm@Inimutaba@nm@39243000@nm@@nm@-18.7276018@nm@-44.3587866@nm@
+MG@nm@Ipaba@nm@35198000@nm@@nm@-19.4143619@nm@-42.4150731@nm@
+MG@nm@Ipanema@nm@36950000@nm@@nm@-19.7995283@nm@-41.7168497@nm@
+MG@nm@Ipatinga@nm@@nm@@nm@@nm@@nm@
+MG@nm@Ipiaçu@nm@38350000@nm@@nm@-18.6931766@nm@-49.9440725@nm@
+MG@nm@Ipoema@nm@35905000@nm@@nm@-19.6233937@nm@-43.4406880@nm@
+MG@nm@Ipuiúna@nm@37588000@nm@@nm@-22.0981239@nm@-46.1892555@nm@
+MG@nm@Iraí de Minas@nm@38510000@nm@@nm@-18.9824160@nm@-47.4614118@nm@
+MG@nm@Itabira@nm@@nm@@nm@@nm@@nm@
+MG@nm@Itabirinha@nm@35280000@nm@@nm@-18.5683324@nm@-41.2344651@nm@
+MG@nm@Itabirito@nm@35450000@nm@@nm@-20.2530617@nm@-43.8030567@nm@
+MG@nm@Itaboca@nm@36138000@nm@@nm@-22.0411378@nm@-44.0782741@nm@
+MG@nm@Itacambira@nm@39594000@nm@@nm@-17.0629356@nm@-43.3073340@nm@
+MG@nm@Itacarambi@nm@39470000@nm@@nm@-15.0894815@nm@-44.0954086@nm@
+MG@nm@Itaci@nm@37155000@nm@@nm@-20.9333330@nm@-45.9500000@nm@
+MG@nm@Itacolomi@nm@35861000@nm@@nm@-19.0166670@nm@-43.5666670@nm@
+MG@nm@Itaguara@nm@35488000@nm@@nm@-20.3861211@nm@-44.4771596@nm@
+MG@nm@Itaim@nm@37546000@nm@@nm@-22.3864607@nm@-45.8929397@nm@
+MG@nm@Itaipé@nm@39815000@nm@@nm@-17.4018908@nm@-41.6700416@nm@
+MG@nm@Itajubá@nm@@nm@@nm@@nm@@nm@
+MG@nm@Itajutiba@nm@35331000@nm@@nm@-19.4381171@nm@-41.9018192@nm@
+MG@nm@Itamarandiba@nm@39670000@nm@@nm@-17.8572980@nm@-42.8583915@nm@
+MG@nm@Itamarati@nm@39993000@nm@@nm@-15.5775562@nm@-41.4235499@nm@
+MG@nm@Itamarati de Minas@nm@36788000@nm@@nm@-21.4184268@nm@-42.8133764@nm@
+MG@nm@Itambacuri@nm@39830000@nm@@nm@-18.0340970@nm@-41.6833441@nm@
+MG@nm@Itambé do Mato Dentro@nm@35820000@nm@@nm@-19.4162409@nm@-43.3186565@nm@
+MG@nm@Itamirim@nm@39515000@nm@@nm@-14.7764947@nm@-42.8837729@nm@
+MG@nm@Itamogi@nm@37973000@nm@@nm@-21.0763034@nm@-47.0464043@nm@
+MG@nm@Itamonte@nm@37466000@nm@@nm@-22.2864029@nm@-44.8684487@nm@
+MG@nm@Itamuri@nm@36892300@nm@@nm@-20.9907666@nm@-42.3731973@nm@
+MG@nm@Itanhandu@nm@37464000@nm@@nm@-22.2947551@nm@-44.9371417@nm@
+MG@nm@Itanhomi@nm@35120000@nm@@nm@-19.1740687@nm@-41.8634103@nm@
+MG@nm@Itaobim@nm@39625000@nm@@nm@-16.5585736@nm@-41.5025529@nm@
+MG@nm@Itapagipe@nm@38240000@nm@@nm@-19.9033506@nm@-49.3660142@nm@
+MG@nm@Itapanhoacanga@nm@39145000@nm@@nm@-18.7801461@nm@-43.4257088@nm@
+MG@nm@Itapecerica@nm@35550000@nm@@nm@-20.4719298@nm@-45.1241950@nm@
+MG@nm@Itapeva@nm@37655000@nm@@nm@-22.7675446@nm@-46.2220761@nm@
+MG@nm@Itapiru@nm@39955000@nm@@nm@-16.5196458@nm@-40.4426112@nm@
+MG@nm@Itapirucu@nm@36756000@nm@@nm@-21.4605531@nm@-42.3469874@nm@
+MG@nm@Itatiaiuçu@nm@35685000@nm@@nm@-20.1987385@nm@-44.4214989@nm@
+MG@nm@Itaú de Minas@nm@37975000@nm@@nm@-20.7436991@nm@-46.7505432@nm@
+MG@nm@Itaúna@nm@@nm@@nm@@nm@@nm@
+MG@nm@Itauninha@nm@35915000@nm@@nm@-19.3938884@nm@-43.0274669@nm@
+MG@nm@Itaverava@nm@36440000@nm@@nm@-20.6773389@nm@-43.6145183@nm@
+MG@nm@Itererê@nm@37513000@nm@@nm@-22.5909029@nm@-45.4324684@nm@
+MG@nm@Itinga@nm@39610000@nm@@nm@-16.6082549@nm@-41.7677538@nm@
+MG@nm@Itira@nm@39605000@nm@@nm@-16.7687624@nm@-42.0198433@nm@
+MG@nm@Itueta@nm@35220000@nm@@nm@-19.4004195@nm@-41.1750068@nm@
+MG@nm@Ituí@nm@36684000@nm@@nm@-21.5399382@nm@-42.9058265@nm@
+MG@nm@Ituiutaba@nm@@nm@@nm@@nm@@nm@
+MG@nm@Itumirim@nm@37210000@nm@@nm@-21.3175401@nm@-44.8727888@nm@
+MG@nm@Iturama@nm@38280000@nm@@nm@-19.7268901@nm@-50.1938402@nm@
+MG@nm@Itutinga@nm@36390000@nm@@nm@-21.3005036@nm@-44.6571540@nm@
+MG@nm@Jaboticatubas@nm@35830000@nm@@nm@-19.5220956@nm@-43.7454280@nm@
+MG@nm@Jacarandira@nm@36342000@nm@@nm@-20.7563454@nm@-44.4173184@nm@
+MG@nm@Jacaré@nm@39613000@nm@@nm@-16.4604346@nm@-41.9905975@nm@
+MG@nm@Jacinto@nm@39930000@nm@@nm@-16.1432227@nm@-40.2953641@nm@
+MG@nm@Jacu das Piranhas@nm@39507000@nm@@nm@-14.9181032@nm@-43.1169501@nm@
+MG@nm@Jacuí@nm@37965000@nm@@nm@-21.0175161@nm@-46.7443029@nm@
+MG@nm@Jacutinga@nm@37590000@nm@@nm@-22.2832272@nm@-46.6089256@nm@
+MG@nm@Jaguara@nm@35656000@nm@@nm@-20.0335910@nm@-47.4368459@nm@
+MG@nm@Jaguaraçu@nm@35188000@nm@@nm@-19.6474834@nm@-42.7502222@nm@
+MG@nm@Jaguarão@nm@39933000@nm@@nm@-16.3879483@nm@-40.2557202@nm@
+MG@nm@Jaguaritira@nm@39692000@nm@@nm@-17.8244302@nm@-42.2312074@nm@
+MG@nm@Jaíba@nm@39508000@nm@@nm@-15.3400055@nm@-43.6768344@nm@
+MG@nm@Jampruca@nm@39837000@nm@@nm@-18.4614938@nm@-41.8094402@nm@
+MG@nm@Janaúba@nm@@nm@@nm@@nm@@nm@
+MG@nm@Januária@nm@39480000@nm@@nm@-15.4806094@nm@-44.3642956@nm@
+MG@nm@Japaraíba@nm@35580000@nm@@nm@-20.1446626@nm@-45.5019369@nm@
+MG@nm@Japonvar@nm@39335000@nm@@nm@-15.9975467@nm@-44.2727409@nm@
+MG@nm@Jardinésia@nm@38142000@nm@@nm@-19.2630605@nm@-48.6829513@nm@
+MG@nm@Jeceaba@nm@35498000@nm@@nm@-20.5343363@nm@-43.9898091@nm@
+MG@nm@Jenipapo de Minas@nm@39645000@nm@@nm@-17.0835978@nm@-42.2593261@nm@
+MG@nm@Jequeri@nm@35390000@nm@@nm@-20.4544642@nm@-42.6655174@nm@
+MG@nm@Jequitaí@nm@39370000@nm@@nm@-17.2294903@nm@-44.4379988@nm@
+MG@nm@Jequitibá@nm@35767000@nm@@nm@-19.2349683@nm@-44.0308121@nm@
+MG@nm@Jequitinhonha@nm@39960000@nm@@nm@-16.4379493@nm@-41.0120970@nm@
+MG@nm@Jesuânia@nm@37485000@nm@@nm@-21.9891434@nm@-45.2915524@nm@
+MG@nm@JK@nm@35798600@nm@@nm@-19.1367945@nm@-44.5444556@nm@
+MG@nm@Joaíma@nm@39890000@nm@@nm@-16.6552786@nm@-41.0253993@nm@
+MG@nm@Joanésia@nm@35194000@nm@@nm@-19.1733770@nm@-42.6778814@nm@
+MG@nm@João Monlevade@nm@@nm@@nm@@nm@@nm@
+MG@nm@João Pinheiro@nm@38770000@nm@@nm@-17.7405182@nm@-46.1741639@nm@
+MG@nm@Joaquim Felício@nm@39240000@nm@@nm@-17.7588992@nm@-44.1706714@nm@
+MG@nm@Jordânia@nm@39920000@nm@@nm@-15.9013894@nm@-40.1844227@nm@
+MG@nm@José Gonçalves de Minas@nm@39642000@nm@@nm@-16.9057961@nm@-42.6017786@nm@
+MG@nm@José Raydan@nm@39775000@nm@@nm@-18.2199800@nm@-42.4950396@nm@
+MG@nm@Joselândia@nm@36435000@nm@@nm@-20.7855796@nm@-43.5852223@nm@
+MG@nm@Josenópolis@nm@39575000@nm@@nm@-16.5421621@nm@-42.5154491@nm@
+MG@nm@Juatuba@nm@35675000@nm@@nm@-19.9433029@nm@-44.3413836@nm@
+MG@nm@Jubaí@nm@38196000@nm@@nm@-19.8919660@nm@-47.6915801@nm@
+MG@nm@Juiraçu@nm@35996000@nm@@nm@-19.9333089@nm@-42.8010273@nm@
+MG@nm@Juiz de Fora@nm@@nm@@nm@@nm@@nm@
+MG@nm@Junco de Minas@nm@39693500@nm@@nm@-17.9444400@nm@-42.1903013@nm@
+MG@nm@Juramento@nm@39590000@nm@@nm@-16.8464648@nm@-43.5879117@nm@
+MG@nm@Juréia@nm@37117000@nm@@nm@-21.2801712@nm@-46.3628244@nm@
+MG@nm@Juruaia@nm@37805000@nm@@nm@-21.2516873@nm@-46.5806482@nm@
+MG@nm@Jurumirim@nm@35375000@nm@@nm@-20.1445123@nm@-42.6755448@nm@
+MG@nm@Justinópolis@nm@@nm@@nm@@nm@@nm@
+MG@nm@Juvenília@nm@39467000@nm@@nm@-14.2666864@nm@-44.1600586@nm@
+MG@nm@Lacerdina@nm@36802000@nm@@nm@-20.7314751@nm@-42.0299263@nm@
+MG@nm@Ladainha@nm@39825000@nm@@nm@-17.6283590@nm@-41.7492128@nm@
+MG@nm@Lagamar@nm@38785000@nm@@nm@-18.1763834@nm@-46.8067755@nm@
+MG@nm@Lagoa Bonita@nm@35782000@nm@@nm@-19.1042552@nm@-44.2140733@nm@
+MG@nm@Lagoa da Prata@nm@35590000@nm@@nm@-20.0272246@nm@-45.5353426@nm@
+MG@nm@Lagoa dos Patos@nm@39360000@nm@@nm@-16.9822652@nm@-44.5801643@nm@
+MG@nm@Lagoa Dourada@nm@36345000@nm@@nm@-20.9147500@nm@-44.0754347@nm@
+MG@nm@Lagoa Formosa@nm@38720000@nm@@nm@-18.7749518@nm@-46.4061588@nm@
+MG@nm@Lagoa Grande@nm@38755000@nm@@nm@-17.8383424@nm@-46.5209767@nm@
+MG@nm@Lagoa Grande de Minas Novas@nm@39654000@nm@@nm@-17.2185332@nm@-42.5909710@nm@
+MG@nm@Lagoa Santa@nm@33400000@nm@@nm@-19.6303019@nm@-43.8983031@nm@
+MG@nm@Lagoa Seca@nm@38799000@nm@@nm@-18.3763682@nm@-46.0226056@nm@
+MG@nm@Lagoinha de Fora@nm@33246000@nm@@nm@-19.6707776@nm@-43.8697101@nm@
+MG@nm@Lajinha@nm@36980000@nm@@nm@-20.1532675@nm@-41.6228953@nm@
+MG@nm@Lambari@nm@37480000@nm@@nm@-21.9678712@nm@-45.3484727@nm@
+MG@nm@Lamim@nm@36455000@nm@@nm@-20.7904859@nm@-43.4710264@nm@
+MG@nm@Lamounier@nm@35551000@nm@@nm@-20.4745375@nm@-45.0383389@nm@
+MG@nm@Lapinha@nm@33450000@nm@@nm@@nm@@nm@
+MG@nm@Laranjal@nm@36760000@nm@@nm@-21.3719703@nm@-42.4735553@nm@
+MG@nm@Laranjeiras de Caldas@nm@37782000@nm@@nm@-21.8323155@nm@-46.4525136@nm@
+MG@nm@Lassance@nm@39250000@nm@@nm@-17.8895316@nm@-44.5815648@nm@
+MG@nm@Lavras@nm@@nm@@nm@@nm@@nm@
+MG@nm@Lavras Novas@nm@35418000@nm@@nm@-20.4833329@nm@-43.5166670@nm@
+MG@nm@Leandro Ferreira@nm@35657000@nm@@nm@-19.7172326@nm@-45.0229158@nm@
+MG@nm@Leme do Prado@nm@39655000@nm@@nm@-17.0797409@nm@-42.6939658@nm@
+MG@nm@Leopoldina@nm@@nm@@nm@@nm@@nm@
+MG@nm@Levinópolis@nm@39485000@nm@@nm@-15.2553925@nm@-44.2928951@nm@
+MG@nm@Liberdade@nm@37350000@nm@@nm@-22.0264902@nm@-44.3195327@nm@
+MG@nm@Lima Duarte@nm@36140000@nm@@nm@-21.8398589@nm@-43.7919951@nm@
+MG@nm@Limeira de Mantena@nm@35296000@nm@@nm@-18.5772998@nm@-41.1491526@nm@
+MG@nm@Limeira do Oeste@nm@38295000@nm@@nm@-19.5520042@nm@-50.5774082@nm@
+MG@nm@Lobo Leite@nm@36419000@nm@@nm@-20.5178705@nm@-43.7991000@nm@
+MG@nm@Lontra@nm@39437000@nm@@nm@-15.9052837@nm@-44.3011641@nm@
+MG@nm@Lufa@nm@39824000@nm@@nm@-17.2388464@nm@-41.9326556@nm@
+MG@nm@Luisburgo@nm@36923000@nm@@nm@-20.4472413@nm@-42.0980405@nm@
+MG@nm@Luislândia@nm@39336000@nm@@nm@-16.1167295@nm@-44.5873492@nm@
+MG@nm@Luiz Pires de Minas@nm@39344000@nm@@nm@-16.4927185@nm@-44.2688348@nm@
+MG@nm@Luizlândia do Oeste@nm@38776000@nm@@nm@-17.9866214@nm@-45.6069946@nm@
+MG@nm@Luminárias@nm@37240000@nm@@nm@-21.5107696@nm@-44.9041132@nm@
+MG@nm@Luminosa@nm@37535000@nm@@nm@-22.5795063@nm@-45.6389251@nm@
+MG@nm@Luz@nm@35595000@nm@@nm@-19.7926884@nm@-45.6814861@nm@
+MG@nm@Macaia@nm@37221000@nm@@nm@-21.1407372@nm@-44.9080376@nm@
+MG@nm@Machacalis@nm@39873000@nm@@nm@-17.0764751@nm@-40.7187343@nm@
+MG@nm@Machado@nm@37750000@nm@@nm@-21.6782427@nm@-45.9223323@nm@
+MG@nm@Macuco@nm@36892600@nm@@nm@-21.1333330@nm@-42.5000000@nm@
+MG@nm@Macuco de Minas@nm@37212000@nm@@nm@-21.2833339@nm@-44.7601922@nm@
+MG@nm@Madre de Deus de Minas@nm@37305000@nm@@nm@-21.4824668@nm@-44.3301892@nm@
+MG@nm@Mãe dos Homens@nm@39797000@nm@@nm@-18.1275662@nm@-42.5883021@nm@
+MG@nm@Major Ezequiel@nm@35953000@nm@@nm@-20.0276879@nm@-42.9929342@nm@
+MG@nm@Major Porto@nm@38710000@nm@@nm@-18.7031220@nm@-46.0410299@nm@
+MG@nm@Malacacheta@nm@39690000@nm@@nm@-17.8442329@nm@-42.0789785@nm@
+MG@nm@Mamonas@nm@39516000@nm@@nm@-15.0483963@nm@-42.9472519@nm@
+MG@nm@Manga@nm@39460000@nm@@nm@-14.7533438@nm@-43.9394547@nm@
+MG@nm@Manhuaçu@nm@@nm@@nm@@nm@@nm@
+MG@nm@Manhumirim@nm@36970000@nm@@nm@-20.3596647@nm@-41.9588900@nm@
+MG@nm@Mantena@nm@35290000@nm@@nm@-18.7765523@nm@-40.9877527@nm@
+MG@nm@Mantiqueira@nm@36242000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Mantiqueira do Palmital@nm@36206300@nm@@nm@-21.2880560@nm@-43.6777780@nm@
+MG@nm@Mar de Espanha@nm@36640000@nm@@nm@-21.8622226@nm@-43.0077186@nm@
+MG@nm@Marambainha@nm@39813000@nm@@nm@-17.1541966@nm@-41.5664352@nm@
+MG@nm@Maravilhas@nm@35666000@nm@@nm@-19.5081043@nm@-44.6782933@nm@
+MG@nm@Maria da Fé@nm@37517000@nm@@nm@-22.3070652@nm@-45.3773808@nm@
+MG@nm@Mariana@nm@35420000@nm@@nm@-20.3652719@nm@-43.4150073@nm@
+MG@nm@Marilac@nm@35115000@nm@@nm@-18.5083745@nm@-42.0826006@nm@
+MG@nm@Marilândia@nm@35553000@nm@@nm@-20.3603331@nm@-44.9247296@nm@
+MG@nm@Mário Campos@nm@32470000@nm@@nm@-20.0517928@nm@-44.1878969@nm@
+MG@nm@Maripá de Minas@nm@36608000@nm@@nm@-21.6984119@nm@-42.9549984@nm@
+MG@nm@Marliéria@nm@35185000@nm@@nm@-19.7114078@nm@-42.7367037@nm@
+MG@nm@Marmelópolis@nm@37516000@nm@@nm@-22.4492906@nm@-45.1653743@nm@
+MG@nm@Martinésia@nm@38439800@nm@@nm@-18.7554226@nm@-48.4219288@nm@
+MG@nm@Martinho Campos@nm@35606000@nm@@nm@-19.3323995@nm@-45.2375852@nm@
+MG@nm@Martins Guimarães@nm@35593000@nm@@nm@@nm@@nm@
+MG@nm@Martins Soares@nm@36972000@nm@@nm@-20.2550497@nm@-41.8789881@nm@
+MG@nm@Mata Verde@nm@39915000@nm@@nm@-15.6871198@nm@-40.7402604@nm@
+MG@nm@Materlândia@nm@39755000@nm@@nm@-18.4703862@nm@-43.0583020@nm@
+MG@nm@Mateus Leme@nm@35670000@nm@@nm@-19.9985101@nm@-44.4087348@nm@
+MG@nm@Mathias Lobato@nm@35110000@nm@@nm@-18.5754341@nm@-41.9174693@nm@
+MG@nm@Matias Barbosa@nm@36120000@nm@@nm@-21.8680209@nm@-43.3177168@nm@
+MG@nm@Matias Cardoso@nm@39478000@nm@@nm@-14.8567564@nm@-43.9149667@nm@
+MG@nm@Matipó@nm@35367000@nm@@nm@-20.2848214@nm@-42.3414891@nm@
+MG@nm@Mato Verde@nm@39527000@nm@@nm@-15.3950929@nm@-42.8608650@nm@
+MG@nm@Matozinhos@nm@35720000@nm@@nm@-19.5547969@nm@-44.0871994@nm@
+MG@nm@Matutina@nm@38870000@nm@@nm@-19.2224624@nm@-45.9715473@nm@
+MG@nm@Medeiros@nm@38930000@nm@@nm@-19.9869861@nm@-46.2184854@nm@
+MG@nm@Medina@nm@39620000@nm@@nm@-16.2250031@nm@-41.4731475@nm@
+MG@nm@Melo Viana@nm@35750000@nm@@nm@-19.7293759@nm@-44.1512586@nm@
+MG@nm@Mendanha@nm@39101000@nm@@nm@-18.1118472@nm@-43.5334742@nm@
+MG@nm@Mendes Pimentel@nm@35270000@nm@@nm@-18.6577232@nm@-41.4020654@nm@
+MG@nm@Mendonça@nm@39664000@nm@@nm@-17.5379825@nm@-42.7498692@nm@
+MG@nm@Mercês@nm@36190000@nm@@nm@-21.1980743@nm@-43.3340733@nm@
+MG@nm@Mercês de Água Limpa@nm@36352000@nm@@nm@-21.0424364@nm@-44.6006657@nm@
+MG@nm@Mesquita@nm@35116000@nm@@nm@-19.2245024@nm@-42.6082769@nm@
+MG@nm@Mestre Caetano@nm@34750000@nm@@nm@-19.8531843@nm@-43.7491443@nm@
+MG@nm@Miguel Burnier@nm@35414000@nm@@nm@-20.4327763@nm@-43.7796641@nm@
+MG@nm@Milagre@nm@37969000@nm@@nm@-21.2993935@nm@-47.0076466@nm@
+MG@nm@Milho Verde@nm@39155000@nm@@nm@-18.4730894@nm@-43.4985413@nm@
+MG@nm@Minas Novas@nm@39650000@nm@@nm@-17.2185332@nm@-42.5909710@nm@
+MG@nm@Minduri@nm@37447000@nm@@nm@-21.6802026@nm@-44.6055196@nm@
+MG@nm@Mirabela@nm@39373000@nm@@nm@-16.2564823@nm@-44.1606144@nm@
+MG@nm@Miradouro@nm@36893000@nm@@nm@-20.8901602@nm@-42.3435982@nm@
+MG@nm@Miragaia@nm@36509200@nm@@nm@-21.0432553@nm@-42.9955939@nm@
+MG@nm@Miraí@nm@36790000@nm@@nm@-21.1969190@nm@-42.6141813@nm@
+MG@nm@Miralta@nm@39415000@nm@@nm@-16.5317324@nm@-43.9017018@nm@
+MG@nm@Mirantão@nm@37345000@nm@@nm@-22.2574945@nm@-44.4816874@nm@
+MG@nm@Miraporanga@nm@38439700@nm@@nm@-19.2547741@nm@-48.4239062@nm@
+MG@nm@Miravânia@nm@39465000@nm@@nm@-14.7352228@nm@-44.4096485@nm@
+MG@nm@Missionário@nm@36262000@nm@@nm@-21.0065920@nm@-43.4811760@nm@
+MG@nm@Mocambeiro@nm@35725000@nm@@nm@-19.5415310@nm@-44.0270738@nm@
+MG@nm@Mocambinho@nm@39524000@nm@@nm@-15.8513070@nm@-43.0648934@nm@
+MG@nm@Moeda@nm@35470000@nm@@nm@-20.3314689@nm@-44.0539299@nm@
+MG@nm@Moema@nm@35604000@nm@@nm@-19.8392083@nm@-45.4131123@nm@
+MG@nm@Monjolinho de Minas@nm@38722000@nm@@nm@-18.7708358@nm@-46.2473244@nm@
+MG@nm@Monjolos@nm@39215000@nm@@nm@-18.3249441@nm@-44.1183866@nm@
+MG@nm@Monsenhor Horta@nm@35425000@nm@@nm@-20.3417849@nm@-43.2875166@nm@
+MG@nm@Monsenhor Isidro@nm@36445000@nm@@nm@-20.6179566@nm@-43.6354073@nm@
+MG@nm@Monsenhor João Alexandre@nm@35532000@nm@@nm@-20.3693180@nm@-44.6861229@nm@
+MG@nm@Monsenhor Paulo@nm@37405000@nm@@nm@-21.7583716@nm@-45.5394868@nm@
+MG@nm@Montalvânia@nm@39495000@nm@@nm@-14.4234520@nm@-44.3694792@nm@
+MG@nm@Monte Alegre de Minas@nm@38475000@nm@@nm@-18.8729732@nm@-48.8770070@nm@
+MG@nm@Monte Azul@nm@39500000@nm@@nm@-15.1518181@nm@-42.8721615@nm@
+MG@nm@Monte Belo@nm@37115000@nm@@nm@-21.3221066@nm@-46.3688171@nm@
+MG@nm@Monte Carmelo@nm@38500000@nm@@nm@-18.7307117@nm@-47.4916674@nm@
+MG@nm@Monte Celeste@nm@36532000@nm@@nm@-20.8940488@nm@-42.8786855@nm@
+MG@nm@Monte Formoso@nm@39893000@nm@@nm@-16.8676432@nm@-41.2554566@nm@
+MG@nm@Monte Rei@nm@39468000@nm@@nm@-14.4872953@nm@-44.2149582@nm@
+MG@nm@Monte Santo de Minas@nm@37968000@nm@@nm@-21.1886486@nm@-46.9766675@nm@
+MG@nm@Monte Sião@nm@37580000@nm@@nm@-22.4337585@nm@-46.5750632@nm@
+MG@nm@Monte Verde@nm@37653000@nm@@nm@-22.8617165@nm@-46.0617259@nm@
+MG@nm@Monte Verde@nm@36107500@nm@@nm@-21.7624237@nm@-43.3433999@nm@
+MG@nm@Montes Claros@nm@@nm@@nm@@nm@@nm@
+MG@nm@Montezuma@nm@39547000@nm@@nm@-15.1706898@nm@-42.4944643@nm@
+MG@nm@Morada Nova de Minas@nm@35628000@nm@@nm@-18.6038990@nm@-45.3582493@nm@
+MG@nm@Morro@nm@39313000@nm@@nm@-16.0366730@nm@-44.6725992@nm@
+MG@nm@Morro da Garça@nm@39248000@nm@@nm@-18.5360622@nm@-44.6014582@nm@
+MG@nm@Morro do Ferro@nm@35541000@nm@@nm@-20.7710217@nm@-44.5791851@nm@
+MG@nm@Morro do Pilar@nm@35875000@nm@@nm@-19.2241037@nm@-43.3798715@nm@
+MG@nm@Morro Vermelho@nm@34940000@nm@@nm@-19.9468839@nm@-43.7037701@nm@
+MG@nm@Mucuri@nm@39809800@nm@@nm@-17.6005309@nm@-41.4942174@nm@
+MG@nm@Mundo Novo de Minas@nm@35208000@nm@@nm@-19.7443177@nm@-41.3547063@nm@
+MG@nm@Munhoz@nm@37620000@nm@@nm@-22.6124587@nm@-46.3630169@nm@
+MG@nm@Muquém@nm@39375000@nm@@nm@-16.1785187@nm@-44.2101347@nm@
+MG@nm@Muriaé@nm@@nm@@nm@@nm@@nm@
+MG@nm@Mutum@nm@36955000@nm@@nm@-19.8204988@nm@-41.4434539@nm@
+MG@nm@Muzambinho@nm@37890000@nm@@nm@-21.3712987@nm@-46.5231389@nm@
+MG@nm@Nacip Raydan@nm@39718000@nm@@nm@-18.4549128@nm@-42.2485160@nm@
+MG@nm@Nanuque@nm@39860000@nm@@nm@-17.8442677@nm@-40.3425652@nm@
+MG@nm@Naque@nm@35117000@nm@@nm@-19.2296130@nm@-42.3315875@nm@
+MG@nm@Naque-Nanuque@nm@35147600@nm@@nm@-19.1835306@nm@-42.4236222@nm@
+MG@nm@Natalândia@nm@38658000@nm@@nm@-16.5070718@nm@-46.4944769@nm@
+MG@nm@Natércia@nm@37524000@nm@@nm@-22.1162424@nm@-45.5127166@nm@
+MG@nm@Nazaré de Minas@nm@37253000@nm@@nm@-21.0838059@nm@-45.3073548@nm@
+MG@nm@Nazareno@nm@36370000@nm@@nm@-21.2205255@nm@-44.6106840@nm@
+MG@nm@Nelson de Sena@nm@39706000@nm@@nm@-18.4148996@nm@-42.7244040@nm@
+MG@nm@Neolândia@nm@35552000@nm@@nm@-20.3451775@nm@-45.1518705@nm@
+MG@nm@Nepomuceno@nm@37250000@nm@@nm@-21.2335652@nm@-45.2325476@nm@
+MG@nm@Nhandutiba@nm@39463000@nm@@nm@-14.6290146@nm@-44.2042566@nm@
+MG@nm@Nicolândia@nm@35235000@nm@@nm@-19.2215009@nm@-40.9841897@nm@
+MG@nm@Ninheira@nm@39553000@nm@@nm@-15.3190041@nm@-41.7542196@nm@
+MG@nm@Nova Belém@nm@35298000@nm@@nm@-18.4929964@nm@-41.1110551@nm@
+MG@nm@Nova Era@nm@35920000@nm@@nm@-19.7659667@nm@-43.0354257@nm@
+MG@nm@Nova Esperança@nm@39414000@nm@@nm@-16.5824376@nm@-43.9372982@nm@
+MG@nm@Nova Lima@nm@@nm@@nm@@nm@@nm@
+MG@nm@Nova Minda@nm@39335700@nm@@nm@-15.9712581@nm@-44.3799487@nm@
+MG@nm@Nova Módica@nm@35113000@nm@@nm@-18.4421713@nm@-41.4987534@nm@
+MG@nm@Nova Ponte@nm@38160000@nm@@nm@-19.1465643@nm@-47.6783890@nm@
+MG@nm@Nova Porteirinha@nm@39525000@nm@@nm@-15.7997502@nm@-43.2945463@nm@
+MG@nm@Nova Resende@nm@37860000@nm@@nm@-21.1290933@nm@-46.4161692@nm@
+MG@nm@Nova Santa Luzia@nm@39888000@nm@@nm@-17.2386290@nm@-40.9130546@nm@
+MG@nm@Nova Serrana@nm@@nm@@nm@@nm@@nm@
+MG@nm@Nova União@nm@34990000@nm@@nm@-19.6880648@nm@-43.5834574@nm@
+MG@nm@Novilhona@nm@39821000@nm@@nm@-17.4733466@nm@-42.0262999@nm@
+MG@nm@Novo Cruzeiro@nm@39820000@nm@@nm@-17.4659098@nm@-41.8830226@nm@
+MG@nm@Novo Horizonte@nm@39853000@nm@@nm@-18.2937861@nm@-41.1542890@nm@
+MG@nm@Novo Oriente de Minas@nm@39817000@nm@@nm@-17.4094048@nm@-41.2197447@nm@
+MG@nm@Novorizonte@nm@39568000@nm@@nm@-16.0166762@nm@-42.4048241@nm@
+MG@nm@Ocidente@nm@36959000@nm@@nm@-20.0201643@nm@-41.4674369@nm@
+MG@nm@Olaria@nm@36145000@nm@@nm@-21.8602802@nm@-43.9359764@nm@
+MG@nm@Olegário Maciel@nm@37509000@nm@@nm@-22.3220490@nm@-45.5816769@nm@
+MG@nm@Olhos D'Água@nm@39398000@nm@@nm@-17.3963800@nm@-43.5708569@nm@
+MG@nm@Olhos D'Água do Oeste@nm@38772000@nm@@nm@-17.5955103@nm@-45.8901346@nm@
+MG@nm@Olhos Dágua@nm@39489100@nm@@nm@-15.2965315@nm@-44.4142053@nm@
+MG@nm@Olímpio Campos@nm@39433000@nm@@nm@-15.8247590@nm@-44.0182244@nm@
+MG@nm@Olímpio Noronha@nm@37488000@nm@@nm@-22.0690368@nm@-45.2661564@nm@
+MG@nm@Oliveira@nm@35540000@nm@@nm@-20.6984299@nm@-44.8256777@nm@
+MG@nm@Oliveira Fortes@nm@36250000@nm@@nm@-21.3405438@nm@-43.4503057@nm@
+MG@nm@Onça de Pitangui@nm@35655000@nm@@nm@-19.7280291@nm@-44.8061909@nm@
+MG@nm@Oratórios@nm@35439000@nm@@nm@-20.4302446@nm@-42.7981026@nm@
+MG@nm@Orizânia@nm@36828000@nm@@nm@-20.5146504@nm@-42.1995236@nm@
+MG@nm@Ouro Branco@nm@36420000@nm@@nm@-20.5236387@nm@-43.6914120@nm@
+MG@nm@Ouro Fino@nm@37570000@nm@@nm@-22.2963912@nm@-46.3921599@nm@
+MG@nm@Ouro Preto@nm@35400000@nm@@nm@-20.3855743@nm@-43.5035777@nm@
+MG@nm@Ouro Verde de Minas@nm@39855000@nm@@nm@-18.0687128@nm@-41.2710031@nm@
+MG@nm@Paciência@nm@39524500@nm@@nm@-15.8254868@nm@-43.0644154@nm@
+MG@nm@Padre Brito@nm@36209000@nm@@nm@-21.2889883@nm@-43.9925316@nm@
+MG@nm@Padre Carvalho@nm@39573000@nm@@nm@-16.3651081@nm@-42.5091517@nm@
+MG@nm@Padre Felisberto@nm@35445000@nm@@nm@-20.5958074@nm@-42.8096171@nm@
+MG@nm@Padre Fialho@nm@35367700@nm@@nm@-20.3760992@nm@-42.3770178@nm@
+MG@nm@Padre João Afonso@nm@39672000@nm@@nm@-17.9835133@nm@-42.6436943@nm@
+MG@nm@Padre Júlio Maria@nm@36978000@nm@@nm@-20.4744439@nm@-41.9997220@nm@
+MG@nm@Padre Paraíso@nm@39818000@nm@@nm@-17.0734506@nm@-41.4863191@nm@
+MG@nm@Padre Pinto@nm@35945000@nm@@nm@-20.0109556@nm@-43.0905340@nm@
+MG@nm@Padre Viegas@nm@35422000@nm@@nm@-20.3939767@nm@-43.3521681@nm@
+MG@nm@Padrolândia@nm@38208200@nm@@nm@-20.0985268@nm@-49.0877387@nm@
+MG@nm@Pai Pedro@nm@39517000@nm@@nm@-15.5315582@nm@-43.0668124@nm@
+MG@nm@Paineiras@nm@35622000@nm@@nm@-18.8998171@nm@-45.5324879@nm@
+MG@nm@Pains@nm@35582000@nm@@nm@-20.3734781@nm@-45.6618213@nm@
+MG@nm@Paiolinho@nm@37758000@nm@@nm@-21.8534701@nm@-45.8959861@nm@
+MG@nm@Paiva@nm@36195000@nm@@nm@-21.2892352@nm@-43.4173228@nm@
+MG@nm@Palma@nm@36750000@nm@@nm@-21.3752687@nm@-42.3126878@nm@
+MG@nm@Palmeiral@nm@37725000@nm@@nm@-21.6333314@nm@-46.5116505@nm@
+MG@nm@Palmeiras do Manhuaçu@nm@36909600@nm@@nm@-20.1166670@nm@-42.1000000@nm@
+MG@nm@Palmeirinha@nm@38624400@nm@@nm@-16.0389177@nm@-46.8378066@nm@
+MG@nm@Palmital de Minas@nm@38627000@nm@@nm@-16.1248314@nm@-47.2931216@nm@
+MG@nm@Palmital dos Carvalhos@nm@36278000@nm@@nm@-21.0311908@nm@-43.5818279@nm@
+MG@nm@Palmópolis@nm@39945000@nm@@nm@-16.7368451@nm@-40.4299844@nm@
+MG@nm@Panorâmica@nm@39429200@nm@@nm@-16.3699223@nm@-43.9925183@nm@
+MG@nm@Pântano@nm@37543000@nm@@nm@-22.3799423@nm@-46.0291728@nm@
+MG@nm@Papagaios@nm@35669000@nm@@nm@-19.4494751@nm@-44.7481451@nm@
+MG@nm@Pará de Minas@nm@@nm@@nm@@nm@@nm@
+MG@nm@Paracatu@nm@@nm@@nm@@nm@@nm@
+MG@nm@Paraguaçu@nm@37120000@nm@@nm@-21.5513436@nm@-45.7342636@nm@
+MG@nm@Paraguai@nm@36565000@nm@@nm@-20.7635915@nm@-42.7439720@nm@
+MG@nm@Paraíso Garcia@nm@36236000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Paraisópolis@nm@37660000@nm@@nm@-22.5487940@nm@-45.7750681@nm@
+MG@nm@Paraopeba@nm@35774000@nm@@nm@-19.2784382@nm@-44.4062327@nm@
+MG@nm@Paredão de Minas@nm@39285000@nm@@nm@-17.1073756@nm@-45.4315998@nm@
+MG@nm@Parque Durval de Barros@nm@32440000@nm@@nm@-19.9739620@nm@-44.0639344@nm@
+MG@nm@Parque Industrial@nm@@nm@@nm@@nm@@nm@
+MG@nm@Passa Dez@nm@35343000@nm@@nm@-19.6887836@nm@-42.3054094@nm@
+MG@nm@Passa Quatro@nm@37460000@nm@@nm@-22.3875671@nm@-44.9713549@nm@
+MG@nm@Passa Tempo@nm@35537000@nm@@nm@-20.6544017@nm@-44.4930547@nm@
+MG@nm@Passa Vinte@nm@37330000@nm@@nm@-22.2070752@nm@-44.2369920@nm@
+MG@nm@Passabém@nm@35810000@nm@@nm@-19.3513969@nm@-43.1387368@nm@
+MG@nm@Passagem de Mariana@nm@35421000@nm@@nm@-20.3970208@nm@-43.4199159@nm@
+MG@nm@Passos@nm@@nm@@nm@@nm@@nm@
+MG@nm@Patis@nm@39378000@nm@@nm@-16.0777124@nm@-44.0790904@nm@
+MG@nm@Patos de Minas@nm@@nm@@nm@@nm@@nm@
+MG@nm@Patrimônio@nm@38145000@nm@@nm@-19.5133361@nm@-48.5053785@nm@
+MG@nm@Patrocínio@nm@@nm@@nm@@nm@@nm@
+MG@nm@Patrocínio de Caratinga@nm@35316000@nm@@nm@-19.7680449@nm@-41.9429744@nm@
+MG@nm@Patrocínio do Muriaé@nm@36860000@nm@@nm@-21.1548788@nm@-42.2128924@nm@
+MG@nm@Paula Cândido@nm@36544000@nm@@nm@-20.8758605@nm@-42.9755913@nm@
+MG@nm@Paula Lima@nm@36103000@nm@@nm@-21.5823414@nm@-43.4881001@nm@
+MG@nm@Paulistas@nm@39765000@nm@@nm@-18.4281064@nm@-42.8632002@nm@
+MG@nm@Pavão@nm@39814000@nm@@nm@-17.4271763@nm@-41.0038529@nm@
+MG@nm@Pé do Morro@nm@37462000@nm@@nm@-22.3308320@nm@-44.9398914@nm@
+MG@nm@Peçanha@nm@39700000@nm@@nm@-18.5445557@nm@-42.5586738@nm@
+MG@nm@Pedra Azul@nm@39970000@nm@@nm@-16.0036875@nm@-41.2817380@nm@
+MG@nm@Pedra Bonita@nm@35364000@nm@@nm@-20.5223671@nm@-42.3308397@nm@
+MG@nm@Pedra Corrida@nm@35147500@nm@@nm@-19.0699400@nm@-42.5425406@nm@
+MG@nm@Pedra do Anta@nm@36585000@nm@@nm@-20.5972717@nm@-42.7126953@nm@
+MG@nm@Pedra do Indaiá@nm@35565000@nm@@nm@-20.2568259@nm@-45.2110777@nm@
+MG@nm@Pedra do Sino@nm@36282000@nm@@nm@-20.9060126@nm@-43.8254117@nm@
+MG@nm@Pedra Dourada@nm@36847000@nm@@nm@-20.8271172@nm@-42.1519020@nm@
+MG@nm@Pedra Grande@nm@39910000@nm@@nm@-15.9801706@nm@-40.8929210@nm@
+MG@nm@Pedra Menina@nm@39175000@nm@@nm@-18.1162441@nm@-43.1089666@nm@
+MG@nm@Pedralva@nm@37520000@nm@@nm@-22.2452849@nm@-45.4654762@nm@
+MG@nm@Pedras de Maria da Cruz@nm@39492000@nm@@nm@-15.6037000@nm@-44.3914530@nm@
+MG@nm@Pedras de Marilândia@nm@38624200@nm@@nm@-16.2022581@nm@-46.4218795@nm@
+MG@nm@Pedrinópolis@nm@38178000@nm@@nm@-19.2245673@nm@-47.4583284@nm@
+MG@nm@Pedro Leopoldo@nm@33600000@nm@@nm@-19.6189005@nm@-44.0404979@nm@
+MG@nm@Pedro Lessa@nm@39158000@nm@@nm@-18.5601537@nm@-43.5252182@nm@
+MG@nm@Pedro Teixeira@nm@36148000@nm@@nm@-21.7081209@nm@-43.7433653@nm@
+MG@nm@Pedro Versiani@nm@39809300@nm@@nm@-17.8811630@nm@-41.3115937@nm@
+MG@nm@Penédia@nm@34930000@nm@@nm@-19.8852788@nm@-43.6644238@nm@
+MG@nm@Penha de França@nm@39675000@nm@@nm@-18.0295117@nm@-43.0669400@nm@
+MG@nm@Penha do Capim@nm@35212000@nm@@nm@-19.6682004@nm@-41.2538660@nm@
+MG@nm@Penha do Cassiano@nm@35107000@nm@@nm@-18.8965044@nm@-42.1999466@nm@
+MG@nm@Penha do Norte@nm@35241000@nm@@nm@-19.1188994@nm@-41.4032451@nm@
+MG@nm@Penha Longa@nm@36635000@nm@@nm@-22.0637314@nm@-43.0947667@nm@
+MG@nm@Penido@nm@36106800@nm@@nm@-21.7201025@nm@-43.5452566@nm@
+MG@nm@Pequeri@nm@36610000@nm@@nm@-21.8364393@nm@-43.1204098@nm@
+MG@nm@Pequi@nm@35667000@nm@@nm@-19.6288430@nm@-44.6608524@nm@
+MG@nm@Perdigão@nm@35545000@nm@@nm@-19.9415366@nm@-45.0784108@nm@
+MG@nm@Perdilândia@nm@38328000@nm@@nm@-18.8196644@nm@-50.2991386@nm@
+MG@nm@Perdizes@nm@38170000@nm@@nm@-19.3438492@nm@-47.2967384@nm@
+MG@nm@Perdões@nm@37260000@nm@@nm@-21.0964587@nm@-45.0879046@nm@
+MG@nm@Pereirinhas@nm@35492000@nm@@nm@-20.6571102@nm@-44.2753569@nm@
+MG@nm@Periquito@nm@35118000@nm@@nm@-19.1578118@nm@-42.2337375@nm@
+MG@nm@Perpétuo Socorro@nm@35196000@nm@@nm@-19.3111719@nm@-42.3893440@nm@
+MG@nm@Pescador@nm@35114000@nm@@nm@-18.3574396@nm@-41.6009671@nm@
+MG@nm@Petúnia@nm@37865000@nm@@nm@-21.0099449@nm@-46.4035933@nm@
+MG@nm@Piacatuba@nm@36708000@nm@@nm@-21.4859050@nm@-42.7869785@nm@
+MG@nm@Pião@nm@37776000@nm@@nm@-22.1133881@nm@-46.3799539@nm@
+MG@nm@Piau@nm@36157000@nm@@nm@-21.5101360@nm@-43.3134040@nm@
+MG@nm@Pic Sagarana@nm@38686000@nm@@nm@-16.1651628@nm@-46.1729887@nm@
+MG@nm@Piedade de Caratinga@nm@35325000@nm@@nm@-19.7597665@nm@-42.0759536@nm@
+MG@nm@Piedade de Ponte Nova@nm@35382000@nm@@nm@-20.2454208@nm@-42.7345205@nm@
+MG@nm@Piedade do Paraopeba@nm@35464000@nm@@nm@-20.1486929@nm@-44.0365100@nm@
+MG@nm@Piedade do Rio Grande@nm@36227000@nm@@nm@-21.4695096@nm@-44.1942535@nm@
+MG@nm@Piedade dos Gerais@nm@35476000@nm@@nm@-20.4716059@nm@-44.2249578@nm@
+MG@nm@Pilar@nm@38717000@nm@@nm@-18.3524546@nm@-46.8579872@nm@
+MG@nm@Pimenta@nm@35585000@nm@@nm@-20.4832016@nm@-45.8053073@nm@
+MG@nm@Pindaíbas@nm@38715000@nm@@nm@-18.6814863@nm@-46.2486350@nm@
+MG@nm@Pingo-D'Água@nm@35348000@nm@@nm@-19.7278226@nm@-42.4081874@nm@
+MG@nm@Pinheirinhos@nm@37461000@nm@@nm@-22.4126652@nm@-44.9825100@nm@
+MG@nm@Pinheiro de Minas@nm@36973000@nm@@nm@-20.2341707@nm@-41.8437437@nm@
+MG@nm@Pinheiro Grosso@nm@36207500@nm@@nm@-21.1975577@nm@-43.7201460@nm@
+MG@nm@Pinheiros Altos@nm@36490000@nm@@nm@-20.5708422@nm@-43.2668500@nm@
+MG@nm@Pinhotiba@nm@36857000@nm@@nm@-20.9697949@nm@-42.1798686@nm@
+MG@nm@Pintópolis@nm@39317000@nm@@nm@-16.0564454@nm@-45.1461071@nm@
+MG@nm@Pintos Negreiros@nm@37518000@nm@@nm@-22.3005521@nm@-45.2150027@nm@
+MG@nm@Piquiri@nm@36418100@nm@@nm@-21.8364393@nm@-43.1204098@nm@
+MG@nm@Piracaiba@nm@38452000@nm@@nm@-18.4866872@nm@-48.4390033@nm@
+MG@nm@Piracema@nm@35536000@nm@@nm@-20.5093490@nm@-44.4787422@nm@
+MG@nm@Pirajuba@nm@38210000@nm@@nm@-19.9096755@nm@-48.7031422@nm@
+MG@nm@Piranga@nm@36480000@nm@@nm@-20.6838937@nm@-43.2971106@nm@
+MG@nm@Piranguçu@nm@37511000@nm@@nm@-22.5277330@nm@-45.4962207@nm@
+MG@nm@Piranguinho@nm@37508000@nm@@nm@-22.4029088@nm@-45.5339578@nm@
+MG@nm@Piranguita@nm@36462000@nm@@nm@-20.8303008@nm@-43.5915645@nm@
+MG@nm@Pirapanema@nm@36892400@nm@@nm@-21.0730797@nm@-42.5019177@nm@
+MG@nm@Pirapetinga@nm@36730000@nm@@nm@-21.6559281@nm@-42.3437939@nm@
+MG@nm@Pirapitinga@nm@36107600@nm@@nm@-21.7624237@nm@-43.3433999@nm@
+MG@nm@Pirapora@nm@39270000@nm@@nm@-17.3488693@nm@-44.9468088@nm@
+MG@nm@Piraúba@nm@36170000@nm@@nm@-21.2701849@nm@-43.0266565@nm@
+MG@nm@Piscamba@nm@35393000@nm@@nm@-20.4313574@nm@-42.7184004@nm@
+MG@nm@Pitangui@nm@35650000@nm@@nm@-19.6824436@nm@-44.8902040@nm@
+MG@nm@Pitarana@nm@39498000@nm@@nm@-14.3171615@nm@-44.4597308@nm@
+MG@nm@Piumhi@nm@37925000@nm@@nm@-20.4742488@nm@-45.9619861@nm@
+MG@nm@Planalto de Minas@nm@39114000@nm@@nm@-17.6494180@nm@-43.3189663@nm@
+MG@nm@Planura@nm@38220000@nm@@nm@-20.1382901@nm@-48.7008396@nm@
+MG@nm@Plautino Soares@nm@35144000@nm@@nm@-19.1528949@nm@-42.1664169@nm@
+MG@nm@Poaia@nm@39783000@nm@@nm@-18.3176801@nm@-42.2059733@nm@
+MG@nm@Poço Fundo@nm@37757000@nm@@nm@-21.7806596@nm@-45.9669938@nm@
+MG@nm@Poções de Paineiras@nm@35623000@nm@@nm@-18.8982033@nm@-45.4205689@nm@
+MG@nm@Poços de Caldas@nm@@nm@@nm@@nm@@nm@
+MG@nm@Pocrane@nm@36960000@nm@@nm@-19.6212797@nm@-41.6338173@nm@
+MG@nm@Pompéu@nm@35640000@nm@@nm@-19.2236514@nm@-45.0056921@nm@
+MG@nm@Poncianos@nm@38126000@nm@@nm@-19.8890037@nm@-48.2077722@nm@
+MG@nm@Pontalete@nm@37192000@nm@@nm@-21.4478028@nm@-45.6631389@nm@
+MG@nm@Ponte Alta@nm@38106000@nm@@nm@-19.7546140@nm@-47.9217029@nm@
+MG@nm@Ponte Alta de Minas@nm@36805000@nm@@nm@-20.7000000@nm@-42.2166670@nm@
+MG@nm@Ponte do Cosme@nm@36206200@nm@@nm@-21.2219344@nm@-43.7706811@nm@
+MG@nm@Ponte do Silva@nm@36909000@nm@@nm@-20.3358264@nm@-42.0818896@nm@
+MG@nm@Ponte dos Ciganos@nm@39343000@nm@@nm@-16.4759681@nm@-44.3863928@nm@
+MG@nm@Ponte Firme@nm@38754000@nm@@nm@-18.0306125@nm@-46.4184860@nm@
+MG@nm@Ponte Nova@nm@@nm@@nm@@nm@@nm@
+MG@nm@Ponte Segura@nm@37618000@nm@@nm@-22.5349584@nm@-46.2404441@nm@
+MG@nm@Pontevila@nm@35579700@nm@@nm@-20.5361704@nm@-45.5829556@nm@
+MG@nm@Ponto Chique@nm@39328000@nm@@nm@-16.6286937@nm@-45.0591847@nm@
+MG@nm@Ponto Chique do Martelo@nm@36206500@nm@@nm@-21.3572386@nm@-43.9353332@nm@
+MG@nm@Ponto do Marambaia@nm@39812000@nm@@nm@-17.1839419@nm@-41.4911796@nm@
+MG@nm@Ponto dos Volantes@nm@39615000@nm@@nm@-16.7477822@nm@-41.5028618@nm@
+MG@nm@Porteirinha@nm@39520000@nm@@nm@-15.7411510@nm@-43.0280584@nm@
+MG@nm@Porto Agrário@nm@39469000@nm@@nm@-14.3606986@nm@-43.8184110@nm@
+MG@nm@Porto das Flores@nm@36128000@nm@@nm@-22.0788750@nm@-43.5720496@nm@
+MG@nm@Porto dos Mendes@nm@37271000@nm@@nm@-20.8938356@nm@-45.2721363@nm@
+MG@nm@Porto Firme@nm@36568000@nm@@nm@-20.6493425@nm@-43.0777555@nm@
+MG@nm@Posses@nm@39658000@nm@@nm@-17.0426625@nm@-42.7884775@nm@
+MG@nm@Poté@nm@39827000@nm@@nm@-17.8081720@nm@-41.7864335@nm@
+MG@nm@Pouso Alegre@nm@@nm@@nm@@nm@@nm@
+MG@nm@Pouso Alto@nm@37468000@nm@@nm@-22.1974601@nm@-44.9729771@nm@
+MG@nm@Povoado Pouso Alegre@nm@35579000@nm@@nm@-22.2270778@nm@-45.9393716@nm@
+MG@nm@Prados@nm@36320000@nm@@nm@-21.0575749@nm@-44.0785286@nm@
+MG@nm@Prata@nm@38140000@nm@@nm@-19.3101506@nm@-48.9277299@nm@
+MG@nm@Prata de Lajinha@nm@36984000@nm@@nm@-20.0733504@nm@-41.5150265@nm@
+MG@nm@Pratápolis@nm@37970000@nm@@nm@-20.7415282@nm@-46.8628418@nm@
+MG@nm@Pratinha@nm@38960000@nm@@nm@-19.7394495@nm@-46.3759700@nm@
+MG@nm@Presidente Bernardes@nm@36475000@nm@@nm@-20.7684902@nm@-43.1867782@nm@
+MG@nm@Presidente Juscelino@nm@39245000@nm@@nm@-18.6405800@nm@-44.0604429@nm@
+MG@nm@Presidente Kubitschek@nm@39135000@nm@@nm@-18.6197270@nm@-43.5631806@nm@
+MG@nm@Presidente Olegário@nm@38750000@nm@@nm@-18.4158494@nm@-46.4186193@nm@
+MG@nm@Presidente Pena@nm@39865000@nm@@nm@-17.6750400@nm@-40.8996415@nm@
+MG@nm@Professor Sperber@nm@36988000@nm@@nm@-19.9815646@nm@-41.6922777@nm@
+MG@nm@Providência@nm@36708400@nm@@nm@-21.6658532@nm@-42.5962906@nm@
+MG@nm@Prudente de Morais@nm@35738000@nm@@nm@-19.4746913@nm@-44.1594878@nm@
+MG@nm@Quartel de São João@nm@35626000@nm@@nm@-19.2552074@nm@-45.7690307@nm@
+MG@nm@Quartel do Sacramento@nm@35342000@nm@@nm@-19.7324599@nm@-42.2935264@nm@
+MG@nm@Quartel Geral@nm@35625000@nm@@nm@-19.2708020@nm@-45.5573400@nm@
+MG@nm@Quatituba@nm@35222000@nm@@nm@-19.4144324@nm@-41.2455344@nm@
+MG@nm@Queixada@nm@39823000@nm@@nm@-17.2742774@nm@-42.0228694@nm@
+MG@nm@Queluzito@nm@36424000@nm@@nm@-20.7420476@nm@-43.8854988@nm@
+MG@nm@Quem-Quem@nm@39449600@nm@@nm@-16.0094240@nm@-43.5270026@nm@
+MG@nm@Quilombo@nm@39753000@nm@@nm@-18.8150109@nm@-43.1547396@nm@
+MG@nm@Quilombo Nossa Senhora do Rosário@nm@37193000@nm@@nm@-21.3699248@nm@-45.5113164@nm@
+MG@nm@Quintinos@nm@38845000@nm@@nm@-18.8599956@nm@-46.0856861@nm@
+MG@nm@Rancharia e Tenda@nm@39477000@nm@@nm@-@nm@-@nm@
+MG@nm@Rancho Novo@nm@36409400@nm@@nm@-20.6156753@nm@-43.7471793@nm@
+MG@nm@Raposos@nm@34400000@nm@@nm@-19.9640617@nm@-43.8083531@nm@
+MG@nm@Raul Soares@nm@35350000@nm@@nm@-20.1013284@nm@-42.4526660@nm@
+MG@nm@Ravena@nm@@nm@@nm@@nm@@nm@
+MG@nm@Realeza@nm@36909300@nm@@nm@-20.2473440@nm@-42.1498605@nm@
+MG@nm@Recreio@nm@36740000@nm@@nm@-21.5293862@nm@-42.4680046@nm@
+MG@nm@Reduto@nm@36920000@nm@@nm@-20.2405764@nm@-41.9852320@nm@
+MG@nm@Resende Costa@nm@36340000@nm@@nm@-20.9233351@nm@-44.2378882@nm@
+MG@nm@Resplendor@nm@35230000@nm@@nm@-19.3244066@nm@-41.2513767@nm@
+MG@nm@Ressaquinha@nm@36270000@nm@@nm@-21.0627659@nm@-43.7624330@nm@
+MG@nm@Retiro@nm@39334400@nm@@nm@-15.3397286@nm@-42.6174837@nm@
+MG@nm@Retiro Velho@nm@38689600@nm@@nm@-15.5959918@nm@-45.1283177@nm@
+MG@nm@Riachinho@nm@38640000@nm@@nm@-16.2262586@nm@-45.9891764@nm@
+MG@nm@Riacho da Cruz@nm@39483000@nm@@nm@-15.3339658@nm@-44.2467169@nm@
+MG@nm@Riacho dos Machados@nm@39529000@nm@@nm@-16.0095919@nm@-43.0491926@nm@
+MG@nm@Ribeirão da Folha@nm@39651000@nm@@nm@-17.4280828@nm@-42.2611518@nm@
+MG@nm@Ribeirão das Neves@nm@@nm@@nm@@nm@@nm@
+MG@nm@Ribeirão de São Domingos@nm@36915000@nm@@nm@-20.4646749@nm@-42.2849322@nm@
+MG@nm@Ribeirão Vermelho@nm@37264000@nm@@nm@-21.1883460@nm@-45.0641061@nm@
+MG@nm@Ribeiro Junqueira@nm@36708600@nm@@nm@-21.4519617@nm@-42.5131008@nm@
+MG@nm@Ribeiros@nm@37492000@nm@@nm@-21.9871666@nm@-45.5851818@nm@
+MG@nm@Rio Acima@nm@34300000@nm@@nm@-20.0883098@nm@-43.7910446@nm@
+MG@nm@Rio Casca@nm@35370000@nm@@nm@-20.2290278@nm@-42.6466117@nm@
+MG@nm@Rio das Mortes@nm@36315000@nm@@nm@-21.1909689@nm@-44.3229198@nm@
+MG@nm@Rio do Prado@nm@39940000@nm@@nm@-16.6061171@nm@-40.5717474@nm@
+MG@nm@Rio Doce@nm@35442000@nm@@nm@-20.2448181@nm@-42.8963240@nm@
+MG@nm@Rio Espera@nm@36460000@nm@@nm@-20.8554882@nm@-43.4724876@nm@
+MG@nm@Rio Manso@nm@35485000@nm@@nm@-20.2670521@nm@-44.3072841@nm@
+MG@nm@Rio Melo@nm@36465000@nm@@nm@-20.8448610@nm@-43.5541132@nm@
+MG@nm@Rio Novo@nm@36150000@nm@@nm@-21.4653903@nm@-43.1172151@nm@
+MG@nm@Rio Paranaíba@nm@38810000@nm@@nm@-19.1989953@nm@-46.2360029@nm@
+MG@nm@Rio Pardo de Minas@nm@39530000@nm@@nm@-15.6175304@nm@-42.5438383@nm@
+MG@nm@Rio Piracicaba@nm@35940000@nm@@nm@-19.9282812@nm@-43.1699655@nm@
+MG@nm@Rio Pomba@nm@36180000@nm@@nm@-21.2688048@nm@-43.1824468@nm@
+MG@nm@Rio Pretinho@nm@39808000@nm@@nm@-17.3560649@nm@-41.3526533@nm@
+MG@nm@Rio Preto@nm@36130000@nm@@nm@-22.0865846@nm@-43.8297431@nm@
+MG@nm@Rio Vermelho@nm@39170000@nm@@nm@-18.2926293@nm@-43.0021841@nm@
+MG@nm@Ripas@nm@35529500@nm@@nm@-19.8671968@nm@-44.9769022@nm@
+MG@nm@Ritápolis@nm@36335000@nm@@nm@-21.0256340@nm@-44.3237755@nm@
+MG@nm@Roça Grande@nm@36682000@nm@@nm@-21.5785742@nm@-42.9702842@nm@
+MG@nm@Roças Novas@nm@34950000@nm@@nm@-19.7641630@nm@-43.6344761@nm@
+MG@nm@Rochedo de Minas@nm@36604000@nm@@nm@-21.6284960@nm@-43.0193232@nm@
+MG@nm@Rodeador@nm@39218000@nm@@nm@-18.2914486@nm@-44.0543828@nm@
+MG@nm@Rodeiro@nm@36510000@nm@@nm@-21.2039575@nm@-42.8590292@nm@
+MG@nm@Rodrigo Silva@nm@35407000@nm@@nm@-20.4236046@nm@-43.6157176@nm@
+MG@nm@Romaria@nm@38520000@nm@@nm@-18.8842743@nm@-47.5786615@nm@
+MG@nm@Rosário da Limeira@nm@36878000@nm@@nm@-20.9817172@nm@-42.5115995@nm@
+MG@nm@Rosário de Minas@nm@36106000@nm@@nm@-21.7118073@nm@-43.6215282@nm@
+MG@nm@Rosário do Pontal@nm@35435500@nm@@nm@-20.3446606@nm@-42.9118869@nm@
+MG@nm@Roseiral@nm@36958000@nm@@nm@-19.8950498@nm@-41.3723317@nm@
+MG@nm@Rubelita@nm@39565000@nm@@nm@-16.4057348@nm@-42.2614327@nm@
+MG@nm@Rubim@nm@39950000@nm@@nm@-16.3779617@nm@-40.5400897@nm@
+MG@nm@Ruralminas@nm@38619000@nm@@nm@-16.3596675@nm@-46.9025860@nm@
+MG@nm@Sabará@nm@@nm@@nm@@nm@@nm@
+MG@nm@Sabinópolis@nm@39750000@nm@@nm@-18.6658023@nm@-43.0756456@nm@
+MG@nm@Sacramento@nm@38190000@nm@@nm@-19.8664968@nm@-47.4407846@nm@
+MG@nm@Salinas@nm@39560000@nm@@nm@-16.1674560@nm@-42.2978984@nm@
+MG@nm@Salitre de Minas@nm@38749600@nm@@nm@-19.0619580@nm@-46.7978256@nm@
+MG@nm@Salto da Divisa@nm@39925000@nm@@nm@-16.0067935@nm@-39.9394577@nm@
+MG@nm@Sanatório Santa Fé@nm@37419000@nm@@nm@-21.6617401@nm@-45.2179157@nm@
+MG@nm@Santa Bárbara@nm@35960000@nm@@nm@-19.9608420@nm@-43.4105472@nm@
+MG@nm@Santa Bárbara do Leste@nm@35328000@nm@@nm@-19.9757806@nm@-42.1461437@nm@
+MG@nm@Santa Bárbara do Monte Verde@nm@36132000@nm@@nm@-21.9596713@nm@-43.7031437@nm@
+MG@nm@Santa Bárbara do Tugúrio@nm@36215000@nm@@nm@-21.2436070@nm@-43.5611594@nm@
+MG@nm@Santa Cruz da Aparecida@nm@37119000@nm@@nm@-21.2473432@nm@-46.2814015@nm@
+MG@nm@Santa Cruz de Botumirim@nm@39595000@nm@@nm@-16.9150000@nm@-42.7963890@nm@
+MG@nm@Santa Cruz de Minas@nm@36328000@nm@@nm@-21.1246348@nm@-44.2206697@nm@
+MG@nm@Santa Cruz de Salinas@nm@39563000@nm@@nm@-16.0972759@nm@-41.7480821@nm@
+MG@nm@Santa Cruz do Escalvado@nm@35384000@nm@@nm@-20.2356261@nm@-42.8145590@nm@
+MG@nm@Santa Cruz do Prata@nm@37815000@nm@@nm@-21.2051720@nm@-46.7470003@nm@
+MG@nm@Santa da Pedra@nm@39368000@nm@@nm@-16.6302598@nm@-44.4925460@nm@
+MG@nm@Santa Efigênia@nm@35319000@nm@@nm@-19.6940530@nm@-42.1607671@nm@
+MG@nm@Santa Efigênia de Minas@nm@39725000@nm@@nm@-18.8239425@nm@-42.4392295@nm@
+MG@nm@Santa Fé de Minas@nm@39295000@nm@@nm@-16.6864073@nm@-45.4106247@nm@
+MG@nm@Santa Filomena@nm@36945000@nm@@nm@-19.9526962@nm@-41.8312859@nm@
+MG@nm@Santa Helena de Minas@nm@39874000@nm@@nm@-16.9383501@nm@-40.6837410@nm@
+MG@nm@Santa Izabel@nm@39310000@nm@@nm@-21.0000000@nm@-42.9000000@nm@
+MG@nm@Santa Juliana@nm@38175000@nm@@nm@-19.3112415@nm@-47.5326922@nm@
+MG@nm@Santa Luzia@nm@@nm@@nm@@nm@@nm@
+MG@nm@Santa Luzia da Serra@nm@38774000@nm@@nm@-17.6100000@nm@-46.0338890@nm@
+MG@nm@Santa Luzia de Caratinga@nm@35315000@nm@@nm@-19.8485858@nm@-42.0710725@nm@
+MG@nm@Santa Luzia dos Barros@nm@38749500@nm@@nm@-19.1500000@nm@-47.1500000@nm@
+MG@nm@Santa Margarida@nm@36913000@nm@@nm@-20.3843426@nm@-42.2523137@nm@
+MG@nm@Santa Maria de Itabira@nm@35910000@nm@@nm@-19.4517668@nm@-43.1141859@nm@
+MG@nm@Santa Maria do Baixio@nm@35146700@nm@@nm@-19.4066670@nm@-42.1525000@nm@
+MG@nm@Santa Maria do Salto@nm@39928000@nm@@nm@-16.2483626@nm@-40.1515361@nm@
+MG@nm@Santa Maria do Suaçuí@nm@39780000@nm@@nm@-18.1901069@nm@-42.4182107@nm@
+MG@nm@Santa Quitéria@nm@36418000@nm@@nm@-20.4993469@nm@-43.8613566@nm@
+MG@nm@Santa Quitéria@nm@36944000@nm@@nm@-20.0164574@nm@-41.8999177@nm@
+MG@nm@Santa Rita@nm@39701000@nm@@nm@-18.5445557@nm@-42.5586738@nm@
+MG@nm@Santa Rita da Estrela@nm@38526000@nm@@nm@-18.7333329@nm@-47.7000000@nm@
+MG@nm@Santa Rita de Caldas@nm@37775000@nm@@nm@-22.0296778@nm@-46.3389403@nm@
+MG@nm@Santa Rita de Jacutinga@nm@36135000@nm@@nm@-22.1464084@nm@-44.0911576@nm@
+MG@nm@Santa Rita de Minas@nm@35326000@nm@@nm@-19.8746744@nm@-42.1330101@nm@
+MG@nm@Santa Rita de Ouro Preto@nm@35409000@nm@@nm@-20.5358413@nm@-43.5604864@nm@
+MG@nm@Santa Rita do Cedro@nm@35798200@nm@@nm@-18.8088857@nm@-44.1560063@nm@
+MG@nm@Santa Rita do Ibitipoca@nm@36235000@nm@@nm@-21.5632596@nm@-43.9162117@nm@
+MG@nm@Santa Rita do Itueto@nm@35225000@nm@@nm@-19.3581328@nm@-41.3824735@nm@
+MG@nm@Santa Rita do Rio do Peixe@nm@35807000@nm@@nm@-19.2347885@nm@-43.0196355@nm@
+MG@nm@Santa Rita do Sapucaí@nm@37540000@nm@@nm@-22.2522523@nm@-45.7035974@nm@
+MG@nm@Santa Rita Durão@nm@35428000@nm@@nm@-20.1811085@nm@-43.4148754@nm@
+MG@nm@Santa Rosa da Serra@nm@38805000@nm@@nm@-19.5190843@nm@-45.9615100@nm@
+MG@nm@Santa Rosa de Lima@nm@39412000@nm@@nm@-16.3000000@nm@-43.9500000@nm@
+MG@nm@Santa Rosa dos Dourados@nm@38555000@nm@@nm@-18.6833330@nm@-47.1500000@nm@
+MG@nm@Santa Teresa do Bonito@nm@39702000@nm@@nm@-18.3848889@nm@-42.4756688@nm@
+MG@nm@Santa Terezinha de Minas@nm@35688000@nm@@nm@-20.2312653@nm@-44.4002768@nm@
+MG@nm@Santa Vitória@nm@38320000@nm@@nm@-18.8473444@nm@-50.1238329@nm@
+MG@nm@Santa Vitória de Cocais dos Arrudas@nm@35176000@nm@@nm@-19.5189752@nm@-42.6282541@nm@
+MG@nm@Santana da Serra@nm@39474000@nm@@nm@-16.3239833@nm@-43.7154461@nm@
+MG@nm@Santana da Vargem@nm@37195000@nm@@nm@-21.2489466@nm@-45.5077946@nm@
+MG@nm@Santana de Caldas@nm@37785000@nm@@nm@-21.8244066@nm@-46.4026772@nm@
+MG@nm@Santana de Cataguases@nm@36795000@nm@@nm@-21.2897687@nm@-42.5527617@nm@
+MG@nm@Santana de Patos@nm@38711000@nm@@nm@-18.8326240@nm@-46.5939409@nm@
+MG@nm@Santana de Pirapama@nm@35785000@nm@@nm@-18.9967180@nm@-44.0413246@nm@
+MG@nm@Santana do Alfié@nm@35997000@nm@@nm@-19.7673488@nm@-42.8636054@nm@
+MG@nm@Santana do Araçuaí@nm@39618000@nm@@nm@-16.7564395@nm@-41.4008210@nm@
+MG@nm@Santana do Campestre@nm@36783000@nm@@nm@-21.2679257@nm@-42.9327290@nm@
+MG@nm@Santana do Capivari@nm@37469000@nm@@nm@-22.2461926@nm@-44.9334213@nm@
+MG@nm@Santana do Deserto@nm@36620000@nm@@nm@-21.9488592@nm@-43.1664731@nm@
+MG@nm@Santana do Garambéu@nm@36146000@nm@@nm@-21.5988335@nm@-44.1054631@nm@
+MG@nm@Santana do Jacaré@nm@37278000@nm@@nm@-20.9011974@nm@-45.1289318@nm@
+MG@nm@Santana do Manhuaçu@nm@36940000@nm@@nm@-20.1069361@nm@-41.9259706@nm@
+MG@nm@Santana do Paraíso@nm@35179000@nm@@nm@-19.3613493@nm@-42.5433667@nm@
+MG@nm@Santana do Paraopeba@nm@35475000@nm@@nm@-20.3812733@nm@-44.0862925@nm@
+MG@nm@Santana do Riacho@nm@35845000@nm@@nm@-19.1667136@nm@-43.7223593@nm@
+MG@nm@Santana do Tabuleiro@nm@35358000@nm@@nm@-19.9296842@nm@-42.2006351@nm@
+MG@nm@Santana dos Montes@nm@36430000@nm@@nm@-20.7880193@nm@-43.6915013@nm@
+MG@nm@Santo Amaro@nm@36909200@nm@@nm@-20.2660749@nm@-42.0339505@nm@
+MG@nm@Santo Antônio da Boa Vista@nm@39434000@nm@@nm@-21.9850622@nm@-46.8064778@nm@
+MG@nm@Santo Antônio da Fortaleza@nm@35801000@nm@@nm@-19.1666670@nm@-42.9000000@nm@
+MG@nm@Santo Antônio da Vargem Alegre@nm@35482000@nm@@nm@-20.3166670@nm@-44.2000000@nm@
+MG@nm@Santo Antônio do Amparo@nm@37262000@nm@@nm@-20.9475888@nm@-44.9130730@nm@
+MG@nm@Santo Antônio do Aventureiro@nm@36670000@nm@@nm@-21.7572695@nm@-42.8167314@nm@
+MG@nm@Santo Antônio do Boqueirão@nm@38624000@nm@@nm@-16.5252780@nm@-46.7286110@nm@
+MG@nm@Santo Antônio do Cruzeiro@nm@37255000@nm@@nm@-21.2034578@nm@-45.3055573@nm@
+MG@nm@Santo Antônio do Glória@nm@36897000@nm@@nm@-20.9750237@nm@-42.2879875@nm@
+MG@nm@Santo Antônio do Grama@nm@35388000@nm@@nm@-20.3189574@nm@-42.6050916@nm@
+MG@nm@Santo Antônio do Itambé@nm@39160000@nm@@nm@-18.4614216@nm@-43.3009730@nm@
+MG@nm@Santo Antônio do Jacinto@nm@39935000@nm@@nm@-16.5336753@nm@-40.1821139@nm@
+MG@nm@Santo Antônio do Leite@nm@35413000@nm@@nm@-20.3564450@nm@-43.7245314@nm@
+MG@nm@Santo Antônio do Manhuaçu@nm@35321000@nm@@nm@-19.6834076@nm@-41.8420993@nm@
+MG@nm@Santo Antônio do Monte@nm@35560000@nm@@nm@-20.0859007@nm@-45.2957103@nm@
+MG@nm@Santo Antônio do Mucuri@nm@39691000@nm@@nm@-17.7900395@nm@-41.9713961@nm@
+MG@nm@Santo Antônio do Norte@nm@35863000@nm@@nm@-18.8000000@nm@-43.5333330@nm@
+MG@nm@Santo Antônio do Pirapetinga@nm@36485000@nm@@nm@-20.6166670@nm@-43.3500000@nm@
+MG@nm@Santo Antônio do Pontal@nm@35101000@nm@@nm@-18.7833330@nm@-42.0833330@nm@
+MG@nm@Santo Antônio do Porto@nm@35100200@nm@@nm@-18.8549317@nm@-41.9559233@nm@
+MG@nm@Santo Antônio do Retiro@nm@39538000@nm@@nm@-15.3397286@nm@-42.6174837@nm@
+MG@nm@Santo Antônio do Rio Abaixo@nm@35880000@nm@@nm@-19.2378450@nm@-43.2608195@nm@
+MG@nm@Santo Antônio do Rio Grande@nm@38239000@nm@@nm@-20.2819164@nm@-49.2030593@nm@
+MG@nm@Santo Antônio do Salto@nm@35417000@nm@@nm@-20.4987364@nm@-43.4570925@nm@
+MG@nm@Santo Antônio dos Araújos@nm@39796000@nm@@nm@-18.0158287@nm@-42.5216163@nm@
+MG@nm@Santo Antônio dos Campos@nm@35505000@nm@@nm@-20.1107098@nm@-44.9528391@nm@
+MG@nm@Santo Hilário@nm@35586000@nm@@nm@-20.6634914@nm@-45.8428961@nm@
+MG@nm@Santo Hipólito@nm@39210000@nm@@nm@-18.2972397@nm@-44.2232685@nm@
+MG@nm@Santos Dumont@nm@36240000@nm@@nm@-21.4662142@nm@-43.5500883@nm@
+MG@nm@São Bartolomeu@nm@35406000@nm@@nm@-20.3191251@nm@-43.5840521@nm@
+MG@nm@São Bartolomeu@nm@37889000@nm@@nm@-@nm@-@nm@
+MG@nm@São Bartolomeu de Sem Peixe@nm@35441200@nm@@nm@-20.1040454@nm@-42.8415113@nm@
+MG@nm@São Benedito@nm@38749400@nm@@nm@-18.9488053@nm@-46.9871309@nm@
+MG@nm@São Benedito@nm@@nm@@nm@@nm@@nm@
+MG@nm@São Bento Abade@nm@37407000@nm@@nm@-21.5892625@nm@-45.0677313@nm@
+MG@nm@São Bento de Caldas@nm@37778000@nm@@nm@-22.1329803@nm@-46.3162154@nm@
+MG@nm@São Brás do Suaçuí@nm@35495000@nm@@nm@-20.6246509@nm@-43.9518800@nm@
+MG@nm@São Braz@nm@38788000@nm@@nm@-18.1763834@nm@-46.8067755@nm@
+MG@nm@São Cândido@nm@35320000@nm@@nm@-19.5120702@nm@-42.3089429@nm@
+MG@nm@São Domingos@nm@36675000@nm@@nm@-21.6796932@nm@-42.7771808@nm@
+MG@nm@São Domingos da Bocaina@nm@36142000@nm@@nm@-21.8261109@nm@-44.0080589@nm@
+MG@nm@São Domingos das Dores@nm@35335000@nm@@nm@-19.5276676@nm@-42.0137551@nm@
+MG@nm@São Domingos do Prata@nm@35995000@nm@@nm@-19.8679240@nm@-42.9684305@nm@
+MG@nm@São Félix de Minas@nm@35275000@nm@@nm@-18.5963812@nm@-41.4892497@nm@
+MG@nm@São Francisco@nm@39300000@nm@@nm@-15.9595181@nm@-44.8552272@nm@
+MG@nm@São Francisco de Paula@nm@35543000@nm@@nm@-20.7078821@nm@-44.9851217@nm@
+MG@nm@São Francisco de Sales@nm@38260000@nm@@nm@-19.8615886@nm@-49.7731535@nm@
+MG@nm@São Francisco do Glória@nm@36810000@nm@@nm@-20.7902788@nm@-42.2681456@nm@
+MG@nm@São Francisco do Humaitá@nm@36956000@nm@@nm@-20.0347477@nm@-41.3539199@nm@
+MG@nm@São Geraldo@nm@36530000@nm@@nm@-20.9243171@nm@-42.8323010@nm@
+MG@nm@São Geraldo@nm@39342000@nm@@nm@-16.6842559@nm@-44.5825028@nm@
+MG@nm@São Geraldo da Piedade@nm@39723000@nm@@nm@-18.8415979@nm@-42.2870612@nm@
+MG@nm@São Geraldo de Tumiritinga@nm@35126000@nm@@nm@-18.9714766@nm@-41.8649328@nm@
+MG@nm@São Geraldo do Baguari@nm@39704000@nm@@nm@-18.3727892@nm@-42.7899814@nm@
+MG@nm@São Geraldo do Baixio@nm@35258000@nm@@nm@-18.9101493@nm@-41.3633523@nm@
+MG@nm@São Gonçalo de Botelhos@nm@37723000@nm@@nm@-21.5945268@nm@-46.3125338@nm@
+MG@nm@São Gonçalo do Abaeté@nm@38790000@nm@@nm@-18.3415231@nm@-45.8327526@nm@
+MG@nm@São Gonçalo do Brandão@nm@36409600@nm@@nm@-@nm@-@nm@
+MG@nm@São Gonçalo do Monte@nm@35455000@nm@@nm@-20.2383593@nm@-43.7435062@nm@
+MG@nm@São Gonçalo do Pará@nm@35544000@nm@@nm@-19.9830855@nm@-44.8580215@nm@
+MG@nm@São Gonçalo do Rio Abaixo@nm@35935000@nm@@nm@-19.8225820@nm@-43.3663949@nm@
+MG@nm@São Gonçalo do Rio das Pedras@nm@39153000@nm@@nm@-18.4135130@nm@-43.4908425@nm@
+MG@nm@São Gonçalo do Rio Preto@nm@39185000@nm@@nm@-18.0030209@nm@-43.3857927@nm@
+MG@nm@São Gonçalo do Sapucaí@nm@37490000@nm@@nm@-21.8930428@nm@-45.5939292@nm@
+MG@nm@São Gotardo@nm@38800000@nm@@nm@-19.3107686@nm@-46.0489795@nm@
+MG@nm@São Jerônimo dos Poções@nm@38975000@nm@@nm@-19.5730570@nm@-46.2030941@nm@
+MG@nm@São João Batista do Glória@nm@37920000@nm@@nm@-20.6350921@nm@-46.5054775@nm@
+MG@nm@São João da Chapada@nm@39110000@nm@@nm@-18.0818356@nm@-43.7379979@nm@
+MG@nm@São João da Lagoa@nm@39355000@nm@@nm@-16.8459983@nm@-44.3511353@nm@
+MG@nm@São João da Mata@nm@37568000@nm@@nm@-21.9284844@nm@-45.9301626@nm@
+MG@nm@São João da Ponte@nm@39430000@nm@@nm@-15.9248940@nm@-44.0079541@nm@
+MG@nm@São João da Sapucaia@nm@36765000@nm@@nm@-21.2831870@nm@-42.4309306@nm@
+MG@nm@São João da Serra@nm@36245000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@São João da Serra Negra@nm@38749800@nm@@nm@-18.8359068@nm@-46.8204942@nm@
+MG@nm@São João da Vereda@nm@39413000@nm@@nm@-16.7185863@nm@-43.8735229@nm@
+MG@nm@São João das Missões@nm@39475000@nm@@nm@-14.8863043@nm@-44.0926042@nm@
+MG@nm@São João Del Rei@nm@@nm@@nm@@nm@@nm@
+MG@nm@São João do Bonito@nm@39528000@nm@@nm@-15.3384064@nm@-42.8445713@nm@
+MG@nm@São João do Jacutinga@nm@35322000@nm@@nm@-19.7344288@nm@-41.9111441@nm@
+MG@nm@São João do Manhuaçu@nm@36918000@nm@@nm@-20.3938028@nm@-42.1536818@nm@
+MG@nm@São João do Manteninha@nm@35277000@nm@@nm@-18.7234686@nm@-41.1632231@nm@
+MG@nm@São João do Oriente@nm@35146000@nm@@nm@-19.3389270@nm@-42.1578982@nm@
+MG@nm@São João do Pacuí@nm@39365000@nm@@nm@-16.5352039@nm@-44.5309741@nm@
+MG@nm@São João do Paraíso@nm@39540000@nm@@nm@-15.3172575@nm@-42.0217285@nm@
+MG@nm@São João do Vacaria@nm@39634000@nm@@nm@-16.5267552@nm@-42.4083102@nm@
+MG@nm@São João Evangelista@nm@39705000@nm@@nm@-18.5484773@nm@-42.7659036@nm@
+MG@nm@São João Nepomuceno@nm@36680000@nm@@nm@-21.5367935@nm@-43.0129853@nm@
+MG@nm@São Joaquim@nm@39348000@nm@@nm@-16.6205794@nm@-44.6830375@nm@
+MG@nm@São Joaquim@nm@39488000@nm@@nm@-15.4932682@nm@-45.1564679@nm@
+MG@nm@São Joaquim de Bicas@nm@32920000@nm@@nm@-20.0484521@nm@-44.2753653@nm@
+MG@nm@São José da Barra@nm@37945000@nm@@nm@-20.7184095@nm@-46.3135301@nm@
+MG@nm@São José da Bela Vista@nm@38804000@nm@@nm@-19.5345521@nm@-46.1038522@nm@
+MG@nm@São José da Figueira@nm@36975000@nm@@nm@-20.1553342@nm@-41.8544276@nm@
+MG@nm@São José da Lapa@nm@33350000@nm@@nm@-19.6975859@nm@-43.9590497@nm@
+MG@nm@São José da Pedra Menina@nm@36831000@nm@@nm@-20.5694898@nm@-41.8368145@nm@
+MG@nm@São José da Safira@nm@39785000@nm@@nm@-18.3247423@nm@-42.1434548@nm@
+MG@nm@São José da Varginha@nm@35694000@nm@@nm@-19.7070870@nm@-44.5579730@nm@
+MG@nm@São José do Acácio@nm@35133000@nm@@nm@-19.1995840@nm@-42.0469413@nm@
+MG@nm@São José do Alegre@nm@37510000@nm@@nm@-22.3247584@nm@-45.5262704@nm@
+MG@nm@São José do Barreiro@nm@37927000@nm@@nm@-20.3458472@nm@-46.4842705@nm@
+MG@nm@São José do Batatal@nm@35339000@nm@@nm@-19.6356729@nm@-42.0514334@nm@
+MG@nm@São José do Buriti@nm@39238000@nm@@nm@-18.7100889@nm@-45.1532022@nm@
+MG@nm@São José do Divino@nm@39848000@nm@@nm@-18.4797827@nm@-41.3910585@nm@
+MG@nm@São José do Goiabal@nm@35986000@nm@@nm@-19.9253840@nm@-42.7075660@nm@
+MG@nm@São José do Itueto@nm@35228000@nm@@nm@-19.3526266@nm@-41.4565511@nm@
+MG@nm@São José do Jacaré@nm@39748000@nm@@nm@-18.9107016@nm@-43.0794832@nm@
+MG@nm@São José do Jacuri@nm@39707000@nm@@nm@-18.2815119@nm@-42.6733282@nm@
+MG@nm@São José do Mantimento@nm@36990000@nm@@nm@-20.0093757@nm@-41.7385052@nm@
+MG@nm@São José do Mato Dentro@nm@37574000@nm@@nm@-22.2102743@nm@-46.4768370@nm@
+MG@nm@São José do Pântano@nm@37562000@nm@@nm@-22.3383131@nm@-46.0160676@nm@
+MG@nm@São José do Paraopeba@nm@35468000@nm@@nm@-20.2620606@nm@-44.1122354@nm@
+MG@nm@São José do Rio Manso@nm@37507000@nm@@nm@-22.4229710@nm@-45.4602511@nm@
+MG@nm@São José do Triunfo@nm@36579000@nm@@nm@-20.7487542@nm@-42.8195836@nm@
+MG@nm@São José dos Lopes@nm@36141000@nm@@nm@-21.7944930@nm@-43.8876408@nm@
+MG@nm@São José dos Salgados@nm@35558000@nm@@nm@-20.0870591@nm@-44.7793506@nm@
+MG@nm@São Judas Tadeu de Minas@nm@39337000@nm@@nm@-16.1991780@nm@-44.6557114@nm@
+MG@nm@São Lourenço@nm@37470000@nm@@nm@-22.1251700@nm@-45.0513189@nm@
+MG@nm@São Manoel do Boi@nm@36804000@nm@@nm@-20.7314751@nm@-42.0299263@nm@
+MG@nm@São Manoel do Guaiaçu@nm@36787000@nm@@nm@-21.3215100@nm@-42.8058509@nm@
+MG@nm@São Mateus de Minas@nm@37652000@nm@@nm@-22.7021478@nm@-46.0340769@nm@
+MG@nm@São Miguel do Anta@nm@36590000@nm@@nm@-20.7063654@nm@-42.7191723@nm@
+MG@nm@São Miguel do Cajuru@nm@36318000@nm@@nm@-21.1315407@nm@-44.2530650@nm@
+MG@nm@São Pedro da Garça@nm@39411000@nm@@nm@-16.1700583@nm@-43.8662018@nm@
+MG@nm@São Pedro da União@nm@37855000@nm@@nm@-21.1330550@nm@-46.6161186@nm@
+MG@nm@São Pedro das Tabocas@nm@39494000@nm@@nm@-15.6601445@nm@-44.3320456@nm@
+MG@nm@São Pedro de Caldas@nm@37787000@nm@@nm@-21.8172450@nm@-46.2571730@nm@
+MG@nm@São Pedro do Avaí@nm@36909500@nm@@nm@-20.1972027@nm@-42.1856648@nm@
+MG@nm@São Pedro do Glória@nm@36819000@nm@@nm@-20.7087261@nm@-42.3670465@nm@
+MG@nm@São Pedro do Jequitinhonha@nm@39961000@nm@@nm@-16.5036051@nm@-41.3399859@nm@
+MG@nm@São Pedro do Passa Três@nm@38664000@nm@@nm@-15.3386919@nm@-46.3284273@nm@
+MG@nm@São Pedro do Suaçuí@nm@39784000@nm@@nm@-18.3614016@nm@-42.5985348@nm@
+MG@nm@São Pedro dos Ferros@nm@35360000@nm@@nm@-20.1689970@nm@-42.5221286@nm@
+MG@nm@São Roberto@nm@39358000@nm@@nm@-16.8459983@nm@-44.3511353@nm@
+MG@nm@São Romão@nm@39290000@nm@@nm@-16.3645771@nm@-45.0753042@nm@
+MG@nm@São Roque de Minas@nm@37928000@nm@@nm@-20.2500084@nm@-46.3662856@nm@
+MG@nm@São Sebastião@nm@38777000@nm@@nm@-17.7405182@nm@-46.1741639@nm@
+MG@nm@São Sebastião da Barra@nm@35192000@nm@@nm@-19.2445654@nm@-42.2066804@nm@
+MG@nm@São Sebastião da Bela Vista@nm@37567000@nm@@nm@-22.1581934@nm@-45.7548351@nm@
+MG@nm@São Sebastião da Vala@nm@35215000@nm@@nm@-19.7562582@nm@-41.2824315@nm@
+MG@nm@São Sebastião da Vargem Alegre@nm@36793000@nm@@nm@-21.0741464@nm@-42.6350769@nm@
+MG@nm@São Sebastião da Vitória@nm@36316000@nm@@nm@-21.2418229@nm@-44.4104737@nm@
+MG@nm@São Sebastião de Braúnas@nm@35197000@nm@@nm@-19.2525359@nm@-42.4531446@nm@
+MG@nm@São Sebastião do Anta@nm@35334000@nm@@nm@-19.5068903@nm@-41.9854291@nm@
+MG@nm@São Sebastião do Baixio@nm@35119500@nm@@nm@-19.0977744@nm@-42.2735877@nm@
+MG@nm@São Sebastião do Barreado@nm@36131000@nm@@nm@-22.0865846@nm@-43.8297431@nm@
+MG@nm@São Sebastião do Barreiro@nm@39839000@nm@@nm@-18.5912918@nm@-41.6499781@nm@
+MG@nm@São Sebastião do Bonsucesso@nm@35862000@nm@@nm@-18.9319440@nm@-43.4066670@nm@
+MG@nm@São Sebastião do Bugre@nm@39712000@nm@@nm@-18.5869888@nm@-42.1351483@nm@
+MG@nm@São Sebastião do Gil@nm@35493000@nm@@nm@-20.6046791@nm@-44.2056432@nm@
+MG@nm@São Sebastião do Maranhão@nm@39795000@nm@@nm@-18.0877261@nm@-42.5662499@nm@
+MG@nm@São Sebastião do Óculo@nm@35356000@nm@@nm@-19.9263394@nm@-42.3887462@nm@
+MG@nm@São Sebastião do Oeste@nm@35567000@nm@@nm@-20.2779809@nm@-45.0035268@nm@
+MG@nm@São Sebastião do Paraíso@nm@37950000@nm@@nm@-20.9172128@nm@-46.9841443@nm@
+MG@nm@São Sebastião do Pontal@nm@38292000@nm@@nm@-19.7450128@nm@-50.9205702@nm@
+MG@nm@São Sebastião do Rio Preto@nm@35815000@nm@@nm@-19.2963855@nm@-43.1760750@nm@
+MG@nm@São Sebastião do Rio Verde@nm@37467000@nm@@nm@-22.2187833@nm@-44.9765444@nm@
+MG@nm@São Sebastião do Sacramento@nm@36909700@nm@@nm@-20.0968916@nm@-42.1510955@nm@
+MG@nm@São Sebastião do Soberbo@nm@35387000@nm@@nm@-20.2433654@nm@-42.8680597@nm@
+MG@nm@São Sebastião dos Poções@nm@39497000@nm@@nm@-14.5210906@nm@-44.3869729@nm@
+MG@nm@São Sebastião dos Robertos@nm@37592000@nm@@nm@-22.2156331@nm@-46.5421396@nm@
+MG@nm@São Sebastião dos Torres@nm@36206700@nm@@nm@-21.2881751@nm@-43.6675133@nm@
+MG@nm@São Thomé das Letras@nm@37408000@nm@@nm@-21.7182146@nm@-44.9821569@nm@
+MG@nm@São Tiago@nm@36350000@nm@@nm@-20.9110705@nm@-44.5085712@nm@
+MG@nm@São Tomás de Aquino@nm@37960000@nm@@nm@-20.7815993@nm@-47.0997188@nm@
+MG@nm@São Vicente@nm@35733000@nm@@nm@-19.3253470@nm@-43.9333405@nm@
+MG@nm@São Vicente da Estrela@nm@35355000@nm@@nm@-19.9599368@nm@-42.4382872@nm@
+MG@nm@São Vicente de Minas@nm@37370000@nm@@nm@-21.7019654@nm@-44.4458058@nm@
+MG@nm@São Vicente de Paula@nm@36409100@nm@@nm@-20.6584168@nm@-43.7838154@nm@
+MG@nm@São Vicente do Grama@nm@35398000@nm@@nm@-20.5082281@nm@-42.5248832@nm@
+MG@nm@São Vicente do Rio Doce@nm@35143000@nm@@nm@-19.2679874@nm@-41.8063910@nm@
+MG@nm@São Vítor@nm@35104000@nm@@nm@-18.8240031@nm@-41.6918720@nm@
+MG@nm@Sapucaí@nm@37594000@nm@@nm@-22.3225752@nm@-46.6956532@nm@
+MG@nm@Sapucaí-Mirim@nm@37690000@nm@@nm@-22.7413898@nm@-45.7383945@nm@
+MG@nm@Sapucaia@nm@35311000@nm@@nm@-19.8533967@nm@-42.2086196@nm@
+MG@nm@Sapucaia de Guanhães@nm@39742000@nm@@nm@-18.7770579@nm@-42.9374773@nm@
+MG@nm@Sapucaia do Norte@nm@35255000@nm@@nm@-18.8416096@nm@-41.5167405@nm@
+MG@nm@Sarandira@nm@36104000@nm@@nm@-21.8312180@nm@-43.1798087@nm@
+MG@nm@Sardoá@nm@39728000@nm@@nm@-18.7826230@nm@-42.3665053@nm@
+MG@nm@Sarzedo@nm@32450000@nm@@nm@-20.0371483@nm@-44.1450151@nm@
+MG@nm@Saudade@nm@36645000@nm@@nm@-21.9290988@nm@-43.0522979@nm@
+MG@nm@Sem Peixe@nm@35441000@nm@@nm@-20.1040454@nm@-42.8415113@nm@
+MG@nm@Senador Amaral@nm@37615000@nm@@nm@-22.5873858@nm@-46.1767687@nm@
+MG@nm@Senador Cortes@nm@36650000@nm@@nm@-21.7990554@nm@-42.9427846@nm@
+MG@nm@Senador Firmino@nm@36540000@nm@@nm@-20.9166367@nm@-43.1003288@nm@
+MG@nm@Senador José Bento@nm@37586000@nm@@nm@-22.1638138@nm@-46.1796644@nm@
+MG@nm@Senador Melo Viana@nm@@nm@@nm@@nm@@nm@
+MG@nm@Senador Modestino Gonçalves@nm@39190000@nm@@nm@-17.9475617@nm@-43.2227436@nm@
+MG@nm@Senador Mourão@nm@39112000@nm@@nm@-17.8183078@nm@-43.4176395@nm@
+MG@nm@Senhora da Glória@nm@39212000@nm@@nm@-18.4441187@nm@-44.1637863@nm@
+MG@nm@Senhora da Penha@nm@35136000@nm@@nm@-19.0989997@nm@-42.1375445@nm@
+MG@nm@Senhora das Dores@nm@36207000@nm@@nm@-21.1909330@nm@-43.6459282@nm@
+MG@nm@Senhora de Oliveira@nm@36470000@nm@@nm@-20.7939383@nm@-43.3438786@nm@
+MG@nm@Senhora do Carmo@nm@35907000@nm@@nm@-19.5125893@nm@-43.3715542@nm@
+MG@nm@Senhora do Porto@nm@39745000@nm@@nm@-18.8913715@nm@-43.0802782@nm@
+MG@nm@Senhora dos Remédios@nm@36275000@nm@@nm@-21.0311908@nm@-43.5818279@nm@
+MG@nm@Sereno@nm@36777000@nm@@nm@-21.3915122@nm@-42.7027225@nm@
+MG@nm@Sericita@nm@35368000@nm@@nm@-20.4753275@nm@-42.4831779@nm@
+MG@nm@Seritinga@nm@37454000@nm@@nm@-21.9138570@nm@-44.5183886@nm@
+MG@nm@Serra Azul@nm@35674000@nm@@nm@-20.0957700@nm@-44.4288817@nm@
+MG@nm@Serra Azul de Minas@nm@39165000@nm@@nm@-18.3606283@nm@-43.1678627@nm@
+MG@nm@Serra Bonita@nm@38665000@nm@@nm@-15.2132893@nm@-46.8040888@nm@
+MG@nm@Serra da Canastra@nm@37929000@nm@@nm@-20.1666667@nm@-46.6666667@nm@
+MG@nm@Serra da Saudade@nm@35617000@nm@@nm@-19.4451433@nm@-45.7954034@nm@
+MG@nm@Serra das Araras@nm@38689700@nm@@nm@-15.5058522@nm@-45.3962409@nm@
+MG@nm@Serra do Camapuã@nm@35491000@nm@@nm@-20.7694365@nm@-44.0095849@nm@
+MG@nm@Serra do Cipó@nm@35847000@nm@@nm@-19.3377466@nm@-43.6341732@nm@
+MG@nm@Serra do Salitre@nm@38760000@nm@@nm@-19.1105790@nm@-46.6793595@nm@
+MG@nm@Serra dos Aimorés@nm@39868000@nm@@nm@-17.7871828@nm@-40.2452592@nm@
+MG@nm@Serra dos Lemes@nm@37885000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Serra Nova@nm@39532000@nm@@nm@-15.6401063@nm@-42.7300262@nm@
+MG@nm@Serrania@nm@37143000@nm@@nm@-21.5495130@nm@-46.0452199@nm@
+MG@nm@Serranópolis de Minas@nm@39518000@nm@@nm@-15.8180271@nm@-42.8735507@nm@
+MG@nm@Serranos@nm@37452000@nm@@nm@-21.8862199@nm@-44.5129104@nm@
+MG@nm@Serro@nm@39150000@nm@@nm@-18.6033652@nm@-43.3790446@nm@
+MG@nm@Sertãozinho@nm@37565500@nm@@nm@-22.3207409@nm@-46.0619029@nm@
+MG@nm@Sete Cachoeiras@nm@35802000@nm@@nm@-19.2297258@nm@-42.8783132@nm@
+MG@nm@Sete Lagoas@nm@@nm@@nm@@nm@@nm@
+MG@nm@Setubinha@nm@39688000@nm@@nm@-17.6006741@nm@-42.1590613@nm@
+MG@nm@Silva Campos@nm@35645000@nm@@nm@-19.0865694@nm@-44.9473905@nm@
+MG@nm@Silva Xavier@nm@35705000@nm@@nm@-19.3372784@nm@-44.2387331@nm@
+MG@nm@Silvano@nm@38749700@nm@@nm@-18.8403410@nm@-47.1886612@nm@
+MG@nm@Silveira Carvalho@nm@36873000@nm@@nm@-21.2974996@nm@-42.2677138@nm@
+MG@nm@Silveirânia@nm@36185000@nm@@nm@-21.1619694@nm@-43.2132531@nm@
+MG@nm@Silvestre@nm@@nm@@nm@@nm@@nm@
+MG@nm@Silvianópolis@nm@37589000@nm@@nm@-22.0278971@nm@-45.8389521@nm@
+MG@nm@Simão Campos@nm@39432000@nm@@nm@-15.9329874@nm@-44.0046723@nm@
+MG@nm@Simão Pereira@nm@36123000@nm@@nm@-21.9644533@nm@-43.3092072@nm@
+MG@nm@Simonésia@nm@36930000@nm@@nm@-20.1224278@nm@-42.0029867@nm@
+MG@nm@Sobral Pinto@nm@36782000@nm@@nm@-21.2702488@nm@-42.8953677@nm@
+MG@nm@Sobrália@nm@35145000@nm@@nm@-19.2349466@nm@-42.1002015@nm@
+MG@nm@Soledade de Minas@nm@37478000@nm@@nm@-22.0559213@nm@-45.0468455@nm@
+MG@nm@Sopa@nm@39102000@nm@@nm@-18.2199414@nm@-43.6924458@nm@
+MG@nm@Sucanga@nm@39828000@nm@@nm@-17.7772973@nm@-41.6999291@nm@
+MG@nm@Sumaré I@nm@39477700@nm@@nm@-@nm@-@nm@
+MG@nm@Tabajara@nm@35333000@nm@@nm@-19.5831172@nm@-41.7656904@nm@
+MG@nm@Tabaúna@nm@35206000@nm@@nm@-19.4994037@nm@-41.3083577@nm@
+MG@nm@Tabuão@nm@37315000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Tabuleiro@nm@36165000@nm@@nm@-21.3601581@nm@-43.2485732@nm@
+MG@nm@Tabuleiro do Mato Dentro@nm@35864500@nm@@nm@-19.0635930@nm@-43.5382330@nm@
+MG@nm@Taiobeiras@nm@39550000@nm@@nm@-15.8142935@nm@-42.2273780@nm@
+MG@nm@Taparuba@nm@36953000@nm@@nm@-19.7625646@nm@-41.6083735@nm@
+MG@nm@Tapira@nm@38185000@nm@@nm@-19.9250374@nm@-46.8233952@nm@
+MG@nm@Tapiraí@nm@38980000@nm@@nm@-19.8828411@nm@-46.0178574@nm@
+MG@nm@Tapuirama@nm@38439600@nm@@nm@-19.1464097@nm@-47.9382180@nm@
+MG@nm@Taquaraçu de Minas@nm@33980000@nm@@nm@-19.6682193@nm@-43.6880038@nm@
+MG@nm@Taquaral de Guanhães@nm@39743000@nm@@nm@-18.7770579@nm@-42.9374773@nm@
+MG@nm@Taruaçu@nm@36688000@nm@@nm@-21.6005164@nm@-42.9220828@nm@
+MG@nm@Tarumirim@nm@35140000@nm@@nm@-19.2839570@nm@-42.0100938@nm@
+MG@nm@Tebas@nm@36708800@nm@@nm@-21.5825518@nm@-42.7397842@nm@
+MG@nm@Teixeiras@nm@36580000@nm@@nm@-20.6565706@nm@-42.8568007@nm@
+MG@nm@Tejuco@nm@39484000@nm@@nm@-15.5529034@nm@-44.5846735@nm@
+MG@nm@Teófilo Otoni@nm@@nm@@nm@@nm@@nm@
+MG@nm@Terra Branca@nm@39393000@nm@@nm@-17.3085912@nm@-43.2157147@nm@
+MG@nm@Timóteo@nm@@nm@@nm@@nm@@nm@
+MG@nm@Tiradentes@nm@36325000@nm@@nm@-21.1100035@nm@-44.1733017@nm@
+MG@nm@Tiros@nm@38880000@nm@@nm@-19.0047159@nm@-45.9622445@nm@
+MG@nm@Tobati@nm@38953000@nm@@nm@-19.5974667@nm@-46.3919387@nm@
+MG@nm@Tocandira@nm@39523000@nm@@nm@-15.6654869@nm@-43.1638949@nm@
+MG@nm@Tocantins@nm@36512000@nm@@nm@-21.1721587@nm@-43.0216004@nm@
+MG@nm@Tocos do Moji@nm@37563000@nm@@nm@-22.3707057@nm@-46.0979000@nm@
+MG@nm@Toledo@nm@37630000@nm@@nm@-22.7426220@nm@-46.3732138@nm@
+MG@nm@Toledos@nm@36107700@nm@@nm@-21.8000000@nm@-43.6000000@nm@
+MG@nm@Tomás Gonzaga@nm@35798000@nm@@nm@-18.4325453@nm@-44.3159706@nm@
+MG@nm@Tombos@nm@36844000@nm@@nm@-20.9077325@nm@-42.0272219@nm@
+MG@nm@Topázio@nm@39807000@nm@@nm@-17.6501514@nm@-41.3889860@nm@
+MG@nm@Torneiros@nm@35665100@nm@@nm@-19.8817854@nm@-44.7433863@nm@
+MG@nm@Torreões@nm@36107000@nm@@nm@-21.8632018@nm@-43.5359260@nm@
+MG@nm@Traçadal@nm@35639700@nm@@nm@-17.3533668@nm@-44.0723580@nm@
+MG@nm@Três Barras da Estrada Real@nm@39159000@nm@@nm@-18.6033652@nm@-43.3790446@nm@
+MG@nm@Três Corações@nm@@nm@@nm@@nm@@nm@
+MG@nm@Três Ilhas@nm@36127000@nm@@nm@-22.0619461@nm@-43.4644196@nm@
+MG@nm@Três Marias@nm@39205000@nm@@nm@-18.2059766@nm@-45.2314003@nm@
+MG@nm@Três Pontas@nm@37190000@nm@@nm@-21.3699248@nm@-45.5113164@nm@
+MG@nm@Trimonte@nm@36723000@nm@@nm@-21.7113498@nm@-42.5893192@nm@
+MG@nm@Tuiutinga@nm@36528000@nm@@nm@-21.0966393@nm@-42.7073156@nm@
+MG@nm@Tumiritinga@nm@35125000@nm@@nm@-18.9849271@nm@-41.6530650@nm@
+MG@nm@Tupaciguara@nm@38480000@nm@@nm@-18.5938307@nm@-48.7043878@nm@
+MG@nm@Tuparecê@nm@39623000@nm@@nm@-16.4262941@nm@-41.6207582@nm@
+MG@nm@Turmalina@nm@39660000@nm@@nm@-17.2856007@nm@-42.7269059@nm@
+MG@nm@Turvolândia@nm@37496000@nm@@nm@-21.8768935@nm@-45.7884546@nm@
+MG@nm@Ubá@nm@@nm@@nm@@nm@@nm@
+MG@nm@Ubaí@nm@39320000@nm@@nm@-16.2944707@nm@-44.7840634@nm@
+MG@nm@Ubaporanga@nm@35338000@nm@@nm@-19.6355348@nm@-42.1063215@nm@
+MG@nm@Ubari@nm@36509300@nm@@nm@-21.0509962@nm@-43.0566095@nm@
+MG@nm@Uberaba@nm@@nm@@nm@@nm@@nm@
+MG@nm@Uberlândia@nm@@nm@@nm@@nm@@nm@
+MG@nm@Umburatiba@nm@39878000@nm@@nm@-17.2552770@nm@-40.5783148@nm@
+MG@nm@Umbuzeiro@nm@39439000@nm@@nm@-15.8166705@nm@-44.2651676@nm@
+MG@nm@Unaí@nm@@nm@@nm@@nm@@nm@
+MG@nm@União de Minas@nm@38288000@nm@@nm@-19.5303246@nm@-50.3384829@nm@
+MG@nm@Uruana de Minas@nm@38630000@nm@@nm@-16.0601481@nm@-46.2561982@nm@
+MG@nm@Urucânia@nm@35380000@nm@@nm@-20.3525743@nm@-42.7373928@nm@
+MG@nm@Urucuia@nm@38649000@nm@@nm@-16.1266546@nm@-45.7415324@nm@
+MG@nm@Usina Monte Alegre@nm@37118000@nm@@nm@-21.4000000@nm@-46.2500000@nm@
+MG@nm@Vai-Volta@nm@35142000@nm@@nm@-19.3124104@nm@-41.9006919@nm@
+MG@nm@Valadares@nm@36101000@nm@@nm@-21.7567665@nm@-43.6029112@nm@
+MG@nm@Valão@nm@39829000@nm@@nm@-17.8130472@nm@-41.6583092@nm@
+MG@nm@Vale Verde de Minas@nm@35198500@nm@@nm@-19.4143619@nm@-42.4150731@nm@
+MG@nm@Valo Fundo@nm@39213000@nm@@nm@-18.4698951@nm@-44.0384573@nm@
+MG@nm@Vardiero@nm@36877000@nm@@nm@-21.2448952@nm@-42.2375868@nm@
+MG@nm@Vargem Alegre@nm@35199000@nm@@nm@-19.6021913@nm@-42.2992664@nm@
+MG@nm@Vargem Bonita@nm@37922000@nm@@nm@-20.3337425@nm@-46.3692586@nm@
+MG@nm@Vargem Grande da Serra@nm@35735000@nm@@nm@-19.2903630@nm@-43.9573864@nm@
+MG@nm@Vargem Grande do Bom Jesus@nm@39334600@nm@@nm@-@nm@-@nm@
+MG@nm@Vargem Grande do Rio Pardo@nm@39535000@nm@@nm@-15.4021803@nm@-42.3088651@nm@
+MG@nm@Vargem Linda@nm@35998000@nm@@nm@-19.9446696@nm@-42.9310805@nm@
+MG@nm@Varginha@nm@@nm@@nm@@nm@@nm@
+MG@nm@Varjão de Minas@nm@38794000@nm@@nm@-18.3763682@nm@-46.0226056@nm@
+MG@nm@Várzea da Palma@nm@39260000@nm@@nm@-17.5983007@nm@-44.7325030@nm@
+MG@nm@Varzelândia@nm@39450000@nm@@nm@-15.7015944@nm@-44.0268699@nm@
+MG@nm@Vau-Açu@nm@35435000@nm@@nm@-20.5224918@nm@-42.8995777@nm@
+MG@nm@Vazante@nm@38780000@nm@@nm@-17.9925074@nm@-46.9034654@nm@
+MG@nm@Vera Cruz de Minas@nm@33680000@nm@@nm@-19.6979875@nm@-44.0538123@nm@
+MG@nm@Verdelândia@nm@39458000@nm@@nm@-15.5959579@nm@-43.6003141@nm@
+MG@nm@Vereda do Paraíso@nm@39545000@nm@@nm@-15.3172575@nm@-42.0217285@nm@
+MG@nm@Veredas@nm@38775000@nm@@nm@-18.1387306@nm@-45.7488698@nm@
+MG@nm@Veredinha@nm@39663000@nm@@nm@-17.3978537@nm@-42.7310938@nm@
+MG@nm@Veríssimo@nm@38150000@nm@@nm@-19.6662093@nm@-48.3122934@nm@
+MG@nm@Vermelho@nm@36892500@nm@@nm@-21.1095660@nm@-42.4465933@nm@
+MG@nm@Vermelho Novo@nm@35359000@nm@@nm@-20.0372332@nm@-42.2668357@nm@
+MG@nm@Vermelho Velho@nm@35354000@nm@@nm@-19.9904912@nm@-42.3359224@nm@
+MG@nm@Vespasiano@nm@@nm@@nm@@nm@@nm@
+MG@nm@Viçosa@nm@@nm@@nm@@nm@@nm@
+MG@nm@Vieiras@nm@36895000@nm@@nm@-20.8674902@nm@-42.2404518@nm@
+MG@nm@Vila Acari@nm@39317800@nm@@nm@-16.0564454@nm@-45.1461071@nm@
+MG@nm@Vila Barroso@nm@38208100@nm@@nm@-21.1880429@nm@-43.9759925@nm@
+MG@nm@Vila Bem-Querer@nm@39529800@nm@@nm@-16.1774367@nm@-43.1806040@nm@
+MG@nm@Vila Bom Jesus@nm@38688000@nm@@nm@-15.7963890@nm@-45.6777780@nm@
+MG@nm@Vila Bom Jesus de Minas@nm@38689800@nm@@nm@-@nm@-@nm@
+MG@nm@Vila Costina@nm@35583000@nm@@nm@-20.3850811@nm@-45.8045140@nm@
+MG@nm@Vila de Fátima@nm@39334200@nm@@nm@-16.0358959@nm@-44.4612420@nm@
+MG@nm@Vila Nova de Minas@nm@39416000@nm@@nm@-16.7657942@nm@-43.8622943@nm@
+MG@nm@Vila Nova dos Poções@nm@39449000@nm@@nm@-15.6443599@nm@-43.3041101@nm@
+MG@nm@Vila Nova Floresta@nm@35107500@nm@@nm@-18.9553097@nm@-42.2409781@nm@
+MG@nm@Vila Pereira@nm@39862000@nm@@nm@-17.9764080@nm@-40.7660559@nm@
+MG@nm@Vilanova@nm@36909400@nm@@nm@-20.2312051@nm@-42.1650160@nm@
+MG@nm@Vilas Boas@nm@36526000@nm@@nm@-20.9643617@nm@-42.6614738@nm@
+MG@nm@Vinte Alqueires@nm@36569000@nm@@nm@-20.5869916@nm@-43.1515381@nm@
+MG@nm@Virgem da Lapa@nm@39630000@nm@@nm@-16.8044995@nm@-42.3401051@nm@
+MG@nm@Virgínia@nm@37465000@nm@@nm@-22.3318502@nm@-45.0905025@nm@
+MG@nm@Virginópolis@nm@39730000@nm@@nm@-18.8222238@nm@-42.7050192@nm@
+MG@nm@Virgolândia@nm@39715000@nm@@nm@-18.4736903@nm@-42.3083273@nm@
+MG@nm@Visconde do Rio Branco@nm@36520000@nm@@nm@-21.0137920@nm@-42.8376099@nm@
+MG@nm@Vista Alegre@nm@36778000@nm@@nm@-21.3745306@nm@-42.6717431@nm@
+MG@nm@Vista Alegre@nm@39385000@nm@@nm@-18.5121780@nm@-44.5550308@nm@
+MG@nm@Vitorinos@nm@36264000@nm@@nm@-20.9863137@nm@-43.5425025@nm@
+MG@nm@Volta Grande@nm@36720000@nm@@nm@-21.7675802@nm@-42.5379069@nm@
+MG@nm@Wenceslau Braz@nm@37512000@nm@@nm@-22.5373268@nm@-45.3630687@nm@
+MG@nm@Zelândia@nm@38176000@nm@@nm@-19.5359158@nm@-47.4540612@nm@
+MG@nm@Zito Soares@nm@35383000@nm@@nm@-20.1847493@nm@-42.7489895@nm@

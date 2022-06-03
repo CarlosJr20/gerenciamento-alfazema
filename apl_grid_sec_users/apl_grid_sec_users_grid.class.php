@@ -52,6 +52,7 @@ class apl_grid_sec_users_grid
    var $name;
    var $email;
    var $active;
+   var $priv_admin;
    var $look_active;
 //--- 
  function monta_grid($linhas = 0)
@@ -310,6 +311,7 @@ class apl_grid_sec_users_grid
    $this->Cmps_ord_def['name'] = " asc";
    $this->Cmps_ord_def['email'] = " asc";
    $this->Cmps_ord_def['active'] = " asc";
+   $this->Cmps_ord_def['priv_admin'] = " asc";
    if (isset($_SESSION['scriptcase']['sc_apl_conf']['apl_grid_sec_users']['btn_display']) && !empty($_SESSION['scriptcase']['sc_apl_conf']['apl_grid_sec_users']['btn_display']))
    {
        foreach ($_SESSION['scriptcase']['sc_apl_conf']['apl_grid_sec_users']['btn_display'] as $NM_cada_btn => $NM_cada_opc)
@@ -728,15 +730,15 @@ class apl_grid_sec_users_grid
 //----- 
    if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
    { 
-       $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+       $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
    } 
    elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
    { 
-       $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+       $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
    } 
    else 
    { 
-       $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+       $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
    } 
    $nmgp_select .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq']; 
    $nmgp_order_by = ""; 
@@ -795,6 +797,7 @@ class apl_grid_sec_users_grid
        $this->name = $this->rs_grid->fields[1] ;  
        $this->email = $this->rs_grid->fields[2] ;  
        $this->active = $this->rs_grid->fields[3] ;  
+       $this->priv_admin = $this->rs_grid->fields[4] ;  
        $this->look_active = $this->active; 
        $this->Lookup->lookup_active($this->look_active); 
        $this->SC_seq_register = $this->nmgp_reg_start ; 
@@ -809,6 +812,7 @@ class apl_grid_sec_users_grid
            $this->name = $this->rs_grid->fields[1] ;  
            $this->email = $this->rs_grid->fields[2] ;  
            $this->active = $this->rs_grid->fields[3] ;  
+           $this->priv_admin = $this->rs_grid->fields[4] ;  
        } 
    } 
    $this->nmgp_reg_inicial = $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['final'] + 1;
@@ -1880,6 +1884,8 @@ $nm_saida->saida("}\r\n");
    $this->css_email_grid_line = $compl_css_emb . "css_email_grid_line";
    $this->css_active_label = $compl_css_emb . "css_active_label";
    $this->css_active_grid_line = $compl_css_emb . "css_active_grid_line";
+   $this->css_priv_admin_label = $compl_css_emb . "css_priv_admin_label";
+   $this->css_priv_admin_grid_line = $compl_css_emb . "css_priv_admin_grid_line";
  }  
  function cabecalho()
  {
@@ -2113,10 +2119,10 @@ $nm_saida->saida("}\r\n");
       } 
    $nm_saida->saida("    <TR id=\"tit_apl_grid_sec_users__SCCS__" . $nm_seq_titulos . "\" align=\"center\" class=\"" . $this->css_scGridLabel . " sc-ui-grid-header-row sc-ui-grid-header-row-apl_grid_sec_users-" . $tmp_header_row . "\">\r\n");
    if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opc_psq']) { 
-   $nm_saida->saida("     <TD class=\"" . $this->css_scGridLabelFont . "\"  style=\"" . $this->css_scGridLabelNowrap . "" . $this->Css_Cmp['css_active_label'] . "\" >&nbsp;</TD>\r\n");
+   $nm_saida->saida("     <TD class=\"" . $this->css_scGridLabelFont . "\"  style=\"" . $this->css_scGridLabelNowrap . "" . $this->Css_Cmp['css_priv_admin_label'] . "\" >&nbsp;</TD>\r\n");
    } 
    if (!$_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['embutida'] && $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opcao_print'] != "print" && $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opcao'] != "pdf") { 
-   $nm_saida->saida("     <TD class=\"" . $this->css_scGridLabelFont . "\"  style=\"" . $this->css_scGridLabelNowrap . "" . $this->Css_Cmp['css_active_label'] . "\" >&nbsp;</TD>\r\n");
+   $nm_saida->saida("     <TD class=\"" . $this->css_scGridLabelFont . "\"  style=\"" . $this->css_scGridLabelNowrap . "" . $this->Css_Cmp['css_priv_admin_label'] . "\" >&nbsp;</TD>\r\n");
    } 
    foreach ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['field_order'] as $Cada_label)
    { 
@@ -2388,6 +2394,62 @@ $nm_saida->saida("}\r\n");
           $link_img = "<IMG SRC=\"" . $this->Ini->path_img_global . "/" . $nome_img . "\" BORDER=\"0\"/><span style='display: inline-block; flex-grow: 1; white-space: normal; word-break: normal;'>" . nl2br($SC_Label) . "</span>";
       }
    $nm_saida->saida("<a href=\"javascript:nm_gp_submit2('active')\" class=\"" . $this->css_scGridLabelLink . "\"" . $Css_compl_sort . ">" . $link_img . "</a>\r\n");
+   }
+   else
+   {
+   $nm_saida->saida("" . nl2br($SC_Label) . "\r\n");
+   }
+   $nm_saida->saida("</TD>\r\n");
+   } 
+ }
+ function NM_label_priv_admin()
+ {
+   global $nm_saida;
+   $SC_Label = (isset($this->New_label['priv_admin'])) ? $this->New_label['priv_admin'] : "" . $this->Ini->Nm_lang['lang_sec_users_fild_priv_admin'] . ""; 
+   if (!isset($this->NM_cmp_hidden['priv_admin']) || $this->NM_cmp_hidden['priv_admin'] != "off") { 
+   $nm_saida->saida("     <TD class=\"" . $this->css_scGridLabelFont . $this->css_sep . $this->css_priv_admin_label . "\"  style=\"" . $this->css_scGridLabelNowrap . "" . $this->Css_Cmp['css_priv_admin_label'] . "\" >\r\n");
+   if (!$_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['embutida'] && $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opcao_print'] != "print" && $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opcao'] != "pdf")
+   {
+      $link_img = "";
+      $nome_img = $this->Ini->Label_sort;
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['ordem_cmp'] == 'priv_admin')
+      {
+          if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['ordem_label'] == "desc")
+          {
+              $nome_img = $this->Ini->Label_sort_desc;
+          }
+          else
+          {
+              $nome_img = $this->Ini->Label_sort_asc;
+          }
+      }
+      if (empty($this->Ini->Label_sort_pos) || $this->Ini->Label_sort_pos == "right")
+      {
+          $this->Ini->Label_sort_pos = "right_field";
+      }
+      $Css_compl_sort = " style=\"display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center;justify-content:inherit;\"";
+      if (empty($nome_img))
+      {
+          $link_img = nl2br($SC_Label);
+          $Css_compl_sort = "";
+      }
+      elseif ($this->Ini->Label_sort_pos == "right_field")
+      {
+          $link_img = "<span style='display: inline-block; white-space: normal; word-break: normal;'>" . nl2br($SC_Label) . "</span><IMG SRC=\"" . $this->Ini->path_img_global . "/" . $nome_img . "\" BORDER=\"0\"/>";
+      }
+      elseif ($this->Ini->Label_sort_pos == "left_field")
+      {
+          $link_img = "<IMG SRC=\"" . $this->Ini->path_img_global . "/" . $nome_img . "\" BORDER=\"0\"/><span style='display: inline-block; white-space: normal; word-break: normal;'>" . nl2br($SC_Label) . "</span>";
+      }
+      elseif ($this->Ini->Label_sort_pos == "right_cell")
+      {
+          $link_img = "<span style='display: inline-block; flex-grow: 1; white-space: normal; word-break: normal;'>" . nl2br($SC_Label) . "</span><IMG SRC=\"" . $this->Ini->path_img_global . "/" . $nome_img . "\" BORDER=\"0\"/>";
+      }
+      elseif ($this->Ini->Label_sort_pos == "left_cell")
+      {
+          $link_img = "<IMG SRC=\"" . $this->Ini->path_img_global . "/" . $nome_img . "\" BORDER=\"0\"/><span style='display: inline-block; flex-grow: 1; white-space: normal; word-break: normal;'>" . nl2br($SC_Label) . "</span>";
+      }
+   $nm_saida->saida("<a href=\"javascript:nm_gp_submit2('priv_admin')\" class=\"" . $this->css_scGridLabelLink . "\"" . $Css_compl_sort . ">" . $link_img . "</a>\r\n");
    }
    else
    {
@@ -2696,6 +2758,7 @@ if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['proc_pdf
           $this->name = $this->rs_grid->fields[1] ;  
           $this->email = $this->rs_grid->fields[2] ;  
           $this->active = $this->rs_grid->fields[3] ;  
+          $this->priv_admin = $this->rs_grid->fields[4] ;  
           $this->look_active = $this->active; 
           $this->Lookup->lookup_active($this->look_active); 
           $this->SC_seq_page++; 
@@ -2733,7 +2796,7 @@ if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['proc_pdf
           $this->SC_ancora = $this->SC_seq_page;
           $nm_saida->saida("    <TR  class=\"" . $this->css_line_back . "\"  style=\"page-break-inside: avoid;\"" . $NM_destaque . " id=\"SC_ancor" . $this->SC_ancora . "\">\r\n");
  if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opc_psq']){ 
-          $nm_saida->saida("     <TD rowspan=\"" . $this->Rows_span . "\" class=\"" . $this->css_line_fonf . "\"  style=\"" . $this->Css_Cmp['css_active_grid_line'] . "\" NOWRAP align=\"left\" valign=\"top\" WIDTH=\"1px\"  HEIGHT=\"0px\">\r\n");
+          $nm_saida->saida("     <TD rowspan=\"" . $this->Rows_span . "\" class=\"" . $this->css_line_fonf . "\"  style=\"" . $this->Css_Cmp['css_priv_admin_grid_line'] . "\" NOWRAP align=\"left\" valign=\"top\" WIDTH=\"1px\"  HEIGHT=\"0px\">\r\n");
  $Cod_Btn = nmButtonOutput($this->arr_buttons, "bcapture", "document.Fpesq.nm_ret_psq.value='" . $teste . "'; nm_escreve_window();", "document.Fpesq.nm_ret_psq.value='" . $teste . "'; nm_escreve_window();", "", "Rad_psq", "", "", "absmiddle", "", "0px", $this->Ini->path_botoes, "", "", "", "", "", "only_text", "text_right", "", "", "", "", "", "", "");
           $nm_saida->saida(" $Cod_Btn</TD>\r\n");
  } 
@@ -2968,9 +3031,32 @@ if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['proc_pdf
    $nm_saida->saida("     <TD rowspan=\"" . $this->Rows_span . "\" class=\"" . $this->css_line_fonf . $this->css_sep . $this->css_active_grid_line . "\"  style=\"" . $this->Css_Cmp['css_active_grid_line'] . "\" " . $this->SC_nowrap . " align=\"\" valign=\"top\"   HEIGHT=\"0px\"><span id=\"id_sc_field_active_" . $this->SC_seq_page . "\">" . $conteudo . "</span></TD>\r\n");
       }
  }
+ function NM_grid_priv_admin()
+ {
+      global $nm_saida;
+      if (!isset($this->NM_cmp_hidden['priv_admin']) || $this->NM_cmp_hidden['priv_admin'] != "off") { 
+          $conteudo = sc_strip_script($this->priv_admin); 
+          $conteudo_original = sc_strip_script($this->priv_admin); 
+          if ($conteudo === "") 
+          { 
+              $conteudo = "&nbsp;" ;  
+              $graf = "" ;  
+          } 
+          $str_tem_display = $conteudo;
+          if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['proc_pdf'])
+          {
+              $this->SC_nowrap = "";
+          }
+          else
+          {
+              $this->SC_nowrap = "";
+          }
+   $nm_saida->saida("     <TD rowspan=\"" . $this->Rows_span . "\" class=\"" . $this->css_line_fonf . $this->css_sep . $this->css_priv_admin_grid_line . "\"  style=\"" . $this->Css_Cmp['css_priv_admin_grid_line'] . "\" " . $this->SC_nowrap . " align=\"\" valign=\"top\"   HEIGHT=\"0px\"><span id=\"id_sc_field_priv_admin_" . $this->SC_seq_page . "\">" . $conteudo . "</span></TD>\r\n");
+      }
+ }
  function NM_calc_span()
  {
-   $this->NM_colspan  = 5;
+   $this->NM_colspan  = 6;
    if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['opc_psq'])
    {
        $this->NM_colspan++;

@@ -3781,6 +3781,13 @@ $this->nmgp_redireciona_form($this->Ini->path_link . "" . SC_dir_app_name('menu_
  {
 $this->nmgp_redireciona_form($this->Ini->path_link . "" . SC_dir_app_name('menu_helder') . "/", $this->nm_location, "", "_self", "ret_self", 440, 630);
  };
+		}else if($this->sc_temp_usr_login == 'admin_gestor' || 'leuson'){
+			
+			 if (isset($this->sc_temp_usr_login)) { $_SESSION['usr_login'] = $this->sc_temp_usr_login;}
+ if (!isset($this->Campos_Mens_erro) || empty($this->Campos_Mens_erro))
+ {
+$this->nmgp_redireciona_form($this->Ini->path_link . "" . SC_dir_app_name('menu_gestao_alfazema') . "/", $this->nm_location, "", "_self", "ret_self", 440, 630);
+ };
 		}
 	
 }

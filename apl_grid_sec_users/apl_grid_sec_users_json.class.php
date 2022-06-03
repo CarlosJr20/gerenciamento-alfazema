@@ -263,15 +263,15 @@ class apl_grid_sec_users_json
       $nmgp_select_count = "SELECT count(*) AS countTest from " . $this->Ini->nm_tabela; 
       if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       else 
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       $nmgp_select .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
       $nmgp_select_count .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
@@ -309,6 +309,7 @@ class apl_grid_sec_users_json
          $this->name = $rs->fields[1] ;  
          $this->email = $rs->fields[2] ;  
          $this->active = $rs->fields[3] ;  
+         $this->priv_admin = $rs->fields[4] ;  
          //----- lookup - active
          $this->look_active = $this->active; 
          $this->Lookup->lookup_active($this->look_active); 
@@ -507,6 +508,21 @@ class apl_grid_sec_users_json
          }
          $SC_Label = NM_charset_to_utf8($SC_Label); 
          $this->json_registro[$this->SC_seq_json][$SC_Label] = $this->look_active;
+   }
+   //----- priv_admin
+   function NM_export_priv_admin()
+   {
+         $this->priv_admin = NM_charset_to_utf8($this->priv_admin);
+         if ($this->Json_use_label)
+         {
+             $SC_Label = (isset($this->New_label['priv_admin'])) ? $this->New_label['priv_admin'] : "" . $this->Ini->Nm_lang['lang_sec_users_fild_priv_admin'] . ""; 
+         }
+         else
+         {
+             $SC_Label = "priv_admin"; 
+         }
+         $SC_Label = NM_charset_to_utf8($SC_Label); 
+         $this->json_registro[$this->SC_seq_json][$SC_Label] = $this->priv_admin;
    }
 
    function nm_conv_data_db($dt_in, $form_in, $form_out)

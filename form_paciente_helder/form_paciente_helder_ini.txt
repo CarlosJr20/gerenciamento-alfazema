@@ -1,0 +1,7 @@
+index.php
+gestao_focus_pronto
+form_paciente_helder
+NAO
+form
+form_paciente_helder
+LigMd5

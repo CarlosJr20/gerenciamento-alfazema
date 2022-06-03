@@ -1,0 +1,1121 @@
+PR@nm@Abapã@nm@84185000@nm@@nm@-24.9404121@nm@-49.8336820@nm@
+PR@nm@Abatiá@nm@86460000@nm@@nm@-23.3000742@nm@-50.3134765@nm@
+PR@nm@Acampamento das Minas@nm@84277500@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Açungui@nm@83550000@nm@@nm@-24.9861934@nm@-49.4869524@nm@
+PR@nm@Adhemar de Barros@nm@87895000@nm@@nm@-22.6907463@nm@-52.7360489@nm@
+PR@nm@Adrianópolis@nm@83490000@nm@@nm@-24.6610966@nm@-48.9926341@nm@
+PR@nm@Agostinho@nm@84194200@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Água Azul@nm@83770000@nm@@nm@-25.8164464@nm@-50.1439900@nm@
+PR@nm@Água Boa@nm@87145000@nm@@nm@-23.5051792@nm@-52.1519477@nm@
+PR@nm@Água Branca@nm@85139500@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Água Mineral@nm@85126000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Água Vermelha@nm@84197700@nm@@nm@-24.8560716@nm@-49.5724236@nm@
+PR@nm@Agudos do Sul@nm@83850000@nm@@nm@-25.9881964@nm@-49.3347828@nm@
+PR@nm@Alecrim@nm@84284000@nm@@nm@-24.0389697@nm@-50.4018791@nm@
+PR@nm@Alexandra@nm@83250000@nm@@nm@-25.5572260@nm@-48.5991905@nm@
+PR@nm@Almirante Tamandaré@nm@@nm@@nm@@nm@@nm@
+PR@nm@Altamira do Paraná@nm@85280000@nm@@nm@-24.7987711@nm@-52.7133289@nm@
+PR@nm@Altaneira@nm@87108000@nm@@nm@-23.4209995@nm@-51.9330558@nm@
+PR@nm@Alto Alegre@nm@86695000@nm@@nm@-22.8956376@nm@-51.8927705@nm@
+PR@nm@Alto Alegre@nm@87523200@nm@@nm@-23.6016148@nm@-53.3109818@nm@
+PR@nm@Alto Alegre do Iguaçu@nm@85794000@nm@@nm@-25.4848009@nm@-53.4841556@nm@
+PR@nm@Alto Amparo@nm@84277700@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Alto do Amparo@nm@84305000@nm@@nm@-24.7429720@nm@-50.5348188@nm@
+PR@nm@Alto Pará@nm@85823950@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Alto Paraíso@nm@87528000@nm@@nm@-23.5086071@nm@-53.7290395@nm@
+PR@nm@Alto Paraná@nm@87750000@nm@@nm@-23.1317202@nm@-52.3193836@nm@
+PR@nm@Alto Piquiri@nm@87580000@nm@@nm@-24.0228999@nm@-53.4405473@nm@
+PR@nm@Alto Porã@nm@86875000@nm@@nm@-24.3494458@nm@-51.6876343@nm@
+PR@nm@Alto Sabiá@nm@85138400@nm@@nm@-25.5500000@nm@-51.6666669@nm@
+PR@nm@Alto Santa Fé@nm@85931000@nm@@nm@-24.3902636@nm@-53.9309984@nm@
+PR@nm@Alto São João@nm@87323000@nm@@nm@-24.5526903@nm@-52.0957762@nm@
+PR@nm@Altônia@nm@87550000@nm@@nm@-23.8729539@nm@-53.8933423@nm@
+PR@nm@Alvorada do Iguaçu@nm@85872000@nm@@nm@-25.5163356@nm@-54.5853764@nm@
+PR@nm@Alvorada do Sul@nm@86150000@nm@@nm@-22.7817572@nm@-51.2301900@nm@
+PR@nm@Amaporã@nm@87850000@nm@@nm@-23.0947436@nm@-52.7870910@nm@
+PR@nm@Amorinha@nm@84910000@nm@@nm@-23.9246347@nm@-50.2646896@nm@
+PR@nm@Ampére@nm@85640000@nm@@nm@-25.9179074@nm@-53.4715171@nm@
+PR@nm@Anahy@nm@85425000@nm@@nm@-24.6453412@nm@-53.1337375@nm@
+PR@nm@Andirá@nm@86380000@nm@@nm@-23.0479340@nm@-50.2306675@nm@
+PR@nm@Andorinhas@nm@84194500@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Angai@nm@84538000@nm@@nm@-25.4725890@nm@-50.4763180@nm@
+PR@nm@Ângulo@nm@86755000@nm@@nm@-23.1950837@nm@-51.9158437@nm@
+PR@nm@Antas@nm@85322000@nm@@nm@-25.4079504@nm@-52.4134746@nm@
+PR@nm@Antas@nm@84277000@nm@@nm@-24.1333330@nm@-50.5166670@nm@
+PR@nm@Antonina@nm@83370000@nm@@nm@-25.4328356@nm@-48.7162067@nm@
+PR@nm@Antônio Brandão de Oliveira@nm@86213000@nm@@nm@-23.3050000@nm@-50.9150000@nm@
+PR@nm@Antônio Olinto@nm@83980000@nm@@nm@-25.9808708@nm@-50.1976681@nm@
+PR@nm@Anunciação@nm@85654000@nm@@nm@-25.7835041@nm@-53.4141573@nm@
+PR@nm@Aparecida do Ivaí@nm@87919000@nm@@nm@-23.1750609@nm@-53.0944995@nm@
+PR@nm@Aparecida do Oeste@nm@87455000@nm@@nm@-23.8673792@nm@-52.8748579@nm@
+PR@nm@Apiaba@nm@84433000@nm@@nm@-25.3385695@nm@-50.7885862@nm@
+PR@nm@Apucarana@nm@@nm@@nm@@nm@@nm@
+PR@nm@Aquidaban@nm@86995000@nm@@nm@-23.4847922@nm@-51.7932899@nm@
+PR@nm@Aranha@nm@83419000@nm@@nm@-25.2929784@nm@-49.2266344@nm@
+PR@nm@Arapongas@nm@@nm@@nm@@nm@@nm@
+PR@nm@Arapoti@nm@84990000@nm@@nm@-24.1453609@nm@-49.8268256@nm@
+PR@nm@Arapuã@nm@86884000@nm@@nm@-24.3136604@nm@-51.7861279@nm@
+PR@nm@Arapuan@nm@87385000@nm@@nm@-24.2585267@nm@-52.8500598@nm@
+PR@nm@Ararapira@nm@83393000@nm@@nm@-25.2294301@nm@-48.0294593@nm@
+PR@nm@Araruna@nm@87260000@nm@@nm@-23.9313748@nm@-52.4990389@nm@
+PR@nm@Araucária@nm@@nm@@nm@@nm@@nm@
+PR@nm@Areia Branca dos Assis@nm@83810000@nm@@nm@-25.8729572@nm@-49.3616138@nm@
+PR@nm@Areias@nm@84198400@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Aricanduva@nm@86719000@nm@@nm@-23.4364269@nm@-51.4218454@nm@
+PR@nm@Ariranha do Ivaí@nm@86880000@nm@@nm@-24.3861883@nm@-51.5844247@nm@
+PR@nm@Aroeira@nm@85822800@nm@@nm@-24.9500000@nm@-53.4000000@nm@
+PR@nm@Arquimedes@nm@85824750@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Assaí@nm@86220000@nm@@nm@-23.3692473@nm@-50.8471533@nm@
+PR@nm@Assis Chateaubriand@nm@85935000@nm@@nm@-24.4066881@nm@-53.5142422@nm@
+PR@nm@Astorga@nm@86730000@nm@@nm@-23.2400211@nm@-51.6639768@nm@
+PR@nm@Atalaia@nm@87630000@nm@@nm@-23.1521951@nm@-52.0555847@nm@
+PR@nm@Aurora do Iguaçu@nm@85878000@nm@@nm@-25.3776709@nm@-54.1634420@nm@
+PR@nm@Bairro Cachoeira@nm@85137600@nm@@nm@-25.5808454@nm@-51.5148352@nm@
+PR@nm@Bairro Limoeiro@nm@86102000@nm@@nm@-23.3190844@nm@-51.1090823@nm@
+PR@nm@Balsa Nova@nm@83650000@nm@@nm@-25.5808612@nm@-49.6295579@nm@
+PR@nm@Bananas@nm@85385000@nm@@nm@-25.1337977@nm@-52.6029644@nm@
+PR@nm@Bandeirantes@nm@86360000@nm@@nm@-23.1087262@nm@-50.3675124@nm@
+PR@nm@Bandeirantes d'Oeste@nm@87368000@nm@@nm@-24.2779740@nm@-53.0763846@nm@
+PR@nm@Banhado@nm@85138700@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Barão de Lucena@nm@87610000@nm@@nm@-23.2512167@nm@-52.2995769@nm@
+PR@nm@Barbosa Ferraz@nm@86960000@nm@@nm@-24.0274014@nm@-52.0048407@nm@
+PR@nm@Barra Bonita@nm@85609100@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Barra Bonita@nm@85245000@nm@@nm@-24.7500000@nm@-52.1333330@nm@
+PR@nm@Barra do Jacaré@nm@86385000@nm@@nm@-23.1165207@nm@-50.1846361@nm@
+PR@nm@Barra Grande@nm@85584000@nm@@nm@-25.9722674@nm@-52.9344645@nm@
+PR@nm@Barra Grande@nm@85752000@nm@@nm@-25.7315916@nm@-53.6885434@nm@
+PR@nm@Barra Grande@nm@84125850@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Barra Santa Salete@nm@85265000@nm@@nm@-24.4858390@nm@-51.7846646@nm@
+PR@nm@Barracão@nm@85700000@nm@@nm@-26.2507099@nm@-53.6328980@nm@
+PR@nm@Barreiro@nm@85822860@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Barreiro@nm@85136000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Barreiro@nm@84380000@nm@@nm@-24.1601083@nm@-51.0188924@nm@
+PR@nm@Barreiros@nm@86817500@nm@@nm@-23.5504385@nm@-51.4639716@nm@
+PR@nm@Barrinha@nm@84197200@nm@@nm@-24.8838325@nm@-49.6184450@nm@
+PR@nm@Barro Preto@nm@85822700@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Barro Preto@nm@86119000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@Barro Preto@nm@83153000@nm@@nm@-25.5848398@nm@-49.1751531@nm@
+PR@nm@Bateias@nm@83648000@nm@@nm@-25.3755033@nm@-49.5035624@nm@
+PR@nm@Baulândia@nm@85613000@nm@@nm@-26.2241489@nm@-52.8881474@nm@
+PR@nm@Bela Vista@nm@85406000@nm@@nm@-25.0973006@nm@-52.8760334@nm@
+PR@nm@Bela Vista@nm@85267000@nm@@nm@-24.5194226@nm@-51.6723322@nm@
+PR@nm@Bela Vista da Caroba@nm@85745000@nm@@nm@-25.8846575@nm@-53.6730167@nm@
+PR@nm@Bela Vista do Ivaí@nm@86953000@nm@@nm@-23.8474918@nm@-52.0359891@nm@
+PR@nm@Bela Vista do Paraíso@nm@86130000@nm@@nm@-22.9941291@nm@-51.1931385@nm@
+PR@nm@Bela Vista do Piquiri@nm@87347000@nm@@nm@-24.6800931@nm@-52.8766617@nm@
+PR@nm@Bela Vista do Tapiracui@nm@87440000@nm@@nm@-23.5829589@nm@-52.9404209@nm@
+PR@nm@Bentópolis@nm@86625000@nm@@nm@-22.9699006@nm@-51.6508909@nm@
+PR@nm@Bernardelli@nm@87805000@nm@@nm@-23.4138708@nm@-52.7660602@nm@
+PR@nm@Betaras@nm@83531000@nm@@nm@-25.3193102@nm@-49.3042082@nm@
+PR@nm@Biscaia@nm@84106000@nm@@nm@-25.0666670@nm@-49.9000000@nm@
+PR@nm@Bituruna@nm@84640000@nm@@nm@-26.1585307@nm@-51.5548851@nm@
+PR@nm@Boa Esperança@nm@87390000@nm@@nm@-24.2472139@nm@-52.7880583@nm@
+PR@nm@Boa Esperança do Iguaçu@nm@85680000@nm@@nm@-25.6329143@nm@-53.2113251@nm@
+PR@nm@Boa Ventura de São Roque@nm@85225000@nm@@nm@-24.8798945@nm@-51.5434460@nm@
+PR@nm@Boa Vista@nm@83649000@nm@@nm@2.7645852@nm@-60.7358153@nm@
+PR@nm@Boa Vista@nm@85514400@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Boa Vista@nm@84125400@nm@@nm@-25.0619926@nm@-50.1631535@nm@
+PR@nm@Boa Vista@nm@85926850@nm@@nm@-24.7424330@nm@-53.7200054@nm@
+PR@nm@Boa Vista da Aparecida@nm@85780000@nm@@nm@-25.4338346@nm@-53.4074672@nm@
+PR@nm@Bocaina@nm@84125200@nm@@nm@-24.9918000@nm@-50.2630000@nm@
+PR@nm@Bocaiúva do Sul@nm@83450000@nm@@nm@-25.2071511@nm@-49.1140998@nm@
+PR@nm@Bom Jardim do Sul@nm@84465000@nm@@nm@-25.0072190@nm@-50.8575274@nm@
+PR@nm@Bom Jesus do Sul@nm@85708000@nm@@nm@-26.1962818@nm@-53.5960055@nm@
+PR@nm@Bom Princípio do Oeste@nm@85921500@nm@@nm@-24.7698069@nm@-53.6477637@nm@
+PR@nm@Bom Progresso@nm@86728000@nm@@nm@-23.3159883@nm@-51.5554904@nm@
+PR@nm@Bom Retiro@nm@85823700@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Bom Retiro@nm@85122000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Bom Retiro@nm@85514250@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Bom Retiro@nm@85175000@nm@@nm@-25.7025738@nm@-51.3816053@nm@
+PR@nm@Bom Sucesso@nm@86940000@nm@@nm@-23.7067901@nm@-51.7675445@nm@
+PR@nm@Bom Sucesso@nm@85139850@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Bom Sucesso do Sul@nm@85515000@nm@@nm@-26.0735951@nm@-52.8358032@nm@
+PR@nm@Borda do Campo@nm@83425000@nm@@nm@-25.4091486@nm@-49.0539340@nm@
+PR@nm@Borman@nm@85405000@nm@@nm@-25.1845633@nm@-52.7715849@nm@
+PR@nm@Borrazópolis@nm@86925000@nm@@nm@-23.9370856@nm@-51.5879950@nm@
+PR@nm@Botuquara@nm@84126600@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Bourbonia@nm@86963000@nm@@nm@-24.1873985@nm@-52.2185748@nm@
+PR@nm@Braganey@nm@85430000@nm@@nm@-24.8178168@nm@-53.1222901@nm@
+PR@nm@Bragantina@nm@85937000@nm@@nm@-24.6137004@nm@-53.6177790@nm@
+PR@nm@Brasilândia do Sul@nm@87595000@nm@@nm@-24.1982353@nm@-53.5280307@nm@
+PR@nm@Bugre@nm@83660000@nm@@nm@-25.4974949@nm@-49.6173174@nm@
+PR@nm@Bulcão@nm@84193800@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Cabrito@nm@87729800@nm@@nm@-23.0821226@nm@-52.4622155@nm@
+PR@nm@Cacatu@nm@83375000@nm@@nm@-25.3274522@nm@-48.7561456@nm@
+PR@nm@Cachoeira@nm@85823750@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Cachoeira de Cima@nm@83380000@nm@@nm@-25.2299256@nm@-48.7626854@nm@
+PR@nm@Cachoeira de São José@nm@83181000@nm@@nm@-25.6098556@nm@-49.2378018@nm@
+PR@nm@Cachoeira do Espírito Santo@nm@86415000@nm@@nm@-23.2648067@nm@-49.7057408@nm@
+PR@nm@Cachoeirinha@nm@85514500@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Cadeadinho@nm@84509300@nm@@nm@-24.5164781@nm@-49.9546080@nm@
+PR@nm@Caetano Mendes@nm@84315000@nm@@nm@-24.6266383@nm@-50.6400002@nm@
+PR@nm@Cafeara@nm@86640000@nm@@nm@-22.7895237@nm@-51.7146798@nm@
+PR@nm@Cafeeiros@nm@87405000@nm@@nm@-23.7700350@nm@-53.1372691@nm@
+PR@nm@Cafelândia@nm@85415000@nm@@nm@-24.6193374@nm@-53.3212088@nm@
+PR@nm@Cafezal do Sul@nm@87565000@nm@@nm@-23.9009803@nm@-53.5129204@nm@
+PR@nm@Caitá@nm@83920000@nm@@nm@-25.7665018@nm@-50.5531850@nm@
+PR@nm@Caiva@nm@83645000@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Califórnia@nm@86820000@nm@@nm@-23.6649464@nm@-51.3568544@nm@
+PR@nm@Calógeras@nm@84995000@nm@@nm@-23.9910934@nm@-49.8177493@nm@
+PR@nm@Cambará@nm@86390000@nm@@nm@-23.0465199@nm@-50.0720282@nm@
+PR@nm@Cambé@nm@@nm@@nm@@nm@@nm@
+PR@nm@Cambiju@nm@84127700@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Cambira@nm@86890000@nm@@nm@-23.5894953@nm@-51.5796386@nm@
+PR@nm@Campestrinho@nm@83729850@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Campina@nm@83649350@nm@@nm@-25.5497171@nm@-49.1903736@nm@
+PR@nm@Campina@nm@85107000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Campina@nm@83159000@nm@@nm@-25.5738715@nm@-49.1878994@nm@
+PR@nm@Campina da Lagoa@nm@87345000@nm@@nm@-24.5933227@nm@-52.8040728@nm@
+PR@nm@Campina do Miranguava@nm@83154000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Campina do Simão@nm@85148000@nm@@nm@-25.1089464@nm@-51.8078964@nm@
+PR@nm@Campina dos Furtados@nm@83161000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Campina Grande do Sul@nm@83430000@nm@@nm@-25.3048820@nm@-49.0555691@nm@
+PR@nm@Campinas@nm@83649850@nm@@nm@-@nm@-@nm@
+PR@nm@Campo Bonito@nm@85450000@nm@@nm@-25.0299230@nm@-52.9944360@nm@
+PR@nm@Campo do Bugre@nm@85320000@nm@@nm@-25.4500000@nm@-52.4833330@nm@
+PR@nm@Campo do Meio@nm@84128400@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Campo do Tenente@nm@83870000@nm@@nm@-25.9805065@nm@-49.6848449@nm@
+PR@nm@Campo Largo@nm@@nm@@nm@@nm@@nm@
+PR@nm@Campo Largo da Roseira@nm@83183000@nm@@nm@-25.6764599@nm@-49.1792011@nm@
+PR@nm@Campo Magro@nm@83535000@nm@@nm@-25.3691760@nm@-49.4505686@nm@
+PR@nm@Campo Mourão@nm@@nm@@nm@@nm@@nm@
+PR@nm@Candeia@nm@85957000@nm@@nm@-24.4492382@nm@-53.8015577@nm@
+PR@nm@Cândido de Abreu@nm@84470000@nm@@nm@-24.5653768@nm@-51.3376784@nm@
+PR@nm@Candói@nm@85140000@nm@@nm@-25.5734631@nm@-52.0487360@nm@
+PR@nm@Canela@nm@85612000@nm@@nm@-26.1517723@nm@-52.8512736@nm@
+PR@nm@Cantagalo@nm@85160000@nm@@nm@-25.3754593@nm@-52.1217384@nm@
+PR@nm@Canzianópolis@nm@85735000@nm@@nm@-25.9265066@nm@-53.6886430@nm@
+PR@nm@Capanema@nm@85760000@nm@@nm@-25.6653993@nm@-53.8082990@nm@
+PR@nm@Capão Alto@nm@84196000@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Capão Alto@nm@85138800@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Capão Bonito@nm@85138500@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Capão da Lagoa@nm@85120000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Capão Grande@nm@84127500@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Capão Rico@nm@85121000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Capinzal@nm@83728000@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Capitão Leônidas Marques@nm@85790000@nm@@nm@-25.4932041@nm@-53.6006032@nm@
+PR@nm@Capivara@nm@83534000@nm@@nm@-25.3193102@nm@-49.3042082@nm@
+PR@nm@Capoeirinha@nm@84199400@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Cara Pintado@nm@85106000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Cará-Cará@nm@84126900@nm@@nm@-25.1370444@nm@-50.1027381@nm@
+PR@nm@Carajá@nm@85837000@nm@@nm@-24.4672876@nm@-53.4165579@nm@
+PR@nm@Carambeí@nm@84145000@nm@@nm@-24.9514925@nm@-50.1194464@nm@
+PR@nm@Caramuru@nm@86199600@nm@@nm@-23.2770520@nm@-51.2803152@nm@
+PR@nm@Caratuva@nm@84998000@nm@@nm@-24.0076715@nm@-50.1269278@nm@
+PR@nm@Carazinho@nm@84127200@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Carbonera@nm@87483000@nm@@nm@-23.5486506@nm@-53.3193126@nm@
+PR@nm@Carlópolis@nm@86420000@nm@@nm@-23.4273793@nm@-49.7239575@nm@
+PR@nm@Casa Branca@nm@87536000@nm@@nm@-23.7234982@nm@-53.6000972@nm@
+PR@nm@Casa Nova@nm@84194400@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Cascatinha@nm@86199400@nm@@nm@-23.2770520@nm@-51.2803152@nm@
+PR@nm@Cascavel@nm@@nm@@nm@@nm@@nm@
+PR@nm@Castro@nm@@nm@@nm@@nm@@nm@
+PR@nm@Catanduvas@nm@85470000@nm@@nm@-25.2048340@nm@-53.1553309@nm@
+PR@nm@Catanduvas@nm@84199800@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Catanduvas do Sul@nm@83740000@nm@@nm@-25.7104192@nm@-49.4668580@nm@
+PR@nm@Catarinenses@nm@87724000@nm@@nm@-23.0333330@nm@-52.6666669@nm@
+PR@nm@Caxambu@nm@84194300@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Cedro@nm@87539000@nm@@nm@-23.8962874@nm@-53.4693171@nm@
+PR@nm@Centenário@nm@84126200@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Centenário do Sul@nm@86630000@nm@@nm@-22.8193435@nm@-51.5967698@nm@
+PR@nm@Central Lupion@nm@85823600@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Centralito@nm@85823500@nm@@nm@-24.9833329@nm@-53.3333330@nm@
+PR@nm@Centro Novo@nm@85754000@nm@@nm@-25.7524426@nm@-53.8187572@nm@
+PR@nm@Cerne@nm@83649450@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Cerrado Grande@nm@84126400@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Cerro Azul@nm@83570000@nm@@nm@-24.8226174@nm@-49.2540989@nm@
+PR@nm@Cerro Velho@nm@84127300@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Céu Azul@nm@85840000@nm@@nm@-25.1466598@nm@-53.8466440@nm@
+PR@nm@Charco@nm@84195000@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Chopinzinho@nm@85560000@nm@@nm@-25.8564679@nm@-52.5372505@nm@
+PR@nm@Cianorte@nm@@nm@@nm@@nm@@nm@
+PR@nm@Cidade Gaúcha@nm@87820000@nm@@nm@-23.3826338@nm@-52.9448065@nm@
+PR@nm@Cintra Pimentel@nm@87975000@nm@@nm@-22.8340182@nm@-52.9134000@nm@
+PR@nm@Clevelândia@nm@85530000@nm@@nm@-26.4078459@nm@-52.3606562@nm@
+PR@nm@Coitinho@nm@85137500@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Colombo@nm@@nm@@nm@@nm@@nm@
+PR@nm@Colônia Acioli@nm@83151000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Colônia Cachoeira@nm@85139300@nm@@nm@-25.5808454@nm@-51.5148352@nm@
+PR@nm@Colônia Castelhanos@nm@83165000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Colônia Castrolânda@nm@84196200@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Colônia Centenário@nm@85822550@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Colônia Cristina@nm@83729000@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Colônia Dom Carlos@nm@85514100@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Colônia Esperança@nm@85822880@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Colônia General Carneiro@nm@84662000@nm@@nm@-26.4254626@nm@-51.3177199@nm@
+PR@nm@Colônia Iapó@nm@84193500@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Colônia Jordãozinho@nm@85138600@nm@@nm@-25.5346139@nm@-51.5039017@nm@
+PR@nm@Colônia Malhada@nm@83180000@nm@@nm@-25.6637006@nm@-49.0993965@nm@
+PR@nm@Colônia Melissa@nm@85822650@nm@@nm@-24.8333330@nm@-53.4166669@nm@
+PR@nm@Colônia Murici@nm@83185000@nm@@nm@-25.5807274@nm@-49.1334725@nm@
+PR@nm@Colônia Padre Paulo@nm@83855000@nm@@nm@-26.1044873@nm@-49.3041833@nm@
+PR@nm@Colônia Pereira@nm@83251850@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Colônia Samambaia@nm@85138300@nm@@nm@-25.5216895@nm@-51.5400129@nm@
+PR@nm@Colônia Santos Andrade@nm@83162000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Colônia São José@nm@85823650@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Colônia Sapucaí@nm@85822750@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Colônia Saúde@nm@86118000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@Colônia Socorro@nm@85139000@nm@@nm@-25.5636763@nm@-51.5553687@nm@
+PR@nm@Colônia Tapera@nm@84127100@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Colônia Vitória@nm@85139400@nm@@nm@-25.5683983@nm@-51.4868913@nm@
+PR@nm@Colorado@nm@86690000@nm@@nm@-22.8386830@nm@-51.9730151@nm@
+PR@nm@Comur@nm@87870000@nm@@nm@-23.0741360@nm@-52.9586462@nm@
+PR@nm@Conceição@nm@84196500@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Conchas Velhas@nm@84126000@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Conciolândia@nm@85743000@nm@@nm@-25.8824142@nm@-53.7712354@nm@
+PR@nm@Concórdia do Oeste@nm@85927500@nm@@nm@-24.7126166@nm@-53.8488541@nm@
+PR@nm@Congonhas@nm@86305000@nm@@nm@-23.2069266@nm@-50.7084342@nm@
+PR@nm@Congonhinhas@nm@86320000@nm@@nm@-23.5511685@nm@-50.5520791@nm@
+PR@nm@Conselheiro Mairinck@nm@86480000@nm@@nm@-23.6268638@nm@-50.1712788@nm@
+PR@nm@Conselheiro Zacarias@nm@86440000@nm@@nm@-23.4180485@nm@-49.9846215@nm@
+PR@nm@Contenda@nm@83730000@nm@@nm@-25.6793029@nm@-49.5355225@nm@
+PR@nm@Copacabana do Norte@nm@87195000@nm@@nm@-23.5282085@nm@-52.3858355@nm@
+PR@nm@Corbélia@nm@85420000@nm@@nm@-24.7953830@nm@-53.2960968@nm@
+PR@nm@Cornélio Procópio@nm@86300000@nm@@nm@-23.1827465@nm@-50.6456587@nm@
+PR@nm@Coronel Domingos Soares@nm@85557000@nm@@nm@-26.2281694@nm@-52.0361506@nm@
+PR@nm@Coronel Firmino Martins@nm@85536000@nm@@nm@-26.4554175@nm@-52.2225471@nm@
+PR@nm@Coronel Vivida@nm@85550000@nm@@nm@-25.9798210@nm@-52.5678016@nm@
+PR@nm@Correia de Freitas@nm@86816000@nm@@nm@-23.6134271@nm@-51.3533330@nm@
+PR@nm@Corumbataí do Sul@nm@86970000@nm@@nm@-24.1014335@nm@-52.1181527@nm@
+PR@nm@Corvo@nm@85111000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Costeira@nm@83729700@nm@@nm@-25.6009943@nm@-49.3697192@nm@
+PR@nm@Covó@nm@85545000@nm@@nm@-26.0000880@nm@-52.2136941@nm@
+PR@nm@Coxilha Rica@nm@85582000@nm@@nm@-25.9982069@nm@-52.8101196@nm@
+PR@nm@Cristo Rei@nm@85763000@nm@@nm@-25.5988784@nm@-53.7341739@nm@
+PR@nm@Cristo Rei@nm@87728000@nm@@nm@-22.7320962@nm@-52.4516981@nm@
+PR@nm@Cruz Machado@nm@84620000@nm@@nm@-26.0173746@nm@-51.3498406@nm@
+PR@nm@Cruzeiro do Iguaçu@nm@85598000@nm@@nm@-25.6196935@nm@-53.1289905@nm@
+PR@nm@Cruzeiro do Norte@nm@86285000@nm@@nm@-23.2412621@nm@-50.8620910@nm@
+PR@nm@Cruzeiro do Oeste@nm@87400000@nm@@nm@-23.7834562@nm@-53.0762805@nm@
+PR@nm@Cruzeiro do Sul@nm@87650000@nm@@nm@-22.9629130@nm@-52.1626988@nm@
+PR@nm@Cruzmaltina@nm@86855000@nm@@nm@-23.9930122@nm@-51.4412560@nm@
+PR@nm@Cunhaporanga@nm@84193850@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Curitiba@nm@@nm@@nm@@nm@@nm@
+PR@nm@Curiúva@nm@84280000@nm@@nm@-24.0373240@nm@-50.4565680@nm@
+PR@nm@Curucaca@nm@85138200@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Deputado José Afonso@nm@87726000@nm@@nm@-23.0821226@nm@-52.4622155@nm@
+PR@nm@Despique@nm@83158000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Dez de Maio@nm@85920000@nm@@nm@-24.6790639@nm@-53.9147362@nm@
+PR@nm@Diamante d'Oeste@nm@85896000@nm@@nm@-24.9423319@nm@-54.1056679@nm@
+PR@nm@Diamante do Norte@nm@87990000@nm@@nm@-22.6554367@nm@-52.8621549@nm@
+PR@nm@Diamante do Sul@nm@85408000@nm@@nm@-25.0354861@nm@-52.6772826@nm@
+PR@nm@Doce Grande@nm@83843000@nm@@nm@-26.0228805@nm@-49.4313510@nm@
+PR@nm@Dois Irmãos@nm@85571000@nm@@nm@-25.8230764@nm@-52.8058369@nm@
+PR@nm@Dois Irmãos@nm@85923000@nm@@nm@-24.6297534@nm@-53.9273823@nm@
+PR@nm@Dois Marcos@nm@85926550@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Dois Vizinhos@nm@85660000@nm@@nm@-25.7464549@nm@-53.0615734@nm@
+PR@nm@Dom Rodrigo@nm@83649650@nm@@nm@-25.4525462@nm@-49.5672073@nm@
+PR@nm@Dorizon@nm@84574000@nm@@nm@-25.9467485@nm@-50.8475011@nm@
+PR@nm@Douradina@nm@87485000@nm@@nm@-23.3851910@nm@-53.2942865@nm@
+PR@nm@Doutor Antônio Paranhos@nm@85579000@nm@@nm@-25.6100000@nm@-53.0000000@nm@
+PR@nm@Doutor Camargo@nm@87155000@nm@@nm@-23.5586271@nm@-52.2183014@nm@
+PR@nm@Doutor Ernesto@nm@85926500@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Doutor Oliveira Castro@nm@85985000@nm@@nm@-24.2533350@nm@-54.2632683@nm@
+PR@nm@Doutor Ulysses@nm@83590000@nm@@nm@-24.5665369@nm@-49.4205513@nm@
+PR@nm@Eduardo Xavier da Silva@nm@84210000@nm@@nm@-24.4014987@nm@-49.6064241@nm@
+PR@nm@Eliza@nm@87537000@nm@@nm@-23.7337968@nm@-53.4906267@nm@
+PR@nm@Emboguaçu@nm@83251250@nm@@nm@-25.5351824@nm@-48.5298488@nm@
+PR@nm@Emboque@nm@83319600@nm@@nm@-25.4426635@nm@-49.0628847@nm@
+PR@nm@Emboque@nm@83150000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Encantado d'Oeste@nm@85936000@nm@@nm@-24.4130776@nm@-53.6529014@nm@
+PR@nm@Encruzilhada@nm@85138850@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Encruzilhada@nm@85514850@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Enéas Marques@nm@85630000@nm@@nm@-25.9450055@nm@-53.1663681@nm@
+PR@nm@Engenheiro Beltrão@nm@87270000@nm@@nm@-23.8000490@nm@-52.2588522@nm@
+PR@nm@Entre Rios@nm@85108000@nm@@nm@-25.5640790@nm@-51.4831245@nm@
+PR@nm@Entre Rios do Oeste@nm@85988000@nm@@nm@-24.7065631@nm@-54.2433113@nm@
+PR@nm@Esperança do Norte@nm@86155000@nm@@nm@-22.7182177@nm@-51.2876182@nm@
+PR@nm@Esperança Nova@nm@87545000@nm@@nm@-23.7242526@nm@-53.8114829@nm@
+PR@nm@Espigão Alto do Iguaçu@nm@85465000@nm@@nm@-25.4221149@nm@-52.8353014@nm@
+PR@nm@Espírito Santo@nm@86106000@nm@@nm@-23.3742651@nm@-51.2130951@nm@
+PR@nm@Estação General Lúcio@nm@83729500@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Estação Roça Nova@nm@83319000@nm@@nm@-25.4728468@nm@-49.0148148@nm@
+PR@nm@Europa@nm@83251400@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Euzébio de Oliveira@nm@84912000@nm@@nm@-23.8059319@nm@-50.3636309@nm@
+PR@nm@Faisqueira@nm@84279800@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Farol@nm@87325000@nm@@nm@-24.0943568@nm@-52.6227329@nm@
+PR@nm@Faxina@nm@83163000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Faxinal@nm@86840000@nm@@nm@-24.0021722@nm@-51.3256188@nm@
+PR@nm@Faxinal do Céu@nm@85180000@nm@@nm@-25.9092948@nm@-51.5942828@nm@
+PR@nm@Faxinal dos Elias@nm@85124000@nm@@nm@-25.3012107@nm@-51.2667348@nm@
+PR@nm@Faxinal Santa Cruz@nm@84128600@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Fazenda do Brigadeiro@nm@85824850@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Fazenda dos Barbosas@nm@85137200@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Fazenda Jangada@nm@85824800@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Fazenda Rio Grande@nm@@nm@@nm@@nm@@nm@
+PR@nm@Fazenda Salmo 23@nm@87523700@nm@@nm@-23.7661064@nm@-53.3206105@nm@
+PR@nm@Fazendinha@nm@85609700@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Felpudo@nm@83649700@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Fênix@nm@86950000@nm@@nm@-23.9168881@nm@-51.9818927@nm@
+PR@nm@Fernandes Pinheiro@nm@84535000@nm@@nm@-25.4112295@nm@-50.5460865@nm@
+PR@nm@Fernão Dias@nm@86765000@nm@@nm@-23.1202320@nm@-51.7142979@nm@
+PR@nm@Ferraria@nm@83644000@nm@@nm@-25.4564503@nm@-49.4516846@nm@
+PR@nm@Ferreiras@nm@84125700@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Figueira@nm@84285000@nm@@nm@-23.8487060@nm@-50.4060387@nm@
+PR@nm@Figueira do Oeste@nm@87277000@nm@@nm@-23.7786296@nm@-52.3517562@nm@
+PR@nm@Fiusas@nm@85123000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Flor da Serra@nm@85886000@nm@@nm@-25.3803905@nm@-54.0523344@nm@
+PR@nm@Flor da Serra@nm@85776000@nm@@nm@-25.7714923@nm@-53.5346190@nm@
+PR@nm@Flor da Serra do Sul@nm@85618000@nm@@nm@-26.2570882@nm@-53.3078105@nm@
+PR@nm@Floraí@nm@87185000@nm@@nm@-23.3182820@nm@-52.3033761@nm@
+PR@nm@Floresta@nm@87120000@nm@@nm@-23.6163786@nm@-52.0840647@nm@
+PR@nm@Florestópolis@nm@86165000@nm@@nm@-22.8664464@nm@-51.3906526@nm@
+PR@nm@Floriano@nm@@nm@@nm@@nm@@nm@
+PR@nm@Flórida@nm@86780000@nm@@nm@-23.0851771@nm@-51.9550466@nm@
+PR@nm@Florópolis@nm@87668000@nm@@nm@-22.9301859@nm@-52.1554346@nm@
+PR@nm@Fluviópolis@nm@83930000@nm@@nm@-26.0155456@nm@-50.5983034@nm@
+PR@nm@Formigone@nm@87523300@nm@@nm@-23.7661064@nm@-53.3206105@nm@
+PR@nm@Formigueiro@nm@83726000@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Formosa do Oeste@nm@85830000@nm@@nm@-24.2967052@nm@-53.3128624@nm@
+PR@nm@Foz do Iguaçu@nm@@nm@@nm@@nm@@nm@
+PR@nm@Foz do Jordão@nm@85145000@nm@@nm@-25.7377607@nm@-52.1188090@nm@
+PR@nm@Francisco Alves@nm@87570000@nm@@nm@-24.0671967@nm@-53.8466295@nm@
+PR@nm@Francisco Beltrão@nm@@nm@@nm@@nm@@nm@
+PR@nm@Francisco Frederico Teixeira Guimarães@nm@85556000@nm@@nm@-26.4803234@nm@-51.9908764@nm@
+PR@nm@Frei Timóteo@nm@86215000@nm@@nm@-23.2372322@nm@-50.9651347@nm@
+PR@nm@Fueros@nm@85116000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Fundão@nm@84194850@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Gamadinho@nm@85824600@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Gamela@nm@83156000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Gaúcha@nm@85609500@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Gavião@nm@85325000@nm@@nm@-25.4079504@nm@-52.4134746@nm@
+PR@nm@Gavião@nm@85678000@nm@@nm@-25.7820598@nm@-53.3102927@nm@
+PR@nm@General Carneiro@nm@84660000@nm@@nm@-26.4254626@nm@-51.3177199@nm@
+PR@nm@General Osório@nm@85927550@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Geremia Lunardelli@nm@87333000@nm@@nm@-24.7356082@nm@-52.6124739@nm@
+PR@nm@Godoy Moreira@nm@86938000@nm@@nm@-24.1925386@nm@-51.9232606@nm@
+PR@nm@Goioerê@nm@87360000@nm@@nm@-24.1860032@nm@-53.0276711@nm@
+PR@nm@Goioxim@nm@85162000@nm@@nm@-25.1931339@nm@-51.9915870@nm@
+PR@nm@Góis@nm@85103000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Gonçalves Júnior@nm@84509000@nm@@nm@-25.4635320@nm@-50.7714345@nm@
+PR@nm@Graciosa@nm@87722000@nm@@nm@-23.0838071@nm@-52.6088346@nm@
+PR@nm@Grandes Rios@nm@86845000@nm@@nm@-24.1470856@nm@-51.5098662@nm@
+PR@nm@Guaiporã@nm@87567000@nm@@nm@-23.9419405@nm@-53.5874100@nm@
+PR@nm@Guaíra@nm@85980000@nm@@nm@-24.0840649@nm@-54.2565481@nm@
+PR@nm@Guairaçá@nm@87880000@nm@@nm@-22.9324493@nm@-52.6911177@nm@
+PR@nm@Guairaçá@nm@85113000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Guairacá@nm@86114000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@Guajuvira@nm@83725000@nm@@nm@-25.5913736@nm@-49.5143090@nm@
+PR@nm@Guamiranga@nm@84435000@nm@@nm@-25.1929334@nm@-50.8092980@nm@
+PR@nm@Guamirim@nm@84509100@nm@@nm@-25.5601431@nm@-50.8521006@nm@
+PR@nm@Guapirama@nm@86465000@nm@@nm@-23.5208318@nm@-50.0411734@nm@
+PR@nm@Guaporé@nm@85407000@nm@@nm@-24.9146348@nm@-52.9318601@nm@
+PR@nm@Guaporema@nm@87810000@nm@@nm@-23.3406906@nm@-52.7790998@nm@
+PR@nm@Guará@nm@85110000@nm@@nm@-25.3726650@nm@-51.2783722@nm@
+PR@nm@Guaraci@nm@86620000@nm@@nm@-22.9699006@nm@-51.6508909@nm@
+PR@nm@Guaragi@nm@84120000@nm@@nm@-25.2771381@nm@-50.2306335@nm@
+PR@nm@Guaraí@nm@85365000@nm@@nm@-25.2648606@nm@-52.4543618@nm@
+PR@nm@Guaraituba@nm@83418000@nm@@nm@-25.3583321@nm@-49.1734057@nm@
+PR@nm@Guarani@nm@85380000@nm@@nm@-25.3058565@nm@-52.5451827@nm@
+PR@nm@Guaraniaçu@nm@85400000@nm@@nm@-25.0973006@nm@-52.8760334@nm@
+PR@nm@Guarapuava@nm@@nm@@nm@@nm@@nm@
+PR@nm@Guarapuavinha@nm@85609150@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Guaraqueçaba@nm@83390000@nm@@nm@-25.2981169@nm@-48.3253430@nm@
+PR@nm@Guararema@nm@84193300@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Guaratuba@nm@83280000@nm@@nm@-25.8804742@nm@-48.5737662@nm@
+PR@nm@Guaraúna@nm@84534000@nm@@nm@-25.3236248@nm@-50.3544157@nm@
+PR@nm@Guaravera@nm@86120000@nm@@nm@-23.6026585@nm@-51.1921677@nm@
+PR@nm@Guardamoria@nm@84277800@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Harmonia@nm@84275000@nm@@nm@-24.3266993@nm@-50.6360842@nm@
+PR@nm@Herculândia@nm@87527000@nm@@nm@-23.2579373@nm@-53.3989531@nm@
+PR@nm@Herval Grande@nm@85326000@nm@@nm@-25.4079504@nm@-52.4134746@nm@
+PR@nm@Herveira@nm@87348000@nm@@nm@-24.5385676@nm@-52.7454829@nm@
+PR@nm@Herveira@nm@85360000@nm@@nm@-25.3058565@nm@-52.5451827@nm@
+PR@nm@Hidrelétrica Itaipu@nm@85873000@nm@@nm@-25.5163356@nm@-54.5853764@nm@
+PR@nm@Honório Serpa@nm@85548000@nm@@nm@-26.1430422@nm@-52.3831786@nm@
+PR@nm@Iarama@nm@87523600@nm@@nm@-23.7661064@nm@-53.3206105@nm@
+PR@nm@Ibaiti@nm@84900000@nm@@nm@-23.8401119@nm@-50.1924435@nm@
+PR@nm@Ibema@nm@85478000@nm@@nm@-25.1118132@nm@-53.0151195@nm@
+PR@nm@Ibiaci@nm@86143000@nm@@nm@-22.9334784@nm@-51.0243360@nm@
+PR@nm@Ibiporã@nm@86200000@nm@@nm@-23.2664186@nm@-51.0527244@nm@
+PR@nm@Içara@nm@86744000@nm@@nm@-23.1701455@nm@-51.6318555@nm@
+PR@nm@Icaraíma@nm@87530000@nm@@nm@-23.3948241@nm@-53.6154802@nm@
+PR@nm@Icatu@nm@87935000@nm@@nm@-22.9704812@nm@-53.3993771@nm@
+PR@nm@Igrejinha@nm@85127000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Iguaraçu@nm@86750000@nm@@nm@-23.1953710@nm@-51.8260391@nm@
+PR@nm@Iguatemi@nm@@nm@@nm@@nm@@nm@
+PR@nm@Iguatu@nm@85423000@nm@@nm@-24.7157536@nm@-53.0832264@nm@
+PR@nm@Iguiporã@nm@85972000@nm@@nm@-24.5575832@nm@-54.2064351@nm@
+PR@nm@Ilha de Eufrasina@nm@83251380@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Ilha de São Miguel@nm@83251600@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Ilha do Amparo@nm@83251200@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Ilha do Mel@nm@83251000@nm@@nm@-25.5208404@nm@-48.5109613@nm@
+PR@nm@Ilha do Teixeira@nm@83251580@nm@@nm@-25.4941667@nm@-48.6461111@nm@
+PR@nm@Ilha dos Valadares@nm@83252000@nm@@nm@-25.5306719@nm@-48.5034010@nm@
+PR@nm@Ilha Encantada@nm@83251100@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Imbaú@nm@84250000@nm@@nm@-24.4484932@nm@-50.7537524@nm@
+PR@nm@Imbauzinho@nm@84279300@nm@@nm@-24.2662049@nm@-50.6409908@nm@
+PR@nm@Imbituva@nm@84430000@nm@@nm@-25.2293043@nm@-50.6054136@nm@
+PR@nm@Inácio Martins@nm@85155000@nm@@nm@-25.5708814@nm@-51.0774154@nm@
+PR@nm@Inajá@nm@87670000@nm@@nm@-22.7514011@nm@-52.1999873@nm@
+PR@nm@Independência@nm@85514600@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Indianópolis@nm@87235000@nm@@nm@-23.4767073@nm@-52.6993597@nm@
+PR@nm@Inspetor Carvalho@nm@83155000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Invernada@nm@84197850@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Invernadinha@nm@85129000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Iolópolis@nm@85578000@nm@@nm@-25.6531105@nm@-52.8845967@nm@
+PR@nm@Ipiranga@nm@84450000@nm@@nm@-25.0253304@nm@-50.5835338@nm@
+PR@nm@Ipiranga@nm@83729300@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Iporã@nm@87560000@nm@@nm@-24.0022976@nm@-53.7085632@nm@
+PR@nm@Iracema do Oeste@nm@85833000@nm@@nm@-24.4266297@nm@-53.3532933@nm@
+PR@nm@Irapuan@nm@87267000@nm@@nm@-23.7645143@nm@-52.0971092@nm@
+PR@nm@Irati@nm@@nm@@nm@@nm@@nm@
+PR@nm@Irerê@nm@86115000@nm@@nm@-23.5053364@nm@-51.1282278@nm@
+PR@nm@Iretama@nm@87280000@nm@@nm@-24.4257688@nm@-52.1016548@nm@
+PR@nm@Itaguajé@nm@86670000@nm@@nm@-22.6187543@nm@-51.9678371@nm@
+PR@nm@Itaiacoca@nm@84110000@nm@@nm@-25.1399466@nm@-49.8969093@nm@
+PR@nm@Itaipulândia@nm@85880000@nm@@nm@-25.1370969@nm@-54.3006152@nm@
+PR@nm@Itambaracá@nm@86375000@nm@@nm@-23.0185916@nm@-50.4101295@nm@
+PR@nm@Itambé@nm@87175000@nm@@nm@-23.6587930@nm@-51.9900836@nm@
+PR@nm@Itambé@nm@83649150@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Itambezinho@nm@83647000@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Itapanhacanga@nm@84196850@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Itapara@nm@84509200@nm@@nm@-25.4726891@nm@-51.0375747@nm@
+PR@nm@Itapejara d'Oeste@nm@85580000@nm@@nm@-25.9660986@nm@-52.8146778@nm@
+PR@nm@Itaperuçu@nm@83560000@nm@@nm@-25.2197507@nm@-49.3459021@nm@
+PR@nm@Itaqui@nm@83649800@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Itaúna do Sul@nm@87980000@nm@@nm@-22.7294119@nm@-52.8878884@nm@
+PR@nm@Itinga@nm@83251350@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Ivaí@nm@84460000@nm@@nm@-25.0072190@nm@-50.8575274@nm@
+PR@nm@Ivailândia@nm@87275000@nm@@nm@-23.7243509@nm@-52.1788487@nm@
+PR@nm@Ivaiporã@nm@86870000@nm@@nm@-24.2444396@nm@-51.6741201@nm@
+PR@nm@Ivaitinga@nm@87620000@nm@@nm@-23.2222984@nm@-52.3525442@nm@
+PR@nm@Ivaté@nm@87525000@nm@@nm@-23.4090724@nm@-53.3721383@nm@
+PR@nm@Ivatuba@nm@87130000@nm@@nm@-23.6191974@nm@-52.2207636@nm@
+PR@nm@Jaborandi@nm@87523400@nm@@nm@-23.7661064@nm@-53.3206105@nm@
+PR@nm@Jaboti@nm@84930000@nm@@nm@-23.7439846@nm@-50.0733794@nm@
+PR@nm@Jaboticabal@nm@84128000@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Jaburu@nm@84126500@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Jacaré@nm@85609450@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Jacarezinho@nm@86400000@nm@@nm@-23.1579390@nm@-49.9777202@nm@
+PR@nm@Jaciaba@nm@84420000@nm@@nm@-24.8388663@nm@-51.2963520@nm@
+PR@nm@Jacutinga@nm@85607000@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Jacutinga@nm@85164000@nm@@nm@-25.0491393@nm@-52.0151306@nm@
+PR@nm@Jacutinga@nm@86878000@nm@@nm@-24.2473999@nm@-51.5602889@nm@
+PR@nm@Jacutinga@nm@85653000@nm@@nm@-25.7290837@nm@-53.4675525@nm@
+PR@nm@Jaguapitã@nm@86610000@nm@@nm@-23.1108635@nm@-51.5346795@nm@
+PR@nm@Jaguariaíva@nm@84200000@nm@@nm@-24.2605220@nm@-49.7251894@nm@
+PR@nm@Jandaia do Sul@nm@86900000@nm@@nm@-23.5991226@nm@-51.6386494@nm@
+PR@nm@Jandinópolis@nm@86335000@nm@@nm@-23.0821801@nm@-50.7516071@nm@
+PR@nm@Jangada@nm@87569000@nm@@nm@-24.0124976@nm@-53.5247309@nm@
+PR@nm@Jangada do Sul@nm@84664000@nm@@nm@-26.3972655@nm@-51.3083407@nm@
+PR@nm@Janiópolis@nm@87380000@nm@@nm@-24.1405995@nm@-52.7788578@nm@
+PR@nm@Japira@nm@84920000@nm@@nm@-23.8147096@nm@-50.1426872@nm@
+PR@nm@Japurá@nm@87225000@nm@@nm@-23.4701340@nm@-52.5549674@nm@
+PR@nm@Jaracatiá@nm@87364000@nm@@nm@-24.1940027@nm@-52.9792573@nm@
+PR@nm@Jardim@nm@86107000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@Jardim Alegre@nm@86860000@nm@@nm@-24.1813922@nm@-51.6906867@nm@
+PR@nm@Jardim Olinda@nm@87690000@nm@@nm@-22.5527268@nm@-52.0507845@nm@
+PR@nm@Jardim Paredão@nm@87552000@nm@@nm@-23.8729539@nm@-53.8933423@nm@
+PR@nm@Jataizinho@nm@86210000@nm@@nm@-23.2582928@nm@-50.9782288@nm@
+PR@nm@Javacaé@nm@83649400@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Jesuítas@nm@85835000@nm@@nm@-24.3803669@nm@-53.3865498@nm@
+PR@nm@Joá@nm@86457000@nm@@nm@-23.4148768@nm@-49.8703396@nm@
+PR@nm@Joaquim Távora@nm@86455000@nm@@nm@-23.4976586@nm@-49.9219817@nm@
+PR@nm@Jordão@nm@@nm@@nm@@nm@@nm@
+PR@nm@José Lacerda@nm@84330000@nm@@nm@-24.4911632@nm@-50.8183241@nm@
+PR@nm@Juciara@nm@86923000@nm@@nm@-23.9041939@nm@-51.7517081@nm@
+PR@nm@Jundiaí do Sul@nm@86470000@nm@@nm@-23.4361518@nm@-50.2500547@nm@
+PR@nm@Juranda@nm@87355000@nm@@nm@-24.4213423@nm@-52.8418434@nm@
+PR@nm@Jussara@nm@87230000@nm@@nm@-23.6201232@nm@-52.4717897@nm@
+PR@nm@Juvinópolis@nm@85821000@nm@@nm@-25.2711206@nm@-53.3584657@nm@
+PR@nm@Kaloré@nm@86920000@nm@@nm@-23.8193129@nm@-51.6691972@nm@
+PR@nm@km 30@nm@84279100@nm@@nm@-24.3243551@nm@-50.6533724@nm@
+PR@nm@Lagoa@nm@84193100@nm@@nm@-24.8500000@nm@-49.7500000@nm@
+PR@nm@Lagoa@nm@84279000@nm@@nm@-24.2230850@nm@-50.5378939@nm@
+PR@nm@Lagoa Bonita@nm@84196400@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Lagoa dos Ribas@nm@84197300@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Lagoa Dourada@nm@84127800@nm@@nm@-25.1213761@nm@-50.1410108@nm@
+PR@nm@Lagoa Seca@nm@85137400@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Lagoa Verde@nm@83848000@nm@@nm@-25.9000000@nm@-49.5166670@nm@
+PR@nm@Lagoinha@nm@84279200@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Lajeado@nm@84198700@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Lajeado@nm@84125300@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Lajeado@nm@83910000@nm@@nm@-26.0392285@nm@-50.3584846@nm@
+PR@nm@Lajeado Bonito@nm@84360000@nm@@nm@-24.1714801@nm@-50.7645735@nm@
+PR@nm@Lajeado Grande@nm@85132000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Lambari@nm@84295000@nm@@nm@-23.8563198@nm@-50.6467186@nm@
+PR@nm@Lapa@nm@83750000@nm@@nm@-25.7675725@nm@-49.7172529@nm@
+PR@nm@Laranja Azeda@nm@84277400@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Laranjal@nm@85275000@nm@@nm@-24.8866322@nm@-52.4705394@nm@
+PR@nm@Laranjeiras do Sul@nm@@nm@@nm@@nm@@nm@
+PR@nm@Lavra@nm@83649300@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Lavrinha@nm@85102000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Lavrinha@nm@84928000@nm@@nm@-23.8912712@nm@-50.0691139@nm@
+PR@nm@Leópolis@nm@86330000@nm@@nm@-23.0821801@nm@-50.7516071@nm@
+PR@nm@Lerroville@nm@86123000@nm@@nm@-23.6879182@nm@-51.0876918@nm@
+PR@nm@Lidianópolis@nm@86865000@nm@@nm@-24.1104490@nm@-51.6511181@nm@
+PR@nm@Lindoeste@nm@85826000@nm@@nm@-25.2600928@nm@-53.5738063@nm@
+PR@nm@Linha Giacomini@nm@85926650@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Loanda@nm@87900000@nm@@nm@-22.9309562@nm@-53.1346109@nm@
+PR@nm@Lobato@nm@86790000@nm@@nm@-23.0062558@nm@-51.9529063@nm@
+PR@nm@Londrina@nm@@nm@@nm@@nm@@nm@
+PR@nm@Lopei@nm@85927800@nm@@nm@-24.8000000@nm@-53.6000000@nm@
+PR@nm@Lovat@nm@87520000@nm@@nm@-23.7668838@nm@-53.1992705@nm@
+PR@nm@Luar@nm@86931000@nm@@nm@-23.9545846@nm@-51.9203486@nm@
+PR@nm@Luiziana@nm@87290000@nm@@nm@-24.2857617@nm@-52.2695165@nm@
+PR@nm@Lunardelli@nm@86935000@nm@@nm@-24.0790798@nm@-51.7418561@nm@
+PR@nm@Lupionópolis@nm@86635000@nm@@nm@-22.7554607@nm@-51.6605692@nm@
+PR@nm@Macaco@nm@84198600@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Macucos@nm@85134000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Mairá@nm@86638000@nm@@nm@-22.6994206@nm@-51.6448299@nm@
+PR@nm@Maitá@nm@85137100@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Mallet@nm@84570000@nm@@nm@-25.8810764@nm@-50.8178356@nm@
+PR@nm@Malu@nm@87245000@nm@@nm@-23.6704290@nm@-52.3860941@nm@
+PR@nm@Mamborê@nm@87340000@nm@@nm@-24.3171066@nm@-52.5275841@nm@
+PR@nm@Mandaçaia@nm@85138000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Mandaguaçu@nm@87160000@nm@@nm@-23.3462407@nm@-52.0948587@nm@
+PR@nm@Mandaguari@nm@86975000@nm@@nm@-23.5169863@nm@-51.6872060@nm@
+PR@nm@Mandiocaba@nm@87729400@nm@@nm@-23.0821226@nm@-52.4622155@nm@
+PR@nm@Mandirituba@nm@83800000@nm@@nm@-25.7775289@nm@-49.3287022@nm@
+PR@nm@Manfrinópolis@nm@85628000@nm@@nm@-26.1484487@nm@-53.3157671@nm@
+PR@nm@Mangueirinha@nm@85540000@nm@@nm@-25.9425860@nm@-52.1747755@nm@
+PR@nm@Manoel Ribas@nm@85260000@nm@@nm@-24.5194226@nm@-51.6723322@nm@
+PR@nm@Marabá@nm@87458000@nm@@nm@-23.7543481@nm@-52.7697763@nm@
+PR@nm@Maracanã@nm@84197500@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Marajó@nm@85412000@nm@@nm@-24.3846290@nm@-53.1940729@nm@
+PR@nm@Maravilha@nm@86110000@nm@@nm@-23.4575676@nm@-50.9976216@nm@
+PR@nm@Maravilha@nm@85775000@nm@@nm@-25.6619474@nm@-53.4978674@nm@
+PR@nm@Marcelino@nm@83168000@nm@@nm@-25.7982934@nm@-49.2051423@nm@
+PR@nm@Marcianópolis@nm@85720000@nm@@nm@-26.0741870@nm@-53.7256129@nm@
+PR@nm@Marechal Cândido Rondon@nm@85960000@nm@@nm@-24.5564608@nm@-54.0578694@nm@
+PR@nm@Margarida@nm@85974000@nm@@nm@-24.6491388@nm@-54.1214539@nm@
+PR@nm@Maria Helena@nm@87480000@nm@@nm@-23.6162262@nm@-53.2058320@nm@
+PR@nm@Maria Luiza@nm@83251750@nm@@nm@-25.6295688@nm@-48.5895695@nm@
+PR@nm@Marialva@nm@86990000@nm@@nm@-23.4847922@nm@-51.7932899@nm@
+PR@nm@Mariental@nm@83760000@nm@@nm@-25.7218627@nm@-49.6470266@nm@
+PR@nm@Marilândia do Sul@nm@86825000@nm@@nm@-23.7430127@nm@-51.3142221@nm@
+PR@nm@Marilena@nm@87960000@nm@@nm@-22.7340214@nm@-53.0407335@nm@
+PR@nm@Marilu@nm@87282000@nm@@nm@-24.4451054@nm@-52.2362189@nm@
+PR@nm@Mariluz@nm@87470000@nm@@nm@-24.0074176@nm@-53.1479115@nm@
+PR@nm@Marimbondo@nm@84943000@nm@@nm@-23.5694250@nm@-49.6831077@nm@
+PR@nm@Maringá@nm@@nm@@nm@@nm@@nm@
+PR@nm@Mariópolis@nm@85525000@nm@@nm@-26.3569408@nm@-52.5541594@nm@
+PR@nm@Maripá@nm@85955000@nm@@nm@-24.4204510@nm@-53.8291478@nm@
+PR@nm@Maristela@nm@87753000@nm@@nm@-23.1238203@nm@-52.2894853@nm@
+PR@nm@Mariza@nm@86947000@nm@@nm@-23.8818054@nm@-51.8907331@nm@
+PR@nm@Marmelândia@nm@85778000@nm@@nm@-25.5678479@nm@-53.5612925@nm@
+PR@nm@Marmeleiro@nm@85615000@nm@@nm@-26.1476817@nm@-53.0272489@nm@
+PR@nm@Marquês de Abrantes@nm@83485000@nm@@nm@-24.9770531@nm@-48.9304948@nm@
+PR@nm@Marquês dos Reis@nm@86409000@nm@@nm@-23.1579390@nm@-49.9777202@nm@
+PR@nm@Marquinho@nm@85168000@nm@@nm@-25.1124808@nm@-52.2501737@nm@
+PR@nm@Marrecas@nm@85112000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Martinópolis@nm@87326000@nm@@nm@-24.0943568@nm@-52.6227329@nm@
+PR@nm@Martins@nm@83729800@nm@@nm@-25.5864310@nm@-49.4052251@nm@
+PR@nm@Marumbi@nm@86910000@nm@@nm@-23.7062415@nm@-51.6408615@nm@
+PR@nm@Matelândia@nm@85887000@nm@@nm@-25.2426589@nm@-53.9785591@nm@
+PR@nm@Matinhos@nm@83260000@nm@@nm@-25.8116622@nm@-48.5362308@nm@
+PR@nm@Matinhos@nm@85117000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Mato Queimado@nm@84127400@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Mato Rico@nm@85240000@nm@@nm@-24.7000176@nm@-52.1459352@nm@
+PR@nm@Mauá da Serra@nm@86828000@nm@@nm@-23.8992194@nm@-51.2282421@nm@
+PR@nm@Medianeira@nm@85884000@nm@@nm@-25.2952784@nm@-54.0932225@nm@
+PR@nm@Meia-Lua@nm@83533000@nm@@nm@-25.3193102@nm@-49.3042082@nm@
+PR@nm@Memória@nm@85927700@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Mendeslândia@nm@86685000@nm@@nm@-22.8607908@nm@-51.7748915@nm@
+PR@nm@Mercedes@nm@85998000@nm@@nm@-24.4542630@nm@-54.1623354@nm@
+PR@nm@Mirador@nm@87840000@nm@@nm@-23.2554232@nm@-52.7765755@nm@
+PR@nm@Miranda@nm@84279600@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Mirante do Piquiri@nm@87590000@nm@@nm@-24.2036327@nm@-53.3885417@nm@
+PR@nm@Miraselva@nm@86615000@nm@@nm@-22.9661381@nm@-51.4850896@nm@
+PR@nm@Missal@nm@85890000@nm@@nm@-25.0914713@nm@-54.2474972@nm@
+PR@nm@Monjolinho@nm@84370000@nm@@nm@-24.3618205@nm@-50.8835381@nm@
+PR@nm@Monte Real@nm@86435000@nm@@nm@-23.2305829@nm@-50.1402790@nm@
+PR@nm@Moreira Sales@nm@87370000@nm@@nm@-24.0441970@nm@-53.0066234@nm@
+PR@nm@Morretes@nm@83350000@nm@@nm@-25.4827475@nm@-48.8290713@nm@
+PR@nm@Morro Alto@nm@83157000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Morro Inglês@nm@83251650@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Munhoz de Melo@nm@86760000@nm@@nm@-23.1464849@nm@-51.7736485@nm@
+PR@nm@Natingui@nm@84390000@nm@@nm@-24.0318606@nm@-50.8235718@nm@
+PR@nm@Nilza@nm@87562000@nm@@nm@-23.9771012@nm@-53.9073976@nm@
+PR@nm@Nordestina@nm@87855000@nm@@nm@-23.1884737@nm@-52.8583578@nm@
+PR@nm@Nossa Senhora Aparecida@nm@86383000@nm@@nm@-22.9666568@nm@-50.2690162@nm@
+PR@nm@Nossa Senhora da Aparecida@nm@86607000@nm@@nm@-23.2059944@nm@-51.3808097@nm@
+PR@nm@Nossa Senhora da Candelária@nm@86365000@nm@@nm@-23.1645357@nm@-50.2511358@nm@
+PR@nm@Nossa Senhora das Graças@nm@86680000@nm@@nm@-22.9134540@nm@-51.7982741@nm@
+PR@nm@Nossa Senhora de Lourdes@nm@85824650@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Nossa Senhora do Carmo@nm@85514550@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Nova Aliança do Ivaí@nm@87790000@nm@@nm@-23.1767435@nm@-52.6037369@nm@
+PR@nm@Nova Altamira@nm@86842000@nm@@nm@-23.8893941@nm@-51.3602690@nm@
+PR@nm@Nova América da Colina@nm@86230000@nm@@nm@-23.3312509@nm@-50.7173000@nm@
+PR@nm@Nova Amoreira@nm@86826000@nm@@nm@-23.8370870@nm@-51.3207500@nm@
+PR@nm@Nova Aurora@nm@85410000@nm@@nm@-24.5298725@nm@-53.2549432@nm@
+PR@nm@Nova Bilac@nm@87188000@nm@@nm@-23.2907386@nm@-52.3951427@nm@
+PR@nm@Nova Brasília@nm@87262000@nm@@nm@-23.9517254@nm@-52.6163889@nm@
+PR@nm@Nova Brasília@nm@85926600@nm@@nm@-24.4698028@nm@-53.9538011@nm@
+PR@nm@Nova Brasília do Itararé@nm@86425000@nm@@nm@-23.5437988@nm@-49.7390940@nm@
+PR@nm@Nova Cantu@nm@87330000@nm@@nm@-24.6726941@nm@-52.5699983@nm@
+PR@nm@Nova Concórdia@nm@85609000@nm@@nm@-25.9752481@nm@-53.0240002@nm@
+PR@nm@Nova Esperança@nm@87600000@nm@@nm@-23.1891863@nm@-52.2004893@nm@
+PR@nm@Nova Esperança do Sudoeste@nm@85635000@nm@@nm@-25.9065500@nm@-53.2657487@nm@
+PR@nm@Nova Fátima@nm@86310000@nm@@nm@-23.4332051@nm@-50.5633762@nm@
+PR@nm@Nova Laranjeiras@nm@85350000@nm@@nm@-25.3058565@nm@-52.5451827@nm@
+PR@nm@Nova Londrina@nm@87970000@nm@@nm@-22.7643887@nm@-52.9872677@nm@
+PR@nm@Nova Lourdes@nm@85572000@nm@@nm@-25.7830101@nm@-52.8458390@nm@
+PR@nm@Nova Olímpia@nm@87490000@nm@@nm@-23.4707240@nm@-53.0902966@nm@
+PR@nm@Nova Prata do Iguaçu@nm@85685000@nm@@nm@-25.6344713@nm@-53.3455701@nm@
+PR@nm@Nova Riqueza@nm@85729000@nm@@nm@-26.0329017@nm@-53.4825089@nm@
+PR@nm@Nova Santa Bárbara@nm@86250000@nm@@nm@-23.5870138@nm@-50.7602783@nm@
+PR@nm@Nova Santa Helena@nm@87564000@nm@@nm@-24.0022976@nm@-53.7085632@nm@
+PR@nm@Nova Santa Rosa@nm@85930000@nm@@nm@-24.4697658@nm@-53.9557569@nm@
+PR@nm@Nova Tebas@nm@85250000@nm@@nm@-24.4384373@nm@-51.9458496@nm@
+PR@nm@Nova Tirol@nm@83319300@nm@@nm@-25.4426635@nm@-49.0628847@nm@
+PR@nm@Nova Videira@nm@85926830@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Novo Horizonte@nm@85822600@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Novo Horizonte@nm@85978000@nm@@nm@-24.4585523@nm@-54.0764148@nm@
+PR@nm@Novo Itacolomi@nm@86895000@nm@@nm@-23.7620249@nm@-51.5048194@nm@
+PR@nm@Novo Jardim@nm@84923000@nm@@nm@-23.8147096@nm@-50.1426872@nm@
+PR@nm@Novo Sarandi@nm@85927000@nm@@nm@-24.5648463@nm@-53.9063639@nm@
+PR@nm@Novo Sobradinho@nm@85925000@nm@@nm@-24.6251251@nm@-53.7592901@nm@
+PR@nm@Novo Três Passos@nm@85975000@nm@@nm@-24.4750707@nm@-54.0164016@nm@
+PR@nm@Olaria@nm@85824500@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Olaria@nm@84277850@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Olho Agudo@nm@83160000@nm@@nm@-25.5318354@nm@-49.2035722@nm@
+PR@nm@Olho d'Água@nm@84198300@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Ortigueira@nm@84350000@nm@@nm@-24.2099688@nm@-50.9263297@nm@
+PR@nm@Ourilândia@nm@86968000@nm@@nm@-24.0343462@nm@-52.1298025@nm@
+PR@nm@Ourizona@nm@87170000@nm@@nm@-23.4058166@nm@-52.1968707@nm@
+PR@nm@Ouro Preto@nm@85922000@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Ouro Verde@nm@84235000@nm@@nm@-24.4414536@nm@-49.3468142@nm@
+PR@nm@Ouro Verde do Oeste@nm@85933000@nm@@nm@-24.7740823@nm@-53.9023748@nm@
+PR@nm@Ouro Verde do Piquiri@nm@85422000@nm@@nm@-24.6404539@nm@-53.2051700@nm@
+PR@nm@Padre Ponciano@nm@85559000@nm@@nm@-26.2281694@nm@-52.0361506@nm@
+PR@nm@Paiçandu@nm@87140000@nm@@nm@-23.4554707@nm@-52.0423373@nm@
+PR@nm@Paiol de Baixo@nm@83440000@nm@@nm@-25.3048820@nm@-49.0555691@nm@
+PR@nm@Paiol Queimado@nm@84197000@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Paiquerê@nm@86112000@nm@@nm@-23.5276015@nm@-51.0834106@nm@
+PR@nm@Palmas@nm@85555000@nm@@nm@-26.4803234@nm@-51.9908764@nm@
+PR@nm@Palmeira@nm@84130000@nm@@nm@-25.4245708@nm@-50.0048569@nm@
+PR@nm@Palmeirinha@nm@84196870@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Palmeirinha@nm@85118000@nm@@nm@-25.2458746@nm@-51.5440337@nm@
+PR@nm@Palmira@nm@84155000@nm@@nm@-25.6746098@nm@-50.1559765@nm@
+PR@nm@Palmital@nm@85270000@nm@@nm@-24.8841552@nm@-52.2107112@nm@
+PR@nm@Palmital@nm@84196700@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Palmital de São Silvestre@nm@83646000@nm@@nm@-25.0577412@nm@-49.6322578@nm@
+PR@nm@Palmitópolis@nm@85413000@nm@@nm@-24.5751811@nm@-53.3784400@nm@
+PR@nm@Palotina@nm@85950000@nm@@nm@-24.2821555@nm@-53.8345983@nm@
+PR@nm@Panema@nm@86358000@nm@@nm@-22.9541048@nm@-50.5895687@nm@
+PR@nm@Pangaré@nm@83845000@nm@@nm@-25.9170160@nm@-49.4840220@nm@
+PR@nm@Papagaios Novos@nm@84135000@nm@@nm@-25.4047309@nm@-50.1352902@nm@
+PR@nm@Paraíso do Norte@nm@87780000@nm@@nm@-23.2828929@nm@-52.6059223@nm@
+PR@nm@Paraná d'Oeste@nm@87375000@nm@@nm@-24.1086851@nm@-52.8839235@nm@
+PR@nm@Paranacity@nm@87660000@nm@@nm@-22.9301859@nm@-52.1554346@nm@
+PR@nm@Paranagi@nm@86345000@nm@@nm@-22.8463505@nm@-50.8760925@nm@
+PR@nm@Paranaguá@nm@@nm@@nm@@nm@@nm@
+PR@nm@Paranapoema@nm@87680000@nm@@nm@-22.6417120@nm@-52.0910071@nm@
+PR@nm@Paranavaí@nm@@nm@@nm@@nm@@nm@
+PR@nm@Passa Una@nm@83729200@nm@@nm@-25.5330334@nm@-49.3827690@nm@
+PR@nm@Passo Amarelo@nm@83839000@nm@@nm@-25.6628466@nm@-49.3077866@nm@
+PR@nm@Passo da Ilha@nm@85514700@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Passo dos Pupos@nm@84126300@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Passo Fundo@nm@83649600@nm@@nm@-28.2803756@nm@-52.4492710@nm@
+PR@nm@Passo Liso@nm@85330000@nm@@nm@-25.2859852@nm@-52.3041838@nm@
+PR@nm@Pato Bragado@nm@85948000@nm@@nm@-24.6250974@nm@-54.2286256@nm@
+PR@nm@Pato Branco@nm@@nm@@nm@@nm@@nm@
+PR@nm@Patos Velhos@nm@84410000@nm@@nm@-25.3654740@nm@-50.9682737@nm@
+PR@nm@Pau d'Alho do Sul@nm@86224000@nm@@nm@-23.4999600@nm@-50.8920400@nm@
+PR@nm@Paula Freitas@nm@84630000@nm@@nm@-26.2110022@nm@-50.9314749@nm@
+PR@nm@Paulistânia@nm@87588000@nm@@nm@-24.1566946@nm@-53.3702013@nm@
+PR@nm@Paulo Frontin@nm@84635000@nm@@nm@-26.0412172@nm@-50.8313906@nm@
+PR@nm@Peabiru@nm@87250000@nm@@nm@-23.9142376@nm@-52.3455927@nm@
+PR@nm@Pedra Branca do Araraquara@nm@83290000@nm@@nm@-25.9378949@nm@-48.9198515@nm@
+PR@nm@Pedras@nm@84193700@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Pedro Lustosa@nm@85198000@nm@@nm@-25.8091266@nm@-51.8503854@nm@
+PR@nm@Pelado@nm@85128000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Perobal@nm@87538000@nm@@nm@-23.8953336@nm@-53.4103396@nm@
+PR@nm@Pérola@nm@87540000@nm@@nm@-23.8026835@nm@-53.6799909@nm@
+PR@nm@Pérola d'Oeste@nm@85740000@nm@@nm@-25.8223430@nm@-53.7439404@nm@
+PR@nm@Pérola Independente@nm@85958000@nm@@nm@-24.5337969@nm@-53.7409830@nm@
+PR@nm@Piassuguera@nm@83251500@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Piên@nm@83860000@nm@@nm@-26.0969638@nm@-49.4340443@nm@
+PR@nm@Pinaré@nm@84625000@nm@@nm@-25.9004464@nm@-51.1162461@nm@
+PR@nm@Pinhais@nm@@nm@@nm@@nm@@nm@
+PR@nm@Pinhal de São Bento@nm@85727000@nm@@nm@-26.0329017@nm@-53.4825089@nm@
+PR@nm@Pinhalão@nm@84925000@nm@@nm@-23.7986588@nm@-50.0540465@nm@
+PR@nm@Pinhalzinho@nm@86818500@nm@@nm@-23.5504385@nm@-51.4639716@nm@
+PR@nm@Pinhalzinho@nm@85824700@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Pinhalzinho@nm@85634000@nm@@nm@-25.8586473@nm@-53.1402406@nm@
+PR@nm@Pinhalzinho@nm@85167000@nm@@nm@-25.0833330@nm@-52.1000000@nm@
+PR@nm@Pinhalzinho@nm@85190000@nm@@nm@-25.9094405@nm@-51.3877162@nm@
+PR@nm@Pinhão@nm@85170000@nm@@nm@-25.6948729@nm@-51.6540904@nm@
+PR@nm@Pinheiro@nm@85767000@nm@@nm@-25.6370777@nm@-53.6748976@nm@
+PR@nm@Piquirivaí@nm@87318000@nm@@nm@-24.1617906@nm@-52.4661575@nm@
+PR@nm@Piracema@nm@87729200@nm@@nm@-22.9782668@nm@-52.5736169@nm@
+PR@nm@Piraí do Sul@nm@84240000@nm@@nm@-24.5393075@nm@-49.9409511@nm@
+PR@nm@Pirapó@nm@86818000@nm@@nm@-23.5551033@nm@-51.5440742@nm@
+PR@nm@Piraquara@nm@@nm@@nm@@nm@@nm@
+PR@nm@Piriquitos@nm@84105000@nm@@nm@-25.0402616@nm@-50.2527780@nm@
+PR@nm@Pitanga@nm@85200000@nm@@nm@-24.7592533@nm@-51.7601166@nm@
+PR@nm@Pitangueiras@nm@86613000@nm@@nm@-23.2286098@nm@-51.5877624@nm@
+PR@nm@Pitangui@nm@84125500@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Planaltina do Paraná@nm@87860000@nm@@nm@-23.0106169@nm@-52.9167366@nm@
+PR@nm@Planalto@nm@85750000@nm@@nm@-25.7227519@nm@-53.7638109@nm@
+PR@nm@Pocinho@nm@86962000@nm@@nm@-24.0912830@nm@-51.9456683@nm@
+PR@nm@Pocinho@nm@84125800@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Poema@nm@85255000@nm@@nm@-24.3551494@nm@-51.9675104@nm@
+PR@nm@Ponta do Pasto@nm@83251300@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Ponta Grossa@nm@@nm@@nm@@nm@@nm@
+PR@nm@Pontal do Paraná@nm@83255000@nm@@nm@-25.6972404@nm@-48.4759771@nm@
+PR@nm@Porecatu@nm@86160000@nm@@nm@-22.7521003@nm@-51.3808804@nm@
+PR@nm@Portão@nm@85824870@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Porteira Preta@nm@86955000@nm@@nm@-23.8714990@nm@-52.0245601@nm@
+PR@nm@Porto Amazonas@nm@84140000@nm@@nm@-25.5404922@nm@-49.8950718@nm@
+PR@nm@Porto Barreiro@nm@85345000@nm@@nm@-25.5481778@nm@-52.4072447@nm@
+PR@nm@Porto Belo@nm@85874000@nm@@nm@-25.4712976@nm@-54.5895346@nm@
+PR@nm@Porto Brasílio@nm@87940000@nm@@nm@-22.8934315@nm@-53.5244907@nm@
+PR@nm@Porto Camargo@nm@87532000@nm@@nm@-23.3709266@nm@-53.7489331@nm@
+PR@nm@Porto de Cima@nm@83360000@nm@@nm@-25.4323390@nm@-48.8864312@nm@
+PR@nm@Porto Meira@nm@85874400@nm@@nm@-25.5163356@nm@-54.5853764@nm@
+PR@nm@Porto Mendes@nm@85976000@nm@@nm@-24.4900100@nm@-54.3057330@nm@
+PR@nm@Porto Rico@nm@87950000@nm@@nm@-22.7713103@nm@-53.2684885@nm@
+PR@nm@Porto San Juan@nm@85874700@nm@@nm@-25.5163356@nm@-54.5853764@nm@
+PR@nm@Porto Santana@nm@85348000@nm@@nm@-25.6512379@nm@-52.4652725@nm@
+PR@nm@Porto São Carlos@nm@87775000@nm@@nm@-23.3541984@nm@-52.5263500@nm@
+PR@nm@Porto São José@nm@87957000@nm@@nm@-22.7177190@nm@-53.1718325@nm@
+PR@nm@Porto Vitória@nm@84615000@nm@@nm@-26.1678920@nm@-51.2314701@nm@
+PR@nm@Prado Ferreira@nm@86618000@nm@@nm@-23.0361735@nm@-51.4433666@nm@
+PR@nm@Pranchita@nm@85730000@nm@@nm@-26.0224467@nm@-53.7416248@nm@
+PR@nm@Prata@nm@86198000@nm@@nm@-23.2591087@nm@-51.2886370@nm@
+PR@nm@Prata Um@nm@84277200@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Presidente Castelo Branco@nm@87180000@nm@@nm@-23.2787073@nm@-52.1540529@nm@
+PR@nm@Presidente Kennedy@nm@85587000@nm@@nm@-25.8136019@nm@-52.9249167@nm@
+PR@nm@Primeiro de Maio@nm@86140000@nm@@nm@-22.8519912@nm@-51.0297454@nm@
+PR@nm@Progresso@nm@85609400@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Prudentópolis@nm@84400000@nm@@nm@-25.2118640@nm@-50.9774390@nm@
+PR@nm@Pulinópolis@nm@87165000@nm@@nm@-23.3462407@nm@-52.0948587@nm@
+PR@nm@Quarto Centenário@nm@87365000@nm@@nm@-24.2779740@nm@-53.0763846@nm@
+PR@nm@Quatiguá@nm@86450000@nm@@nm@-23.5677590@nm@-49.9105563@nm@
+PR@nm@Quatro Barras@nm@83420000@nm@@nm@-25.3678092@nm@-49.0767795@nm@
+PR@nm@Quatro Pontes@nm@85940000@nm@@nm@-24.5756251@nm@-53.9763935@nm@
+PR@nm@Quebra Freio@nm@85514000@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Quedas do Iguaçu@nm@85460000@nm@@nm@-25.4511067@nm@-52.9116768@nm@
+PR@nm@Queimados@nm@85137850@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Querência do Norte@nm@87930000@nm@@nm@-23.0840656@nm@-53.4843365@nm@
+PR@nm@Quinta do Sol@nm@87265000@nm@@nm@-23.8537485@nm@-52.1313998@nm@
+PR@nm@Quinzópolis@nm@86355000@nm@@nm@-23.0370642@nm@-50.5675378@nm@
+PR@nm@Quitandinha@nm@83840000@nm@@nm@-25.8739307@nm@-49.4978060@nm@
+PR@nm@Ramilândia@nm@85888000@nm@@nm@-25.1203092@nm@-54.0281126@nm@
+PR@nm@Rancho Alegre@nm@86290000@nm@@nm@-23.0680713@nm@-50.9149326@nm@
+PR@nm@Rancho Alegre d'Oeste@nm@87395000@nm@@nm@-24.3040235@nm@-52.9503828@nm@
+PR@nm@Realeza@nm@85770000@nm@@nm@-25.7714923@nm@-53.5346190@nm@
+PR@nm@Rebouças@nm@84550000@nm@@nm@-25.6236859@nm@-50.6882145@nm@
+PR@nm@Região dos Valos@nm@84279500@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@Reianópolis@nm@84230000@nm@@nm@-24.0070761@nm@-49.5806785@nm@
+PR@nm@Renascença@nm@85610000@nm@@nm@-26.1581027@nm@-52.9713245@nm@
+PR@nm@Reserva@nm@84320000@nm@@nm@-24.6496667@nm@-50.8489375@nm@
+PR@nm@Reserva do Iguaçu@nm@85195000@nm@@nm@-25.8348623@nm@-52.0259727@nm@
+PR@nm@Retiro@nm@84197800@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Retiro Grande@nm@83649500@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Ribeirão Bonito@nm@86847000@nm@@nm@-24.1840671@nm@-51.4215766@nm@
+PR@nm@Ribeirão Claro@nm@86410000@nm@@nm@-23.2009190@nm@-49.7559030@nm@
+PR@nm@Ribeirão do Pinhal@nm@86490000@nm@@nm@-23.4050471@nm@-50.3569012@nm@
+PR@nm@Ribeirão do Pinheiro@nm@84194700@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Rio Abaixo@nm@84193600@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Rio Azul@nm@84560000@nm@@nm@-25.7267118@nm@-50.7897463@nm@
+PR@nm@Rio Bom@nm@86830000@nm@@nm@-23.7610615@nm@-51.4127260@nm@
+PR@nm@Rio Bonito@nm@87575000@nm@@nm@-24.1021665@nm@-53.9706366@nm@
+PR@nm@Rio Bonito do Iguaçu@nm@85340000@nm@@nm@-25.4888867@nm@-52.5279573@nm@
+PR@nm@Rio Branco do Ivaí@nm@86848000@nm@@nm@-24.3249299@nm@-51.3191714@nm@
+PR@nm@Rio Branco do Sul@nm@83540000@nm@@nm@-25.1897803@nm@-49.3135479@nm@
+PR@nm@Rio Claro do Sul@nm@84577000@nm@@nm@-25.9482841@nm@-50.6752337@nm@
+PR@nm@Rio da Prata@nm@85655000@nm@@nm@-25.8446953@nm@-53.4184136@nm@
+PR@nm@Rio da Prata@nm@85370000@nm@@nm@-25.1520812@nm@-52.4567494@nm@
+PR@nm@Rio das Antas@nm@85823550@nm@@nm@-24.9166670@nm@-53.5333330@nm@
+PR@nm@Rio das Mortes@nm@85130000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Rio das Pedras@nm@85131000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Rio das Pedras@nm@83251550@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Rio das Pombas@nm@83251800@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Rio do Mato@nm@85609200@nm@@nm@-25.9666670@nm@-53.0833330@nm@
+PR@nm@Rio do Salto@nm@85824000@nm@@nm@-25.1416582@nm@-53.3335230@nm@
+PR@nm@Rio Negro@nm@83880000@nm@@nm@-26.0868470@nm@-49.7798281@nm@
+PR@nm@Rio Novo@nm@85822850@nm@@nm@-24.9166670@nm@-53.2500000@nm@
+PR@nm@Rio Novo@nm@84340000@nm@@nm@-24.4213865@nm@-50.9587609@nm@
+PR@nm@Rio Pinheiro@nm@85526000@nm@@nm@-26.3141678@nm@-52.5896813@nm@
+PR@nm@Rio Quatorze@nm@85609600@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Rio Saltinho@nm@85823880@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Rio Saudade@nm@85609800@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Rio Verde@nm@87357000@nm@@nm@-24.4565233@nm@-52.8742368@nm@
+PR@nm@Rio XV de Baixo@nm@85216000@nm@@nm@-24.7592533@nm@-51.7601166@nm@
+PR@nm@Roberto Silveira@nm@87524000@nm@@nm@-23.6669293@nm@-53.5473608@nm@
+PR@nm@Roça Velha@nm@84126700@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Roça Velha@nm@83164000@nm@@nm@-25.6942510@nm@-49.0931361@nm@
+PR@nm@Rolândia@nm@@nm@@nm@@nm@@nm@
+PR@nm@Romeópolis@nm@86887000@nm@@nm@-24.3760252@nm@-51.8135378@nm@
+PR@nm@Roncador@nm@87320000@nm@@nm@-24.5962738@nm@-52.2720648@nm@
+PR@nm@Rondinha@nm@85119000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Rondinha@nm@84634000@nm@@nm@-26.2110022@nm@-50.9314749@nm@
+PR@nm@Rondon@nm@87800000@nm@@nm@-23.4138708@nm@-52.7660602@nm@
+PR@nm@Rosário do Ivaí@nm@86850000@nm@@nm@-24.2579595@nm@-51.2482166@nm@
+PR@nm@Sabáudia@nm@86720000@nm@@nm@-23.3159883@nm@-51.5554904@nm@
+PR@nm@Sagrada Família@nm@85756000@nm@@nm@-25.6758958@nm@-53.6945360@nm@
+PR@nm@Salgado Filho@nm@85620000@nm@@nm@-26.1781446@nm@-53.3636266@nm@
+PR@nm@Salles de Oliveira@nm@87349000@nm@@nm@-24.7072986@nm@-52.7621929@nm@
+PR@nm@Saltinho@nm@85779000@nm@@nm@-25.7714923@nm@-53.5346190@nm@
+PR@nm@Saltinho do Oeste@nm@87585000@nm@@nm@-23.9382077@nm@-53.4167698@nm@
+PR@nm@Salto do Itararé@nm@84945000@nm@@nm@-23.6048182@nm@-49.6272329@nm@
+PR@nm@Salto do Lontra@nm@85670000@nm@@nm@-25.7820598@nm@-53.3102927@nm@
+PR@nm@Salto Portão@nm@85823800@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@Santa Amélia@nm@86370000@nm@@nm@-23.2659005@nm@-50.4292415@nm@
+PR@nm@Santa Bárbara@nm@86879000@nm@@nm@-24.2444396@nm@-51.6741201@nm@
+PR@nm@Santa Cecília do Pavão@nm@86225000@nm@@nm@-23.5205605@nm@-50.7840082@nm@
+PR@nm@Santa Clara@nm@84194600@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Santa Cruz@nm@83643000@nm@@nm@-24.0362638@nm@-52.3741137@nm@
+PR@nm@Santa Cruz de Monte Castelo@nm@87920000@nm@@nm@-22.9546945@nm@-53.2968392@nm@
+PR@nm@Santa Eliza@nm@87521000@nm@@nm@-23.5297041@nm@-53.4638006@nm@
+PR@nm@Santa Esmeralda@nm@87925000@nm@@nm@-23.1615440@nm@-53.3695595@nm@
+PR@nm@Santa Fé@nm@86770000@nm@@nm@-23.0404674@nm@-51.8085004@nm@
+PR@nm@Santa Fé do Pirapó@nm@86994000@nm@@nm@-23.3724117@nm@-51.8026705@nm@
+PR@nm@Santa Helena@nm@85892000@nm@@nm@-24.8584188@nm@-54.3364348@nm@
+PR@nm@Santa Inês@nm@86660000@nm@@nm@-22.6380675@nm@-51.9028707@nm@
+PR@nm@Santa Isabel do Ivaí@nm@87910000@nm@@nm@-23.0029520@nm@-53.1993867@nm@
+PR@nm@Santa Izabel do Oeste@nm@85650000@nm@@nm@-25.8221310@nm@-53.4806560@nm@
+PR@nm@Santa Lúcia@nm@85795000@nm@@nm@-25.4108323@nm@-53.5643049@nm@
+PR@nm@Santa Lurdes@nm@86199200@nm@@nm@-23.2770520@nm@-51.2803152@nm@
+PR@nm@Santa Luzia da Alvorada@nm@86934000@nm@@nm@-24.0593571@nm@-51.8735696@nm@
+PR@nm@Santa Margarida@nm@86135000@nm@@nm@-22.9697402@nm@-51.2141095@nm@
+PR@nm@Santa Margarida@nm@86104000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@Santa Maria@nm@87755000@nm@@nm@-23.1317202@nm@-52.3193836@nm@
+PR@nm@Santa Maria do Oeste@nm@85230000@nm@@nm@-24.9384534@nm@-51.8714504@nm@
+PR@nm@Santa Maria do Rio do Peixe@nm@86323000@nm@@nm@-23.6338431@nm@-50.4776566@nm@
+PR@nm@Santa Mariana@nm@86350000@nm@@nm@-23.1490745@nm@-50.5197457@nm@
+PR@nm@Santa Mônica@nm@87915000@nm@@nm@-23.1084756@nm@-53.1107934@nm@
+PR@nm@Santa Quitéria@nm@83649100@nm@@nm@-25.4747989@nm@-49.3321450@nm@
+PR@nm@Santa Quitéria@nm@84194000@nm@@nm@-24.7166670@nm@-49.6666669@nm@
+PR@nm@Santa Rita@nm@84197600@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Santa Rita@nm@85514300@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Santa Rita do Oeste@nm@85995000@nm@@nm@-24.1617068@nm@-54.0981117@nm@
+PR@nm@Santa Rosa@nm@85609300@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Santa Tereza do Oeste@nm@85825000@nm@@nm@-25.0556684@nm@-53.6217099@nm@
+PR@nm@Santa Terezinha de Itaipu@nm@85875000@nm@@nm@-25.4452671@nm@-54.4013186@nm@
+PR@nm@Santa Zélia@nm@86742000@nm@@nm@-23.1722973@nm@-51.6803079@nm@
+PR@nm@Santana@nm@84623000@nm@@nm@-25.9429691@nm@-51.2500983@nm@
+PR@nm@Santana do Itararé@nm@84970000@nm@@nm@-23.7595491@nm@-49.6298503@nm@
+PR@nm@Santo Antônio@nm@84194800@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Santo Antônio@nm@85323000@nm@@nm@-25.4079504@nm@-52.4134746@nm@
+PR@nm@Santo Antônio da Platina@nm@86430000@nm@@nm@-23.2980974@nm@-50.0726882@nm@
+PR@nm@Santo Antônio do Caiuá@nm@87730000@nm@@nm@-22.7355556@nm@-52.3445113@nm@
+PR@nm@Santo Antônio do Iratim@nm@84650000@nm@@nm@-26.1494563@nm@-51.4058324@nm@
+PR@nm@Santo Antônio do Palmital@nm@86835000@nm@@nm@-23.8222757@nm@-51.4282543@nm@
+PR@nm@Santo Antônio do Paraíso@nm@86315000@nm@@nm@-23.4973828@nm@-50.6460200@nm@
+PR@nm@Santo Antônio do Sudoeste@nm@85710000@nm@@nm@-26.0741870@nm@-53.7256129@nm@
+PR@nm@Santo Inácio@nm@86650000@nm@@nm@-22.6961391@nm@-51.7974221@nm@
+PR@nm@Santo Izidoro@nm@85496000@nm@@nm@-25.5383624@nm@-53.2409443@nm@
+PR@nm@Santo Rei@nm@87335000@nm@@nm@-24.6693965@nm@-52.4539974@nm@
+PR@nm@São Braz@nm@85823850@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@São Braz@nm@85514450@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@São Camilo@nm@85952000@nm@@nm@-24.1927132@nm@-53.9147362@nm@
+PR@nm@São Carlos do Ivaí@nm@87770000@nm@@nm@-23.3163014@nm@-52.4766354@nm@
+PR@nm@São Cirilo@nm@84193200@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@São Clemente@nm@85894000@nm@@nm@-24.7820129@nm@-54.2349962@nm@
+PR@nm@São Cristovão@nm@87729600@nm@@nm@-23.0824086@nm@-52.4419926@nm@
+PR@nm@São Cristovão@nm@84614000@nm@@nm@-26.2383717@nm@-51.0513192@nm@
+PR@nm@São Domingos@nm@86819500@nm@@nm@-23.6166670@nm@-51.4666670@nm@
+PR@nm@São Domingos@nm@86859000@nm@@nm@-24.0059671@nm@-51.4967085@nm@
+PR@nm@São Domingos@nm@84613000@nm@@nm@-26.1493184@nm@-51.1040310@nm@
+PR@nm@São Francisco@nm@85562000@nm@@nm@-25.8564679@nm@-52.5372505@nm@
+PR@nm@São Francisco@nm@85101000@nm@@nm@-25.3772813@nm@-51.4415206@nm@
+PR@nm@São Francisco@nm@87523800@nm@@nm@-23.7661064@nm@-53.3206105@nm@
+PR@nm@São Francisco de Imbaú@nm@86325000@nm@@nm@-23.5647708@nm@-50.4178365@nm@
+PR@nm@São Francisco de Sales@nm@85534000@nm@@nm@-26.3744424@nm@-52.4654006@nm@
+PR@nm@São Gabriel@nm@86199000@nm@@nm@-23.2770520@nm@-51.2803152@nm@
+PR@nm@São Gabriel@nm@83419200@nm@@nm@-25.3508727@nm@-49.2009580@nm@
+PR@nm@São Gotardo@nm@85514150@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@São Jerônimo da Serra@nm@86270000@nm@@nm@-23.7165254@nm@-50.7389756@nm@
+PR@nm@São João@nm@85570000@nm@@nm@-25.8276559@nm@-52.7247748@nm@
+PR@nm@São João@nm@87553000@nm@@nm@-23.8393142@nm@-53.8050583@nm@
+PR@nm@São João@nm@85324000@nm@@nm@-25.4000697@nm@-52.3986840@nm@
+PR@nm@São João d'Oeste@nm@85823000@nm@@nm@-24.9608279@nm@-53.2284015@nm@
+PR@nm@São João do Caiuá@nm@87740000@nm@@nm@-22.8548887@nm@-52.3380625@nm@
+PR@nm@São João do Ivaí@nm@86930000@nm@@nm@-23.9936764@nm@-51.8194972@nm@
+PR@nm@São João do Pinhal@nm@86273000@nm@@nm@-23.6394737@nm@-50.8513372@nm@
+PR@nm@São João do Triunfo@nm@84150000@nm@@nm@-25.6869380@nm@-50.3005181@nm@
+PR@nm@São Joaquim@nm@86718000@nm@@nm@-23.4157731@nm@-51.4264048@nm@
+PR@nm@São Joaquim@nm@85139700@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@São Joaquim do Pontal@nm@86378000@nm@@nm@-22.9741482@nm@-50.4812969@nm@
+PR@nm@São Jorge D'Oeste@nm@85575000@nm@@nm@-25.7105736@nm@-52.9193013@nm@
+PR@nm@São Jorge do Ivaí@nm@87190000@nm@@nm@-23.4340664@nm@-52.2933985@nm@
+PR@nm@São Jorge do Patrocínio@nm@87555000@nm@@nm@-23.7646930@nm@-53.8782900@nm@
+PR@nm@São José@nm@86905000@nm@@nm@-23.6586119@nm@-51.6928150@nm@
+PR@nm@São José@nm@85235000@nm@@nm@-24.9118610@nm@-52.0311342@nm@
+PR@nm@São José da Boa Vista@nm@84980000@nm@@nm@-23.9156271@nm@-49.6503208@nm@
+PR@nm@São José das Palmeiras@nm@85898000@nm@@nm@-24.8373567@nm@-54.0577352@nm@
+PR@nm@São José do Iguaçu@nm@85879000@nm@@nm@-25.5591670@nm@-54.2541670@nm@
+PR@nm@São José do Itavo@nm@85883000@nm@@nm@-25.1782353@nm@-54.3439824@nm@
+PR@nm@São José do Ivaí@nm@87913000@nm@@nm@-23.1354302@nm@-53.2764688@nm@
+PR@nm@São José dos Pinhais@nm@@nm@@nm@@nm@@nm@
+PR@nm@São Judas Tadeu@nm@86318000@nm@@nm@-23.5168728@nm@-50.6860584@nm@
+PR@nm@São Leonardo@nm@86103000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@São Lourenço@nm@84196600@nm@@nm@-24.7333329@nm@-49.8333330@nm@
+PR@nm@São Lourenço@nm@87213000@nm@@nm@-23.8670820@nm@-52.6164236@nm@
+PR@nm@São Luiz@nm@85765000@nm@@nm@-25.6298410@nm@-53.8627120@nm@
+PR@nm@São Luiz@nm@85563000@nm@@nm@-25.7268151@nm@-52.4911280@nm@
+PR@nm@São Luiz@nm@85538000@nm@@nm@-26.4049804@nm@-52.3633338@nm@
+PR@nm@São Luiz@nm@86117000@nm@@nm@-23.5052500@nm@-51.2379737@nm@
+PR@nm@São Luiz@nm@86998000@nm@@nm@-23.5534489@nm@-51.9770455@nm@
+PR@nm@São Luiz@nm@87475000@nm@@nm@-24.1153590@nm@-53.2355566@nm@
+PR@nm@São Luiz@nm@83251700@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@São Luiz do Oeste@nm@85921000@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@São Luiz do Purunã@nm@83670000@nm@@nm@-25.4621335@nm@-49.7101040@nm@
+PR@nm@São Manoel do Paraná@nm@87215000@nm@@nm@-23.3946102@nm@-52.6458700@nm@
+PR@nm@São Marcos@nm@86101000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@São Marcos@nm@83175000@nm@@nm@-25.6036765@nm@-49.1687755@nm@
+PR@nm@São Martinho@nm@86609000@nm@@nm@-23.1939962@nm@-51.4431701@nm@
+PR@nm@São Mateus do Sul@nm@83900000@nm@@nm@-25.8681839@nm@-50.3842316@nm@
+PR@nm@São Miguel@nm@83729100@nm@@nm@-25.5584678@nm@-49.3759507@nm@
+PR@nm@São Miguel@nm@85609350@nm@@nm@-26.0684743@nm@-53.0730598@nm@
+PR@nm@São Miguel@nm@85924000@nm@@nm@-24.6102717@nm@-53.8369636@nm@
+PR@nm@São Miguel do Cambui@nm@86996000@nm@@nm@-23.4847922@nm@-51.7932899@nm@
+PR@nm@São Miguel do Iguaçu@nm@85877000@nm@@nm@-25.3496458@nm@-54.2410116@nm@
+PR@nm@São Paulo@nm@85926800@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@São Pedro@nm@85645000@nm@@nm@-25.9118938@nm@-53.4986586@nm@
+PR@nm@São Pedro@nm@86817000@nm@@nm@-23.5593205@nm@-51.4559457@nm@
+PR@nm@São Pedro@nm@83649050@nm@@nm@-25.4725155@nm@-49.5685709@nm@
+PR@nm@São Pedro@nm@85109000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@São Pedro@nm@87729000@nm@@nm@-23.0821226@nm@-52.4622155@nm@
+PR@nm@São Pedro do Florido@nm@85725000@nm@@nm@-26.0190111@nm@-53.6303180@nm@
+PR@nm@São Pedro do Iguaçu@nm@85929000@nm@@nm@-24.9377857@nm@-53.8526501@nm@
+PR@nm@São Pedro do Ivaí@nm@86945000@nm@@nm@-23.8638715@nm@-51.8572648@nm@
+PR@nm@São Pedro do Paraná@nm@87955000@nm@@nm@-22.8243512@nm@-53.2246372@nm@
+PR@nm@São Pedro Lopei@nm@85822500@nm@@nm@-24.9577771@nm@-53.4595112@nm@
+PR@nm@São Pio X@nm@85608000@nm@@nm@-26.0265806@nm@-53.2239249@nm@
+PR@nm@São Roque@nm@85667000@nm@@nm@-25.8137476@nm@-53.0264185@nm@
+PR@nm@São Roque@nm@85977000@nm@@nm@-24.7079757@nm@-54.0752597@nm@
+PR@nm@São Roque@nm@85773000@nm@@nm@-25.7239522@nm@-53.5356092@nm@
+PR@nm@São Roque@nm@85193000@nm@@nm@-25.6948729@nm@-51.6540904@nm@
+PR@nm@São Roque do Chopim@nm@85514650@nm@@nm@-26.1016670@nm@-52.6438890@nm@
+PR@nm@São Roque do Pinhal@nm@86458000@nm@@nm@-23.4798812@nm@-49.8429076@nm@
+PR@nm@São Salvador@nm@85643000@nm@@nm@-25.9564076@nm@-53.4393882@nm@
+PR@nm@São Sebastião@nm@84198200@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@São Sebastião@nm@83580000@nm@@nm@-24.8474629@nm@-49.4711317@nm@
+PR@nm@São Sebastião@nm@85139200@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@São Sebastião@nm@83152000@nm@@nm@-25.5148964@nm@-49.1239532@nm@
+PR@nm@São Sebastião@nm@84277600@nm@@nm@-24.3250032@nm@-50.6180669@nm@
+PR@nm@São Sebastião da Amoreira@nm@86240000@nm@@nm@-23.4651029@nm@-50.7608463@nm@
+PR@nm@São Silvestre@nm@87408000@nm@@nm@-23.5317103@nm@-53.0826408@nm@
+PR@nm@São Tomé@nm@87220000@nm@@nm@-23.5354199@nm@-52.5906191@nm@
+PR@nm@São Valentim@nm@85668000@nm@@nm@-25.8286922@nm@-53.1294613@nm@
+PR@nm@São Vicente@nm@87263000@nm@@nm@-24.0399537@nm@-52.6084312@nm@
+PR@nm@Sapé@nm@84938000@nm@@nm@-23.6286622@nm@-50.0358807@nm@
+PR@nm@Sapopema@nm@84290000@nm@@nm@-23.9093991@nm@-50.5795738@nm@
+PR@nm@Sarandi@nm@@nm@@nm@@nm@@nm@
+PR@nm@Sarandi@nm@85652000@nm@@nm@-25.8432851@nm@-53.4789141@nm@
+PR@nm@Saudade do Iguaçu@nm@85568000@nm@@nm@-25.6921676@nm@-52.6188939@nm@
+PR@nm@Sede Alvorada@nm@85822000@nm@@nm@-24.8300751@nm@-53.6456901@nm@
+PR@nm@Sede Chaparral@nm@85927860@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Sede Nova Sant'Ana@nm@85577000@nm@@nm@-25.7201838@nm@-52.8709019@nm@
+PR@nm@Sede Progresso@nm@85609250@nm@@nm@-26.0779448@nm@-53.0519900@nm@
+PR@nm@Sede Progresso@nm@85588000@nm@@nm@-25.9032378@nm@-53.0436950@nm@
+PR@nm@Selva@nm@86108000@nm@@nm@-23.4188025@nm@-51.1270244@nm@
+PR@nm@Sengés@nm@84220000@nm@@nm@-24.1122654@nm@-49.4707572@nm@
+PR@nm@Senhor Bom Jesus dos Gramados@nm@85528000@nm@@nm@-26.4066670@nm@-52.5930560@nm@
+PR@nm@Serra dos Dourados@nm@87518000@nm@@nm@-23.6158526@nm@-53.3853244@nm@
+PR@nm@Serra Negra@nm@83395000@nm@@nm@-25.1758705@nm@-48.4261974@nm@
+PR@nm@Serranópolis do Iguaçu@nm@85885000@nm@@nm@-25.3803905@nm@-54.0523344@nm@
+PR@nm@Serraria Klas@nm@84128800@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Serrinha@nm@86199800@nm@@nm@-23.2770520@nm@-51.2803152@nm@
+PR@nm@Serrinha@nm@84199000@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Sertaneja@nm@86340000@nm@@nm@-23.0365724@nm@-50.8321348@nm@
+PR@nm@Sertanópolis@nm@86170000@nm@@nm@-23.0575338@nm@-51.0404285@nm@
+PR@nm@Sertãozinho@nm@87272000@nm@@nm@-23.8333229@nm@-52.3035641@nm@
+PR@nm@Sete Saltos de Cima@nm@84127600@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Siqueira Belo@nm@85705000@nm@@nm@-26.2126683@nm@-53.4822777@nm@
+PR@nm@Siqueira Campos@nm@84940000@nm@@nm@-23.6850833@nm@-49.8235126@nm@
+PR@nm@Socavão@nm@84190000@nm@@nm@-24.7722458@nm@-49.7017273@nm@
+PR@nm@Sulina@nm@85565000@nm@@nm@-25.7070342@nm@-52.7303728@nm@
+PR@nm@Sumaré@nm@@nm@@nm@@nm@@nm@
+PR@nm@Sussui@nm@87274000@nm@@nm@-23.7390630@nm@-52.2016288@nm@
+PR@nm@Sutis@nm@86122000@nm@@nm@-23.3044524@nm@-51.1695824@nm@
+PR@nm@Taipa@nm@85115000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Tamarana@nm@86125000@nm@@nm@-23.7256055@nm@-51.0957577@nm@
+PR@nm@Tambarutaca@nm@83251450@nm@@nm@-25.5165725@nm@-48.5229975@nm@
+PR@nm@Tamboara@nm@87760000@nm@@nm@-23.1980308@nm@-52.4980837@nm@
+PR@nm@Tanque Grande@nm@84196100@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Tapejara@nm@87430000@nm@@nm@-23.7335535@nm@-52.8710205@nm@
+PR@nm@Tapira@nm@87830000@nm@@nm@-23.3234285@nm@-53.0712622@nm@
+PR@nm@Tapui@nm@85927850@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Taquara@nm@84193000@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Taquari dos Polacos@nm@84126100@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Taquari dos Russos@nm@84126800@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Taquaruna@nm@86113000@nm@@nm@-23.5339672@nm@-51.1904596@nm@
+PR@nm@Teixeira Soares@nm@84530000@nm@@nm@-25.3705877@nm@-50.4575567@nm@
+PR@nm@Telêmaco Borba@nm@@nm@@nm@@nm@@nm@
+PR@nm@Teolândia@nm@85514350@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Tereza Breda@nm@86964000@nm@@nm@-24.1345471@nm@-51.9883388@nm@
+PR@nm@Tereza Cristina@nm@84490000@nm@@nm@-24.8252764@nm@-51.1341479@nm@
+PR@nm@Terra Boa@nm@87240000@nm@@nm@-23.7681902@nm@-52.4476813@nm@
+PR@nm@Terra Nova@nm@86275000@nm@@nm@-23.7823393@nm@-50.8123201@nm@
+PR@nm@Terra Rica@nm@87890000@nm@@nm@-22.7265933@nm@-52.6202075@nm@
+PR@nm@Terra Roxa@nm@85990000@nm@@nm@-24.1617068@nm@-54.0981117@nm@
+PR@nm@Tibagi@nm@84300000@nm@@nm@-24.5152820@nm@-50.4121699@nm@
+PR@nm@Tijucas do Sul@nm@83190000@nm@@nm@-25.9258196@nm@-49.1799274@nm@
+PR@nm@Tijuco Preto@nm@83532000@nm@@nm@-25.3193102@nm@-49.3042082@nm@
+PR@nm@Tijuco Preto@nm@84193400@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Timbu Velho@nm@83419700@nm@@nm@-25.2929784@nm@-49.2266344@nm@
+PR@nm@Tindiquera@nm@83729600@nm@@nm@-25.5819693@nm@-49.3854766@nm@
+PR@nm@Tiradentes@nm@85514200@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Tiradentes@nm@85625000@nm@@nm@-26.1312821@nm@-53.4462931@nm@
+PR@nm@Toledo@nm@@nm@@nm@@nm@@nm@
+PR@nm@Tomaz Coelho@nm@83729400@nm@@nm@-25.5379481@nm@-49.3619672@nm@
+PR@nm@Tomazina@nm@84935000@nm@@nm@-23.7786372@nm@-49.9542729@nm@
+PR@nm@Três Barras do Paraná@nm@85485000@nm@@nm@-25.4217883@nm@-53.1843089@nm@
+PR@nm@Três Bicos@nm@84480000@nm@@nm@-24.6930828@nm@-51.1816477@nm@
+PR@nm@Três Bocas@nm@85926870@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Três Capões@nm@85137000@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Três Córregos@nm@83642000@nm@@nm@-25.2360658@nm@-49.6395786@nm@
+PR@nm@Três Lagoas@nm@85874200@nm@@nm@-25.4803694@nm@-54.5041784@nm@
+PR@nm@Três Pinheiros@nm@85137300@nm@@nm@-25.3907214@nm@-51.4628097@nm@
+PR@nm@Três Placas@nm@87523000@nm@@nm@-23.7661064@nm@-53.3206105@nm@
+PR@nm@Triângulo@nm@87276000@nm@@nm@-23.6630135@nm@-52.2160934@nm@
+PR@nm@Trindade@nm@84125600@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Triolândia@nm@86495000@nm@@nm@-23.5401148@nm@-50.3887152@nm@
+PR@nm@Tronco@nm@84197400@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Tunas do Paraná@nm@83480000@nm@@nm@-24.9754315@nm@-49.0844993@nm@
+PR@nm@Tuneiras do Oeste@nm@87450000@nm@@nm@-23.8673792@nm@-52.8748579@nm@
+PR@nm@Tupãssi@nm@85945000@nm@@nm@-24.5883617@nm@-53.5110151@nm@
+PR@nm@Tupinambá@nm@86746000@nm@@nm@-23.2859235@nm@-51.7748310@nm@
+PR@nm@Turvo@nm@85150000@nm@@nm@-25.0461518@nm@-51.5392700@nm@
+PR@nm@Ubaldino Taques@nm@85558000@nm@@nm@-26.2415658@nm@-51.9414110@nm@
+PR@nm@Ubauna@nm@86932000@nm@@nm@-23.9704003@nm@-51.7188271@nm@
+PR@nm@Ubiratã@nm@85440000@nm@@nm@-24.5429905@nm@-52.9894920@nm@
+PR@nm@Umuarama@nm@@nm@@nm@@nm@@nm@
+PR@nm@União@nm@85321000@nm@@nm@-25.4079504@nm@-52.4134746@nm@
+PR@nm@União da Vitória@nm@@nm@@nm@@nm@@nm@
+PR@nm@União do Oeste@nm@85656000@nm@@nm@-25.6953068@nm@-53.4084109@nm@
+PR@nm@Uniflor@nm@87640000@nm@@nm@-23.0873035@nm@-52.1577962@nm@
+PR@nm@Uraí@nm@86280000@nm@@nm@-23.2006468@nm@-50.7942283@nm@
+PR@nm@Uvaia@nm@84115000@nm@@nm@-25.0705658@nm@-50.3700468@nm@
+PR@nm@Valentins@nm@84127000@nm@@nm@-25.0994246@nm@-50.1583223@nm@
+PR@nm@Valério@nm@85758000@nm@@nm@-25.7406509@nm@-53.6806153@nm@
+PR@nm@Vargeado@nm@84198000@nm@@nm@-24.7895729@nm@-50.0112458@nm@
+PR@nm@Vassoural@nm@84916000@nm@@nm@-23.5995282@nm@-50.3254189@nm@
+PR@nm@Ventania@nm@84345000@nm@@nm@-24.2466171@nm@-50.2451366@nm@
+PR@nm@Vera Cruz do Oeste@nm@85845000@nm@@nm@-25.0581631@nm@-53.8776057@nm@
+PR@nm@Vera Guarani@nm@84638000@nm@@nm@-26.0320190@nm@-50.7785459@nm@
+PR@nm@Verê@nm@85585000@nm@@nm@-25.8778618@nm@-52.9059321@nm@
+PR@nm@Vida Nova@nm@84293000@nm@@nm@-23.8438672@nm@-50.5282136@nm@
+PR@nm@Vidigal@nm@87214000@nm@@nm@-23.5996473@nm@-52.5255359@nm@
+PR@nm@Vila Celeste@nm@85893000@nm@@nm@-24.9660240@nm@-54.3985492@nm@
+PR@nm@Vila Diniz@nm@86857000@nm@@nm@-24.0406586@nm@-51.5484034@nm@
+PR@nm@Vila dos Roldos@nm@85514800@nm@@nm@-26.2297202@nm@-52.6711356@nm@
+PR@nm@Vila Flórida@nm@85926700@nm@@nm@-24.7251154@nm@-53.7416844@nm@
+PR@nm@Vila Gandhi@nm@86142000@nm@@nm@-22.9355254@nm@-51.1299739@nm@
+PR@nm@Vila Guay@nm@84914000@nm@@nm@-23.7042129@nm@-50.2308775@nm@
+PR@nm@Vila Ipiranga@nm@85926750@nm@@nm@-24.7372778@nm@-53.7261453@nm@
+PR@nm@Vila Nova@nm@85218000@nm@@nm@-24.7592533@nm@-51.7601166@nm@
+PR@nm@Vila Nova@nm@85926000@nm@@nm@-24.5767895@nm@-53.7993096@nm@
+PR@nm@Vila Nova de Florença@nm@86278000@nm@@nm@-23.5931095@nm@-50.8699751@nm@
+PR@nm@Vila Paraíso@nm@85573000@nm@@nm@-25.7381400@nm@-52.8120315@nm@
+PR@nm@Vila Reis@nm@86819000@nm@@nm@-23.6113460@nm@-51.4041651@nm@
+PR@nm@Vila Rica do Ivaí@nm@87534000@nm@@nm@-23.2909719@nm@-53.5563384@nm@
+PR@nm@Vila Silva Jardim@nm@87665000@nm@@nm@-22.9301859@nm@-52.1554346@nm@
+PR@nm@Vila Velha@nm@84128200@nm@@nm@-25.2309004@nm@-50.0084998@nm@
+PR@nm@Virmond@nm@85390000@nm@@nm@-25.3785989@nm@-52.2037401@nm@
+PR@nm@Vista Alegre@nm@85554000@nm@@nm@-25.9365430@nm@-52.7244537@nm@
+PR@nm@Vista Alegre@nm@85633000@nm@@nm@-25.9450055@nm@-53.1663681@nm@
+PR@nm@Vista Bonita@nm@83649250@nm@@nm@-25.4596714@nm@-49.5272940@nm@
+PR@nm@Vitorino@nm@85520000@nm@@nm@-26.2687649@nm@-52.7847726@nm@
+PR@nm@Warta@nm@86105000@nm@@nm@-23.1921589@nm@-51.2046903@nm@
+PR@nm@Wenceslau Braz@nm@84950000@nm@@nm@-23.8714093@nm@-49.8024588@nm@
+PR@nm@Xambrê@nm@87535000@nm@@nm@-23.7337968@nm@-53.4906267@nm@
+PR@nm@Xaxim@nm@85927600@nm@@nm@-24.7333329@nm@-53.8166670@nm@
+PR@nm@Yolanda@nm@85445000@nm@@nm@-24.4513157@nm@-53.0728173@nm@

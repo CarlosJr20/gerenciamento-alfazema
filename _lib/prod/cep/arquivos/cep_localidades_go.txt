@@ -1,0 +1,346 @@
+GO@nm@Abadia de Goiás@nm@75345000@nm@@nm@-16.7637840@nm@-49.4377043@nm@
+GO@nm@Abadiânia@nm@72940000@nm@@nm@-16.1976908@nm@-48.7060608@nm@
+GO@nm@Acreúna@nm@75960000@nm@@nm@-17.3964433@nm@-50.3753614@nm@
+GO@nm@Adelândia@nm@76155000@nm@@nm@-16.4131489@nm@-50.1661535@nm@
+GO@nm@Água Fria de Goiás@nm@73780000@nm@@nm@-14.9829675@nm@-47.7822994@nm@
+GO@nm@Água Limpa@nm@75665000@nm@@nm@-18.0775424@nm@-48.7607517@nm@
+GO@nm@Água Quente@nm@73928000@nm@@nm@-17.8087127@nm@-48.7608291@nm@
+GO@nm@Águas Lindas de Goiás@nm@@nm@@nm@@nm@@nm@
+GO@nm@Alexânia@nm@72930000@nm@@nm@-16.0821361@nm@-48.5074307@nm@
+GO@nm@Aloândia@nm@75615000@nm@@nm@-17.7296540@nm@-49.4773474@nm@
+GO@nm@Alto Alvorada@nm@75283000@nm@@nm@-17.1543201@nm@-48.1612738@nm@
+GO@nm@Alto Horizonte@nm@76560000@nm@@nm@-14.1982499@nm@-49.3382795@nm@
+GO@nm@Alto Paraíso de Goiás@nm@73770000@nm@@nm@-14.1371534@nm@-47.5194650@nm@
+GO@nm@Alvorada do Norte@nm@73950000@nm@@nm@-14.4801336@nm@-46.4914579@nm@
+GO@nm@Amaralina@nm@76493000@nm@@nm@-13.9240574@nm@-49.2966837@nm@
+GO@nm@Americano do Brasil@nm@76165000@nm@@nm@-16.2518975@nm@-49.9835817@nm@
+GO@nm@Amorinópolis@nm@76140000@nm@@nm@-16.6211171@nm@-51.0946681@nm@
+GO@nm@Anápolis@nm@@nm@@nm@@nm@@nm@
+GO@nm@Anhangüera@nm@75770000@nm@@nm@-18.3343380@nm@-48.2208072@nm@
+GO@nm@Anicuns@nm@76170000@nm@@nm@-16.4613315@nm@-49.9588111@nm@
+GO@nm@Aparecida@nm@76163000@nm@@nm@-16.1974865@nm@-50.3128291@nm@
+GO@nm@Aparecida de Goiânia@nm@@nm@@nm@@nm@@nm@
+GO@nm@Aparecida de Goiás@nm@76363000@nm@@nm@-15.0035503@nm@-49.8277328@nm@
+GO@nm@Aparecida do Rio Claro@nm@76256000@nm@@nm@-15.9421840@nm@-51.3558833@nm@
+GO@nm@Aparecida do Rio Doce@nm@75827000@nm@@nm@-18.2973918@nm@-51.1462496@nm@
+GO@nm@Aporé@nm@75825000@nm@@nm@-18.9611859@nm@-51.9236582@nm@
+GO@nm@Araçu@nm@75410000@nm@@nm@-16.3567556@nm@-49.6808747@nm@
+GO@nm@Aragarças@nm@76240000@nm@@nm@-15.8958471@nm@-52.2516426@nm@
+GO@nm@Aragoiânia@nm@75360000@nm@@nm@@nm@@nm@
+GO@nm@Araguapaz@nm@76720000@nm@@nm@-15.0912941@nm@-50.6319660@nm@
+GO@nm@Arantina@nm@75969000@nm@@nm@-17.5251914@nm@-50.2014534@nm@
+GO@nm@Arenópolis@nm@76235000@nm@@nm@-16.3841717@nm@-51.5567448@nm@
+GO@nm@Aruanã@nm@76710000@nm@@nm@-14.9170433@nm@-51.0754660@nm@
+GO@nm@Aurilândia@nm@76120000@nm@@nm@-16.6777096@nm@-50.4645804@nm@
+GO@nm@Auriverde@nm@76513000@nm@@nm@-14.8413541@nm@-49.9967338@nm@
+GO@nm@Avelinópolis@nm@75395000@nm@@nm@-16.4676910@nm@-49.7583175@nm@
+GO@nm@Bacilândia@nm@76222000@nm@@nm@-16.1406360@nm@-50.8825872@nm@
+GO@nm@Baliza@nm@76250000@nm@@nm@-16.1969561@nm@-52.5464478@nm@
+GO@nm@Bandeirantes@nm@76523000@nm@@nm@-13.6841864@nm@-50.7911194@nm@
+GO@nm@Barbosilândia@nm@73907000@nm@@nm@-14.2849509@nm@-46.2807659@nm@
+GO@nm@Barro Alto@nm@76390000@nm@@nm@-14.9718045@nm@-48.9161154@nm@
+GO@nm@Bela Vista de Goiás@nm@75240000@nm@@nm@-16.9725565@nm@-48.9550267@nm@
+GO@nm@Bezerra@nm@73817000@nm@@nm@-15.5404411@nm@-47.3374297@nm@
+GO@nm@Bom Jardim de Goiás@nm@76245000@nm@@nm@-16.2067095@nm@-52.1732619@nm@
+GO@nm@Bom Jesus@nm@75570000@nm@@nm@-18.2177128@nm@-49.7404457@nm@
+GO@nm@Bonfinópolis@nm@75195000@nm@@nm@-16.6177235@nm@-48.9620158@nm@
+GO@nm@Bonópolis@nm@76555000@nm@@nm@-13.6511098@nm@-49.8366318@nm@
+GO@nm@Brazabrantes@nm@75440000@nm@@nm@-16.4295541@nm@-49.3860381@nm@
+GO@nm@Britânia@nm@76280000@nm@@nm@-15.2432008@nm@-51.1606653@nm@
+GO@nm@Buenolândia@nm@76606000@nm@@nm@-15.8073105@nm@-50.3087202@nm@
+GO@nm@Buriti Alegre@nm@75660000@nm@@nm@-18.1382481@nm@-49.0408911@nm@
+GO@nm@Buriti de Goiás@nm@76152000@nm@@nm@-16.1796461@nm@-50.4306789@nm@
+GO@nm@Buritinópolis@nm@73975000@nm@@nm@-14.4776298@nm@-46.4080092@nm@
+GO@nm@Cabeceiras@nm@73870000@nm@@nm@-15.8041148@nm@-46.9282290@nm@
+GO@nm@Cachoeira Alta@nm@75870000@nm@@nm@-18.7622855@nm@-50.9437093@nm@
+GO@nm@Cachoeira de Goiás@nm@76125000@nm@@nm@-16.6639651@nm@-50.6464997@nm@
+GO@nm@Cachoeira Dourada@nm@75560000@nm@@nm@-18.4947990@nm@-49.4740104@nm@
+GO@nm@Caçu@nm@75813000@nm@@nm@-18.5598391@nm@-51.1332652@nm@
+GO@nm@Caiapônia@nm@75850000@nm@@nm@-16.9543259@nm@-51.8095440@nm@
+GO@nm@Caiçara@nm@76742000@nm@@nm@-15.5244991@nm@-50.1611774@nm@
+GO@nm@Calcilândia@nm@76604000@nm@@nm@-15.9488890@nm@-50.0169440@nm@
+GO@nm@Caldas Novas@nm@@nm@@nm@@nm@@nm@
+GO@nm@Caldazinha@nm@75245000@nm@@nm@-16.7121179@nm@-49.0017063@nm@
+GO@nm@Calixto@nm@75158000@nm@@nm@-16.3285490@nm@-48.9731484@nm@
+GO@nm@Campestre de Goiás@nm@75396000@nm@@nm@-16.7628697@nm@-49.6954217@nm@
+GO@nm@Campinaçu@nm@76440000@nm@@nm@-13.7874350@nm@-48.5708209@nm@
+GO@nm@Campinorte@nm@76410000@nm@@nm@-14.3141098@nm@-49.1515353@nm@
+GO@nm@Campo Alegre de Goiás@nm@75795000@nm@@nm@-17.6368064@nm@-47.7772539@nm@
+GO@nm@Campo Limpo@nm@75545000@nm@@nm@-18.2228374@nm@-49.5230280@nm@
+GO@nm@Campo Limpo de Goiás@nm@75160000@nm@@nm@-16.2978943@nm@-49.0888707@nm@
+GO@nm@Campo Lindo@nm@73858000@nm@@nm@-16.7680642@nm@-47.6135636@nm@
+GO@nm@Campolândia@nm@76133000@nm@@nm@-16.5569102@nm@-51.2695771@nm@
+GO@nm@Campos Belos@nm@73840000@nm@@nm@-13.0354207@nm@-46.7685335@nm@
+GO@nm@Campos Verdes@nm@76515000@nm@@nm@-14.2446355@nm@-49.6532410@nm@
+GO@nm@Cana Brava@nm@76458000@nm@@nm@-13.5231504@nm@-48.2149895@nm@
+GO@nm@Canadá@nm@76274000@nm@@nm@-15.5972144@nm@-51.2559008@nm@
+GO@nm@Capelinha@nm@76174000@nm@@nm@-16.3433522@nm@-49.8424899@nm@
+GO@nm@Caraíba@nm@75268000@nm@@nm@-16.9080662@nm@-48.4005071@nm@
+GO@nm@Carmo do Rio Verde@nm@76340000@nm@@nm@-15.3527972@nm@-49.7068904@nm@
+GO@nm@Castelândia@nm@75925000@nm@@nm@-18.0925601@nm@-50.2034949@nm@
+GO@nm@Castrinópolis@nm@76313000@nm@@nm@-15.4516029@nm@-49.5044981@nm@
+GO@nm@Catalão@nm@@nm@@nm@@nm@@nm@
+GO@nm@Caturaí@nm@75430000@nm@@nm@-16.4451755@nm@-49.4940225@nm@
+GO@nm@Cavalcante@nm@73790000@nm@@nm@-13.7980040@nm@-47.4570183@nm@
+GO@nm@Cavalheiro@nm@75783000@nm@@nm@-17.2502146@nm@-48.0004128@nm@
+GO@nm@Cebrasa@nm@75156000@nm@@nm@-16.3285460@nm@-48.9534030@nm@
+GO@nm@Ceres@nm@76300000@nm@@nm@-15.3065533@nm@-49.6004538@nm@
+GO@nm@Cezarina@nm@76195000@nm@@nm@-16.9722816@nm@-49.7762669@nm@
+GO@nm@Chapadão do Céu@nm@75828000@nm@@nm@-18.3949090@nm@-52.6653684@nm@
+GO@nm@Choupana@nm@76172000@nm@@nm@-16.3314787@nm@-50.0795756@nm@
+GO@nm@Cibele@nm@76682000@nm@@nm@-15.4219029@nm@-50.1127909@nm@
+GO@nm@Cidade Eclética@nm@72909000@nm@@nm@-15.8878616@nm@-48.3318272@nm@
+GO@nm@Cidade Ocidental@nm@@nm@@nm@@nm@@nm@
+GO@nm@Cirilândia@nm@76323000@nm@@nm@-15.3610139@nm@-49.3754416@nm@
+GO@nm@Claudinápolis@nm@76185000@nm@@nm@-16.5606135@nm@-49.7716788@nm@
+GO@nm@Cocalzinho de Goiás@nm@72975000@nm@@nm@-15.7785604@nm@-48.7673397@nm@
+GO@nm@Colinaçu@nm@76412000@nm@@nm@-14.3141098@nm@-49.1515353@nm@
+GO@nm@Colinas do Sul@nm@73740000@nm@@nm@-14.1532569@nm@-48.0764217@nm@
+GO@nm@Córrego do Ouro@nm@76145000@nm@@nm@-16.2922214@nm@-50.5507581@nm@
+GO@nm@Córrego Rico@nm@73759000@nm@@nm@-15.1695412@nm@-47.7787274@nm@
+GO@nm@Corumbá de Goiás@nm@72960000@nm@@nm@-15.9249222@nm@-48.8121491@nm@
+GO@nm@Corumbaíba@nm@75675000@nm@@nm@-18.1395882@nm@-48.5605834@nm@
+GO@nm@Cristalina@nm@73850000@nm@@nm@-16.7680642@nm@-47.6135636@nm@
+GO@nm@Cristianópolis@nm@75230000@nm@@nm@-17.2002433@nm@-48.7050663@nm@
+GO@nm@Crixás@nm@76510000@nm@@nm@-14.5418298@nm@-49.9687622@nm@
+GO@nm@Cromínia@nm@75635000@nm@@nm@-17.2887770@nm@-49.3802286@nm@
+GO@nm@Cruzeiro do Norte@nm@76554000@nm@@nm@-13.4329160@nm@-49.1424016@nm@
+GO@nm@Cumari@nm@75760000@nm@@nm@-18.2648998@nm@-48.1515774@nm@
+GO@nm@Damianópolis@nm@73980000@nm@@nm@-14.5608277@nm@-46.1784436@nm@
+GO@nm@Damolândia@nm@75420000@nm@@nm@-16.2548218@nm@-49.3635460@nm@
+GO@nm@Davidópolis@nm@76602000@nm@@nm@-18.1505476@nm@-47.5572334@nm@
+GO@nm@Davinópolis@nm@75730000@nm@@nm@-18.1505476@nm@-47.5572334@nm@
+GO@nm@Diolândia@nm@76683000@nm@@nm@-15.3851541@nm@-49.9335894@nm@
+GO@nm@Diorama@nm@76260000@nm@@nm@-16.2333816@nm@-51.2547942@nm@
+GO@nm@Divinópolis de Goiás@nm@73865000@nm@@nm@-13.2857528@nm@-46.4002980@nm@
+GO@nm@Domiciano Ribeiro@nm@75784000@nm@@nm@-17.7220040@nm@-48.1585601@nm@
+GO@nm@Doverlândia@nm@75855000@nm@@nm@-16.7192646@nm@-52.3193312@nm@
+GO@nm@Edealina@nm@75945000@nm@@nm@-17.4243971@nm@-49.6648541@nm@
+GO@nm@Edéia@nm@75940000@nm@@nm@-17.3355183@nm@-49.9283882@nm@
+GO@nm@Edilândia@nm@72978000@nm@@nm@-15.7811564@nm@-48.5343546@nm@
+GO@nm@Estrela do Norte@nm@76485000@nm@@nm@-13.8681234@nm@-49.0707188@nm@
+GO@nm@Faina@nm@76740000@nm@@nm@-15.4477405@nm@-50.3626588@nm@
+GO@nm@Fazenda Nova@nm@76220000@nm@@nm@-16.1838164@nm@-50.7785696@nm@
+GO@nm@Firminópolis@nm@76105000@nm@@nm@-16.5782294@nm@-50.3044629@nm@
+GO@nm@Flores de Goiás@nm@73890000@nm@@nm@-14.4573659@nm@-47.0388238@nm@
+GO@nm@Formosa@nm@@nm@@nm@@nm@@nm@
+GO@nm@Formoso@nm@76470000@nm@@nm@-13.6503427@nm@-48.8779870@nm@
+GO@nm@Forte@nm@73764000@nm@@nm@-14.3112832@nm@-47.2905429@nm@
+GO@nm@Gameleira de Goiás@nm@75184000@nm@@nm@-16.4639840@nm@-48.6705979@nm@
+GO@nm@Geriaçu@nm@76402000@nm@@nm@-14.3536882@nm@-49.0908379@nm@
+GO@nm@Girassol@nm@72979000@nm@@nm@-15.7369065@nm@-48.4058510@nm@
+GO@nm@Goialândia@nm@75151000@nm@@nm@-16.3760943@nm@-49.1171981@nm@
+GO@nm@Goianápolis@nm@75170000@nm@@nm@-16.5066210@nm@-49.0213663@nm@
+GO@nm@Goiandira@nm@75740000@nm@@nm@-18.1356203@nm@-48.0878956@nm@
+GO@nm@Goianésia@nm@@nm@@nm@@nm@@nm@
+GO@nm@Goiânia@nm@@nm@@nm@@nm@@nm@
+GO@nm@Goianira@nm@75370000@nm@@nm@-16.5063728@nm@-49.4223375@nm@
+GO@nm@Goiás@nm@76600000@nm@@nm@-15.9339700@nm@-50.1403832@nm@
+GO@nm@Goiatuba@nm@75600000@nm@@nm@-18.0127875@nm@-49.3666082@nm@
+GO@nm@Gouvelândia@nm@75865000@nm@@nm@-18.4433546@nm@-50.1357072@nm@
+GO@nm@Guapó@nm@75350000@nm@@nm@-16.8301084@nm@-49.5349817@nm@
+GO@nm@Guaraíta@nm@76690000@nm@@nm@-15.6125821@nm@-50.0269796@nm@
+GO@nm@Guarani de Goiás@nm@73910000@nm@@nm@-13.9401632@nm@-46.4804467@nm@
+GO@nm@Guarinos@nm@76374000@nm@@nm@-14.7296561@nm@-49.7010563@nm@
+GO@nm@Heitoraí@nm@76670000@nm@@nm@-15.7194320@nm@-49.8272764@nm@
+GO@nm@Hidrolândia@nm@75340000@nm@@nm@-16.9657527@nm@-49.2314230@nm@
+GO@nm@Hidrolina@nm@76375000@nm@@nm@-14.7265445@nm@-49.4638495@nm@
+GO@nm@Iaciara@nm@73920000@nm@@nm@-14.1015442@nm@-46.6338743@nm@
+GO@nm@Inaciolândia@nm@75550000@nm@@nm@-18.4873555@nm@-49.9892163@nm@
+GO@nm@Indiara@nm@75955000@nm@@nm@-17.1391919@nm@-49.9866169@nm@
+GO@nm@Inhumas@nm@@nm@@nm@@nm@@nm@
+GO@nm@Interlândia@nm@75152000@nm@@nm@-16.1871781@nm@-49.0320663@nm@
+GO@nm@Ipameri@nm@75780000@nm@@nm@-17.7220040@nm@-48.1585601@nm@
+GO@nm@Ipiranga de Goiás@nm@76304000@nm@@nm@-15.1707301@nm@-49.6712207@nm@
+GO@nm@Iporá@nm@76200000@nm@@nm@-16.4402109@nm@-51.1185107@nm@
+GO@nm@Israelândia@nm@76205000@nm@@nm@-16.3198067@nm@-50.9075543@nm@
+GO@nm@Itaberaí@nm@76630000@nm@@nm@-16.0222492@nm@-49.8004866@nm@
+GO@nm@Itaguaçu@nm@75893000@nm@@nm@-19.0099753@nm@-50.6766390@nm@
+GO@nm@Itaguari@nm@76650000@nm@@nm@-15.9184915@nm@-49.6075331@nm@
+GO@nm@Itaguaru@nm@76660000@nm@@nm@-15.7620044@nm@-49.6327876@nm@
+GO@nm@Itajá@nm@75815000@nm@@nm@-19.0677964@nm@-51.5499857@nm@
+GO@nm@Itapaci@nm@76360000@nm@@nm@-14.9521051@nm@-49.5507914@nm@
+GO@nm@Itapirapuã@nm@76290000@nm@@nm@-15.8209352@nm@-50.6091239@nm@
+GO@nm@Itapuranga@nm@76680000@nm@@nm@-15.5544752@nm@-49.9417277@nm@
+GO@nm@Itarumã@nm@75810000@nm@@nm@-18.7650105@nm@-51.3489854@nm@
+GO@nm@Itauçu@nm@75450000@nm@@nm@-16.2039233@nm@-49.6047374@nm@
+GO@nm@Itumbiara@nm@@nm@@nm@@nm@@nm@
+GO@nm@Ivolândia@nm@76130000@nm@@nm@-16.6073704@nm@-50.7921205@nm@
+GO@nm@Jacilândia@nm@76293000@nm@@nm@-15.6031981@nm@-50.9318314@nm@
+GO@nm@Jandaia@nm@75950000@nm@@nm@-17.0485961@nm@-50.1457778@nm@
+GO@nm@Jaraguá@nm@76330000@nm@@nm@-15.7533952@nm@-49.3348747@nm@
+GO@nm@Jardim ABC de Goiás@nm@72899000@nm@@nm@-16.0980098@nm@-47.9366610@nm@
+GO@nm@Jataí@nm@@nm@@nm@@nm@@nm@
+GO@nm@Jaupaci@nm@76210000@nm@@nm@-16.1777350@nm@-50.9512258@nm@
+GO@nm@Jeroaquara@nm@76744000@nm@@nm@-15.3730049@nm@-50.4987867@nm@
+GO@nm@Jesúpolis@nm@75495000@nm@@nm@-15.9527282@nm@-49.3749831@nm@
+GO@nm@JK@nm@73818000@nm@@nm@-15.5404411@nm@-47.3374297@nm@
+GO@nm@Joanápolis@nm@75157000@nm@@nm@-16.3589340@nm@-48.9182348@nm@
+GO@nm@Joviânia@nm@75610000@nm@@nm@-17.8061175@nm@-49.6203982@nm@
+GO@nm@Juscelândia@nm@76389000@nm@@nm@-15.1199850@nm@-49.2766959@nm@
+GO@nm@Juscelino Kubitschek@nm@76478000@nm@@nm@-13.6503427@nm@-48.8779870@nm@
+GO@nm@Jussara@nm@76270000@nm@@nm@-15.8747265@nm@-50.8640537@nm@
+GO@nm@Lagoa do Bauzinho@nm@75914300@nm@@nm@-17.9651249@nm@-50.4902763@nm@
+GO@nm@Lagoa Santa@nm@75819000@nm@@nm@-19.1841124@nm@-51.4048152@nm@
+GO@nm@Lagolândia@nm@72984000@nm@@nm@-15.6171741@nm@-49.0323731@nm@
+GO@nm@Leopoldo de Bulhões@nm@75190000@nm@@nm@-16.6193821@nm@-48.7428901@nm@
+GO@nm@Lucilândia@nm@76257000@nm@@nm@-16.0429676@nm@-51.2698509@nm@
+GO@nm@Luiz Alves@nm@76598000@nm@@nm@-13.2155172@nm@-50.5779373@nm@
+GO@nm@Luziânia@nm@@nm@@nm@@nm@@nm@
+GO@nm@Mairipotaba@nm@75630000@nm@@nm@-17.2979928@nm@-49.4902705@nm@
+GO@nm@Mambaí@nm@73970000@nm@@nm@-14.4932239@nm@-46.1115725@nm@
+GO@nm@Mara Rosa@nm@76490000@nm@@nm@-14.0152541@nm@-49.1780939@nm@
+GO@nm@Marcianópolis@nm@75602000@nm@@nm@-17.9642735@nm@-50.0097079@nm@
+GO@nm@Marzagão@nm@75670000@nm@@nm@-17.9834382@nm@-48.6419656@nm@
+GO@nm@Matrinchã@nm@76730000@nm@@nm@-15.4346137@nm@-50.7461006@nm@
+GO@nm@Maurilândia@nm@75930000@nm@@nm@-17.9727035@nm@-50.3376672@nm@
+GO@nm@Meia Ponte@nm@75547000@nm@@nm@-18.4097280@nm@-49.2162971@nm@
+GO@nm@Messianópolis@nm@76138000@nm@@nm@-16.4845511@nm@-50.6893286@nm@
+GO@nm@Mimoso de Goiás@nm@73730000@nm@@nm@-15.0588142@nm@-48.1620573@nm@
+GO@nm@Minaçu@nm@76450000@nm@@nm@-13.5308501@nm@-48.2210137@nm@
+GO@nm@Mineiros@nm@@nm@@nm@@nm@@nm@
+GO@nm@Moiporá@nm@76135000@nm@@nm@-16.5441246@nm@-50.7389639@nm@
+GO@nm@Monte Alegre de Goiás@nm@73830000@nm@@nm@-13.2556438@nm@-46.8932359@nm@
+GO@nm@Montes Claros de Goiás@nm@76255000@nm@@nm@-16.0063902@nm@-51.3983407@nm@
+GO@nm@Montividiu@nm@75915000@nm@@nm@-17.4443857@nm@-51.1732795@nm@
+GO@nm@Montividiu do Norte@nm@76465000@nm@@nm@-13.1046800@nm@-48.6060200@nm@
+GO@nm@Morrinhos@nm@75650000@nm@@nm@-17.7349450@nm@-49.1208516@nm@
+GO@nm@Morro Agudo de Goiás@nm@76355000@nm@@nm@-15.3188735@nm@-50.0557322@nm@
+GO@nm@Mossâmedes@nm@76150000@nm@@nm@-16.1252647@nm@-50.2141796@nm@
+GO@nm@Mozarlândia@nm@76700000@nm@@nm@-14.7461444@nm@-50.5717749@nm@
+GO@nm@Mundo Novo@nm@76530000@nm@@nm@-13.7733778@nm@-50.2818278@nm@
+GO@nm@Mutunópolis@nm@76540000@nm@@nm@-13.7307744@nm@-49.2749911@nm@
+GO@nm@Natinópolis@nm@76389500@nm@@nm@-15.3122723@nm@-49.1166441@nm@
+GO@nm@Nazário@nm@76180000@nm@@nm@-16.5812194@nm@-49.8821237@nm@
+GO@nm@Nerópolis@nm@75460000@nm@@nm@-16.4051589@nm@-49.2231553@nm@
+GO@nm@Niquelândia@nm@76420000@nm@@nm@-14.4670392@nm@-48.4544880@nm@
+GO@nm@Nova América@nm@76345000@nm@@nm@-15.0210312@nm@-49.8957464@nm@
+GO@nm@Nova Aurora@nm@75750000@nm@@nm@-18.0601135@nm@-48.2556157@nm@
+GO@nm@Nova Crixás@nm@76520000@nm@@nm@-14.0961125@nm@-50.3304108@nm@
+GO@nm@Nova Fátima@nm@75344000@nm@@nm@-16.9031332@nm@-49.3253952@nm@
+GO@nm@Nova Glória@nm@76305000@nm@@nm@-15.1454005@nm@-49.5741602@nm@
+GO@nm@Nova Iguaçu de Goiás@nm@76495000@nm@@nm@-14.2872683@nm@-49.3876351@nm@
+GO@nm@Nova Roma@nm@73820000@nm@@nm@-13.7392217@nm@-46.8737926@nm@
+GO@nm@Nova Veneza@nm@75470000@nm@@nm@-16.3665338@nm@-49.3207063@nm@
+GO@nm@Novo Brasil@nm@76285000@nm@@nm@-16.0317718@nm@-50.7117367@nm@
+GO@nm@Novo Gama@nm@@nm@@nm@@nm@@nm@
+GO@nm@Novo Goiás@nm@76289000@nm@@nm@-16.0549530@nm@-48.0560108@nm@
+GO@nm@Novo Planalto@nm@76580000@nm@@nm@-13.2428153@nm@-49.5064680@nm@
+GO@nm@Olaria do Angico@nm@75812000@nm@@nm@-19.2933472@nm@-50.8399670@nm@
+GO@nm@Olhos D'Água@nm@75714100@nm@@nm@-18.4007650@nm@-47.9109419@nm@
+GO@nm@Olhos D'Água@nm@72935000@nm@@nm@-16.0196431@nm@-48.6001936@nm@
+GO@nm@Orizona@nm@75280000@nm@@nm@-17.0336148@nm@-48.3077444@nm@
+GO@nm@Ouro Verde de Goiás@nm@75165000@nm@@nm@-16.2185570@nm@-49.1946007@nm@
+GO@nm@Ouroana@nm@75914600@nm@@nm@-18.1318603@nm@-50.6177242@nm@
+GO@nm@Ouvidor@nm@75715000@nm@@nm@-18.2332172@nm@-47.8373317@nm@
+GO@nm@Padre Bernardo@nm@73700000@nm@@nm@-15.1609381@nm@-48.2837403@nm@
+GO@nm@Palestina de Goiás@nm@75845000@nm@@nm@-16.7396685@nm@-51.5313504@nm@
+GO@nm@Palmeiras de Goiás@nm@76190000@nm@@nm@-16.8078452@nm@-49.9198367@nm@
+GO@nm@Palmelo@nm@75210000@nm@@nm@-17.3262764@nm@-48.4264733@nm@
+GO@nm@Palminópolis@nm@75990000@nm@@nm@-16.7926554@nm@-50.1654538@nm@
+GO@nm@Panamá@nm@75580000@nm@@nm@-18.1787235@nm@-49.3554466@nm@
+GO@nm@Paranaiguara@nm@75880000@nm@@nm@-18.9145149@nm@-50.6543925@nm@
+GO@nm@Paraúna@nm@75980000@nm@@nm@-16.9480783@nm@-50.4482700@nm@
+GO@nm@Pedra Branca@nm@75714200@nm@@nm@-18.1660958@nm@-47.9444845@nm@
+GO@nm@Perolândia@nm@75823000@nm@@nm@-17.5262850@nm@-52.0654583@nm@
+GO@nm@Petrolina de Goiás@nm@75480000@nm@@nm@-16.1057363@nm@-49.3342534@nm@
+GO@nm@Pilar de Goiás@nm@76372000@nm@@nm@-14.7639791@nm@-49.5791427@nm@
+GO@nm@Piloândia@nm@76208000@nm@@nm@-16.3610293@nm@-50.7689339@nm@
+GO@nm@Piracanjuba@nm@75640000@nm@@nm@-17.3050562@nm@-49.0205285@nm@
+GO@nm@Piranhas@nm@76230000@nm@@nm@-16.4262523@nm@-51.8239388@nm@
+GO@nm@Pirenópolis@nm@72980000@nm@@nm@-15.8511485@nm@-48.9588740@nm@
+GO@nm@Pires Belo@nm@75714300@nm@@nm@-17.9288302@nm@-47.7870040@nm@
+GO@nm@Pires do Rio@nm@75200000@nm@@nm@-17.3086110@nm@-48.2781120@nm@
+GO@nm@Planalmira@nm@72950000@nm@@nm@-16.0532220@nm@-48.8583919@nm@
+GO@nm@Planaltina@nm@@nm@@nm@@nm@@nm@
+GO@nm@Pontalina@nm@75620000@nm@@nm@-17.5229691@nm@-49.4493917@nm@
+GO@nm@Porangatu@nm@76550000@nm@@nm@-13.4329160@nm@-49.1424016@nm@
+GO@nm@Porteirão@nm@75603000@nm@@nm@-17.8147359@nm@-50.1657799@nm@
+GO@nm@Portelândia@nm@75843000@nm@@nm@-17.3558287@nm@-52.6804144@nm@
+GO@nm@Posse@nm@73900000@nm@@nm@-14.0863866@nm@-46.3708272@nm@
+GO@nm@Posse D'Abadia@nm@72944000@nm@@nm@-16.0988192@nm@-48.7983823@nm@
+GO@nm@Posselândia@nm@75354000@nm@@nm@-16.9082765@nm@-49.6669139@nm@
+GO@nm@Prata@nm@73838000@nm@@nm@-13.1655500@nm@-46.8022800@nm@
+GO@nm@Professor Jamil@nm@75645000@nm@@nm@-17.2501202@nm@-49.2444534@nm@
+GO@nm@Quirinópolis@nm@75860000@nm@@nm@-18.4476442@nm@-50.4551598@nm@
+GO@nm@Registro do Araguaia@nm@76258000@nm@@nm@-15.7386159@nm@-51.8190042@nm@
+GO@nm@Rialma@nm@76310000@nm@@nm@-15.3149264@nm@-49.5818466@nm@
+GO@nm@Rianápolis@nm@76315000@nm@@nm@-15.4516029@nm@-49.5044981@nm@
+GO@nm@Rio Quente@nm@75667000@nm@@nm@-17.8087127@nm@-48.7608291@nm@
+GO@nm@Rio Verde@nm@@nm@@nm@@nm@@nm@
+GO@nm@Riverlândia@nm@75914000@nm@@nm@-18.0727183@nm@-50.5050611@nm@
+GO@nm@Rosalândia@nm@76103000@nm@@nm@-16.4678616@nm@-50.4186025@nm@
+GO@nm@Rubiataba@nm@76350000@nm@@nm@-15.1662377@nm@-49.8052858@nm@
+GO@nm@Sanclerlândia@nm@76160000@nm@@nm@-16.1974865@nm@-50.3128291@nm@
+GO@nm@Santa Bárbara de Goiás@nm@75398000@nm@@nm@-16.5743478@nm@-49.6940732@nm@
+GO@nm@Santa Cruz das Lajes@nm@75939000@nm@@nm@-17.5896685@nm@-50.7049284@nm@
+GO@nm@Santa Cruz de Goiás@nm@75220000@nm@@nm@-17.3159692@nm@-48.4813937@nm@
+GO@nm@Santa Fé de Goiás@nm@76265000@nm@@nm@-15.7668696@nm@-51.1041660@nm@
+GO@nm@Santa Helena de Goiás@nm@75920000@nm@@nm@-17.8119748@nm@-50.5981252@nm@
+GO@nm@Santa Isabel@nm@76320000@nm@@nm@-15.2962936@nm@-49.4263774@nm@
+GO@nm@Santa Maria@nm@75394800@nm@@nm@-16.7407068@nm@-49.6029510@nm@
+GO@nm@Santa Rita do Araguaia@nm@75840000@nm@@nm@-17.3273564@nm@-53.2017151@nm@
+GO@nm@Santa Rita do Novo Destino@nm@76395000@nm@@nm@-15.1355164@nm@-49.1206977@nm@
+GO@nm@Santa Rosa@nm@73819000@nm@@nm@-15.5285440@nm@-47.3481580@nm@
+GO@nm@Santa Rosa de Goiás@nm@75455000@nm@@nm@-16.0844316@nm@-49.4957747@nm@
+GO@nm@Santa Tereza de Goiás@nm@76480000@nm@@nm@-13.7142488@nm@-49.0148451@nm@
+GO@nm@Santa Terezinha de Goiás@nm@76500000@nm@@nm@-14.4330884@nm@-49.7095458@nm@
+GO@nm@Santo Antônio da Barra@nm@75935000@nm@@nm@-17.5589525@nm@-50.6350038@nm@
+GO@nm@Santo Antônio da Esperança@nm@75229000@nm@@nm@-17.2585882@nm@-48.5812763@nm@
+GO@nm@Santo Antônio de Goiás@nm@75375000@nm@@nm@-16.4819851@nm@-49.3100551@nm@
+GO@nm@Santo Antônio do Descoberto@nm@@nm@@nm@@nm@@nm@
+GO@nm@Santo Antônio do Rio Verde@nm@75714000@nm@@nm@-17.9500000@nm@-47.4500000@nm@
+GO@nm@São Domingos@nm@73860000@nm@@nm@-13.4003166@nm@-46.3222146@nm@
+GO@nm@São Francisco de Goiás@nm@75490000@nm@@nm@-15.9260943@nm@-49.2609655@nm@
+GO@nm@São Gabriel de Goiás@nm@73758000@nm@@nm@-15.2332309@nm@-47.5762810@nm@
+GO@nm@São João@nm@76610000@nm@@nm@-18.1640733@nm@-47.9405435@nm@
+GO@nm@São João D'Aliança@nm@73760000@nm@@nm@-14.7052760@nm@-47.5232135@nm@
+GO@nm@São João da Paraúna@nm@75985000@nm@@nm@-16.8130724@nm@-50.4097003@nm@
+GO@nm@São Jorge@nm@73778000@nm@@nm@-14.1770378@nm@-47.8135810@nm@
+GO@nm@São Luís de Montes Belos@nm@76100000@nm@@nm@-16.5215130@nm@-50.3730843@nm@
+GO@nm@São Luiz do Norte@nm@76365000@nm@@nm@-14.8612465@nm@-49.3289398@nm@
+GO@nm@São Luiz do Tocantins@nm@76422000@nm@@nm@-14.2428365@nm@-48.0246925@nm@
+GO@nm@São Miguel do Araguaia@nm@76590000@nm@@nm@-13.2734823@nm@-50.1638500@nm@
+GO@nm@São Miguel do Passa Quatro@nm@75185000@nm@@nm@-17.0531571@nm@-48.6659414@nm@
+GO@nm@São Patrício@nm@76343000@nm@@nm@-15.3434801@nm@-49.8331886@nm@
+GO@nm@São Sebastião do Rio Claro@nm@76278000@nm@@nm@-15.7562200@nm@-51.5147710@nm@
+GO@nm@São Simão@nm@75890000@nm@@nm@-18.9964906@nm@-50.5474320@nm@
+GO@nm@São Vicente@nm@75159000@nm@@nm@-16.4086028@nm@-48.9801348@nm@
+GO@nm@Sapé@nm@75699000@nm@@nm@-17.5808473@nm@-48.5866071@nm@
+GO@nm@Sarandi@nm@75549000@nm@@nm@-18.3617414@nm@-49.3666812@nm@
+GO@nm@Senador Canedo@nm@@nm@@nm@@nm@@nm@
+GO@nm@Serra Dourada@nm@76224000@nm@@nm@-16.3467904@nm@-50.7107004@nm@
+GO@nm@Serranópolis@nm@75820000@nm@@nm@-18.3071759@nm@-51.9591096@nm@
+GO@nm@Silvânia@nm@75180000@nm@@nm@-16.6680815@nm@-48.6132824@nm@
+GO@nm@Simolândia@nm@73930000@nm@@nm@-14.4648476@nm@-46.4851028@nm@
+GO@nm@Sítio D'Abadia@nm@73990000@nm@@nm@-14.7996879@nm@-46.2510486@nm@
+GO@nm@Sousânia@nm@75154000@nm@@nm@-16.1780580@nm@-49.0808037@nm@
+GO@nm@Souzalândia@nm@76392000@nm@@nm@-15.1180416@nm@-48.9334673@nm@
+GO@nm@Taquaral de Goiás@nm@76640000@nm@@nm@-16.0525052@nm@-49.6043084@nm@
+GO@nm@Taveira@nm@76423000@nm@@nm@-14.7794440@nm@-48.6269440@nm@
+GO@nm@Teresina de Goiás@nm@73795000@nm@@nm@-13.7804962@nm@-47.2663227@nm@
+GO@nm@Terezópolis de Goiás@nm@75175000@nm@@nm@-16.4817544@nm@-49.0942362@nm@
+GO@nm@Terra Indígena Avá-Canoeiro@nm@73749810@nm@@nm@-15.8270369@nm@-49.8362237@nm@
+GO@nm@Trajanópolis@nm@73720000@nm@@nm@-15.2570865@nm@-48.2654244@nm@
+GO@nm@Três Ranchos@nm@75720000@nm@@nm@-18.3602018@nm@-47.7797884@nm@
+GO@nm@Trevo do José Rosário@nm@75194000@nm@@nm@-16.5703128@nm@-48.9001364@nm@
+GO@nm@Trindade@nm@@nm@@nm@@nm@@nm@
+GO@nm@Trombas@nm@76460000@nm@@nm@-13.5083261@nm@-48.7421477@nm@
+GO@nm@Tupiracaba@nm@76424000@nm@@nm@-14.4701908@nm@-48.5524770@nm@
+GO@nm@Turvânia@nm@76110000@nm@@nm@-16.6101037@nm@-50.1333943@nm@
+GO@nm@Turvelândia@nm@75970000@nm@@nm@-17.8494208@nm@-50.3044324@nm@
+GO@nm@Uirapuru@nm@76525000@nm@@nm@-14.2839762@nm@-49.9205091@nm@
+GO@nm@Uruaçu@nm@76400000@nm@@nm@-14.5246488@nm@-49.1468996@nm@
+GO@nm@Uruana@nm@76335000@nm@@nm@-15.5040677@nm@-49.6815627@nm@
+GO@nm@Uruita@nm@76338000@nm@@nm@-15.6710191@nm@-49.6891943@nm@
+GO@nm@Urutaí@nm@75790000@nm@@nm@-17.4655556@nm@-48.2019229@nm@
+GO@nm@Uvá@nm@76608000@nm@@nm@-15.9005757@nm@-50.4422654@nm@
+GO@nm@Valdelândia@nm@76352000@nm@@nm@-15.2153970@nm@-50.0019296@nm@
+GO@nm@Valparaíso de Goiás@nm@@nm@@nm@@nm@@nm@
+GO@nm@Varjão@nm@75355000@nm@@nm@-17.0475153@nm@-49.6316809@nm@
+GO@nm@Vazante@nm@73869000@nm@@nm@-13.2857528@nm@-46.4002980@nm@
+GO@nm@Vianópolis@nm@75265000@nm@@nm@-16.7409861@nm@-48.5163566@nm@
+GO@nm@Vicentinópolis@nm@75555000@nm@@nm@-17.7326603@nm@-49.8052019@nm@
+GO@nm@Vila Boa@nm@73825000@nm@@nm@-15.0391528@nm@-47.0524565@nm@
+GO@nm@Vila Propício@nm@76393000@nm@@nm@-15.4589038@nm@-48.8849800@nm@
+GO@nm@Vila Sertaneja@nm@76528000@nm@@nm@-14.0909711@nm@-49.9843932@nm@

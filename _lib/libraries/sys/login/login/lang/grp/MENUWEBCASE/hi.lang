@@ -1,0 +1,647 @@
+[tble_data_entry]
+lang_grouping=Grouping
+lang_with_grouping=With Grouping
+lang_decimal_required=Decimal digits are required
+lang_decimal_not_required=Decimal digits aren't required
+lang_watermark=Displaying watermark
+
+[__usr_item_menu_geral__]
+lang_user=User
+lang_pass=Password
+lang_code=Code
+lang_name=Name
+lang_contact=Contact
+lang_position=Position
+lang_birth=Birth date
+lang_balance=Balance
+lang_language=Language
+
+[tble_account]
+lang_tble_account=account
+lang_account_fild_accountid=ID
+lang_account_fild_acconuntdescription=Description
+
+[tble_application]
+lang_tble_application=application
+lang_application_fild_application_name=Application Name
+lang_application_fild_description=Description
+
+[tble_application_logs]
+lang_tble_application_logs=application_logs
+lang_application_logs_fild_applicationlogid=ID
+lang_application_logs_fild_application_name=Application Name
+lang_application_logs_fild_date_time=Date Time
+lang_application_logs_fild_login=Login
+lang_application_logs_fild_ip_user=IP User
+lang_application_logs_fild_action_held=Action
+
+[tble_categories]
+lang_tble_categories=categories
+lang_categories_fild_categoryid=ID
+lang_categories_fild_categoryname=Category Name
+lang_categories_fild_description=Description
+lang_categories_fild_picture=Picture
+
+[tble_city]
+lang_tble_city=city
+lang_city_fild_cityid=ID
+lang_city_fild_cityname=City
+lang_city_fild_stateid=State
+
+[tble_companies]
+lang_tble_companies=companies
+lang_companies_fild_companyid=ID
+lang_companies_fild_companyname=Company Name
+
+[tble_customercustomerdemo]
+lang_tble_customercustomerdemo=customercustomerdemo
+lang_customercustomerdemo_fild_customerid=ID
+lang_customercustomerdemo_fild_customertypeid=Customer Type
+
+[tble_customerdemographics]
+lang_tble_customerdemographics=customerdemographics
+lang_customerdemographics_fild_customertypeid=ID
+lang_customerdemographics_fild_customerdesc=Description
+
+[tble_customers]
+lang_tble_customers=customers
+lang_customers_fild_customerid=ID
+lang_customers_fild_companyname=Company Name
+lang_customers_fild_contactname=Contact Name
+lang_customers_fild_contacttitle=Contact Title
+lang_customers_fild_birthdate=Birth Date
+lang_customers_fild_country=Country
+lang_customers_fild_regionid=Region
+lang_customers_fild_stateid=State
+lang_customers_fild_cityid=City
+lang_customers_fild_address=Address
+lang_customers_fild_postalcode=Postal Code
+lang_customers_fild_phone=Phone
+lang_customers_fild_fax=Fax
+lang_customers_fild_creditlimit=Credit Limit
+lang_customers_fild_cardtype=Card Type
+lang_customers_fild_cardnumber=Card Number
+lang_customers_fild_notes=Notes
+lang_customers_fild_city=City
+lang_customers_fild_region=Region
+
+[tble_departments]
+lang_tble_departments=departments
+lang_departments_fild_deptid=ID
+lang_departments_fild_deptname=Department Name
+
+[tble_employeeprojects]
+lang_tble_employeeprojects=employeeprojects
+lang_employeeprojects_fild_employeeid=ID
+lang_employeeprojects_fild_projectid=Project
+lang_employeeprojects_fild_value=Value
+
+[tble_employees]
+lang_tble_employees=employees
+lang_employees_fild_employeeid=EmployeeID
+lang_employees_fild_lastname=LastName
+lang_employees_fild_firstname=FirstName
+lang_employees_fild_title=Title
+lang_employees_fild_titleofcourtesy=TitleOfCourtesy
+lang_employees_fild_birthdate=BirthDate
+lang_employees_fild_hiredate=HireDate
+lang_employees_fild_country=Country
+lang_employees_fild_regionid=RegionID
+lang_employees_fild_stateid=StateID
+lang_employees_fild_cityid=CityID
+lang_employees_fild_postalcode=PostalCode
+lang_employees_fild_address=Address
+lang_employees_fild_homephone=HomePhone
+lang_employees_fild_extension=Extension
+lang_employees_fild_photo=Photo
+lang_employees_fild_notes=Notes
+lang_employees_fild_reportsto=ReportsTo
+lang_employees_fild_photopath=PhotoPath
+lang_employees_fild_ssn=SSN
+
+[tble_employeestate]
+lang_tble_employeestate=employeestate
+lang_employeestate_fild_employeeid=EmployeeID
+lang_employeestate_fild_stateid=StateID
+
+[tble_employeeterritories]
+lang_tble_employeeterritories=employeeterritories
+lang_employeeterritories_fild_employeeid=EmployeeID
+lang_employeeterritories_fild_territoryid=TerritoryID
+
+[tble_groups]
+lang_tble_groups=groups
+lang_groups_fild_group_id=Group Id
+lang_groups_fild_description=Description
+
+[tble_groups_applications]
+lang_tble_groups_applications=groups_applications
+lang_groups_applications_fild_group_id=Group Id
+lang_groups_applications_fild_application_name=Application Name
+
+[tble_order_details]
+lang_tble_order_details=order_details
+lang_order_details_fild_orderdetailsid=OrderDetailsID
+lang_order_details_fild_orderid=OrderID
+lang_order_details_fild_productid=ProductID
+lang_order_details_fild_unitprice=UnitPrice
+lang_order_details_fild_quantity=Quantity
+lang_order_details_fild_discount=Discount
+lang_order_details_fild_totalprice=TotalPrice
+
+[tble_orders]
+lang_tble_orders=orders
+lang_orders_fild_orderid=OrderID
+lang_orders_fild_customerid=CustomerID
+lang_orders_fild_employeeid=EmployeeID
+lang_orders_fild_orderdate=OrderDate
+lang_orders_fild_requireddate=RequiredDate
+lang_orders_fild_shippeddate=ShippedDate
+lang_orders_fild_shipvia=ShipVia
+lang_orders_fild_freight=Freight
+lang_orders_fild_priceorder=PriceOrder
+lang_orders_fild_shipcountry=ShipCountry
+lang_orders_fild_shipregion=ShipRegion
+lang_orders_fild_shipstate=ShipState
+lang_orders_fild_shipcity=ShipCity
+lang_orders_fild_shipname=ShipName
+lang_orders_fild_shipaddress=ShipAddress
+lang_orders_fild_shippostalcode=ShipPostalCode
+
+[tble_products]
+lang_tble_products=products
+lang_products_fild_productid=ProductID
+lang_products_fild_productname=ProductName
+lang_products_fild_supplierid=SupplierID
+lang_products_fild_categoryid=CategoryID
+lang_products_fild_quantityperunit=QuantityPerUnit
+lang_products_fild_unitprice=UnitPrice
+lang_products_fild_totalvalue=TotalValue
+lang_products_fild_unitsinstock=UnitsInStock
+lang_products_fild_unitsonorder=UnitsOnOrder
+lang_products_fild_reorderlevel=ReorderLevel
+lang_products_fild_discontinued=Discontinued
+
+[tble_project]
+lang_tble_project=project
+lang_project_fild_projectid=ProjectID
+lang_project_fild_projectname=ProjectName
+
+[tble_region]
+lang_tble_region=region
+lang_region_fild_regionid=RegionID
+lang_region_fild_regiondescription=RegionDescription
+
+[tble_releases]
+lang_tble_releases=releases
+lang_releases_fild_releaseid=ReleaseID
+lang_releases_fild_companyid=CompanyID
+lang_releases_fild_deptid=DeptID
+lang_releases_fild_accountid=AccountID
+lang_releases_fild_userlogin=UserLogin
+lang_releases_fild_daterelease=DateRelease
+lang_releases_fild_valuerelease=ValueRelease
+
+[tble_sec_application]
+lang_tble_sec_application=Application
+lang_sec_application_fild_application_name=Name
+lang_sec_application_fild_description=Description
+
+[tble_sec_groups]
+lang_tble_sec_groups=Groups
+lang_sec_groups_fild_group_id=Group ID
+lang_sec_groups_fild_description=Description
+
+[tble_sec_groups_applications]
+lang_tble_sec_groups_applications=Group Applications
+lang_sec_groups_applications_fild_group_id=Group
+lang_sec_groups_applications_fild_application_name=Application
+
+[tble_sec_users]
+lang_tble_sec_users=Users
+lang_sec_users_fild_login=Login
+lang_sec_users_fild_pswd=Password
+lang_sec_users_fild_name=Name
+lang_sec_users_fild_email=Email
+
+[tble_sec_users_applications]
+lang_tble_sec_users_applications=User Applications
+lang_sec_users_applications_fild_login_user=User
+lang_sec_users_applications_fild_application_name=Application
+
+[tble_sec_users_groups]
+lang_tble_sec_users_groups=User Groups
+lang_sec_users_groups_fild_login_user=User
+lang_sec_users_groups_fild_group_id=Group
+
+[tble_shippers]
+lang_tble_shippers=shippers
+lang_shippers_fild_shipperid=ShipperID
+lang_shippers_fild_companyname=CompanyName
+lang_shippers_fild_phone=Phone
+
+[tble_sqlite_sequence]
+lang_tble_sqlite_sequence=sqlite_sequence
+lang_sqlite_sequence_fild_name=name
+lang_sqlite_sequence_fild_seq=seq
+
+[tble_states]
+lang_tble_states=states
+lang_states_fild_stateid=StateID
+lang_states_fild_statename=StateName
+lang_states_fild_regionid=RegionID
+
+[tble_suppliers]
+lang_tble_suppliers=suppliers
+lang_suppliers_fild_supplierid=SupplierID
+lang_suppliers_fild_companyname=CompanyName
+lang_suppliers_fild_contactname=ContactName
+lang_suppliers_fild_contacttitle=ContactTitle
+lang_suppliers_fild_country=Country
+lang_suppliers_fild_region=Region
+lang_suppliers_fild_state=State
+lang_suppliers_fild_city=City
+lang_suppliers_fild_postalcode=PostalCode
+lang_suppliers_fild_address=Address
+lang_suppliers_fild_phone=Phone
+lang_suppliers_fild_fax=Fax
+lang_suppliers_fild_homepage=HomePage
+
+[tble_territories]
+lang_tble_territories=territories
+lang_territories_fild_territoryid=TerritoryID
+lang_territories_fild_territorydescription=TerritoryDescription
+lang_territories_fild_regionid=RegionID
+
+[tble_users]
+lang_tble_users=users
+lang_users_fild_login=Login
+lang_users_fild_pswd=Pswd
+lang_users_fild_name=Name
+lang_users_fild_email=Email
+
+[tble_users_applications]
+lang_tble_users_applications=users_applications
+lang_users_applications_fild_login_user=Login_User
+lang_users_applications_fild_application_name=Application_Name
+
+[tble_users_groups]
+lang_tble_users_groups=users_groups
+lang_users_groups_fild_login_user=Login User
+lang_users_groups_fild_group_id=Group Id
+
+[xml]
+lang_xml_generation=XML Generation
+lang_error_creating_file=Error while creating the temporary file. Check the permission.
+lang_xml_created=Xml created succesfully!<br /> Click here to download it!
+
+[blocks]
+lang_block_header_form12_1=General Data
+lang_block_header_form12_2=Address
+lang_block_header_form12_3=Others
+lang_block_header_form17_1=General Data
+lang_block_header_form17_2=Address
+lang_block_header_form17_3=Others
+lang_block_header_form38_1=General Info
+lang_block_header_form38_2=Ship Info
+lang_block_header_form38_3=Order Details
+lang_block_header_form41_1=Editor
+lang_block_header_form41_2=General
+lang_block_header_form42_1=General
+lang_block_header_form42_2=New Block
+lang_block_header_form42_3=One More
+lang_block_header_form55_1=Add/Edit Users
+lang_block_header_form58_1=Add/Edit Employees
+lang_block_header_form56_1=Add/Edit Employees
+lang_block_header_form56_2=Employee Projects
+lang_block_header_form57_1=Add/Edit Employees
+lang_block_header_grid30_1=Default Block
+lang_block_header_grid30_2=New Block
+lang_block_header_grid20_1=General
+lang_block_header_grid20_2=Bussiness
+lang_block_header_grid20_3=Orders
+lang_block_header_grid36_1=Employee Profile
+lang_block_header_grid36_2=Address
+lang_block_header_mcr06=From
+lang_block_header_mcr06_1=To
+lang_block_header_mcr06_2=Message
+lang_block_header_mcr13_1=From
+lang_block_header_mcr13_2=To
+lang_block_header_mcr13_3=Message
+lang_block_header_tab01_1=Order
+lang_block_header_tab01_2=Details
+lang_block_header_tab02_1=Form Categories
+lang_block_header_tab02_2=Grid Categories
+lang_block_header_tab03_2=Chart Sales per Employee
+lang_block_header_tab03_1=Employee Record
+lang_block_header_tab03_3=Account entries Summary
+
+[fields]
+lang_field_ctr01_1=Message
+lang_field_ctr01_2=File
+lang_field_ctr04_1=Login
+lang_field_ctr04_2=Password
+lang_field_ctr06_1=Login
+lang_field_ctr06_2=Password
+lang_field_ctr02_1=State
+lang_field_ctr03_1=Login
+lang_field_ctr03_2=Password
+lang_field_form48_1=Auto-Complete field
+lang_field_ctr5_1=User
+lang_field_ctr5_2=Password
+lang_field_ctr5_3=Language
+lang_field_mcr01_1=Login
+lang_field_mcr01_2=Password
+lang_field_mcr01_3=User or Password Invalids
+lang_field_mcr02=Select a product to receive your Unit Price.
+lang_field_mcr03_1=Login
+lang_field_mcr03_2=Password
+lang_field_mcr03_3=<b>To authenticate inform:</b><br /> login <b>admin</b> and password <b>admin</b>
+lang_field_mcr05_1=Login
+lang_field_mcr05_2=Password
+lang_field_mcr05_3=<b>To authenticate inform:</b><br /> login <b>admin</b> and password <b>admin</b>
+lang_field_mcr05_4=In this example by clicking any item on the menu, will inserted a record in the table log.
+lang_field_mcr06_1=Subject
+lang_field_mcr06_2=Message
+lang_field_mcr06_3=Name
+lang_field_mcr06_4=E-mail
+lang_field_mcr06_5=Name
+lang_field_mcr06_6=E-mail
+lang_field_mcr08=Calculated in the event onLoad (TotalPrice) 
+lang_field_mcr11_1=Your Password:
+lang_field_mcr11_2=New Password:
+lang_field_mcr11_3=Level
+lang_field_mcr13_1=Subject
+lang_field_mcr13_2=Message
+lang_field_mcr13_3=File
+lang_field_mcr13_4=Name
+lang_field_mcr13_5=E-mail
+lang_field_mcr13_6=Name
+lang_field_mcr13_7=E-mail
+lang_field_sec01_1=Login
+lang_field_sec01_2=Password
+lang_field_sec01_3=<strong>We have two diferents users:</strong><br />Administrator: login <b>admin</b> and psw <b>admin</b><br />Usuário comum: login <b>user</b> and psw <b>user</b> 
+lang_field_tab01=Order
+lang_field_tab03_2_info1=Below expected
+lang_field_tab03_2_info2=Expected
+lang_field_tab03_2_info3=Above expected
+lang_field_grid14=Detail
+lang_field_menu03_2_actualpassoword=Actual Password
+lang_field_menu03_2_newpassword=New Password
+lang_field_mcr06_7=E-mail
+
+[footer]
+lang_footer_form13_title=click on the search icon to retrieve the category data.
+lang_footer_form27_title=Click in <i> Update </i> button on the toolbar to edit details records
+lang_footer_grid04_title=Click in <i> Search </i> on toolbar to filter</span>
+lang_footer_grid13_title=Field Auto-Complete
+lang_footer_grid23_title=Field Auto-Complete
+lang_footer_grid25_title=*Click in
+lang_footer_grid25_title_1=to expand details
+
+[menu]
+lang_menu_ctr04_1=Grids
+lang_menu_ctr04_2=Customers
+lang_menu_ctr04_3=Forms
+lang_menu_ctr04_4=Customers
+lang_menu_ctr04_5=Exit
+lang_menu_menu01_1=Form
+lang_menu_menu01_2=Master/Detail
+lang_menu_menu01_3=Multiple Records
+lang_menu_menu01_4=Editable Grid
+lang_menu_menu01_5=Unique Key Validation
+lang_menu_menu01_6=Orders
+lang_menu_menu01_7=Grid
+lang_menu_menu01_8=Group By - Customers x States
+lang_menu_menu01_9=Pivot Table Summary
+lang_menu_menu01_10=Submenu
+lang_menu_menu01_11=Simple Drill Down
+lang_menu_menu01_12=Customers
+lang_menu_menu01_13=Reports
+lang_menu_menu01_14=Invoice
+lang_menu_menu01_15=Business Card
+lang_menu_menu01_16=Exit
+lang_menu_mcr12_1=Link
+lang_menu_mcr12_2=PHP
+lang_menu_mcr12_3=Forms Customers
+lang_menu_mcr12_4=Exit
+lang_menu_mcr12_5=http://www.scriptcase.net
+lang_menu_mcr05_1=Log
+lang_menu03_home=Home
+lang_menu03_changepassword=Change Password
+lang_menu03_exit=Exit
+
+[messages]
+lang_msg_ctr06_1=You have successfully logged in.
+lang_msg_ctr04_1=To authenticate inform:
+lang_msg_ctr04_2=login
+lang_msg_ctr04_3=and password
+lang_msg_ctr02=Selecting a state click in confirm button
+lang_msg_form50=selecting a product, the Unit Price will be loaded.
+lang_msg_form51=Auto-Complete field
+lang_msg_form52=Type 99. Then type 2, for example.
+lang_msg_form53_1=Inform the product code (1 to 77)
+lang_msg_form54=Try searching
+lang_msg_form21=Primary key is always field required
+lang_msg_form44=Unique Key. Try change the Dept Name to
+lang_msg_form45=To edit <b>Category</b> click in icon
+lang_msg_form07=Field accepts only Letters
+lang_msg_form07_1=Field does not accept numbers and comma
+lang_msg_form07_2=Field only accepts Letters and converts to Uppercase
+lang_msg_form07_3=Check the type of card
+lang_msg_form07_4=Checks if the number entered is valid
+lang_msg_form58=This field accepts only Letters
+lang_msg_form58_1=This field accepts Letters and Numbers
+lang_msg_mcr11=Minimum 6 characters.
+lang_msg_search01=Click here to import data of another application.
+lang_msg_sec01=User or Password Invalids.
+lang_msg_tab01=Creating a Tab Application
+lang_msg_tab02=Tab Application using Form and Grid
+
+[header]
+lang_header_form16_title=Displaying fields based on selected Radio Button
+lang_header_form48_title=Auto-complete Field
+lang_header_form49_title=Fields Reload (State and City)
+lang_header_form50_title=Business Rule using AJAX Events
+lang_header_form51_title=Auto-Complete field with Capture
+lang_header_form52_title=Form with AJAX validation
+lang_header_form54_title=Autocomplete capture
+lang_header_form53_title=Orders and Items (1-N) with AJAX routines
+lang_header_form53_1_title_1=Order Details <b>
+lang_header_form53_1_title_2=</b>, Customers <b>
+lang_header_form46_title=Generating a criticism for tables with Dependency
+lang_header_form33_title=Assign values to fields (DateRelease) that are not showing on Form
+lang_header_form32_title=Hidding field dynamically using sc_field_display Macro
+lang_header_form31_1_title=Grid linked by Form Customer
+lang_header_form31_title=Create new button to make a processing
+lang_header_form01_title=Register Navigation, insertations, alterations, exclusion options
+lang_header_form02_title=Form with Navegation and Update options
+lang_header_form03_title=Updating one field and others fields leaving read-only
+lang_header_form04_title=Showing message after record update or insert
+lang_header_form12_title=Dividing the form in blocks
+lang_header_form17_title=Form divided into several pages
+lang_header_form18_title=Using Template
+lang_header_form19_title=Using template created
+lang_header_form21_title=Defining fields (Phone) of Obligator Fulfilling
+lang_header_form24_title=Update Related Table (1:N)
+lang_header_form26_title=Using Multiple Registers Form
+lang_header_form37_title=Form using Stored Procedure
+lang_header_form38_title=Example: Master/Detail
+lang_header_form39_title=Editable Grid
+lang_header_form40_title=Multiple Records
+lang_header_form42_title=Form with Blocks and Tabs
+lang_header_form44_title=Unique Key Validation
+lang_header_form45_title=Editing a select field using another form
+lang_header_form45_1_title=Editing a select field using another form
+lang_header_form05_title=Form with combobox (SELECT)
+lang_header_form07_title=Form with validation in the fields
+lang_header_form08_title=Using ComboBox in field type date
+lang_header_form10_title=Form using images upload
+lang_header_form11_title=Form with mask in Phone Field
+lang_header_form29_title=Autoincrement - examples (manual)
+lang_header_form30_title=Automatic Lookup
+lang_header_form34_title=Autoincrement - examples (automatic)
+lang_header_form35_title=Manual Lookup 
+lang_header_form55_title=Grid and Form in the same page
+lang_header_form58_title=Data Entry using Input Masks
+lang_header_form13_title=Capture information from a grid
+lang_header_form13_1_title=Capture information to another application
+lang_header_form27_title=Creating another master/detail form
+lang_header_form27_1_title=Form detail
+lang_header_form28_title=Create new button for call another application (Link)
+lang_header_form28_1_title=Create new button for call another application (Link)
+lang_header_form56_title=Simple Master-Detail for Employees/Projects
+lang_header_form57_title=Updating Many-to-Many Relations via CheckBox List
+lang_header_ctr01_title=Reading and processing a TXT file
+lang_header_ctr04_title=User and Password Validation
+lang_header_ctr04_1_title=Menu
+lang_header_ctr04_2_title=Simple Form with AJAX navegation
+lang_header_ctr04_3_title=A Simple Grid
+lang_header_ctr06_title=Using Captcha on a Login Form
+lang_header_ctr02_title=Passing value for another applications
+lang_header_ctr03_title=Login to enter in the system
+lang_header_ctr03_1_title=Menu
+lang_header_ctr03_2_title=Simple Form with AJAX navegation
+lang_header_ctr03_3_title=A Simple Grid
+lang_header_grid01_title=A Simple Grid
+lang_header_grid02_title=A grid with various exportation formats
+lang_header_grid09_title=Grid showing detail in the same page
+lang_header_grid10_title=Grid showing records vertically
+lang_header_grid08_title=Grid with Image Field
+lang_header_grid18_title=Editing a field of the type Value(Double)
+lang_header_grid21_title=Editing a field of the type Value(Double)
+lang_header_grid24_title=Creating a grid with calculated field
+lang_header_grid04_title=Using filters (search) in the grid
+lang_header_grid12_title=Search and grid on the same page
+lang_header_grid13_title=Display filter first and display filter results in another page
+lang_header_grid23_title=Customers Grid with a limit more than 900 (using Macros)
+lang_header_grid30_title=Formatting blocks on filter forms
+lang_header_grid30_filter_title=Formatting blocks on filter forms
+lang_header_grid31_title=Select Field using Ajax to reload select field
+lang_header_grid05_title=Group By - Customers x States
+lang_header_grid06_title=Using GroupBy with more than one field
+lang_header_grid22_title=Using Group By and Sum
+lang_header_grid29_title=Pivot table or crosstab summary
+lang_header_grid34_title=Summary and chart
+lang_header_grid35_title=Pivot Summary and Chart
+lang_header_grid37_title=Average price report - using a line chart
+lang_header_grid38_title=Products Rating
+lang_header_grid14_title=Simple drill down
+lang_header_grid14_1_title=Order Detail
+lang_header_grid15_title=Calling a Update Form through a field
+lang_header_grid16_title=Report with link to edit the record
+lang_header_grid16_1_title=Employees Form
+lang_header_grid25_title=Nested grids using treeview
+lang_header_grid25_1_title=Grid of subgrid
+lang_header_grid25_1_filter_title=Filter for subgrid
+lang_header_grid27_title=Grid with multiple Links in a field
+lang_header_grid27_1_title=Grid with more than one link in a same field
+lang_header_grid19_title=Customers Report
+lang_header_grid20_title=Customers x Orders Report
+lang_header_grid32_title=Grid HTML print
+lang_header_grid36_title=Employee Profile
+lang_header_grid39_title=Default grid
+lang_header_grid40_title=Master/detail grid
+lang_header_ctr_5_title=Logon form featuring a LANGUAGES field
+lang_header_menu02_title=Tree Menu
+lang_header_menu01_title=Horizontal Menu
+lang_header_mcr01_title=How to create a simple method
+lang_header_mcr01_2_title=Simple Form with AJAX navegation
+lang_header_mcr01_3_title=A Simple Grid
+lang_header_mcr02_title=How to create a method returning a value
+lang_header_mcr03_title=How to create a method receiving parameter
+lang_header_mcr03_1_title=Menu
+lang_header_mcr03_2_title=A Simple Grid
+lang_header_mcr03_3_title=Simple Form with AJAX navegation
+lang_header_mcr05_title=How to create a access log
+lang_header_mcr05_3_title=A Simple Grid
+lang_header_mcr05_4_title=Simple Form with AJAX navegation
+lang_header_mcr05_5_title=Grid of Log
+lang_header_mcr06_title=How to send an E-mail using the macro sc_mail_send
+lang_header_mcr08_title=Events in form application
+lang_header_mcr09_title=Events in the Grid Application
+lang_header_mcr10_title=Events in the filter
+lang_header_mcr11_title=Events in the application of Control
+lang_header_mcr12_title=Events in the application of Menu
+lang_header_mcr12_1_title=Simple Form with AJAX navegation
+lang_header_mcr13_title=How to send an E-mail with attach using the macro sc_mail_send
+lang_header_search01_title=Making a capture linking with a filter
+lang_header_search01_1_title=Grid Customers (Capture)
+lang_header_search01_2_title=Form linked by Filter Customers
+lang_header_search02_title=Special Conditions for Date fields
+lang_header_search03_title=Capture information from a grid
+lang_header_search03_1_title=Capture information to another application
+lang_header_sec01_title=Create security example - Autentication (login)
+lang_header_sec01_1_title=Create security example - Autentication (login)
+lang_header_sec01_2_title=A Simple Grid
+lang_header_sec01_2_filter_title=Filter of Simple Grid
+lang_header_sec01_3_title=Simple Form with AJAX navegation
+lang_header_tab01_title=Choose a Customer order
+lang_header_tab01_1_title=Creating a Tab Application
+lang_header_tab01_2_title=Form Orders
+lang_header_tab01_3_title=Form Order Details
+lang_header_tab02_title=Tab Application using Form and Grid
+lang_header_tab02_1_title=Form linked by Tab Application
+lang_header_tab02_2_title=Grid linked by Tab Application
+lang_header_grid04_filter_title=Using filters (search) in the grid
+lang_header_grid_33_title=Grid with language selection 
+lang_header_pdf01_title=PDF Reports with Subselect fields
+lang_header_pdf02_title=Business card using  PDF
+lang_header_pdf03_title=Printing Invoice 
+lang_header_sample_blank=Blank Aplication
+lang_header_sample_block_expand=Filter with expandable blocks 
+lang_header_sample_chart=Simple Chart
+lang_header_sample_chart_main=Different chart types
+lang_header_sample_container=Container Application
+lang_header_sample_form_link_md=Form/Grid Link
+lang_header_sample_image_gallery=Blank - Picture gallery
+lang_header_sample_link_capture=Captura Link
+lang_header_sample_modal_main=Modal Link
+lang_header_sample_themes=Selecting Themes
+lang_header_sample_thickbox_image=Image field (thickbox)
+lang_header_samples_treemenu=Tree Menu (Jquery-layout)
+lang_header_sample_use_language=Selecting Language
+lang_header_grid41_title=Analytic chart: Expenses x Companies/Department
+lang_header_search04_title= Modal Filter Form
+lang_header_tab03_title=Tab Application using grid and chart
+lang_header_tab03_2_title=Account Summary
+lang_header_menu03_2_title=Change Password
+lang_header_menu03_title=Menu using  initial Application
+lang_header_grid42_title=Grid application using the line chart
+lang_header_grid43_title=Gráfico 3D Pizza
+lang_header_grid48_title=Different layout of the graphics
+lang_header_grid49_title=Option Quick Search
+lang_header_grid50_title=Show youtube video in grid
+lang_header_grid51_title=The new types of BarCode
+lang_header_grid52_title=Grid application with Maps of the google
+lang_header_calendar01_title=New calendar application
+lang_header_grid44_title=Process a PHP code in selected records (checkbox)
+
+[info]
+
+[maps]
+
+[v9]
+
+[buttons]
+

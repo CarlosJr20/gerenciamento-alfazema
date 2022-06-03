@@ -58,6 +58,7 @@ function scEventControl_init(iSeqRow) {
   scEventControl_data["email" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["active" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["groups" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
+  scEventControl_data["priv_admin" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
 }
 
 function scEventControl_active(iSeqRow) {
@@ -101,6 +102,12 @@ function scEventControl_active(iSeqRow) {
     return true;
   }
   if (scEventControl_data["groups" + iSeqRow]["change"]) {
+    return true;
+  }
+  if (scEventControl_data["priv_admin" + iSeqRow]["blur"]) {
+    return true;
+  }
+  if (scEventControl_data["priv_admin" + iSeqRow]["change"]) {
     return true;
   }
   return false;
@@ -150,7 +157,9 @@ function scJQEventsAdd(iSeqRow) {
                                     .bind('change', function() { sc_apl_form_edit_users_active_onchange(this, iSeqRow) })
                                     .bind('focus', function() { sc_apl_form_edit_users_active_onfocus(this, iSeqRow) });
   $('#id_sc_field_activation_code' + iSeqRow).bind('change', function() { sc_apl_form_edit_users_activation_code_onchange(this, iSeqRow) });
-  $('#id_sc_field_priv_admin' + iSeqRow).bind('change', function() { sc_apl_form_edit_users_priv_admin_onchange(this, iSeqRow) });
+  $('#id_sc_field_priv_admin' + iSeqRow).bind('blur', function() { sc_apl_form_edit_users_priv_admin_onblur(this, iSeqRow) })
+                                        .bind('change', function() { sc_apl_form_edit_users_priv_admin_onchange(this, iSeqRow) })
+                                        .bind('focus', function() { sc_apl_form_edit_users_priv_admin_onfocus(this, iSeqRow) });
   $('#id_sc_field_groups' + iSeqRow).bind('blur', function() { sc_apl_form_edit_users_groups_onblur(this, iSeqRow) })
                                     .bind('change', function() { sc_apl_form_edit_users_groups_onchange(this, iSeqRow) })
                                     .bind('focus', function() { sc_apl_form_edit_users_groups_onfocus(this, iSeqRow) });
@@ -158,6 +167,7 @@ function scJQEventsAdd(iSeqRow) {
                                           .bind('change', function() { sc_apl_form_edit_users_confirm_pswd_onchange(this, iSeqRow) })
                                           .bind('focus', function() { sc_apl_form_edit_users_confirm_pswd_onfocus(this, iSeqRow) });
   $('.sc-ui-checkbox-active' + iSeqRow).on('click', function() { scMarkFormAsChanged(); });
+  $('.sc-ui-radio-priv_admin' + iSeqRow).on('click', function() { scMarkFormAsChanged(); });
 } // scJQEventsAdd
 
 function sc_apl_form_edit_users_login_onblur(oThis, iSeqRow) {
@@ -234,8 +244,18 @@ function sc_apl_form_edit_users_activation_code_onchange(oThis, iSeqRow) {
   scMarkFormAsChanged();
 }
 
+function sc_apl_form_edit_users_priv_admin_onblur(oThis, iSeqRow) {
+  do_ajax_apl_form_edit_users_validate_priv_admin();
+  scCssBlur(oThis);
+}
+
 function sc_apl_form_edit_users_priv_admin_onchange(oThis, iSeqRow) {
   scMarkFormAsChanged();
+}
+
+function sc_apl_form_edit_users_priv_admin_onfocus(oThis, iSeqRow) {
+  scEventControl_onFocus(oThis, iSeqRow);
+  scCssFocus(oThis);
 }
 
 function sc_apl_form_edit_users_groups_onblur(oThis, iSeqRow) {
@@ -280,6 +300,7 @@ function displayChange_block_0(status) {
 	displayChange_field("email", "", status);
 	displayChange_field("active", "", status);
 	displayChange_field("groups", "", status);
+	displayChange_field("priv_admin", "", status);
 }
 
 function displayChange_row(row, status) {
@@ -290,6 +311,7 @@ function displayChange_row(row, status) {
 	displayChange_field_email(row, status);
 	displayChange_field_active(row, status);
 	displayChange_field_groups(row, status);
+	displayChange_field_priv_admin(row, status);
 }
 
 function displayChange_field(field, row, status) {
@@ -314,6 +336,9 @@ function displayChange_field(field, row, status) {
 	if ("groups" == field) {
 		displayChange_field_groups(row, status);
 	}
+	if ("priv_admin" == field) {
+		displayChange_field_priv_admin(row, status);
+	}
 }
 
 function displayChange_field_login(row, status) {
@@ -335,6 +360,9 @@ function displayChange_field_active(row, status) {
 }
 
 function displayChange_field_groups(row, status) {
+}
+
+function displayChange_field_priv_admin(row, status) {
 }
 
 function scRecreateSelect2() {

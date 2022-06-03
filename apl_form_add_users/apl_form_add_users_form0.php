@@ -846,6 +846,80 @@ sc_userSweetAlertDisplayed = false;
     <TD class="scFormDataOdd" colspan="<?php echo $sc_hidden_yes * 2; ?>" >&nbsp;</TD>
 <?php } 
 ?> 
+<?php if ($sc_hidden_no > 0) { echo "<tr>"; }; 
+      $sc_hidden_yes = 0; $sc_hidden_no = 0; ?>
+
+
+   <?php
+    if (!isset($this->nm_new_label['priv_admin']))
+    {
+        $this->nm_new_label['priv_admin'] = "Priv Admin";
+    }
+?>
+<?php
+   $nm_cor_fun_cel  = ($nm_cor_fun_cel  == $this->Ini->cor_grid_impar ? $this->Ini->cor_grid_par : $this->Ini->cor_grid_impar);
+   $nm_img_fun_cel  = ($nm_img_fun_cel  == $this->Ini->img_fun_imp    ? $this->Ini->img_fun_par  : $this->Ini->img_fun_imp);
+   $priv_admin = $this->priv_admin;
+   $sStyleHidden_priv_admin = '';
+   if (isset($this->nmgp_cmp_hidden['priv_admin']) && $this->nmgp_cmp_hidden['priv_admin'] == 'off')
+   {
+       unset($this->nmgp_cmp_hidden['priv_admin']);
+       $sStyleHidden_priv_admin = 'display: none;';
+   }
+   $bTestReadOnly = true;
+   $sStyleReadLab_priv_admin = 'display: none;';
+   $sStyleReadInp_priv_admin = '';
+   if (/*$this->nmgp_opcao != "novo" && */isset($this->nmgp_cmp_readonly['priv_admin']) && $this->nmgp_cmp_readonly['priv_admin'] == 'on')
+   {
+       $bTestReadOnly = false;
+       unset($this->nmgp_cmp_readonly['priv_admin']);
+       $sStyleReadLab_priv_admin = '';
+       $sStyleReadInp_priv_admin = 'display: none;';
+   }
+?>
+<?php if (isset($this->nmgp_cmp_hidden['priv_admin']) && $this->nmgp_cmp_hidden['priv_admin'] == 'off') { $sc_hidden_yes++;  ?>
+<input type="hidden" name="priv_admin" value="<?php echo $this->form_encode_input($priv_admin) . "\">"; ?>
+<?php } else { $sc_hidden_no++; ?>
+
+    <TD class="scFormLabelOdd scUiLabelWidthFix css_priv_admin_label" id="hidden_field_label_priv_admin" style="<?php echo $sStyleHidden_priv_admin; ?>"><span id="id_label_priv_admin"><?php echo $this->nm_new_label['priv_admin']; ?></span></TD>
+    <TD class="scFormDataOdd css_priv_admin_line" id="hidden_field_data_priv_admin" style="<?php echo $sStyleHidden_priv_admin; ?>"><table style="border-width: 0px; border-collapse: collapse; width: 100%"><tr><td  class="scFormDataFontOdd css_priv_admin_line" style="vertical-align: top;padding: 0px">
+<?php if ($bTestReadOnly && $this->nmgp_opcao != "novo" && isset($this->nmgp_cmp_readonly["priv_admin"]) &&  $this->nmgp_cmp_readonly["priv_admin"] == "on") { 
+
+ if ("Y" == $this->priv_admin) { $priv_admin_look = "Y";} 
+ if ("N" == $this->priv_admin) { $priv_admin_look = "N";} 
+?>
+<input type="hidden" name="priv_admin" value="<?php echo $this->form_encode_input($priv_admin) . "\">" . $priv_admin_look . ""; ?>
+<?php } else { ?>
+
+<?php
+
+ if ("Y" == $this->priv_admin) { $priv_admin_look = "Y";} 
+ if ("N" == $this->priv_admin) { $priv_admin_look = "N";} 
+?>
+<span id="id_read_on_priv_admin"  class="css_priv_admin_line" style="<?php echo $sStyleReadLab_priv_admin; ?>"><?php echo $this->form_format_readonly("priv_admin", $this->form_encode_input($priv_admin_look)); ?></span><span id="id_read_off_priv_admin" class="css_read_off_priv_admin css_priv_admin_line" style="<?php echo $sStyleReadInp_priv_admin; ?>"><div id="idAjaxRadio_priv_admin" style="display: inline-block"  class="css_priv_admin_line">
+<TABLE cellspacing=0 cellpadding=0 border=0><TR>
+  <TD class="scFormDataFontOdd css_priv_admin_line"><?php $tempOptionId = "id-opt-priv_admin" . $sc_seq_vert . "-1"; ?>
+    <input id="<?php echo $tempOptionId ?>"  class="sc-ui-radio-priv_admin sc-ui-radio-priv_admin" type=radio name="priv_admin" value="Y"
+<?php $_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users']['Lookup_priv_admin'][] = 'Y'; ?>
+<?php  if ("Y" == $this->priv_admin)  { echo " checked" ;} ?>  onClick="" ><label for="<?php echo $tempOptionId ?>">Y</label></TD>
+</TR>
+<TR>
+  <TD class="scFormDataFontOdd css_priv_admin_line"><?php $tempOptionId = "id-opt-priv_admin" . $sc_seq_vert . "-2"; ?>
+    <input id="<?php echo $tempOptionId ?>"  class="sc-ui-radio-priv_admin sc-ui-radio-priv_admin" type=radio name="priv_admin" value="N"
+<?php $_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users']['Lookup_priv_admin'][] = 'N'; ?>
+<?php  if ("N" == $this->priv_admin)  { echo " checked" ;} ?>  onClick="" ><label for="<?php echo $tempOptionId ?>">N</label></TD>
+</TR></TABLE>
+</div>
+</span><?php  }?>
+</td></tr><tr><td style="vertical-align: top; padding: 0"><table class="scFormFieldErrorTable" style="display: none" id="id_error_display_priv_admin_frame"><tr><td class="scFormFieldErrorMessage"><span id="id_error_display_priv_admin_text"></span></td></tr></table></td></tr></table></TD>
+   <?php }?>
+
+<?php if ($sc_hidden_yes > 0 && $sc_hidden_no > 0) { ?>
+
+
+    <TD class="scFormDataOdd" colspan="<?php echo $sc_hidden_yes * 2; ?>" >&nbsp;</TD>
+<?php } 
+?> 
 
 
    </td></tr></table>

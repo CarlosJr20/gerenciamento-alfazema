@@ -244,6 +244,14 @@ class apl_grid_sec_users_rtf
               $SC_Label = str_replace('>', '&gt;', $SC_Label);
               $this->Texto_tag .= "<td>" . $SC_Label . "</td>\r\n";
           }
+          $SC_Label = (isset($this->New_label['priv_admin'])) ? $this->New_label['priv_admin'] : ""; 
+          if ($Cada_col == "priv_admin" && (!isset($this->NM_cmp_hidden[$Cada_col]) || $this->NM_cmp_hidden[$Cada_col] != "off"))
+          {
+              $SC_Label = NM_charset_to_utf8($SC_Label);
+              $SC_Label = str_replace('<', '&lt;', $SC_Label);
+              $SC_Label = str_replace('>', '&gt;', $SC_Label);
+              $this->Texto_tag .= "<td>" . $SC_Label . "</td>\r\n";
+          }
       } 
       $this->Texto_tag .= "</tr>\r\n";
       $this->nm_field_dinamico = array();
@@ -251,15 +259,15 @@ class apl_grid_sec_users_rtf
       $nmgp_select_count = "SELECT count(*) AS countTest from " . $this->Ini->nm_tabela; 
       if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       else 
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       $nmgp_select .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
       $nmgp_select_count .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
@@ -296,6 +304,7 @@ class apl_grid_sec_users_rtf
          $this->name = $rs->fields[1] ;  
          $this->email = $rs->fields[2] ;  
          $this->active = $rs->fields[3] ;  
+         $this->priv_admin = $rs->fields[4] ;  
          //----- lookup - active
          $this->look_active = $this->active; 
          $this->Lookup->lookup_active($this->look_active); 
@@ -364,6 +373,16 @@ class apl_grid_sec_users_rtf
          $this->look_active = str_replace('<', '&lt;', $this->look_active);
          $this->look_active = str_replace('>', '&gt;', $this->look_active);
          $this->Texto_tag .= "<td>" . $this->look_active . "</td>\r\n";
+   }
+   //----- priv_admin
+   function NM_export_priv_admin()
+   {
+         $this->priv_admin = html_entity_decode($this->priv_admin, ENT_COMPAT, $_SESSION['scriptcase']['charset']);
+         $this->priv_admin = strip_tags($this->priv_admin);
+         $this->priv_admin = NM_charset_to_utf8($this->priv_admin);
+         $this->priv_admin = str_replace('<', '&lt;', $this->priv_admin);
+         $this->priv_admin = str_replace('>', '&gt;', $this->priv_admin);
+         $this->Texto_tag .= "<td>" . $this->priv_admin . "</td>\r\n";
    }
 
    //----- 

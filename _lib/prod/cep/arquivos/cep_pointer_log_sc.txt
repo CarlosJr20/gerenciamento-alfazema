@@ -1,0 +1,26 @@
+Araranguá@nm@0@nm@
+Balneário Camboriú@nm@123241@nm@
+Biguaçu@nm@222199@nm@
+Blumenau@nm@317214@nm@
+Brusque@nm@819072@nm@
+Caçador@nm@1020120@nm@
+Camboriú@nm@1123985@nm@
+Canoinhas@nm@1211131@nm@
+Chapecó@nm@1283117@nm@
+Concórdia@nm@1555621@nm@
+Criciúma@nm@1706344@nm@
+Florianópolis@nm@2063816@nm@
+Gaspar@nm@2658816@nm@
+Indaial@nm@2775558@nm@
+Itajaí@nm@2869658@nm@
+Jaraguá do Sul@nm@3070839@nm@
+Joinville@nm@3324383@nm@
+Lages@nm@3893912@nm@
+Mafra@nm@4103524@nm@
+Navegantes@nm@4180429@nm@
+Palhoça@nm@4283543@nm@
+Rio do Sul@nm@4568814@nm@
+São Bento do Sul@nm@4705036@nm@
+São José@nm@4922528@nm@
+Tubarão@nm@5147366@nm@
+Videira@nm@5319842@nm@

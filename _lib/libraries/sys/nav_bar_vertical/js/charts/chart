@@ -1,0 +1,16 @@
+ <?php
+  $connection = new mysqli("162.214.93.1", "carlosad_admin", "Cz@38020", "carlosad_oficial");
+$sql = $connection->query("SELECT nome_da_empresa, COUNT(selecao_cliente) FROM selecao_projeto_mp JOIN cliente_mp ON selecao_projeto_mp.selecao_cliente = cliente_mp.id_client GROUP BY nome_da_empresa HAVING   COUNT(selecao_cliente) > O RDER BY COUNT(selecao_cliente) DESC");
+
+
+if($sql){ // If $sql is True
+    while($exibe = $sql->fetch_assoc()){
+        foreach($exibe as $key => $value){
+			    
+        }
+    }
+}
+ echo json_encode ($value);
+//echo $sql;
+
+  $connection->close();

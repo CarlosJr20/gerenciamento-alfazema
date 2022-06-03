@@ -1,0 +1,292 @@
+RJ@nm@Abarracamento@nm@27670000@nm@@nm@-22.2049910@nm@-43.5166688@nm@
+RJ@nm@Afonso Arinos@nm@25875000@nm@@nm@-22.0096534@nm@-43.3245947@nm@
+RJ@nm@Agulhas Negras@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Amparo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Andrade Pinto@nm@27770000@nm@@nm@-22.2395247@nm@-43.4219314@nm@
+RJ@nm@Angra dos Reis@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Anta@nm@25882000@nm@@nm@-22.0449047@nm@-42.9852337@nm@
+RJ@nm@Aperibé@nm@28495000@nm@@nm@-21.6257256@nm@-42.1020627@nm@
+RJ@nm@Araruama@nm@28970000@nm@@nm@-22.8636192@nm@-42.3336313@nm@
+RJ@nm@Areal@nm@25845000@nm@@nm@-22.2318862@nm@-43.1141413@nm@
+RJ@nm@Armação dos Búzios@nm@28950000@nm@@nm@-22.7563906@nm@-41.8890420@nm@
+RJ@nm@Arraial do Cabo@nm@28930000@nm@@nm@-22.9657374@nm@-42.0279869@nm@
+RJ@nm@Arrozal@nm@27185000@nm@@nm@-22.6199499@nm@-44.0366425@nm@
+RJ@nm@Avelar@nm@26980000@nm@@nm@-22.3227661@nm@-43.4055096@nm@
+RJ@nm@Bacaxá@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Baltazar@nm@28473000@nm@@nm@-21.5859523@nm@-42.1426299@nm@
+RJ@nm@Banquete@nm@28662000@nm@@nm@-22.1794473@nm@-42.4789703@nm@
+RJ@nm@Barão de Juparana@nm@27640000@nm@@nm@-22.2459149@nm@-43.7068952@nm@
+RJ@nm@Barcelos@nm@28220000@nm@@nm@-21.7318743@nm@-41.1869838@nm@
+RJ@nm@Barra Alegre@nm@28666000@nm@@nm@-22.9139476@nm@-43.2093973@nm@
+RJ@nm@Barra de Macaé@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Barra de São João@nm@28880000@nm@@nm@-22.5847002@nm@-41.9903404@nm@
+RJ@nm@Barra do Piraí@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Barra Mansa@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Barra Seca@nm@28240000@nm@@nm@-21.4779890@nm@-41.1128080@nm@
+RJ@nm@Batatal@nm@28585000@nm@@nm@-21.7207870@nm@-42.1324442@nm@
+RJ@nm@Belford Roxo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Bemposta@nm@25840000@nm@@nm@-22.1469208@nm@-43.1036680@nm@
+RJ@nm@Boa Esperança@nm@28810000@nm@@nm@-22.7839026@nm@-42.5288934@nm@
+RJ@nm@Boa Sorte@nm@28525000@nm@@nm@-21.8507750@nm@-42.2607661@nm@
+RJ@nm@Boa Ventura@nm@28340000@nm@@nm@-21.2001578@nm@-41.8803055@nm@
+RJ@nm@Bom Jardim@nm@28660000@nm@@nm@-22.1631542@nm@-42.4257912@nm@
+RJ@nm@Bom Jesus do Itabapoana@nm@28360000@nm@@nm@-21.1453440@nm@-41.6826186@nm@
+RJ@nm@Bom Jesus do Querendo@nm@28388000@nm@@nm@-20.9814243@nm@-41.8426073@nm@
+RJ@nm@Cabo Frio@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Cabuçu@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Cachoeiras de Macacu@nm@28680000@nm@@nm@-22.4662996@nm@-42.6527549@nm@
+RJ@nm@Cachoeiros@nm@27990000@nm@@nm@-22.3836705@nm@-41.7827461@nm@
+RJ@nm@Calheiros@nm@28368000@nm@@nm@-21.0180140@nm@-41.7193028@nm@
+RJ@nm@Califórnia da Barra@nm@27163000@nm@@nm@-22.6262971@nm@-43.9058584@nm@
+RJ@nm@Cambiasca@nm@28425000@nm@@nm@-21.7097875@nm@-41.9168623@nm@
+RJ@nm@Cambuci@nm@28430000@nm@@nm@-21.5734704@nm@-41.9184067@nm@
+RJ@nm@Campo do Coelho@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Campos dos Goytacazes@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Campos Elíseos@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Cantagalo@nm@28500000@nm@@nm@-21.9802716@nm@-42.3625761@nm@
+RJ@nm@Carabuçu@nm@28372000@nm@@nm@-21.2158874@nm@-41.5907683@nm@
+RJ@nm@Carapebus@nm@27998000@nm@@nm@-22.1888948@nm@-41.6617014@nm@
+RJ@nm@Cardoso Moreira@nm@28180000@nm@@nm@-21.4850900@nm@-41.6168930@nm@
+RJ@nm@Carmo@nm@28640000@nm@@nm@-21.9314519@nm@-42.6050430@nm@
+RJ@nm@Cascatinha@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Casimiro de Abreu@nm@28860000@nm@@nm@-22.4836725@nm@-42.2015431@nm@
+RJ@nm@Cava@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Coelho da Rocha@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Colônia@nm@28420000@nm@@nm@-21.6780933@nm@-41.8878689@nm@
+RJ@nm@Comendador Levy Gasparian@nm@25870000@nm@@nm@-22.0294433@nm@-43.2059216@nm@
+RJ@nm@Comendador Venâncio@nm@28348000@nm@@nm@-21.1814314@nm@-42.1044431@nm@
+RJ@nm@Conceição de Jacareí@nm@23885000@nm@@nm@-22.9863249@nm@-44.0853346@nm@
+RJ@nm@Conceição de Macabu@nm@28740000@nm@@nm@-22.0838675@nm@-41.8722789@nm@
+RJ@nm@Conrado@nm@26920000@nm@@nm@-22.5338785@nm@-43.5724812@nm@
+RJ@nm@Conselheiro Paulino@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Conservatória@nm@27655000@nm@@nm@-22.2906468@nm@-43.9260232@nm@
+RJ@nm@Cordeiro@nm@28540000@nm@@nm@-22.0272220@nm@-42.3652391@nm@
+RJ@nm@Coroa Grande@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Correas@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Córrego da Prata@nm@28642000@nm@@nm@-21.8611329@nm@-42.4834827@nm@
+RJ@nm@Córrego do Ouro@nm@27980000@nm@@nm@-22.2587813@nm@-41.9780943@nm@
+RJ@nm@Correntezas@nm@28830000@nm@@nm@-22.9139476@nm@-43.2093973@nm@
+RJ@nm@Cunhambebe@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Dorândia@nm@27160000@nm@@nm@-22.4879258@nm@-43.9406943@nm@
+RJ@nm@Dores de Macabu@nm@28115000@nm@@nm@-21.9849109@nm@-41.5062534@nm@
+RJ@nm@Doutor Elias@nm@28757000@nm@@nm@-22.2029232@nm@-42.2532466@nm@
+RJ@nm@Doutor Loreti@nm@28772000@nm@@nm@-22.0278569@nm@-42.0121780@nm@
+RJ@nm@Duas Barras@nm@28650000@nm@@nm@-22.0541338@nm@-42.5236356@nm@
+RJ@nm@Duque de Caxias@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Engenheiro Passos@nm@27555000@nm@@nm@-22.4993324@nm@-44.6747948@nm@
+RJ@nm@Engenheiro Paulo de Frontin@nm@26650000@nm@@nm@-22.5497490@nm@-43.6776274@nm@
+RJ@nm@Engenheiro Pedreira@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Estrada Nova@nm@28590000@nm@@nm@-21.8091954@nm@-42.1351655@nm@
+RJ@nm@Euclidelândia@nm@28520000@nm@@nm@-21.8994996@nm@-42.2563388@nm@
+RJ@nm@Falcão@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Floriano@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Frade@nm@27987000@nm@@nm@-22.2401761@nm@-42.1463394@nm@
+RJ@nm@Fumaça@nm@27550000@nm@@nm@-22.2891984@nm@-44.3094649@nm@
+RJ@nm@Funil@nm@28440000@nm@@nm@-21.6168296@nm@-42.1028287@nm@
+RJ@nm@Gaviões@nm@28825000@nm@@nm@-22.5666344@nm@-42.5341428@nm@
+RJ@nm@Getulândia@nm@27465000@nm@@nm@-22.6558530@nm@-44.0918060@nm@
+RJ@nm@Glicério@nm@27985000@nm@@nm@-22.2401761@nm@-42.1463394@nm@
+RJ@nm@Goitacazes@nm@28110000@nm@@nm@-21.8311573@nm@-41.2713495@nm@
+RJ@nm@Governador Portela@nm@26910000@nm@@nm@-22.4828894@nm@-43.5067415@nm@
+RJ@nm@Guapimirim@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Guia de Pacobaíba@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Ibipeba@nm@28558000@nm@@nm@-21.9540434@nm@-42.1313315@nm@
+RJ@nm@Ibitiguaçu@nm@28485000@nm@@nm@-21.5035610@nm@-42.0769691@nm@
+RJ@nm@Ibitioca@nm@28120000@nm@@nm@-21.8194741@nm@-41.4698456@nm@
+RJ@nm@Ibituporanga@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Iguaba Grande@nm@28960000@nm@@nm@-22.8142407@nm@-42.2066423@nm@
+RJ@nm@Ilha Grande@nm@23968000@nm@@nm@-23.0102987@nm@-44.3183408@nm@
+RJ@nm@Imbariê@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Inconfidência@nm@25865000@nm@@nm@-22.2474219@nm@-43.1804734@nm@
+RJ@nm@Inhomirim@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Inoã@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Ipiabas@nm@27170000@nm@@nm@-22.4878642@nm@-43.8174282@nm@
+RJ@nm@Ipiiba@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Ipituna@nm@28557000@nm@@nm@-21.7806755@nm@-42.0099239@nm@
+RJ@nm@Ipuca@nm@28405000@nm@@nm@-21.6342962@nm@-41.7594032@nm@
+RJ@nm@Itabapoana@nm@28245000@nm@@nm@-21.4670510@nm@-41.1063409@nm@
+RJ@nm@Itaboraí@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Itacurussá@nm@23880000@nm@@nm@-22.9209315@nm@-43.9108034@nm@
+RJ@nm@Itaguaí@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Itaipava@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Itaipu@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Itaipuaçu@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Itajara@nm@28345000@nm@@nm@-21.3149581@nm@-42.0247041@nm@
+RJ@nm@Italva@nm@28250000@nm@@nm@-21.4285097@nm@-41.6940704@nm@
+RJ@nm@Itambi@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Itaocara@nm@28570000@nm@@nm@-21.6704101@nm@-42.0792551@nm@
+RJ@nm@Itaperuna@nm@28300000@nm@@nm@-21.2001578@nm@-41.8803055@nm@
+RJ@nm@Itatiaia@nm@27580000@nm@@nm@-22.4902027@nm@-44.5679107@nm@
+RJ@nm@Jaguarembé@nm@28575000@nm@@nm@-21.7210554@nm@-41.9850839@nm@
+RJ@nm@Jamapará@nm@25887000@nm@@nm@-21.9008135@nm@-42.7062478@nm@
+RJ@nm@Japeri@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Japuíba@nm@28685000@nm@@nm@-22.5634739@nm@-42.6920836@nm@
+RJ@nm@Laje do Muriaé@nm@28350000@nm@@nm@-21.2091698@nm@-42.1187769@nm@
+RJ@nm@Laranjais@nm@28580000@nm@@nm@-21.7591611@nm@-42.1721287@nm@
+RJ@nm@Lídice@nm@27475000@nm@@nm@-22.8364386@nm@-44.1947049@nm@
+RJ@nm@Lumiar@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Macabuzinho@nm@28745000@nm@@nm@-22.0962561@nm@-41.7607598@nm@
+RJ@nm@Macaé@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Macuco@nm@28545000@nm@@nm@-21.9844505@nm@-42.2531991@nm@
+RJ@nm@Magé@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Mambucaba@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Mangaratiba@nm@23860000@nm@@nm@-22.9598984@nm@-44.0413146@nm@
+RJ@nm@Manilha@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Maniva@nm@28235000@nm@@nm@-21.3060912@nm@-41.1151660@nm@
+RJ@nm@Manuel Duarte@nm@27690000@nm@@nm@-22.0917684@nm@-43.5548868@nm@
+RJ@nm@Marangatu@nm@28476000@nm@@nm@-21.5858931@nm@-42.2204516@nm@
+RJ@nm@Maricá@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Mendes@nm@26700000@nm@@nm@-22.5254727@nm@-43.7312100@nm@
+RJ@nm@Mesquita@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Miguel Pereira@nm@26900000@nm@@nm@-22.4577374@nm@-43.4806912@nm@
+RJ@nm@Miracema@nm@28460000@nm@@nm@-21.4153412@nm@-42.1942339@nm@
+RJ@nm@Monjolo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Monnerat@nm@28655000@nm@@nm@-22.0774673@nm@-42.4075452@nm@
+RJ@nm@Monte Alegre@nm@28490000@nm@@nm@-21.4649799@nm@-42.0343936@nm@
+RJ@nm@Monte Verde@nm@28445000@nm@@nm@-21.4683532@nm@-41.9124826@nm@
+RJ@nm@Monumento@nm@27190000@nm@@nm@-22.7177459@nm@-43.8487625@nm@
+RJ@nm@Morangaba@nm@28125000@nm@@nm@-21.7295263@nm@-41.5984775@nm@
+RJ@nm@Morro do Côco@nm@28178000@nm@@nm@-21.7626682@nm@-41.3184501@nm@
+RJ@nm@Morro Grande@nm@28975000@nm@@nm@-22.8087561@nm@-42.3599616@nm@
+RJ@nm@Mussurepe@nm@28143000@nm@@nm@-21.9247531@nm@-41.1445720@nm@
+RJ@nm@Natividade@nm@28380000@nm@@nm@-21.0333287@nm@-41.9878239@nm@
+RJ@nm@Neves@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Nhunguaçu@nm@25998000@nm@@nm@-22.3500000@nm@-42.8833330@nm@
+RJ@nm@Nilópolis@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Niterói@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Nossa Senhora da Aparecida@nm@25886000@nm@@nm@-22.0318750@nm@-42.7972090@nm@
+RJ@nm@Nossa Senhora da Penha@nm@28335000@nm@@nm@-21.2924506@nm@-41.7564977@nm@
+RJ@nm@Nossa Senhora do Amparo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Nova Friburgo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Nova Iguaçu@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Olinda@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Ourânia@nm@28383000@nm@@nm@-21.0355488@nm@-41.8917792@nm@
+RJ@nm@Pachecos@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Papucaia@nm@28695000@nm@@nm@-22.5749887@nm@-42.7405551@nm@
+RJ@nm@Paquequer Pequeno@nm@25996000@nm@@nm@-22.4169605@nm@-42.9756016@nm@
+RJ@nm@Paracambi@nm@26600000@nm@@nm@-22.6083065@nm@-43.7112547@nm@
+RJ@nm@Paraíba do Sul@nm@25850000@nm@@nm@-22.1588749@nm@-43.2904739@nm@
+RJ@nm@Paraíso do Tobias@nm@28463000@nm@@nm@-21.4303846@nm@-42.0946921@nm@
+RJ@nm@Paraoquena@nm@28483000@nm@@nm@-21.5023896@nm@-42.2490956@nm@
+RJ@nm@Parapeúna@nm@27650000@nm@@nm@-22.1033607@nm@-43.8292302@nm@
+RJ@nm@Parati Mirim@nm@23972000@nm@@nm@-23.2523215@nm@-44.6551551@nm@
+RJ@nm@Paraty@nm@23970000@nm@@nm@-23.2200216@nm@-44.7204284@nm@
+RJ@nm@Passa Três@nm@27470000@nm@@nm@-22.6949525@nm@-44.0047309@nm@
+RJ@nm@Paty do Alferes@nm@26950000@nm@@nm@-22.4313914@nm@-43.4289497@nm@
+RJ@nm@Pedra Selada@nm@27560000@nm@@nm@-22.3394904@nm@-44.3995038@nm@
+RJ@nm@Pedro do Rio@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Penedo@nm@27598000@nm@@nm@-22.4279328@nm@-44.5360667@nm@
+RJ@nm@Pentagna@nm@27645000@nm@@nm@-22.2570468@nm@-43.7123991@nm@
+RJ@nm@Petrópolis@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Piabetá@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Pião@nm@25884000@nm@@nm@-21.9953615@nm@-42.9146039@nm@
+RJ@nm@Pinheiral@nm@27197000@nm@@nm@-22.5177053@nm@-44.0025719@nm@
+RJ@nm@Pipeiras@nm@28225000@nm@@nm@-21.8202019@nm@-41.1461087@nm@
+RJ@nm@Piraí@nm@27175000@nm@@nm@-22.6262971@nm@-43.9058584@nm@
+RJ@nm@Pirangaí@nm@27565000@nm@@nm@-22.5666670@nm@-44.6166670@nm@
+RJ@nm@Pirapetinga de Bom Jesus@nm@28365000@nm@@nm@-21.0792876@nm@-41.8028476@nm@
+RJ@nm@Ponta Negra@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Porciúncula@nm@28390000@nm@@nm@-20.9678604@nm@-42.0410655@nm@
+RJ@nm@Portela@nm@28595000@nm@@nm@-21.6519840@nm@-41.9902440@nm@
+RJ@nm@Porto Real@nm@27570000@nm@@nm@-22.4179651@nm@-44.2955901@nm@
+RJ@nm@Porto Velho do Cunha@nm@28644000@nm@@nm@-21.8312866@nm@-42.5469682@nm@
+RJ@nm@Posse@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Pureza@nm@28415000@nm@@nm@-21.5812227@nm@-41.8370376@nm@
+RJ@nm@Purilândia@nm@28396000@nm@@nm@-20.9318492@nm@-41.9487304@nm@
+RJ@nm@Quartéis@nm@28835000@nm@@nm@-22.9139476@nm@-43.2093973@nm@
+RJ@nm@Quatis@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Queimados@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Quissamã@nm@28735000@nm@@nm@-22.1035956@nm@-41.4696504@nm@
+RJ@nm@Raposo@nm@28333000@nm@@nm@-21.1016670@nm@-42.1186110@nm@
+RJ@nm@Renascença@nm@28774000@nm@@nm@-21.8405800@nm@-41.9615970@nm@
+RJ@nm@Resende@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Retiro do Muriaé@nm@28330000@nm@@nm@-21.1806324@nm@-42.0135577@nm@
+RJ@nm@Rialto@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Ribeirão de São Joaquim@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Rio Bonito@nm@28800000@nm@@nm@-22.7186089@nm@-42.6279835@nm@
+RJ@nm@Rio Claro@nm@27460000@nm@@nm@-22.7258886@nm@-44.1343957@nm@
+RJ@nm@Rio das Flores@nm@27660000@nm@@nm@-22.1788684@nm@-43.5907233@nm@
+RJ@nm@Rio das Ostras@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Rio de Janeiro@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Riograndina@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Rosal@nm@28370000@nm@@nm@-20.9596171@nm@-41.7345177@nm@
+RJ@nm@Sacra Família do Tinguá@nm@26660000@nm@@nm@-22.4903282@nm@-43.6100624@nm@
+RJ@nm@Salutaris@nm@25855000@nm@@nm@-22.1637178@nm@-43.2820593@nm@
+RJ@nm@Sambaetiba@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Sampaio Correia@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Sana@nm@27995000@nm@@nm@-22.3351069@nm@-42.1890849@nm@
+RJ@nm@Santa Clara@nm@28398000@nm@@nm@-20.8215337@nm@-41.9107286@nm@
+RJ@nm@Santa Cruz@nm@28480000@nm@@nm@-21.5415319@nm@-42.1835592@nm@
+RJ@nm@Santa Cruz da Serra@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Santa Isabel@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Santa Isabel do Rio Preto@nm@27657000@nm@@nm@-22.2277844@nm@-44.0673173@nm@
+RJ@nm@Santa Maria@nm@28155000@nm@@nm@-21.7626682@nm@-41.3184501@nm@
+RJ@nm@Santa Maria Madalena@nm@28770000@nm@@nm@-21.9613802@nm@-42.0076409@nm@
+RJ@nm@Santa Rita da Floresta@nm@28510000@nm@@nm@-21.8788470@nm@-42.4516795@nm@
+RJ@nm@Santanésia@nm@27195000@nm@@nm@-22.5194298@nm@-43.8200823@nm@
+RJ@nm@Santo Aleixo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Santo Amaro de Campos@nm@28140000@nm@@nm@-21.9801767@nm@-41.1320357@nm@
+RJ@nm@Santo Antônio de Pádua@nm@28470000@nm@@nm@-21.5415319@nm@-42.1835592@nm@
+RJ@nm@Santo Antônio do Imbé@nm@28778000@nm@@nm@-21.9886984@nm@-41.8740496@nm@
+RJ@nm@Santo Eduardo@nm@28160000@nm@@nm@-21.2153199@nm@-41.4678679@nm@
+RJ@nm@São Fidélis@nm@28400000@nm@@nm@-21.6493783@nm@-41.7457170@nm@
+RJ@nm@São Francisco de Itabapoana@nm@28230000@nm@@nm@-21.4706831@nm@-41.1095274@nm@
+RJ@nm@São Gonçalo@nm@@nm@@nm@@nm@@nm@
+RJ@nm@São João da Barra@nm@28200000@nm@@nm@-21.6368446@nm@-41.0484428@nm@
+RJ@nm@São João de Meriti@nm@@nm@@nm@@nm@@nm@
+RJ@nm@São João do Paraíso@nm@28450000@nm@@nm@-21.4134651@nm@-41.8140405@nm@
+RJ@nm@São João Marcos@nm@27472000@nm@@nm@-22.8440585@nm@-44.0654581@nm@
+RJ@nm@São Joaquim@nm@28195000@nm@@nm@-21.4817257@nm@-41.4846387@nm@
+RJ@nm@São José de Ubá@nm@28455000@nm@@nm@-21.3665596@nm@-41.9514576@nm@
+RJ@nm@São José do Ribeirão@nm@28664000@nm@@nm@-22.2109907@nm@-42.3994880@nm@
+RJ@nm@São José do Turvo@nm@27165000@nm@@nm@-22.3548195@nm@-44.0156855@nm@
+RJ@nm@São José do Vale do Rio Preto@nm@25780000@nm@@nm@-22.1784129@nm@-42.9660207@nm@
+RJ@nm@São Mateus@nm@@nm@@nm@@nm@@nm@
+RJ@nm@São Pedro da Aldeia@nm@@nm@@nm@@nm@@nm@
+RJ@nm@São Pedro da Serra@nm@@nm@@nm@@nm@@nm@
+RJ@nm@São Sebastião de Campos@nm@28145000@nm@@nm@-21.8593614@nm@-41.2088127@nm@
+RJ@nm@São Sebastião do Alto@nm@28550000@nm@@nm@-21.9540434@nm@-42.1313315@nm@
+RJ@nm@São Sebastião do Paraíba@nm@28530000@nm@@nm@-21.7553295@nm@-42.3798471@nm@
+RJ@nm@São Sebastião dos Ferreiros@nm@27705000@nm@@nm@-22.4293725@nm@-43.5671986@nm@
+RJ@nm@São Vicente de Paula@nm@28980000@nm@@nm@-22.7324419@nm@-42.2603902@nm@
+RJ@nm@Sapucaia@nm@25880000@nm@@nm@-21.9953615@nm@-42.9146039@nm@
+RJ@nm@Saquarema@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Saracuruna@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Sebastião de Lacerda@nm@27720000@nm@@nm@-22.2924083@nm@-43.5849276@nm@
+RJ@nm@Seropédica@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Serrinha@nm@28118000@nm@@nm@-22.0290327@nm@-41.7023862@nm@
+RJ@nm@Serrinha@nm@28374000@nm@@nm@-21.2756800@nm@-41.5704790@nm@
+RJ@nm@Sete Pontes@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Silva Jardim@nm@28820000@nm@@nm@-22.6578882@nm@-42.3965262@nm@
+RJ@nm@Sodrelândia@nm@28760000@nm@@nm@-22.1409883@nm@-42.0729049@nm@
+RJ@nm@Sossego@nm@28777000@nm@@nm@-21.8940217@nm@-41.8057658@nm@
+RJ@nm@Subaio@nm@28690000@nm@@nm@-22.5041324@nm@-42.7894383@nm@
+RJ@nm@Sumidouro@nm@28637000@nm@@nm@-22.0489564@nm@-42.6765559@nm@
+RJ@nm@Suruí@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Taboas@nm@27665000@nm@@nm@-22.2091949@nm@-43.6286083@nm@
+RJ@nm@Tamoios@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Tanguá@nm@24890000@nm@@nm@-22.7428038@nm@-42.7205994@nm@
+RJ@nm@Tapera@nm@28767000@nm@@nm@-22.1838213@nm@-42.1066163@nm@
+RJ@nm@Tarituba@nm@23975000@nm@@nm@-23.0391143@nm@-44.5964027@nm@
+RJ@nm@Teresópolis@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Tocos@nm@28148000@nm@@nm@-21.9007730@nm@-41.2831951@nm@
+RJ@nm@Trajano de Moraes@nm@28750000@nm@@nm@-22.0640027@nm@-42.0601711@nm@
+RJ@nm@Travessão@nm@28175000@nm@@nm@-21.6584393@nm@-41.3107412@nm@
+RJ@nm@Três Irmãos@nm@28435000@nm@@nm@-21.6227808@nm@-41.9937527@nm@
+RJ@nm@Três Rios@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Triunfo@nm@28779000@nm@@nm@-22.0459571@nm@-41.9474995@nm@
+RJ@nm@Valão do Barro@nm@28555000@nm@@nm@-21.8241684@nm@-42.0870524@nm@
+RJ@nm@Valença@nm@27600000@nm@@nm@-22.2459149@nm@-43.7068952@nm@
+RJ@nm@Vargem Alegre@nm@27155000@nm@@nm@-22.4940046@nm@-43.9393266@nm@
+RJ@nm@Varre-Sai@nm@28375000@nm@@nm@-20.9280524@nm@-41.8704877@nm@
+RJ@nm@Vassouras@nm@27700000@nm@@nm@-22.4074571@nm@-43.6613985@nm@
+RJ@nm@Venda das Flores@nm@28466000@nm@@nm@-21.3337149@nm@-42.1342152@nm@
+RJ@nm@Vila da Grama@nm@28765000@nm@@nm@-22.2018776@nm@-42.1107314@nm@
+RJ@nm@Vila Muriqui@nm@23870000@nm@@nm@-22.9227959@nm@-43.9479528@nm@
+RJ@nm@Vila Nova de Campos@nm@28165000@nm@@nm@-21.7266055@nm@-41.3256176@nm@
+RJ@nm@Visconde de Imbé@nm@28755000@nm@@nm@-22.0681494@nm@-42.1605169@nm@
+RJ@nm@Visconde de Itaboraí@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Visconde de Mauá@nm@27553000@nm@@nm@-22.3301358@nm@-44.5301793@nm@
+RJ@nm@Volta Redonda@nm@@nm@@nm@@nm@@nm@
+RJ@nm@Werneck@nm@25860000@nm@@nm@-22.2235793@nm@-43.3159564@nm@
+RJ@nm@Xerém@nm@@nm@@nm@@nm@@nm@

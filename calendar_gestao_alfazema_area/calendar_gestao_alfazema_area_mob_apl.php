@@ -107,10 +107,6 @@ class calendar_gestao_alfazema_area_mob_apl
 
       if ($this->NM_ajax_flag)
       {
-          if (isset($this->NM_ajax_info['param']['__calend_all_day__']))
-          {
-              $this->__calend_all_day__ = $this->NM_ajax_info['param']['__calend_all_day__'];
-          }
           if (isset($this->NM_ajax_info['param']['aptbloco']))
           {
               $this->aptbloco = $this->NM_ajax_info['param']['aptbloco'];
@@ -122,10 +118,6 @@ class calendar_gestao_alfazema_area_mob_apl
           if (isset($this->NM_ajax_info['param']['csrf_token']))
           {
               $this->csrf_token = $this->NM_ajax_info['param']['csrf_token'];
-          }
-          if (isset($this->NM_ajax_info['param']['data']))
-          {
-              $this->data = $this->NM_ajax_info['param']['data'];
           }
           if (isset($this->NM_ajax_info['param']['email']))
           {
@@ -307,6 +299,18 @@ class calendar_gestao_alfazema_area_mob_apl
       {
           $nmgp_parms = "";
       }
+      if (isset($this->usr_priv_admin) && isset($this->NM_contr_var_session) && $this->NM_contr_var_session == "Yes") 
+      {
+          $_SESSION['usr_priv_admin'] = $this->usr_priv_admin;
+      }
+      if (isset($_POST["usr_priv_admin"]) && isset($this->usr_priv_admin)) 
+      {
+          $_SESSION['usr_priv_admin'] = $this->usr_priv_admin;
+      }
+      if (isset($_GET["usr_priv_admin"]) && isset($this->usr_priv_admin)) 
+      {
+          $_SESSION['usr_priv_admin'] = $this->usr_priv_admin;
+      }
       if (isset($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['embutida_parms']))
       { 
           $this->nmgp_parms = $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['embutida_parms'];
@@ -350,6 +354,10 @@ class calendar_gestao_alfazema_area_mob_apl
              }
              $ix++;
           }
+          if (isset($this->usr_priv_admin)) 
+          {
+              $_SESSION['usr_priv_admin'] = $this->usr_priv_admin;
+          }
           if (isset($this->NM_where_filter_form))
           {
               $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['where_filter_form'] = $this->NM_where_filter_form;
@@ -362,6 +370,10 @@ class calendar_gestao_alfazema_area_mob_apl
           if (isset($this->sc_redir_insert))
           {
               $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['sc_redir_insert'] = $this->sc_redir_insert;
+          }
+          if (isset($this->usr_priv_admin)) 
+          {
+              $_SESSION['usr_priv_admin'] = $this->usr_priv_admin;
           }
       } 
       elseif (isset($script_case_init) && !empty($script_case_init) && isset($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['parms']))
@@ -426,6 +438,37 @@ class calendar_gestao_alfazema_area_mob_apl
           $this->Ini->init();
           $this->nm_data = new nm_data("pt_br");
           $this->app_is_initializing = $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['initialize'];
+          $this->Db = $this->Ini->Db; 
+          if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['initialize']) && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['initialize'])
+          {
+              if ('calendar' != $this->nmgp_opcao) {
+                  $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
+ if($this->sc_temp_usr_priv_admin == FALSE)
+	{
+	$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+	$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
+	}
+if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off';
+              }
+              if ('calendar' == $this->nmgp_opcao) {
+                  $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
+ if($this->sc_temp_usr_priv_admin == FALSE)
+	{
+	$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+	$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
+	}
+if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off';
+              }
           if (isset($_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']))
           {
               foreach ($_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area'] as $I_conf => $Conf_opt)
@@ -433,6 +476,8 @@ class calendar_gestao_alfazema_area_mob_apl
                   $_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area_mob'][$I_conf]  = $Conf_opt;
               }
           }
+          }
+          $this->Ini->init2();
       } 
       else 
       { 
@@ -495,8 +540,6 @@ class calendar_gestao_alfazema_area_mob_apl
       $_SESSION['scriptcase']['css_form_help'] = '../_lib/css/' . $this->Ini->str_schema_all . "_form.css";
       $_SESSION['scriptcase']['css_form_help_dir'] = '../_lib/css/' . $this->Ini->str_schema_all . "_form" . $_SESSION['scriptcase']['reg_conf']['css_dir'] . ".css";
       $this->Db = $this->Ini->Db; 
-      $this->nm_new_label['__calend_all_day__'] = '' . $this->Ini->Nm_lang['lang_per_allday'] . '';
-
       $this->Ini->str_google_fonts = isset($str_google_fonts)?$str_google_fonts:'';
       $this->Ini->Img_sep_form    = "/" . trim($str_toolbar_separator);
       $this->Ini->Color_bg_ajax   = "" == trim($str_ajax_bg)         ? "#000" : $str_ajax_bg;
@@ -867,6 +910,8 @@ class calendar_gestao_alfazema_area_mob_apl
       {
           $this->nmgp_dados_form = $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dados_form'];
           if (!isset($this->id_gestao)){$this->id_gestao = $this->nmgp_dados_form['id_gestao'];} 
+          if (!isset($this->data)){$this->data = $this->nmgp_dados_form['data'];} 
+          if (!isset($this->__calend_all_day__)){$this->__calend_all_day__ = $this->nmgp_dados_form['__calend_all_day__'];} 
       }
       $glo_senha_protect = (isset($_SESSION['scriptcase']['glo_senha_protect'])) ? $_SESSION['scriptcase']['glo_senha_protect'] : "S";
       $this->aba_iframe = false;
@@ -940,18 +985,6 @@ class calendar_gestao_alfazema_area_mob_apl
          }
       }
       $this->Ini->sc_Include($this->Ini->path_lib_php . "/nm_trata_img.php", "C", "nm_trata_img") ; 
-      if (isset($_GET['nm_cal_display']))
-      {
-          if ($this->Embutida_proc)
-          { 
-              include_once($this->Ini->path_embutida . 'calendar_gestao_alfazema_area/calendar_gestao_alfazema_area_mob_calendar.php');
-          }
-          else
-          { 
-              include_once($this->Ini->path_aplicacao . 'calendar_gestao_alfazema_area_mob_calendar.php');
-          }
-          exit;
-      }
 
       if (is_file($this->Ini->path_aplicacao . 'calendar_gestao_alfazema_area_mob_help.txt'))
       {
@@ -1073,9 +1106,7 @@ class calendar_gestao_alfazema_area_mob_apl
             if(!empty($img_width) && !empty($img_height)){
                 $sc_obj_img->setWidth($img_width);
                 $sc_obj_img->setHeight($img_height);
-            }
-                $sc_obj_img->setManterAspecto(true);
-            $sc_obj_img->createImg($_SERVER['DOCUMENT_ROOT'].$out1_img_cache);
+            }            $sc_obj_img->createImg($_SERVER['DOCUMENT_ROOT'].$out1_img_cache);
             echo $out1_img_cache;
                exit;
             }
@@ -1123,12 +1154,6 @@ class calendar_gestao_alfazema_area_mob_apl
       $this->field_config['qtdpessoas']['symbol_dec'] = '';
       $this->field_config['qtdpessoas']['symbol_neg'] = $_SESSION['scriptcase']['reg_conf']['simb_neg'];
       $this->field_config['qtdpessoas']['format_neg'] = $_SESSION['scriptcase']['reg_conf']['neg_num'];
-      //-- data
-      $this->field_config['data']                 = array();
-      $this->field_config['data']['date_format']  = $_SESSION['scriptcase']['reg_conf']['date_format'];
-      $this->field_config['data']['date_sep']     = $_SESSION['scriptcase']['reg_conf']['date_sep'];
-      $this->field_config['data']['date_display'] = "ddmmaaaa";
-      $this->new_date_format('DT', 'data');
       //-- horario_inic
       $this->field_config['horario_inic']                 = array();
       $this->field_config['horario_inic']['date_format']  = $_SESSION['scriptcase']['reg_conf']['time_format'];
@@ -1148,6 +1173,12 @@ class calendar_gestao_alfazema_area_mob_apl
       $this->field_config['id_gestao']['symbol_dec'] = '';
       $this->field_config['id_gestao']['symbol_neg'] = $_SESSION['scriptcase']['reg_conf']['simb_neg'];
       $this->field_config['id_gestao']['format_neg'] = $_SESSION['scriptcase']['reg_conf']['neg_num'];
+      //-- data
+      $this->field_config['data']                 = array();
+      $this->field_config['data']['date_format']  = $_SESSION['scriptcase']['reg_conf']['date_format'];
+      $this->field_config['data']['date_sep']     = $_SESSION['scriptcase']['reg_conf']['date_sep'];
+      $this->field_config['data']['date_display'] = "ddmmaaaa";
+      $this->new_date_format('DT', 'data');
    }
 
    function controle()
@@ -1276,10 +1307,6 @@ class calendar_gestao_alfazema_area_mob_apl
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'qtdpessoas');
           }
-          if ('validate_data' == $this->NM_ajax_opcao)
-          {
-              $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'data');
-          }
           if ('validate_horario_inic' == $this->NM_ajax_opcao)
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'horario_inic');
@@ -1287,10 +1314,6 @@ class calendar_gestao_alfazema_area_mob_apl
           if ('validate_horario_fim' == $this->NM_ajax_opcao)
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'horario_fim');
-          }
-          if ('validate___calend_all_day__' == $this->NM_ajax_opcao)
-          {
-              $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, '__calend_all_day__');
           }
           calendar_gestao_alfazema_area_mob_pack_ajax_response();
           exit;
@@ -1844,20 +1867,20 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
            case 'qtdpessoas':
                return "Quantidade de Pessoas";
                break;
-           case 'data':
-               return "Data";
-               break;
            case 'horario_inic':
                return "Horario Inic";
                break;
            case 'horario_fim':
                return "Horario Fim";
                break;
-           case '__calend_all_day__':
-               return "" . $this->Ini->Nm_lang['lang_per_allday'] . "";
-               break;
            case 'id_gestao':
                return "Id Gestao";
+               break;
+           case 'data':
+               return "Data";
+               break;
+           case '__calend_all_day__':
+               return "" . $this->Ini->Nm_lang['lang_per_allday'] . "";
                break;
        }
 
@@ -1950,11 +1973,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "qtdpessoas";
 
-      if ('' == $filtro || 'data' == $filtro)
-        $this->ValidateField_data($Campos_Crit, $Campos_Falta, $Campos_Erros);
-      if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
-          $this->scFormFocusErrorName = "data";
-
       if ('' == $filtro || 'horario_inic' == $filtro)
         $this->ValidateField_horario_inic($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
@@ -1964,11 +1982,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         $this->ValidateField_horario_fim($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "horario_fim";
-
-      if ('' == $filtro || '__calend_all_day__' == $filtro)
-        $this->ValidateField___calend_all_day__($Campos_Crit, $Campos_Falta, $Campos_Erros);
-      if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
-          $this->scFormFocusErrorName = "__calend_all_day__";
 
       $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_inic'] = false;
       $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_fim'] = false;
@@ -1982,6 +1995,52 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
 //-- converter datas   
           $this->nm_converte_datas();
 //---
+
+      if (!isset($this->NM_ajax_flag) || 'validate_' != substr($this->NM_ajax_opcao, 0, 9))
+      {
+      $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+if (isset($this->NM_ajax_flag) && $this->NM_ajax_flag)
+{
+    $original_horario_fim = $this->horario_fim;
+    $original_horario_inic = $this->horario_inic;
+}
+if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
+ if($this->horario_fim  < $this->horario_inic )
+	{
+	
+ if (!isset($this->Campos_Mens_erro)){$this->Campos_Mens_erro = "";}
+ if (!empty($this->Campos_Mens_erro)){$this->Campos_Mens_erro .= "<br>";}$this->Campos_Mens_erro .= '‘Horário Final inváldio, Colega’';
+ if ('submit_form' == $this->NM_ajax_opcao || 'event_' == substr($this->NM_ajax_opcao, 0, 6))
+ {
+  $sErrorIndex = ('submit_form' == $this->NM_ajax_opcao) ? 'geral_calendar_gestao_alfazema_area_mob' : substr(substr($this->NM_ajax_opcao, 0, strrpos($this->NM_ajax_opcao, '_')), 6);
+  $this->NM_ajax_info['errList'][$sErrorIndex][] = '‘Horário Final inváldio, Colega’';
+ }
+;
+	
+	}
+
+if($this->sc_temp_usr_priv_admin == FALSE)
+	{
+	$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+	$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
+	}
+if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
+if (isset($this->NM_ajax_flag) && $this->NM_ajax_flag)
+{
+    if (($original_horario_fim != $this->horario_fim || (isset($bFlagRead_horario_fim) && $bFlagRead_horario_fim)))
+    {
+        $this->ajax_return_values_horario_fim(true);
+    }
+    if (($original_horario_inic != $this->horario_inic || (isset($bFlagRead_horario_inic) && $bFlagRead_horario_inic)))
+    {
+        $this->ajax_return_values_horario_inic(true);
+    }
+}
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+      }
       if (!empty($Campos_Crit) || !empty($Campos_Falta) || !empty($this->Campos_Mens_erro))
       {
           if (!empty($this->sc_force_zero))
@@ -2448,64 +2507,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         }
     } // ValidateField_qtdpessoas
 
-    function ValidateField_data(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
-    {
-        global $teste_validade;
-        $hasError = false;
-      nm_limpa_data($this->data, $this->field_config['data']['date_sep']) ; 
-      $trab_dt_min = ""; 
-      $trab_dt_max = ""; 
-      if ($this->nmgp_opcao != "excluir") 
-      { 
-          $guarda_datahora = $this->field_config['data']['date_format']; 
-          if (false !== strpos($guarda_datahora, ';')) $this->field_config['data']['date_format'] = substr($guarda_datahora, 0, strpos($guarda_datahora, ';'));
-          $Format_Data = $this->field_config['data']['date_format']; 
-          nm_limpa_data($Format_Data, $this->field_config['data']['date_sep']) ; 
-          if (trim($this->data) != "")  
-          { 
-              if ($teste_validade->Data($this->data, $Format_Data, $trab_dt_min, $trab_dt_max) == false)  
-              { 
-                  $hasError = true;
-                  $Campos_Crit .= "Data; " ; 
-                  if (!isset($Campos_Erros['data']))
-                  {
-                      $Campos_Erros['data'] = array();
-                  }
-                  $Campos_Erros['data'][] = "" . $this->Ini->Nm_lang['lang_errm_ajax_data'] . "";
-                  if (!isset($this->NM_ajax_info['errList']['data']) || !is_array($this->NM_ajax_info['errList']['data']))
-                  {
-                      $this->NM_ajax_info['errList']['data'] = array();
-                  }
-                  $this->NM_ajax_info['errList']['data'][] = "" . $this->Ini->Nm_lang['lang_errm_ajax_data'] . "";
-              } 
-          } 
-           elseif (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['data']) || $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['data'] == "on") 
-           { 
-              $hasError = true;
-              $Campos_Falta[] = "Data" ; 
-              if (!isset($Campos_Erros['data']))
-              {
-                  $Campos_Erros['data'] = array();
-              }
-              $Campos_Erros['data'][] = $this->Ini->Nm_lang['lang_errm_ajax_rqrd'];
-                  if (!isset($this->NM_ajax_info['errList']['data']) || !is_array($this->NM_ajax_info['errList']['data']))
-                  {
-                      $this->NM_ajax_info['errList']['data'] = array();
-                  }
-                  $this->NM_ajax_info['errList']['data'][] = $this->Ini->Nm_lang['lang_errm_ajax_rqrd'];
-           } 
-          $this->field_config['data']['date_format'] = $guarda_datahora; 
-       } 
-        if ($hasError) {
-            global $sc_seq_vert;
-            $fieldName = 'data';
-            if (isset($sc_seq_vert) && '' != $sc_seq_vert) {
-                $fieldName .= $sc_seq_vert;
-            }
-            $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
-        }
-    } // ValidateField_data
-
     function ValidateField_horario_inic(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
     {
         global $teste_validade;
@@ -2618,48 +2619,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         }
     } // ValidateField_horario_fim
 
-    function ValidateField___calend_all_day__(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
-    {
-        global $teste_validade;
-        $hasError = false;
-      if ($this->__calend_all_day__ == "" && $this->nmgp_opcao != "excluir")
-      { 
-      } 
-      else 
-      { 
-          if (is_array($this->__calend_all_day__))
-          {
-              $x = 0; 
-              $this->__calend_all_day___1 = array(); 
-              foreach ($this->__calend_all_day__ as $ind => $dados___calend_all_day___1 ) 
-              {
-                  if ($dados___calend_all_day___1 != "") 
-                  {
-                      $this->__calend_all_day___1[] = $dados___calend_all_day___1;
-                  } 
-              } 
-              $this->__calend_all_day__ = ""; 
-              foreach ($this->__calend_all_day___1 as $dados___calend_all_day___1 ) 
-              { 
-                   if ($x != 0)
-                   { 
-                       $this->__calend_all_day__ .= ";";
-                   } 
-                   $this->__calend_all_day__ .= $dados___calend_all_day___1;
-                   $x++ ; 
-              } 
-          } 
-      } 
-        if ($hasError) {
-            global $sc_seq_vert;
-            $fieldName = '__calend_all_day__';
-            if (isset($sc_seq_vert) && '' != $sc_seq_vert) {
-                $fieldName .= $sc_seq_vert;
-            }
-            $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
-        }
-    } // ValidateField___calend_all_day__
-
     function removeDuplicateDttmError($aErrDate, &$aErrTime)
     {
         if (empty($aErrDate) || empty($aErrTime))
@@ -2691,11 +2650,11 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
     $this->nmgp_dados_form['aptnum'] = $this->aptnum;
     $this->nmgp_dados_form['aptbloco'] = $this->aptbloco;
     $this->nmgp_dados_form['qtdpessoas'] = $this->qtdpessoas;
-    $this->nmgp_dados_form['data'] = (strlen(trim($this->data)) > 19) ? str_replace(".", ":", $this->data) : trim($this->data);
     $this->nmgp_dados_form['horario_inic'] = (strlen(trim($this->horario_inic)) > 19) ? str_replace(".", ":", $this->horario_inic) : trim($this->horario_inic);
     $this->nmgp_dados_form['horario_fim'] = (strlen(trim($this->horario_fim)) > 19) ? str_replace(".", ":", $this->horario_fim) : trim($this->horario_fim);
-    $this->nmgp_dados_form['__calend_all_day__'] = $this->__calend_all_day__;
     $this->nmgp_dados_form['id_gestao'] = $this->id_gestao;
+    $this->nmgp_dados_form['data'] = $this->data;
+    $this->nmgp_dados_form['__calend_all_day__'] = $this->__calend_all_day__;
     $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dados_form'] = $this->nmgp_dados_form;
    }
    function nm_tira_formatacao()
@@ -2709,14 +2668,14 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
       nm_limpa_numero($this->aptnum, $this->field_config['aptnum']['symbol_grp']) ; 
       $this->Before_unformat['qtdpessoas'] = $this->qtdpessoas;
       nm_limpa_numero($this->qtdpessoas, $this->field_config['qtdpessoas']['symbol_grp']) ; 
-      $this->Before_unformat['data'] = $this->data;
-      nm_limpa_data($this->data, $this->field_config['data']['date_sep']) ; 
       $this->Before_unformat['horario_inic'] = $this->horario_inic;
       nm_limpa_hora($this->horario_inic, $this->field_config['horario_inic']['time_sep']) ; 
       $this->Before_unformat['horario_fim'] = $this->horario_fim;
       nm_limpa_hora($this->horario_fim, $this->field_config['horario_fim']['time_sep']) ; 
       $this->Before_unformat['id_gestao'] = $this->id_gestao;
       nm_limpa_numero($this->id_gestao, $this->field_config['id_gestao']['symbol_grp']) ; 
+      $this->Before_unformat['data'] = $this->data;
+      nm_limpa_data($this->data, $this->field_config['data']['date_sep']) ; 
    }
    function sc_add_currency(&$value, $symbol, $pos)
    {
@@ -2796,15 +2755,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
       if ('' !== $this->qtdpessoas || (!empty($format_fields) && isset($format_fields['qtdpessoas'])))
       {
           nmgp_Form_Num_Val($this->qtdpessoas, $this->field_config['qtdpessoas']['symbol_grp'], $this->field_config['qtdpessoas']['symbol_dec'], "0", "S", $this->field_config['qtdpessoas']['format_neg'], "", "", "-", $this->field_config['qtdpessoas']['symbol_fmt']) ; 
-      }
-      if ((!empty($this->data) && 'null' != $this->data) || (!empty($format_fields) && isset($format_fields['data'])))
-      {
-          nm_volta_data($this->data, $this->field_config['data']['date_format']) ; 
-          nmgp_Form_Datas($this->data, $this->field_config['data']['date_format'], $this->field_config['data']['date_sep']) ;  
-      }
-      elseif ('null' == $this->data || '' == $this->data)
-      {
-          $this->data = '';
       }
       if ((!empty($this->horario_inic) && 'null' != $this->horario_inic) || (!empty($format_fields) && isset($format_fields['horario_inic'])))
       {
@@ -3164,29 +3114,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
 //-- 
    function nm_converte_datas($use_null = true, $bForce = false)
    {
-      $guarda_format_hora = $this->field_config['data']['date_format'];
-      if ($this->data != "")  
-      { 
-          nm_conv_data($this->data, $this->field_config['data']['date_format']) ; 
-          $this->data_hora = "00:00:00:000" ; 
-          if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_postgres))
-          {
-              $this->data_hora = substr($this->data_hora, 0, -4);
-          }
-          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
-          {
-              $this->data_hora = substr($this->data_hora, 0, -4);
-          }
-          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
-          {
-              $this->data_hora = substr($this->data_hora, 0, -4);
-          }
-      } 
-      if ($this->data == "" && $use_null)  
-      { 
-          $this->data = "null" ; 
-      } 
-      $this->field_config['data']['date_format'] = $guarda_format_hora;
       $guarda_format_hora = $this->field_config['horario_inic']['date_format'];
       if ($this->horario_inic != "")  
       { 
@@ -3325,10 +3252,8 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
           $this->ajax_return_values_aptnum();
           $this->ajax_return_values_aptbloco();
           $this->ajax_return_values_qtdpessoas();
-          $this->ajax_return_values_data();
           $this->ajax_return_values_horario_inic();
           $this->ajax_return_values_horario_fim();
-          $this->ajax_return_values___calend_all_day__();
           $this->ajax_return_values_id_gestao();
           if ('navigate_form' == $this->NM_ajax_opcao)
           {
@@ -3533,22 +3458,6 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           }
    }
 
-          //----- data
-   function ajax_return_values_data($bForce = false)
-   {
-          if ('navigate_form' == $this->NM_ajax_opcao || 'backup_line' == $this->NM_ajax_opcao || (isset($this->nmgp_refresh_fields) && in_array("data", $this->nmgp_refresh_fields)) || $bForce)
-          {
-              $sTmpValue = NM_charset_to_utf8($this->data);
-              $aLookup = array();
-          $aLookupOrig = $aLookup;
-          $this->NM_ajax_info['fldList']['data'] = array(
-                       'row'    => '',
-               'type'    => 'text',
-               'valList' => array($sTmpValue),
-              );
-          }
-   }
-
           //----- horario_inic
    function ajax_return_values_horario_inic($bForce = false)
    {
@@ -3578,53 +3487,6 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
                'type'    => 'text',
                'valList' => array($sTmpValue),
               );
-          }
-   }
-
-          //----- __calend_all_day__
-   function ajax_return_values___calend_all_day__($bForce = false)
-   {
-          if ('navigate_form' == $this->NM_ajax_opcao || 'backup_line' == $this->NM_ajax_opcao || (isset($this->nmgp_refresh_fields) && in_array("__calend_all_day__", $this->nmgp_refresh_fields)) || $bForce)
-          {
-              $sTmpValue = NM_charset_to_utf8($this->__calend_all_day__);
-              $aLookup = array();
-              $this->_tmp_lookup___calend_all_day__ = $this->__calend_all_day__;
-
-$aLookup[] = array(calendar_gestao_alfazema_area_mob_pack_protect_string('Y') => str_replace('<', '&lt;',calendar_gestao_alfazema_area_mob_pack_protect_string("" . $this->Ini->Nm_lang['lang_per_allday'] . "")));
-$_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['Lookup___calend_all_day__'][] = 'Y';
-          $aLookupOrig = $aLookup;
-          $sOptComp = "";
-          if (isset($this->NM_ajax_info['select_html']['__calend_all_day__']) && !empty($this->NM_ajax_info['select_html']['__calend_all_day__']))
-          {
-              $sOptComp = str_replace('{SC_100PERC_CLASS_INPUT}', $this->classes_100perc_fields['input'], $this->NM_ajax_info['select_html']['__calend_all_day__']);
-          }
-          $this->NM_ajax_info['fldList']['__calend_all_day__'] = array(
-                       'row'    => '',
-               'type'    => 'checkbox',
-               'switch'  => false,
-               'valList' => explode(';', $sTmpValue),
-               'colNum'  => 1,
-               'optComp'  => $sOptComp,
-               'optClass' => 'sc-ui-checkbox-__calend_all_day__',
-              );
-          $aLabel     = array();
-          $aLabelTemp = array();
-          foreach ($this->NM_ajax_info['fldList']['__calend_all_day__']['valList'] as $i => $v)
-          {
-              $this->NM_ajax_info['fldList']['__calend_all_day__']['valList'][$i] = calendar_gestao_alfazema_area_mob_pack_protect_string($v);
-          }
-          foreach ($aLookupOrig as $aValData)
-          {
-              if (in_array(key($aValData), $this->NM_ajax_info['fldList']['__calend_all_day__']['valList']))
-              {
-                  $aLabelTemp[key($aValData)] = current($aValData);
-              }
-          }
-          foreach ($this->NM_ajax_info['fldList']['__calend_all_day__']['valList'] as $iIndex => $sValue)
-          {
-              $aLabel[$iIndex] = (isset($aLabelTemp[$sValue])) ? $aLabelTemp[$sValue] : $sValue;
-          }
-          $this->NM_ajax_info['fldList']['__calend_all_day__']['labList'] = $aLabel;
           }
    }
 
@@ -3895,11 +3757,11 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
       $NM_val_form['aptnum'] = $this->aptnum;
       $NM_val_form['aptbloco'] = $this->aptbloco;
       $NM_val_form['qtdpessoas'] = $this->qtdpessoas;
-      $NM_val_form['data'] = $this->data;
       $NM_val_form['horario_inic'] = $this->horario_inic;
       $NM_val_form['horario_fim'] = $this->horario_fim;
-      $NM_val_form['__calend_all_day__'] = $this->__calend_all_day__;
       $NM_val_form['id_gestao'] = $this->id_gestao;
+      $NM_val_form['data'] = $this->data;
+      $NM_val_form['__calend_all_day__'] = $this->__calend_all_day__;
       if ($this->id_gestao === "" || is_null($this->id_gestao))  
       { 
           $this->id_gestao = 0;
@@ -4019,22 +3881,33 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = #$this->horario_inic#, horario_fim = #$this->horario_fim#, data = #$this->data#, aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = #$this->horario_inic#, horario_fim = #$this->horario_fim#, aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
               else 
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+              } 
+              if (isset($NM_val_form['data']) && $NM_val_form['data'] != $this->nmgp_dados_select['data']) 
+              { 
+                  if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+                  { 
+                      $SC_fields_update[] = "data = #$this->data#"; 
+                  } 
+                  else
+                  { 
+                      $SC_fields_update[] = "data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ""; 
+                  } 
               } 
               $aDoNotUpdate = array();
               $comando .= implode(",", $SC_fields_update);  
@@ -4116,7 +3989,7 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $this->nm_formatar_campos();
 
               $aOldRefresh               = $this->nmgp_refresh_fields;
-              $this->nmgp_refresh_fields = array_diff(array('tipoarea', 'nome', 'sobrenome', 'fone', 'email', 'aptnum', 'aptbloco', 'qtdpessoas', 'data', 'horario_inic', 'horario_fim', '__calend_all_day__'), $aDoNotUpdate);
+              $this->nmgp_refresh_fields = array_diff(array('tipoarea', 'nome', 'sobrenome', 'fone', 'email', 'aptnum', 'aptbloco', 'qtdpessoas', 'horario_inic', 'horario_fim'), $aDoNotUpdate);
               $this->ajax_return_values();
               $this->nmgp_refresh_fields = $aOldRefresh;
 
@@ -4869,10 +4742,10 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
     function form_highlight_search_quicksearch(&$result, $field, $value)
     {
         $searchOk = false;
-        if ('SC_all_Cmp' == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "fone", "email", "aptnum", "aptbloco", "qtdpessoas", "data", "horario_inic", "horario_fim"))) {
+        if ('SC_all_Cmp' == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "fone", "email", "aptnum", "aptbloco", "qtdpessoas", "horario_inic", "horario_fim"))) {
             $searchOk = true;
         }
-        elseif ($field == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "fone", "email", "aptnum", "aptbloco", "qtdpessoas", "data", "horario_inic", "horario_fim"))) {
+        elseif ($field == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "fone", "email", "aptnum", "aptbloco", "qtdpessoas", "horario_inic", "horario_fim"))) {
             $searchOk = true;
         }
 
@@ -7090,14 +6963,6 @@ function sc_file_size($file, $format = false)
        return $todo;
 
    }
-   function Form_lookup___calend_all_day__()
-   {
-       $nmgp_def_dados  = "";
-       $nmgp_def_dados .= "" . $this->Ini->Nm_lang['lang_per_allday'] . "?#?Y?#?N?@?";
-       $todo = explode("?@?", $nmgp_def_dados);
-       return $todo;
-
-   }
    function SC_fast_search($in_fields, $arg_search, $data_search)
    {
       $fields = (strpos($in_fields, "SC_all_Cmp") !== false) ? array("SC_all_Cmp") : explode(";", $in_fields);
@@ -7166,10 +7031,6 @@ function sc_file_size($file, $format = false)
           if ($field == "SC_all_Cmp" || $field == "qtdpessoas") 
           {
               $this->SC_monta_condicao($comando, "qtdPessoas", $arg_search, str_replace(",", ".", $data_search));
-          }
-          if ($field == "SC_all_Cmp" || $field == "data") 
-          {
-              $this->SC_monta_condicao($comando, "data", $arg_search, $data_search);
           }
           if ($field == "SC_all_Cmp" || $field == "horario_inic") 
           {

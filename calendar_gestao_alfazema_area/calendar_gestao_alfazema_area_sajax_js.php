@@ -3148,46 +3148,6 @@ sajax_show_javascript();
     scAjaxSetFocus();
   } // do_ajax_calendar_gestao_alfazema_area_validate_qtdpessoas_cb
 
-  // ---------- Validate data
-  function do_ajax_calendar_gestao_alfazema_area_validate_data()
-  {
-    var nomeCampo_data = "data";
-    var var_data = scAjaxGetFieldText(nomeCampo_data);
-    var var_script_case_init = document.F1.script_case_init.value;
-    setTimeout(function() {
-      var var_data = scAjaxGetFieldText(nomeCampo_data);
-      x_ajax_calendar_gestao_alfazema_area_validate_data(var_data, var_script_case_init, do_ajax_calendar_gestao_alfazema_area_validate_data_cb);
-    }, 200);
-  } // do_ajax_calendar_gestao_alfazema_area_validate_data
-
-  function do_ajax_calendar_gestao_alfazema_area_validate_data_cb(sResp)
-  {
-    oResp = scAjaxResponse(sResp);
-    scAjaxRedir();
-    sFieldValid = "data";
-    scEventControl_onBlur(sFieldValid);
-    scAjaxUpdateFieldErrors(sFieldValid, "valid");
-    sFieldErrors = scAjaxListFieldErrors(sFieldValid, false);
-    if ("" == sFieldErrors || ($("#ui-datepicker-div").length && $("#ui-datepicker-div").filter(":visible").length))
-    {
-      var sImgStatus = sc_img_status_ok;
-      scAjaxHideErrorDisplay(sFieldValid);
-    }
-    else
-    {
-      var sImgStatus = sc_img_status_err;
-      scAjaxShowErrorDisplay(sFieldValid, sFieldErrors);
-    }
-    var $oImg = $('#id_sc_status_' + sFieldValid);
-    if (0 < $oImg.length)
-    {
-      $oImg.attr('src', sImgStatus).css('display', '');
-    }
-    scAjaxShowDebug();
-    scAjaxSetMaster();
-    scAjaxSetFocus();
-  } // do_ajax_calendar_gestao_alfazema_area_validate_data_cb
-
   // ---------- Validate horario_inic
   function do_ajax_calendar_gestao_alfazema_area_validate_horario_inic()
   {
@@ -3261,43 +3221,6 @@ sajax_show_javascript();
     scAjaxSetMaster();
     scAjaxSetFocus();
   } // do_ajax_calendar_gestao_alfazema_area_validate_horario_fim_cb
-
-  // ---------- Validate __calend_all_day__
-  function do_ajax_calendar_gestao_alfazema_area_validate___calend_all_day__()
-  {
-    var nomeCampo___calend_all_day__ = "__calend_all_day__";
-    var var___calend_all_day__ = scAjaxGetFieldCheckbox(nomeCampo___calend_all_day__, ";");
-    var var_script_case_init = document.F1.script_case_init.value;
-    x_ajax_calendar_gestao_alfazema_area_validate___calend_all_day__(var___calend_all_day__, var_script_case_init, do_ajax_calendar_gestao_alfazema_area_validate___calend_all_day___cb);
-  } // do_ajax_calendar_gestao_alfazema_area_validate___calend_all_day__
-
-  function do_ajax_calendar_gestao_alfazema_area_validate___calend_all_day___cb(sResp)
-  {
-    oResp = scAjaxResponse(sResp);
-    scAjaxRedir();
-    sFieldValid = "__calend_all_day__";
-    scEventControl_onBlur(sFieldValid);
-    scAjaxUpdateFieldErrors(sFieldValid, "valid");
-    sFieldErrors = scAjaxListFieldErrors(sFieldValid, false);
-    if ("" == sFieldErrors)
-    {
-      var sImgStatus = sc_img_status_ok;
-      scAjaxHideErrorDisplay(sFieldValid);
-    }
-    else
-    {
-      var sImgStatus = sc_img_status_err;
-      scAjaxShowErrorDisplay(sFieldValid, sFieldErrors);
-    }
-    var $oImg = $('#id_sc_status_' + sFieldValid);
-    if (0 < $oImg.length)
-    {
-      $oImg.attr('src', sImgStatus).css('display', '');
-    }
-    scAjaxShowDebug();
-    scAjaxSetMaster();
-    scAjaxSetFocus();
-  } // do_ajax_calendar_gestao_alfazema_area_validate___calend_all_day___cb
 function scAjaxShowErrorDisplay(sErrorId, sErrorMsg) {
 	if ("table" != sErrorId && !$("id_error_display_" + sErrorId + "_frame").hasClass('scFormToastDivFixed')) {
 		scAjaxShowErrorDisplay_default(sErrorId, sErrorMsg);
@@ -3601,10 +3524,8 @@ function scJs_sweetalert_params(params) {
     var var_aptnum = scAjaxGetFieldText("aptnum");
     var var_aptbloco = scAjaxGetFieldRadio("aptbloco");
     var var_qtdpessoas = scAjaxGetFieldText("qtdpessoas");
-    var var_data = scAjaxGetFieldText("data");
     var var_horario_inic = scAjaxGetFieldText("horario_inic");
     var var_horario_fim = scAjaxGetFieldText("horario_fim");
-    var var___calend_all_day__ = scAjaxGetFieldCheckbox("__calend_all_day__", ";");
     var var_nm_form_submit = document.F1.nm_form_submit.value;
     var var_nmgp_url_saida = document.F1.nmgp_url_saida.value;
     var var_nmgp_opcao = document.F1.nmgp_opcao.value;
@@ -3614,7 +3535,7 @@ function scJs_sweetalert_params(params) {
     var var_script_case_init = document.F1.script_case_init.value;
     var var_csrf_token = scAjaxGetFieldText("csrf_token");
     scAjaxProcOn();
-    x_ajax_calendar_gestao_alfazema_area_submit_form(var_tipoarea, var_nome, var_sobrenome, var_fone, var_email, var_aptnum, var_aptbloco, var_qtdpessoas, var_data, var_horario_inic, var_horario_fim, var___calend_all_day__, var_nm_form_submit, var_nmgp_url_saida, var_nmgp_opcao, var_nmgp_ancora, var_nmgp_num_form, var_nmgp_parms, var_script_case_init, var_csrf_token, do_ajax_calendar_gestao_alfazema_area_submit_form_cb);
+    x_ajax_calendar_gestao_alfazema_area_submit_form(var_tipoarea, var_nome, var_sobrenome, var_fone, var_email, var_aptnum, var_aptbloco, var_qtdpessoas, var_horario_inic, var_horario_fim, var_nm_form_submit, var_nmgp_url_saida, var_nmgp_opcao, var_nmgp_ancora, var_nmgp_num_form, var_nmgp_parms, var_script_case_init, var_csrf_token, do_ajax_calendar_gestao_alfazema_area_submit_form_cb);
   } // do_ajax_calendar_gestao_alfazema_area_submit_form
 
   function do_ajax_calendar_gestao_alfazema_area_submit_form_cb(sResp)
@@ -3647,10 +3568,8 @@ function scJs_sweetalert_params(params) {
       scAjaxHideErrorDisplay("aptnum");
       scAjaxHideErrorDisplay("aptbloco");
       scAjaxHideErrorDisplay("qtdpessoas");
-      scAjaxHideErrorDisplay("data");
       scAjaxHideErrorDisplay("horario_inic");
       scAjaxHideErrorDisplay("horario_fim");
-      scAjaxHideErrorDisplay("__calend_all_day__");
       scLigEditLookupCall();
 <?php
 if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['dashboard_info']['under_dashboard']) && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['dashboard_info']['under_dashboard']) {
@@ -3719,10 +3638,8 @@ if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema
     scAjaxHideErrorDisplay("aptnum");
     scAjaxHideErrorDisplay("aptbloco");
     scAjaxHideErrorDisplay("qtdpessoas");
-    scAjaxHideErrorDisplay("data");
     scAjaxHideErrorDisplay("horario_inic");
     scAjaxHideErrorDisplay("horario_fim");
-    scAjaxHideErrorDisplay("__calend_all_day__");
     var var_id_gestao = document.F2.id_gestao.value;
     var var_nm_form_submit = document.F2.nm_form_submit.value;
     var var_nmgp_opcao = document.F2.nmgp_opcao.value;
@@ -3815,10 +3732,8 @@ if ($this->Embutida_form)
   ajax_field_list[5] = "aptnum";
   ajax_field_list[6] = "aptbloco";
   ajax_field_list[7] = "qtdpessoas";
-  ajax_field_list[8] = "data";
-  ajax_field_list[9] = "horario_inic";
-  ajax_field_list[10] = "horario_fim";
-  ajax_field_list[11] = "__calend_all_day__";
+  ajax_field_list[8] = "horario_inic";
+  ajax_field_list[9] = "horario_fim";
 
   var ajax_block_list = new Array();
   ajax_block_list[0] = "0";
@@ -3833,10 +3748,8 @@ if ($this->Embutida_form)
     "aptnum": {"label": "Número do Apartamento", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "aptbloco": {"label": "Bloco", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "qtdpessoas": {"label": "Quantidade de Pessoas", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "data": {"label": "Data", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "horario_inic": {"label": "Horario Inic", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "horario_fim": {"label": "Horario Fim", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "__calend_all_day__": {"label": "<?php echo $this->Ini->Nm_lang['lang_per_allday'] ?>", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5}
+    "horario_fim": {"label": "Horario Fim", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5}
   };
   var ajax_error_timeout = 5;
 
@@ -3859,10 +3772,8 @@ if ($this->Embutida_form)
     "aptnum": new Array(),
     "aptbloco": new Array(),
     "qtdpessoas": new Array(),
-    "data": new Array(),
     "horario_inic": new Array(),
-    "horario_fim": new Array(),
-    "__calend_all_day__": new Array()
+    "horario_fim": new Array()
   };
   ajax_field_mult["tipoarea"][1] = "tipoarea";
   ajax_field_mult["nome"][1] = "nome";
@@ -3872,10 +3783,8 @@ if ($this->Embutida_form)
   ajax_field_mult["aptnum"][1] = "aptnum";
   ajax_field_mult["aptbloco"][1] = "aptbloco";
   ajax_field_mult["qtdpessoas"][1] = "qtdpessoas";
-  ajax_field_mult["data"][1] = "data";
   ajax_field_mult["horario_inic"][1] = "horario_inic";
   ajax_field_mult["horario_fim"][1] = "horario_fim";
-  ajax_field_mult["__calend_all_day__"][1] = "__calend_all_day__";
 
   var ajax_field_id = {
     "tipoarea": new Array("hidden_field_label_tipoarea", "hidden_field_data_tipoarea"),
@@ -3886,10 +3795,8 @@ if ($this->Embutida_form)
     "aptnum": new Array("hidden_field_label_aptnum", "hidden_field_data_aptnum"),
     "aptbloco": new Array("hidden_field_label_aptbloco", "hidden_field_data_aptbloco"),
     "qtdpessoas": new Array("hidden_field_label_qtdpessoas", "hidden_field_data_qtdpessoas"),
-    "data": new Array("hidden_field_label_data", "hidden_field_data_data"),
     "horario_inic": new Array("hidden_field_label_horario_inic", "hidden_field_data_horario_inic"),
-    "horario_fim": new Array("hidden_field_label_horario_fim", "hidden_field_data_horario_fim"),
-    "__calend_all_day__": new Array("hidden_field_label___calend_all_day__", "hidden_field_data___calend_all_day__")
+    "horario_fim": new Array("hidden_field_label_horario_fim", "hidden_field_data_horario_fim")
   };
 
   var ajax_read_only = {
@@ -3901,10 +3808,8 @@ if ($this->Embutida_form)
     "aptnum": "off",
     "aptbloco": "off",
     "qtdpessoas": "off",
-    "data": "off",
     "horario_inic": "off",
-    "horario_fim": "off",
-    "__calend_all_day__": "off"
+    "horario_fim": "off"
   };
   var bRefreshTable = false;
   function scRefreshTable()
@@ -4052,23 +3957,6 @@ if ($this->Embutida_form)
 
       return;
     }
-    if ("data" == sIndex)
-    {
-      scAjaxSetFieldText(sIndex, aValue, "", "", true);
-      updateHeaderFooter(sIndex, aValue);
-
-      if ($("#id_sc_field_" + sIndex).length) {
-          $("#id_sc_field_" + sIndex).change();
-      }
-      else if (document.F1.elements[sIndex]) {
-          $(document.F1.elements[sIndex]).change();
-      }
-      else if (document.F1.elements[sFieldName + "[]"]) {
-          $(document.F1.elements[sFieldName + "[]"]).change();
-      }
-
-      return;
-    }
     if ("horario_inic" == sIndex)
     {
       scAjaxSetFieldText(sIndex, aValue, "", "", true);
@@ -4089,23 +3977,6 @@ if ($this->Embutida_form)
     if ("horario_fim" == sIndex)
     {
       scAjaxSetFieldText(sIndex, aValue, "", "", true);
-      updateHeaderFooter(sIndex, aValue);
-
-      if ($("#id_sc_field_" + sIndex).length) {
-          $("#id_sc_field_" + sIndex).change();
-      }
-      else if (document.F1.elements[sIndex]) {
-          $(document.F1.elements[sIndex]).change();
-      }
-      else if (document.F1.elements[sFieldName + "[]"]) {
-          $(document.F1.elements[sFieldName + "[]"]).change();
-      }
-
-      return;
-    }
-    if ("__calend_all_day__" == sIndex)
-    {
-      scAjaxSetFieldCheckbox(sIndex, aValue, null, 1, null, null, "", "", "", false, true);
       updateHeaderFooter(sIndex, aValue);
 
       if ($("#id_sc_field_" + sIndex).length) {

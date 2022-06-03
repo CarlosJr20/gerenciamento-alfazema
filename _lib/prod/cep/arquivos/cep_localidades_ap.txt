@@ -1,0 +1,46 @@
+AP@nm@Abacate da Pedreira@nm@68912350@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Amapá@nm@68950000@nm@@nm@2.0447397@nm@-50.7874222@nm@
+AP@nm@Ambé@nm@68912000@nm@@nm@0.3294199@nm@-50.9689799@nm@
+AP@nm@Aporema@nm@68994000@nm@@nm@1.2408144@nm@-50.8229989@nm@
+AP@nm@Ariri@nm@68912050@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Bailique@nm@68913000@nm@@nm@0.8674338@nm@-50.0578754@nm@
+AP@nm@Boca do Jari@nm@68923000@nm@@nm@-0.8397651@nm@-52.5189889@nm@
+AP@nm@Calçoene@nm@68960000@nm@@nm@2.5044164@nm@-50.9516752@nm@
+AP@nm@Cantanzal@nm@68912800@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Carmo@nm@68912100@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Clevelândia do Norte@nm@68985000@nm@@nm@3.8194466@nm@-51.8550491@nm@
+AP@nm@Corre Água@nm@68912600@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Cunani@nm@68965000@nm@@nm@2.8596310@nm@-51.1370046@nm@
+AP@nm@Curiaú@nm@68912300@nm@@nm@0.1403336@nm@-51.0566145@nm@
+AP@nm@Cutias@nm@68973000@nm@@nm@0.9872236@nm@-50.7996097@nm@
+AP@nm@Fazendinha@nm@@nm@@nm@@nm@@nm@
+AP@nm@Ferreira Gomes@nm@68915000@nm@@nm@0.8569136@nm@-51.1799664@nm@
+AP@nm@Fortaleza@nm@68939000@nm@@nm@-0.0487686@nm@-51.1436225@nm@
+AP@nm@Gaivota@nm@68912150@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Gurupora@nm@68912650@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Igarapé do Lago@nm@68935000@nm@@nm@0.0720992@nm@-51.4427711@nm@
+AP@nm@Ilha de Santana@nm@68937000@nm@@nm@-0.0706528@nm@-51.1679643@nm@
+AP@nm@Inajá@nm@68912750@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Itaubal@nm@68976000@nm@@nm@0.6780812@nm@-50.8074071@nm@
+AP@nm@Laranjal do Jari@nm@68920000@nm@@nm@-0.8397651@nm@-52.5189889@nm@
+AP@nm@Livramento do Pacuí@nm@68912450@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Lourenço@nm@68970000@nm@@nm@2.3086128@nm@-51.6283489@nm@
+AP@nm@Macapá@nm@@nm@@nm@@nm@@nm@
+AP@nm@Mazagão@nm@68940000@nm@@nm@-0.1158230@nm@-51.2862497@nm@
+AP@nm@Mazagão Velho@nm@68943000@nm@@nm@-0.2174558@nm@-51.4288811@nm@
+AP@nm@Oiapoque@nm@68980000@nm@@nm@3.8441368@nm@-51.8322292@nm@
+AP@nm@Paredão@nm@68917000@nm@@nm@0.8569136@nm@-51.1799664@nm@
+AP@nm@Pedra Branca do Amaparí@nm@68945000@nm@@nm@0.7770810@nm@-51.9507548@nm@
+AP@nm@Porto Grande@nm@68997000@nm@@nm@0.7120866@nm@-51.4159441@nm@
+AP@nm@Pracuúba@nm@68918000@nm@@nm@1.7450910@nm@-50.7896888@nm@
+AP@nm@Santa Luzia do Pacuí@nm@68912530@nm@@nm@0.8678127@nm@-50.6500286@nm@
+AP@nm@Santa Maria@nm@68912200@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@Santana@nm@@nm@@nm@@nm@@nm@
+AP@nm@São Joaquim do Pacuí@nm@68912500@nm@@nm@0.8136693@nm@-50.7449673@nm@
+AP@nm@São Sebastião do Livramento@nm@68912550@nm@@nm@0.0355735@nm@-51.0705350@nm@
+AP@nm@São Tomé@nm@68912700@nm@@nm@0.8110213@nm@-50.6020323@nm@
+AP@nm@Serra do Navio@nm@68948000@nm@@nm@0.9010148@nm@-52.0040852@nm@
+AP@nm@Sucuriju@nm@68958000@nm@@nm@1.6801537@nm@-49.9425506@nm@
+AP@nm@Tartarugalzinho@nm@68990000@nm@@nm@1.5061813@nm@-50.9091816@nm@
+AP@nm@Vila Velha@nm@68988000@nm@@nm@3.2277226@nm@-51.2307534@nm@
+AP@nm@Vitória do Jari@nm@68924000@nm@@nm@-1.1200509@nm@-52.0005222@nm@

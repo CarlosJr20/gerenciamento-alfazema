@@ -153,6 +153,10 @@ class apl_form_add_users_mob_apl
           {
               $this->nmgp_url_saida = $this->NM_ajax_info['param']['nmgp_url_saida'];
           }
+          if (isset($this->NM_ajax_info['param']['priv_admin']))
+          {
+              $this->priv_admin = $this->NM_ajax_info['param']['priv_admin'];
+          }
           if (isset($this->NM_ajax_info['param']['pswd']))
           {
               $this->pswd = $this->NM_ajax_info['param']['pswd'];
@@ -847,7 +851,6 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
           $this->nmgp_dados_form = $_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['dados_form'];
           if (!isset($this->active)){$this->active = $this->nmgp_dados_form['active'];} 
           if (!isset($this->activation_code)){$this->activation_code = $this->nmgp_dados_form['activation_code'];} 
-          if (!isset($this->priv_admin)){$this->priv_admin = $this->nmgp_dados_form['priv_admin'];} 
       }
       $glo_senha_protect = (isset($_SESSION['scriptcase']['glo_senha_protect'])) ? $_SESSION['scriptcase']['glo_senha_protect'] : "S";
       $this->aba_iframe = false;
@@ -1062,6 +1065,7 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
       if (isset($this->pswd)) { $this->nm_limpa_alfa($this->pswd); }
       if (isset($this->name)) { $this->nm_limpa_alfa($this->name); }
       if (isset($this->email)) { $this->nm_limpa_alfa($this->email); }
+      if (isset($this->priv_admin)) { $this->nm_limpa_alfa($this->priv_admin); }
       $Campos_Crit       = "";
       $Campos_erro       = "";
       $Campos_Falta      = array();
@@ -1138,6 +1142,10 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
           if ('validate_email' == $this->NM_ajax_opcao)
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'email');
+          }
+          if ('validate_priv_admin' == $this->NM_ajax_opcao)
+          {
+              $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'priv_admin');
           }
           apl_form_add_users_mob_pack_ajax_response();
           exit;
@@ -1658,14 +1666,14 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
            case 'email':
                return "" . $this->Ini->Nm_lang['lang_sec_users_fild_email'] . " ";
                break;
+           case 'priv_admin':
+               return "Priv Admin";
+               break;
            case 'active':
                return "Active";
                break;
            case 'activation_code':
                return "Activation Code";
-               break;
-           case 'priv_admin':
-               return "Priv Admin";
                break;
        }
 
@@ -1722,6 +1730,8 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         $this->ValidateField_name($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $filtro || 'email' == $filtro)
         $this->ValidateField_email($Campos_Crit, $Campos_Falta, $Campos_Erros);
+      if ('' == $filtro || 'priv_admin' == $filtro)
+        $this->ValidateField_priv_admin($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if (!empty($Campos_Crit) || !empty($Campos_Falta) || !empty($this->Campos_Mens_erro))
       {
           if (!empty($this->sc_force_zero))
@@ -1967,6 +1977,41 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         }
     } // ValidateField_email
 
+    function ValidateField_priv_admin(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
+    {
+        global $teste_validade;
+        $hasError = false;
+      if ($this->priv_admin == "" && $this->nmgp_opcao != "excluir")
+      { 
+      } 
+      if ($this->priv_admin != "")
+      { 
+          if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['Lookup_priv_admin']) && !in_array($this->priv_admin, $_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['Lookup_priv_admin']))
+          {
+              $hasError = true;
+              $Campos_Crit .= $this->Ini->Nm_lang['lang_errm_ajax_data'];
+              if (!isset($Campos_Erros['priv_admin']))
+              {
+                  $Campos_Erros['priv_admin'] = array();
+              }
+              $Campos_Erros['priv_admin'][] = $this->Ini->Nm_lang['lang_errm_ajax_data'];
+              if (!isset($this->NM_ajax_info['errList']['priv_admin']) || !is_array($this->NM_ajax_info['errList']['priv_admin']))
+              {
+                  $this->NM_ajax_info['errList']['priv_admin'] = array();
+              }
+              $this->NM_ajax_info['errList']['priv_admin'][] = $this->Ini->Nm_lang['lang_errm_ajax_data'];
+          }
+      }
+        if ($hasError) {
+            global $sc_seq_vert;
+            $fieldName = 'priv_admin';
+            if (isset($sc_seq_vert) && '' != $sc_seq_vert) {
+                $fieldName .= $sc_seq_vert;
+            }
+            $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
+        }
+    } // ValidateField_priv_admin
+
     function removeDuplicateDttmError($aErrDate, &$aErrTime)
     {
         if (empty($aErrDate) || empty($aErrTime))
@@ -1995,9 +2040,9 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
     $this->nmgp_dados_form['confirm_pswd'] = $this->confirm_pswd;
     $this->nmgp_dados_form['name'] = $this->name;
     $this->nmgp_dados_form['email'] = $this->email;
+    $this->nmgp_dados_form['priv_admin'] = $this->priv_admin;
     $this->nmgp_dados_form['active'] = $this->active;
     $this->nmgp_dados_form['activation_code'] = $this->activation_code;
-    $this->nmgp_dados_form['priv_admin'] = $this->priv_admin;
     $_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['dados_form'] = $this->nmgp_dados_form;
    }
    function nm_tira_formatacao()
@@ -2463,6 +2508,7 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
           $this->ajax_return_values_confirm_pswd();
           $this->ajax_return_values_name();
           $this->ajax_return_values_email();
+          $this->ajax_return_values_priv_admin();
           if ('navigate_form' == $this->NM_ajax_opcao)
           {
               $this->NM_ajax_info['clearUpload']      = 'S';
@@ -2550,6 +2596,54 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
                'type'    => 'text',
                'valList' => array($sTmpValue),
               );
+          }
+   }
+
+          //----- priv_admin
+   function ajax_return_values_priv_admin($bForce = false)
+   {
+          if ('navigate_form' == $this->NM_ajax_opcao || 'backup_line' == $this->NM_ajax_opcao || (isset($this->nmgp_refresh_fields) && in_array("priv_admin", $this->nmgp_refresh_fields)) || $bForce)
+          {
+              $sTmpValue = NM_charset_to_utf8($this->priv_admin);
+              $aLookup = array();
+              $this->_tmp_lookup_priv_admin = $this->priv_admin;
+
+$aLookup[] = array(apl_form_add_users_mob_pack_protect_string('Y') => str_replace('<', '&lt;',apl_form_add_users_mob_pack_protect_string("Y")));
+$aLookup[] = array(apl_form_add_users_mob_pack_protect_string('N') => str_replace('<', '&lt;',apl_form_add_users_mob_pack_protect_string("N")));
+$_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['Lookup_priv_admin'][] = 'Y';
+$_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['Lookup_priv_admin'][] = 'N';
+          $aLookupOrig = $aLookup;
+          $sOptComp = "";
+          if (isset($this->NM_ajax_info['select_html']['priv_admin']) && !empty($this->NM_ajax_info['select_html']['priv_admin']))
+          {
+              $sOptComp = str_replace('{SC_100PERC_CLASS_INPUT}', $this->classes_100perc_fields['input'], $this->NM_ajax_info['select_html']['priv_admin']);
+          }
+          $this->NM_ajax_info['fldList']['priv_admin'] = array(
+                       'row'    => '',
+               'type'    => 'radio',
+               'switch'  => false,
+               'valList' => array($sTmpValue),
+               'colNum'  => 1,
+               'optComp'  => $sOptComp,
+              );
+          $aLabel     = array();
+          $aLabelTemp = array();
+          foreach ($this->NM_ajax_info['fldList']['priv_admin']['valList'] as $i => $v)
+          {
+              $this->NM_ajax_info['fldList']['priv_admin']['valList'][$i] = apl_form_add_users_mob_pack_protect_string($v);
+          }
+          foreach ($aLookupOrig as $aValData)
+          {
+              if (in_array(key($aValData), $this->NM_ajax_info['fldList']['priv_admin']['valList']))
+              {
+                  $aLabelTemp[key($aValData)] = current($aValData);
+              }
+          }
+          foreach ($this->NM_ajax_info['fldList']['priv_admin']['valList'] as $iIndex => $sValue)
+          {
+              $aLabel[$iIndex] = (isset($aLabelTemp[$sValue])) ? $aLabelTemp[$sValue] : $sValue;
+          }
+          $this->NM_ajax_info['fldList']['priv_admin']['labList'] = $aLabel;
           }
    }
 
@@ -2893,9 +2987,9 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
       $NM_val_form['confirm_pswd'] = $this->confirm_pswd;
       $NM_val_form['name'] = $this->name;
       $NM_val_form['email'] = $this->email;
+      $NM_val_form['priv_admin'] = $this->priv_admin;
       $NM_val_form['active'] = $this->active;
       $NM_val_form['activation_code'] = $this->activation_code;
-      $NM_val_form['priv_admin'] = $this->priv_admin;
       $nm_bases_lob_geral = array_merge($this->Ini->nm_bases_ibase, $this->Ini->nm_bases_mysql, $this->Ini->nm_bases_access, $this->Ini->nm_bases_sqlite);
       if ($this->nmgp_opcao == "alterar" || $this->nmgp_opcao == "incluir") 
       {
@@ -3031,18 +3125,22 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "priv_admin = '$this->priv_admin'"; 
               } 
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "priv_admin = '$this->priv_admin'"; 
               } 
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "priv_admin = '$this->priv_admin'"; 
               } 
               else 
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "priv_admin = '$this->priv_admin'"; 
               } 
               if (isset($NM_val_form['name']) && $NM_val_form['name'] != $this->nmgp_dados_select['name']) 
               { 
@@ -3059,10 +3157,6 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
               if (isset($NM_val_form['activation_code']) && $NM_val_form['activation_code'] != $this->nmgp_dados_select['activation_code']) 
               { 
                   $SC_fields_update[] = "activation_code = '$this->activation_code'"; 
-              } 
-              if (isset($NM_val_form['priv_admin']) && $NM_val_form['priv_admin'] != $this->nmgp_dados_select['priv_admin']) 
-              { 
-                  $SC_fields_update[] = "priv_admin = '$this->priv_admin'"; 
               } 
               $aDoNotUpdate = array();
              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
@@ -3150,11 +3244,13 @@ $_SESSION['scriptcase']['apl_form_add_users_mob']['contr_erro'] = 'off';
               elseif (isset($this->name)) { $this->nm_limpa_alfa($this->name); }
               if     (isset($NM_val_form) && isset($NM_val_form['email'])) { $this->email = $NM_val_form['email']; }
               elseif (isset($this->email)) { $this->nm_limpa_alfa($this->email); }
+              if     (isset($NM_val_form) && isset($NM_val_form['priv_admin'])) { $this->priv_admin = $NM_val_form['priv_admin']; }
+              elseif (isset($this->priv_admin)) { $this->nm_limpa_alfa($this->priv_admin); }
 
               $this->nm_formatar_campos();
 
               $aOldRefresh               = $this->nmgp_refresh_fields;
-              $this->nmgp_refresh_fields = array_diff(array('login', 'pswd', 'confirm_pswd', 'name', 'email'), $aDoNotUpdate);
+              $this->nmgp_refresh_fields = array_diff(array('login', 'pswd', 'confirm_pswd', 'name', 'email', 'priv_admin'), $aDoNotUpdate);
               $this->ajax_return_values();
               $this->nmgp_refresh_fields = $aOldRefresh;
 
@@ -4512,6 +4608,15 @@ function sc_file_size($file, $format = false)
      }
  } // new_date_format
 
+   function Form_lookup_priv_admin()
+   {
+       $nmgp_def_dados  = "";
+       $nmgp_def_dados .= "Y?#?Y?#?N?@?";
+       $nmgp_def_dados .= "N?#?N?#?N?@?";
+       $todo = explode("?@?", $nmgp_def_dados);
+       return $todo;
+
+   }
    function SC_fast_search($in_fields, $arg_search, $data_search)
    {
       $fields = (strpos($in_fields, "SC_all_Cmp") !== false) ? array("SC_all_Cmp") : explode(";", $in_fields);
@@ -4567,7 +4672,11 @@ function sc_file_size($file, $format = false)
           }
           if ($field == "SC_all_Cmp") 
           {
-              $this->SC_monta_condicao($comando, "priv_admin", $arg_search, $data_search);
+              $data_lookup = $this->SC_lookup_priv_admin($arg_search, $data_search);
+              if (is_array($data_lookup) && !empty($data_lookup)) 
+              {
+                  $this->SC_monta_condicao($comando, "priv_admin", $arg_search, $data_lookup);
+              }
           }
       }
       if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['where_detal']) && !empty($_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users_mob']['where_detal']) && !empty($comando)) 
@@ -4737,6 +4846,55 @@ function sc_file_size($file, $format = false)
                $comando        .= $nm_ini_lower . $nome . $nm_fim_lower . " <= " . $nm_ini_lower . $nm_aspas . $campo . $nm_aspas1 . $nm_fim_lower;
             break;
          }
+   }
+   function SC_lookup_priv_admin($condicao, $campo)
+   {
+       $data_look = array();
+       $campo  = substr($this->Db->qstr($campo), 1, -1);
+       $data_look['Y'] = "Y";
+       $data_look['N'] = "N";
+       $result = array();
+       foreach ($data_look as $chave => $label) 
+       {
+           if ($condicao == "eq" && $campo == $label)
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "ii" && $campo == substr($label, 0, strlen($campo)))
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "qp" && strstr($label, $campo))
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "np" && !strstr($label, $campo))
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "df" && $campo != $label)
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "gt" && $label > $campo )
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "ge" && $label >= $campo)
+            {
+               $result[] = $chave;
+           }
+           if ($condicao == "lt" && $label < $campo)
+           {
+               $result[] = $chave;
+           }
+           if ($condicao == "le" && $label <= $campo)
+           {
+               $result[] = $chave;
+           }
+          
+       }
+       return $result;
    }
 function nmgp_redireciona($tipo=0)
 {

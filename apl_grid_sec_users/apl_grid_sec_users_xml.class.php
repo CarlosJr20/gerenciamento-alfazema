@@ -291,15 +291,15 @@ class apl_grid_sec_users_xml
       $nmgp_select_count = "SELECT count(*) AS countTest from " . $this->Ini->nm_tabela; 
       if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       else 
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       $nmgp_select .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
       $nmgp_select_count .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
@@ -348,6 +348,7 @@ class apl_grid_sec_users_xml
          $this->name = $rs->fields[1] ;  
          $this->email = $rs->fields[2] ;  
          $this->active = $rs->fields[3] ;  
+         $this->priv_admin = $rs->fields[4] ;  
          //----- lookup - active
          $this->look_active = $this->active; 
          $this->Lookup->lookup_active($this->look_active); 
@@ -686,6 +687,31 @@ class apl_grid_sec_users_xml
          else
          {
              $this->xml_registro .= " " . $SC_Label . " =\"" . $this->trata_dados($this->look_active) . "\"";
+         }
+   }
+   //----- priv_admin
+   function NM_export_priv_admin()
+   {
+         if ($_SESSION['scriptcase']['charset'] == "UTF-8" && !NM_is_utf8($this->priv_admin))
+         {
+             $this->priv_admin = sc_convert_encoding($this->priv_admin, "UTF-8", $_SESSION['scriptcase']['charset']);
+         }
+         if ($this->Xml_tag_label)
+         {
+             $SC_Label = (isset($this->New_label['priv_admin'])) ? $this->New_label['priv_admin'] : "" . $this->Ini->Nm_lang['lang_sec_users_fild_priv_admin'] . ""; 
+         }
+         else
+         {
+             $SC_Label = "priv_admin"; 
+         }
+         $this->clear_tag($SC_Label); 
+         if ($this->New_Format)
+         {
+             $this->xml_registro .= " <" . $SC_Label . ">" . $this->trata_dados($this->priv_admin) . "</" . $SC_Label . ">\r\n";
+         }
+         else
+         {
+             $this->xml_registro .= " " . $SC_Label . " =\"" . $this->trata_dados($this->priv_admin) . "\"";
          }
    }
 

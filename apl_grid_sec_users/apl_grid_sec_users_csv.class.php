@@ -302,6 +302,14 @@ class apl_grid_sec_users_csv
                   $this->csv_registro .= $col_sep . $this->Delim_dados . $conteudo . $this->Delim_dados;
                   $this->NM_prim_col++;
               }
+              $SC_Label = (isset($this->New_label['priv_admin'])) ? $this->New_label['priv_admin'] : ""; 
+              if ($Cada_col == "priv_admin" && (!isset($this->NM_cmp_hidden[$Cada_col]) || $this->NM_cmp_hidden[$Cada_col] != "off"))
+              {
+                  $col_sep = ($this->NM_prim_col > 0) ? $this->Delim_col : "";
+                  $conteudo = str_replace($this->Delim_dados, $this->Delim_dados . $this->Delim_dados, $SC_Label);
+                  $this->csv_registro .= $col_sep . $this->Delim_dados . $conteudo . $this->Delim_dados;
+                  $this->NM_prim_col++;
+              }
           } 
           $this->csv_registro .= $this->Delim_line;
           fwrite($csv_f, $this->csv_registro);
@@ -311,15 +319,15 @@ class apl_grid_sec_users_csv
       $nmgp_select_count = "SELECT count(*) AS countTest from " . $this->Ini->nm_tabela; 
       if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       else 
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       $nmgp_select .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
       $nmgp_select_count .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
@@ -357,6 +365,7 @@ class apl_grid_sec_users_csv
          $this->name = $rs->fields[1] ;  
          $this->email = $rs->fields[2] ;  
          $this->active = $rs->fields[3] ;  
+         $this->priv_admin = $rs->fields[4] ;  
          //----- lookup - active
          $this->look_active = $this->active; 
          $this->Lookup->lookup_active($this->look_active); 
@@ -512,6 +521,14 @@ class apl_grid_sec_users_csv
    {
       $col_sep = ($this->NM_prim_col > 0) ? $this->Delim_col : "";
       $conteudo = str_replace($this->Delim_dados, $this->Delim_dados . $this->Delim_dados, $this->look_active);
+      $this->csv_registro .= $col_sep . $this->Delim_dados . $conteudo . $this->Delim_dados;
+      $this->NM_prim_col++;
+   }
+   //----- priv_admin
+   function NM_export_priv_admin()
+   {
+      $col_sep = ($this->NM_prim_col > 0) ? $this->Delim_col : "";
+      $conteudo = str_replace($this->Delim_dados, $this->Delim_dados . $this->Delim_dados, $this->priv_admin);
       $this->csv_registro .= $col_sep . $this->Delim_dados . $conteudo . $this->Delim_dados;
       $this->NM_prim_col++;
    }

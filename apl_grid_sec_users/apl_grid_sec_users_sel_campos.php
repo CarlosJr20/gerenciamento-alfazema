@@ -164,6 +164,8 @@ function Sel_cmp_process()
       $tab_ger_campos['name'] = "on";
       $tab_ger_campos['email'] = "on";
       $tab_ger_campos['active'] = "on";
+      $tab_ger_campos['priv_admin'] = "on";
+      $tab_blk_campos[] = "priv_admin";
 
 
       if (isset($_SESSION['scriptcase']['sc_apl_conf']['apl_grid_sec_users']['field_display']) && !empty($_SESSION['scriptcase']['sc_apl_conf']['apl_grid_sec_users']['field_display']))

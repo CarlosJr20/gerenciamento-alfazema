@@ -293,8 +293,8 @@ class calendar_gestao_alfazema_area_ini
       $this->nm_dt_criacao   = "20220513"; 
       $this->nm_hr_criacao   = "213537"; 
       $this->nm_autor_alt    = "admin"; 
-      $this->nm_dt_ult_alt   = "20220519"; 
-      $this->nm_hr_ult_alt   = "205408"; 
+      $this->nm_dt_ult_alt   = "20220527"; 
+      $this->nm_hr_ult_alt   = "144256"; 
       list($NM_usec, $NM_sec) = explode(" ", microtime()); 
       $this->nm_timestamp    = (float) $NM_sec; 
       $this->nm_app_version  = "1.0.0"; 
@@ -866,8 +866,19 @@ class calendar_gestao_alfazema_area_ini
       $this->nm_bases_odbc       = array("odbc");
       $this->nm_bases_progress   = array("progress", "pdo_progress_odbc");
       $this->nm_bases_all        = array_merge($this->nm_bases_access, $this->nm_bases_ibase, $this->nm_bases_mysql, $this->nm_bases_postgres, $this->nm_bases_sqlite, $this->nm_bases_sybase, $this->nm_bases_vfp, $this->nm_bases_odbc, $this->nm_bases_progress);
-      $_SESSION['scriptcase']['nm_bases_security']  = "enc_nm_enc_v1DcBiZ9XGHIrKHuNUDMBYVcFeV5X/VErqDcNmZSFaHABYHQFGHgvsHEFiDuFYDoB/D9JKZSBiHAveD5NUHgNKDkBOV5FYHMBiHQNmZkFGZ1vOZMJwDMvCHErsDuFaHIBiHQXOH9FUD1NKD5F7DMBYVIB/Dur/HIFUDcNmZSBqD1NaV5X7HgrKDkB/DWXCHIrqHQNwDQB/DSvCD5F7HgvOVcXKHEF/HMFUHQXGZ1X7HAvsD5rqDEBOHEFiHEFqDoF7DcJUZSBiHIvsVWFaHgrwVcFeH5FqHIFUDcFYZkFGZ1vOV5X7HgNKDkB/DWr/HIBOHQNwZ9XGD1NKD5F7DMNOVcB/DWJeHMraHQNwZ1FGHINKV5X7HgBeHArCDurmZuXGHQXODuFaHIvsV5FGHuNOVcFKHEFYVoBqDcBwH9BqDSvOZMJwHgBOVkJ3V5FqHMJwHQXsZSBiHIvsD5F7DMBYVcFeV5F/VoBiHQNwH9BOHAvsV5X7HgBOHENiDWr/HIJeDcXGZSBiZ1vCD5F7DMBYVcFeDWJeHIraHQXGZ1X7HAzGD5rqDEBOHEFiHEFqDoF7DcJUZSFGD1BeV5FGHgrYDkFCDWXCVoB/D9BiZ1F7HIveD5BiHgBeDkB/HEB3DoB/HQFYDQJwHANOV5JwHgrKDkFCDWJeVoB/D9BsZkFUHArKHQraDEBeHEXeDuFYVoB/D9NwZ9rqZ1rwHQBOHgrKVcFCH5XCHIF7DcBqZ1B/DSBeV5FaHgvCZSJGDWB3ZuXGHQXGDQFGHAveD5BOHuzGVcBUDuFGVoFGHQFYH9FaHIBeZMBODEvsZSJGDWr/DoB/D9XsZSFGD1NKV5JwHuzGDkBOH5FqVoX7D9JmZ1FaHArKZMB/DMBYZSXeDWX7DoXGDcBwDuBOZ1NaV5FGHuNOVcFKHEFYVoBqDcBwH9FaD1rwD5rqDMNKZSXeDuJeDoB/D9NwZSFGD1veV5raDMNOVcFeDWFYHIXGHQXOH9BOD1rKHuJeHgNOHEFKV5FqHMFaHQXsDQB/D1BOV5JeDMzGZSNiDWrmVEF7HQJmZ1F7Z1vmD5rqDEBOHArCDWF/VoBiHQNwZ9XGDSBYV5JwHgvsV9FeHEBmVoF7DcFYZSBOD1rwV5XGHgBeHEFiV5B3DoF7D9XsDuFaHANKV5JwHgvsDkBODWFaDoJeDcJUZ1B/Z1NOV5B/DMBYHEJGDWr/DoFUDcBwZSX7HABYV5BqHuBYVcFKDWFaVoraDcNwH9B/HABYV5FGDMzGVkXeDWX7ZuJsDcBwDQX7Z1BYV5FUHgrYDkBODWFaVoX7DcJUZ1B/HAzGV5FUDErKHEFiDuJeDoBOHQJKDQJsZ1vCV5FGHuNOV9FeDWXCHMBiD9BsVIraD1rwV5X7HgBeHEBUH5FYHIJeDcBwDQJsHABYV5JwDMvODkBsV5FYHMB/HQJmZ1F7Z1vmD5rqDEBOHArCDWF/DoBODcBwDQFUZ1rwV5X7HuzGVIBOV5X7DoJsD9XGZSB/HArYHQJwDEBODkFeH5FYVoFGHQJKDQBqHAvmV5JeDMvOZSNiDWrmVorqHQNwZkBiHAvCD5BqHgBeHEFiV5B3DoF7D9XsDuFaHAveHuJwDMrYVcFeHEFYVEBiD9JmZ1rqHArKV5B/HgNKHEFiHEXCHIBiHQXsH9FGHABYHuFaHuNOZSrCH5FqDoXGHQJmZ1FGD1rwD5NUDErKVkXeDuFYDoB/D9NwZ9rqHAveHuB/HuNOVcFKDWJeDoraD9XOZSFaD1rKD5FaDMrYHEFiH5F/DoraDcJUDQB/D1BeD5BqHuNOVcrsDWF/VoB/DcBwZ1FGZ1rYV5FaDEBOHEFiV5XKDoNUHQNwZ9FUDSN7D5NUHuvmVcBOV5X7VoX7HQJmZ1F7Z1vmD5rqDEBOHArCDWBmZuXGHQXGZ9XGHANKVWFU";
+      $_SESSION['scriptcase']['nm_bases_security']  = "enc_nm_enc_v1D9XsH9BiDSBYHuNUDMNOVcBOV5FYHIJeD9BsZ1rqHIBeV5BODMzGHErCDWr/HMXGDcBwDuFaHAveD5NUHgNKDkBOV5FYHMBiHQNmZkFGZ1vOZMJwDMvCHErsDuFaHIBiHQXOH9FUD1NKD5F7DMBYVIB/Dur/HIFUDcNmZSBqD1NaV5X7HgrKDkB/DWXCHIrqHQNwDQB/DSvCD5F7HgvOVcXKHEF/HMFUHQXGZ1X7HAvsD5rqDEBOHEFiHEFqDoF7DcJUZSBiHIvsVWFaHgrwVcFeH5FqHIFUDcFYZkFGZ1vOV5X7HgNKDkB/DWr/HIBOHQNwZ9XGD1NKD5F7DMNOVcB/DWJeHMraHQNwZ1FGHINKV5X7HgBeHArCDurmZuXGHQXODuFaHIvsV5FGHuNOVcFKHEFYVoBqDcBwH9BqDSvOZMJwHgBOVkJ3V5FqHMJwHQXsZSBiHIvsD5F7DMBYVcFeV5F/VoBiHQNwH9BOHAvsV5X7HgBOHENiDWr/HIJeDcXGZSBiZ1vCD5F7DMBYVcFeDWJeHIraHQXGZ1X7HAzGD5rqDEBOHEFiHEFqDoF7DcJUZSFGD1BeV5FGHgrYDkFCDWXCVoB/D9BiZ1F7HIveD5BiHgBeDkB/HEB3DoB/HQFYDQJwHANOV5JwHgrKDkFCDWJeVoB/D9BsZkFUHArKHQraDEBeHEXeDuFYVoB/D9NwZ9rqZ1rwHQBOHgrKVcFCH5XCHIF7DcBqZ1B/DSBeV5FaHgvCZSJGDWB3ZuXGHQXGDQFGHAveD5BOHuzGVcBUDuFGVoFGHQFYH9FaHIBeZMBODEvsZSJGDWr/DoB/D9XsZSFGD1NKV5JwHuzGDkBOH5FqVoX7D9JmZ1FaHArKZMB/DMBYZSXeDWX7DoXGDcBwDuBOZ1NaV5FGHuNOVcFKHEFYVoBqDcBwH9FaD1rwD5rqDMNKZSXeDuJeDoB/D9NwZSFGD1veV5raDMNOVcFeDWFYHIXGHQXOH9BOD1rKHuJeHgNOHEFKV5FqHMFaHQXsDQB/D1BOV5JeDMzGZSNiDWrmVEF7HQJmZ1F7Z1vmD5rqDEBOHArCDWF/HIrqDcJeDuFaZ1N7V5FUDMvmVcB/DuX7DoJeD9XGZ1X7D1rKHuB/HgrKZSJqDWFqHIJsD9XsZ9JeD1BeD5F7DMvmVcFiV5X7VoBqDcBqZ1B/HIrwV5FaDEBOVkXeH5F/DoraD9NwH9FUZ1rwD5XGHgrKVcFCH5FqVENUDcBqZ1B/Z1BeD5BiDMBYHEXeDuFYVoBODcJeDQFGDSN7D5JwHuNOVcBODWFaVoJwDcBqZ1FaHAN7V5FaDMBYHAFKV5XCDoBOD9JKDQJwHAveHuFaHuNOZSrCH5FqDoXGHQJmZ1FGHArKV5FUDMrYZSXeV5FqHIJsHQJeDQB/D1vOV5BODMrYDkB/HEFYHIBiDcJUZ1F7HAvmD5XGDEBeVkXeH5X/ZuBOHQJKDQJsZ1vCV5FGHuNOV9FeDWXCVorqDcJUZ1BOZ1BeD5F7DErKVkXeV5FaVoBiD9FYH9X7HABYHuFaHuNOZSrCH5FqDoXGHQJmZ1BiHAvCD5BqHgveDkXKDWrGDoBOHQXODuBqHAvmVWXGDMvmVcFKV5BmVoBqD9BsZkFGHAvsD5XGDMveHEJGDWX7HIXGHQJeDQJwD1veV5JwHgrwDkBOV5FYHMBiD9BsVIraD1rwV5X7HgBeHErCH5FYDoraD9NwH9X7HIBeV5JwHuzGZSJ3DWXCHMFUD9BsZ1F7HAN7V5FaDErKVkJGH5F/DoB/DcJUDQJsD1veV5FUHgNKVcXKH5FqDoFGD9BsZ1rqHANOD5NUDMrYHErCV5FqVoB/D9XsDQJsZ1NaV5BiDMzGZSB/HEF/DoJsD9JmZ1B/Z1BeD5XGHgBeHEFiV5B3DoF7D9XsDuFaHANKVWBqDMrwZSNiDWB3VEB/";
       $this->prep_conect();
+      if (isset($_SESSION['sc_session'][$this->sc_page]['calendar_gestao_alfazema_area']['initialize']) && $_SESSION['sc_session'][$this->sc_page]['calendar_gestao_alfazema_area']['initialize'])  
+      { 
+      }
+   }
+
+   function init2()
+   {
+      if (isset($_SESSION['sc_session'][$this->sc_page]['calendar_gestao_alfazema_area']['initialize']) && $_SESSION['sc_session'][$this->sc_page]['calendar_gestao_alfazema_area']['initialize'])  
+      {
+          $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['initialize'] = false;
+      } 
       $this->conectDB();
       if (!in_array(strtolower($this->nm_tpbanco), $this->nm_bases_all))
       {
@@ -945,6 +956,13 @@ class calendar_gestao_alfazema_area_ini
       else
       {
           $perfil_trab = $con_devel;
+      }
+      if (!$_SESSION['sc_session'][$this->sc_page]['calendar_gestao_alfazema_area']['embutida_form'] || !$_SESSION['sc_session'][$this->sc_page]['calendar_gestao_alfazema_area']['embutida_proc']) 
+      {
+          if (!isset($_SESSION['usr_priv_admin'])) 
+          {
+              $this->nm_falta_var .= "usr_priv_admin; ";
+          }
       }
 // 
       if (!isset($_SESSION['scriptcase']['glo_tpbanco']))
@@ -1566,11 +1584,6 @@ ob_start();
             $qtdpessoas = NM_utf8_urldecode($_POST['rsargs'][0]);
             $script_case_init = NM_utf8_urldecode($_POST['rsargs'][1]);
         }
-        if ('ajax_calendar_gestao_alfazema_area_validate_data' == $_POST['rs'])
-        {
-            $data = NM_utf8_urldecode($_POST['rsargs'][0]);
-            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][1]);
-        }
         if ('ajax_calendar_gestao_alfazema_area_validate_horario_inic' == $_POST['rs'])
         {
             $horario_inic = NM_utf8_urldecode($_POST['rsargs'][0]);
@@ -1579,11 +1592,6 @@ ob_start();
         if ('ajax_calendar_gestao_alfazema_area_validate_horario_fim' == $_POST['rs'])
         {
             $horario_fim = NM_utf8_urldecode($_POST['rsargs'][0]);
-            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][1]);
-        }
-        if ('ajax_calendar_gestao_alfazema_area_validate___calend_all_day__' == $_POST['rs'])
-        {
-            $__calend_all_day__ = NM_utf8_urldecode($_POST['rsargs'][0]);
             $script_case_init = NM_utf8_urldecode($_POST['rsargs'][1]);
         }
         if ('ajax_calendar_gestao_alfazema_area_submit_form' == $_POST['rs'])
@@ -1596,18 +1604,16 @@ ob_start();
             $aptnum = NM_utf8_urldecode($_POST['rsargs'][5]);
             $aptbloco = NM_utf8_urldecode($_POST['rsargs'][6]);
             $qtdpessoas = NM_utf8_urldecode($_POST['rsargs'][7]);
-            $data = NM_utf8_urldecode($_POST['rsargs'][8]);
-            $horario_inic = NM_utf8_urldecode($_POST['rsargs'][9]);
-            $horario_fim = NM_utf8_urldecode($_POST['rsargs'][10]);
-            $__calend_all_day__ = NM_utf8_urldecode($_POST['rsargs'][11]);
-            $nm_form_submit = NM_utf8_urldecode($_POST['rsargs'][12]);
-            $nmgp_url_saida = NM_utf8_urldecode($_POST['rsargs'][13]);
-            $nmgp_opcao = NM_utf8_urldecode($_POST['rsargs'][14]);
-            $nmgp_ancora = NM_utf8_urldecode($_POST['rsargs'][15]);
-            $nmgp_num_form = NM_utf8_urldecode($_POST['rsargs'][16]);
-            $nmgp_parms = NM_utf8_urldecode($_POST['rsargs'][17]);
-            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][18]);
-            $csrf_token = NM_utf8_urldecode($_POST['rsargs'][19]);
+            $horario_inic = NM_utf8_urldecode($_POST['rsargs'][8]);
+            $horario_fim = NM_utf8_urldecode($_POST['rsargs'][9]);
+            $nm_form_submit = NM_utf8_urldecode($_POST['rsargs'][10]);
+            $nmgp_url_saida = NM_utf8_urldecode($_POST['rsargs'][11]);
+            $nmgp_opcao = NM_utf8_urldecode($_POST['rsargs'][12]);
+            $nmgp_ancora = NM_utf8_urldecode($_POST['rsargs'][13]);
+            $nmgp_num_form = NM_utf8_urldecode($_POST['rsargs'][14]);
+            $nmgp_parms = NM_utf8_urldecode($_POST['rsargs'][15]);
+            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][16]);
+            $csrf_token = NM_utf8_urldecode($_POST['rsargs'][17]);
         }
         if ('ajax_calendar_gestao_alfazema_area_navigate_form' == $_POST['rs'])
         {
@@ -1753,6 +1759,10 @@ ob_start();
                $$Tmp_par = $cadapar[1];
            }
            $ix++;
+        }
+        if (isset($usr_priv_admin)) 
+        {
+            $_SESSION['usr_priv_admin'] = $usr_priv_admin;
         }
     } 
     elseif (isset($script_case_init) && !empty($script_case_init) && !is_array($script_case_init) && isset($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['parms']))
@@ -1977,6 +1987,16 @@ ob_start();
         {
             $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['opcao'] = $nmgp_opcao ; 
         }
+        if (isset($_POST["usr_priv_admin"])) 
+        {
+            $_SESSION['usr_priv_admin'] = $_POST["usr_priv_admin"];
+            nm_limpa_str_calendar_gestao_alfazema_area($_SESSION['usr_priv_admin']);
+        }
+        if (isset($_GET["usr_priv_admin"])) 
+        {
+            $_SESSION['usr_priv_admin'] = $_GET["usr_priv_admin"];
+            nm_limpa_str_calendar_gestao_alfazema_area($_SESSION['usr_priv_admin']);
+        }
         if (!empty($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['volta_redirect_apl']))
         {
             $_SESSION['scriptcase']['sc_url_saida'][$script_case_init] = $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['volta_redirect_apl']; 
@@ -2075,7 +2095,6 @@ ob_start();
     $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['select_html'] = array();
     $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['select_html']['tipoarea'] = " onClick=\"\" ";
     $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['select_html']['aptbloco'] = " onClick=\"\" ";
-    $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['select_html']['__calend_all_day__'] = " onClick=\"sc___calend_all_day___onclick()\"";
 
     if (!defined('SC_SAJAX_LOADED'))
     {
@@ -2097,10 +2116,8 @@ ob_start();
     sajax_export("ajax_calendar_gestao_alfazema_area_validate_aptnum");
     sajax_export("ajax_calendar_gestao_alfazema_area_validate_aptbloco");
     sajax_export("ajax_calendar_gestao_alfazema_area_validate_qtdpessoas");
-    sajax_export("ajax_calendar_gestao_alfazema_area_validate_data");
     sajax_export("ajax_calendar_gestao_alfazema_area_validate_horario_inic");
     sajax_export("ajax_calendar_gestao_alfazema_area_validate_horario_fim");
-    sajax_export("ajax_calendar_gestao_alfazema_area_validate___calend_all_day__");
     sajax_export("ajax_calendar_gestao_alfazema_area_submit_form");
     sajax_export("ajax_calendar_gestao_alfazema_area_navigate_form");
     sajax_handle_client_request();
@@ -2279,25 +2296,6 @@ ob_start();
         exit;
     } // ajax_validate_qtdpessoas
 
-    function ajax_calendar_gestao_alfazema_area_validate_data($data, $script_case_init)
-    {
-        global $inicial_calendar_gestao_alfazema_area;
-        //register_shutdown_function("calendar_gestao_alfazema_area_pack_ajax_response");
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_flag          = true;
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_opcao         = 'validate_data';
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['param'] = array(
-                  'data' => NM_utf8_urldecode($data),
-                  'script_case_init' => NM_utf8_urldecode($script_case_init),
-                  'buffer_output' => true,
-                 );
-        if ($inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['param']['buffer_output'])
-        {
-            ob_start();
-        }
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->controle();
-        exit;
-    } // ajax_validate_data
-
     function ajax_calendar_gestao_alfazema_area_validate_horario_inic($horario_inic, $script_case_init)
     {
         global $inicial_calendar_gestao_alfazema_area;
@@ -2336,26 +2334,7 @@ ob_start();
         exit;
     } // ajax_validate_horario_fim
 
-    function ajax_calendar_gestao_alfazema_area_validate___calend_all_day__($__calend_all_day__, $script_case_init)
-    {
-        global $inicial_calendar_gestao_alfazema_area;
-        //register_shutdown_function("calendar_gestao_alfazema_area_pack_ajax_response");
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_flag          = true;
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_opcao         = 'validate___calend_all_day__';
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['param'] = array(
-                  '__calend_all_day__' => NM_utf8_urldecode($__calend_all_day__),
-                  'script_case_init' => NM_utf8_urldecode($script_case_init),
-                  'buffer_output' => true,
-                 );
-        if ($inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['param']['buffer_output'])
-        {
-            ob_start();
-        }
-        $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->controle();
-        exit;
-    } // ajax_validate___calend_all_day__
-
-    function ajax_calendar_gestao_alfazema_area_submit_form($tipoarea, $nome, $sobrenome, $fone, $email, $aptnum, $aptbloco, $qtdpessoas, $data, $horario_inic, $horario_fim, $__calend_all_day__, $nm_form_submit, $nmgp_url_saida, $nmgp_opcao, $nmgp_ancora, $nmgp_num_form, $nmgp_parms, $script_case_init, $csrf_token)
+    function ajax_calendar_gestao_alfazema_area_submit_form($tipoarea, $nome, $sobrenome, $fone, $email, $aptnum, $aptbloco, $qtdpessoas, $horario_inic, $horario_fim, $nm_form_submit, $nmgp_url_saida, $nmgp_opcao, $nmgp_ancora, $nmgp_num_form, $nmgp_parms, $script_case_init, $csrf_token)
     {
         global $inicial_calendar_gestao_alfazema_area;
         //register_shutdown_function("calendar_gestao_alfazema_area_pack_ajax_response");
@@ -2370,10 +2349,8 @@ ob_start();
                   'aptnum' => NM_utf8_urldecode($aptnum),
                   'aptbloco' => NM_utf8_urldecode($aptbloco),
                   'qtdpessoas' => NM_utf8_urldecode($qtdpessoas),
-                  'data' => NM_utf8_urldecode($data),
                   'horario_inic' => NM_utf8_urldecode($horario_inic),
                   'horario_fim' => NM_utf8_urldecode($horario_fim),
-                  '__calend_all_day__' => NM_utf8_urldecode($__calend_all_day__),
                   'nm_form_submit' => NM_utf8_urldecode($nm_form_submit),
                   'nmgp_url_saida' => NM_utf8_urldecode($nmgp_url_saida),
                   'nmgp_opcao' => NM_utf8_urldecode($nmgp_opcao),

@@ -288,8 +288,8 @@ class apl_form_add_users_mob_ini
       $this->nm_dt_criacao   = "20220216"; 
       $this->nm_hr_criacao   = "233813"; 
       $this->nm_autor_alt    = "admin"; 
-      $this->nm_dt_ult_alt   = ""; 
-      $this->nm_hr_ult_alt   = ""; 
+      $this->nm_dt_ult_alt   = "20220527"; 
+      $this->nm_hr_ult_alt   = "143040"; 
       list($NM_usec, $NM_sec) = explode(" ", microtime()); 
       $this->nm_timestamp    = (float) $NM_sec; 
       $this->nm_app_version  = "1.0.0"; 
@@ -868,7 +868,7 @@ class apl_form_add_users_mob_ini
       $this->nm_bases_odbc       = array("odbc");
       $this->nm_bases_progress   = array("progress", "pdo_progress_odbc");
       $this->nm_bases_all        = array_merge($this->nm_bases_access, $this->nm_bases_ibase, $this->nm_bases_mysql, $this->nm_bases_postgres, $this->nm_bases_sqlite, $this->nm_bases_sybase, $this->nm_bases_vfp, $this->nm_bases_odbc, $this->nm_bases_progress);
-      $_SESSION['scriptcase']['nm_bases_security']  = "enc_nm_enc_v1HQXsZSFUDSN7V5FUHuNOVIB/DWJeVoX7HQXGZkBiHAN7HQJwDEBODkFeH5FYVoFGHQJKDQBqHArYHQXGDMvsVIB/H5B3VEF7HQBsZ1BiHANOHuFUHgvCHArCV5XCHIJeHQFYDQFUDSN7HuF7DMrwV9FeHEFGVErqHQXOZ1FGHIveD5JwHgvCHEJqDuJeDoJsHQJKDQFUHAveHQFaHgNKDkBODuFqDoFGDcBqVIJwD1rwHQF7HgBYVkJqH5F/HIFGHQFYDQFUHABYHQXGDMrwV9BUDuFGVoX7DcFYZSBqDSvmZMB/HgvCHArCDWFqHMX7DcXGDuBqD1veHuX7DMrwV9FeDWFaHMBOHQBqZkBiHArYHQF7DMrYZSXeDuFYVoXGDcJeZ9rqD1BeHuFGDMvsVIBsDWF/HIF7HQXGZkFGHIBeHQF7HgvCHArCDuFYHMJeDcBiZ9XGHIrwHQFaDMrwV9FeH5XCHIJeDcNmZ1X7HIBeHuXGHgvCHArCDuFYHIX7HQNwZSFUHAveHQB/HgNKDkBODuFqDoFGDcBqVIJwD1rwD5JeDMBYZSJqV5FaDoBODcJeDQFGD1veD5BOHgrYDkBsH5B7VEBiHQFYH9BOHArKD5XGDEBOZSXeDuFaDoJeDcJeDQX7Z1zGV5BiDMNOVIBOHEFYDoJeDcJUZ1FaD1NaD5FaHgvsVkXeDWFqZuFaHQNmDQX7HArYD5B/HgrKV9FiV5X7VErqHQBqZkFUZ1rYD5BqDEBeHEBUDWBmZuBqHQBiZ9rqZ1rwVWXGHuBYDkFCDuX7VoX7D9BsH9B/Z1BeZMB/HgvCZSJGH5FYDoF7D9NwH9X7DSBYV5JeHuBYVcFKH5FqVoB/D9XOH9B/D1zGD5FaDMrYZSXeDuFYVoXGDcJeZ9rqD1BeV5BqHgvsDkB/V5X7DoX7D9BsH9FaD1rwZMB/DMNKZSJ3H5F/HIFUHQFYZSBiDSrwHQNUDMBYDkB/DWB3DoXGHQXOZSBqD1rKHuX7HgveHErCHEB3DoJeHQXOZSBiHAveD5NUHgNKDkBOV5FYHMBiDcJUZSB/D1rwV5BqDMvCZSJqDWr/DorqHQFYZSFUHAN7HuFaHuNOZSrCH5FqDoXGHQJmZ1FUZ1BeD5NUDErKHEFiDuFYDoFUDcBwH9X7Z1rwV5BOHuNOVcB/V5X7VoB/DcJUZ1F7D1rKD5BiDEvsHEJGH5FYVoB/D9NwH9FGD1BeV5raHuNOVcBOV5X7VoBOHQFYZSFaHArKV5XGDErKHErCDWF/VoBiDcJUZSX7Z1BYHuFaDMvmVcFKV5BmVoBqD9BsZkFGHArKHQFGHgvsVkJGH5BmZuJeDcXGZ9XGD1BeD5XGHuBOVIBODuFGVoF7DcNmZ1BiD1rwHuXGHgNKHArCDuJeHIJsD9XsZ9JeD1BeD5F7DMvmVcrsDWXCDoraDcNwH9B/HAN7D5XGDEBOZSXeV5XCZuJsDcBwDuFaHAveD5NUHgNKDkBOV5FYHMBiHQNmVINUHAvsD5XGHgveDkXKDWBmDoJeHQBiDuBqHAN7HuFaHuNOZSrCH5FqDoXGHQJmZ1rqD1rwHQFUDEBOVkXeDuFYHMX7HQXsDQJwHIvsVWJsHuvmZSJqH5FqHMraHQBqZ1rqD1rKV5JeDENOVkJ3DWF/VoBiDcJUZSX7Z1BYHuFaDMvmDkBODWFaVoX7D9BsZ1F7Z1BeD5JeDMrYHErCDWX7VoX7DcJeH9X7HABYV5BOHuBYVcFKV5FGVoFaDcJUZ1F7HAzGD5raHgNOZSXeHEFqVoX7D9NmH9X7HAvOV5BiDMBYVcBODWFYDoJeD9BsVIJwHArKHuB/DuvmVkXeV5XCVoXGD9XsZSFGHANOHuFaHuNOZSrCH5FqDoXGHQJmZ1BiDSvOV5FUHgveHEBOV5JeZura";
+      $_SESSION['scriptcase']['nm_bases_security']  = "enc_nm_enc_v1D9NwH9BiHIBeD5XGHuBYVcrsDWB3VEX7D9BiZ1F7Z1vmZMFaHgvsZSJGDWFqHIJsD9XsZ9JeD1BeD5F7DMvmVcBUDWJeHMBiD9BsVIraD1rwV5X7HgBeHENiHEFqZuBqHQXOZSFUDSN7HuF7HuBOVIBOV5X7VoBqDcNmZ1FGHIveHuX7HgrKZSJGDWXCZuJsHQNmDQJsD1veHuFaHuNOZSrCH5FqDoXGHQJmZ1rqHArKV5FaDMNKZSXeDWr/DoJeD9XsZSX7Z1N7VWFaHgrKV9FeDWXCDoJsDcBwH9B/Z1rYHQJwHgvCZSXeDWX7DoBOD9XsDQB/Z1rwD5JeHuNODkFCDWJeDoXGDcNwH9B/HABYV5B/DMzGHENiV5FaZuB/D9NwZSX7HABYV5BOHuzGDkB/V5X7DoXGD9BsH9B/HAvCV5FUDErKHEFiDuJeDoBOHQJKDQJsZ1vCV5FGHuNOV9FeDWXCDoX7HQJmZSB/Z1BeV5JwHgvsVkXeH5FYZuJsHQXOH9BiHAveD5NUHgNKDkBOV5FYHMBiHQBiZkBiDSNOHuFUHgNKZSJ3H5BmZuBODcXGDQBOZ1BYHQBOHgvOVcXKDWFaVoBiHQJmVIJwZ1rYHuFaHgNKVkJ3DuJeHIrqDcBiZ9JeZ1BYHuBOHgvOVIBsDWFaHIBiHQXGZ1FUD1rwV5FGDEBeHEXeH5X/DoF7HQNwDQBqDSN7HQNUDMvmDkB/DWFaHMraHQBiZkFUZ1vOZMBOHgveVkJqDWXCHMFaHQXODQBOZ1BYHuraDMBOVIB/H5XKVENUHQXOZ1FUZ1rYHQJsHgrKHErsHEB7ZuB/HQNwDQBOD1BeD5rqHuvmVcBOH5B7VoBqHQXOZkBiDSNOHQraHgvsHEJqDWX7HIraHQNwDQBOZ1BYHQJeDMBYVIB/HEBmVEF7HQXGZ1FUZ1rYHQFUHgNOVkJqDuJeHIBqHQNmZ9JeZ1BYHQJeDMvmVIBsHEX7HIBiHQXGZkFUD1rwV5FGDEBeHEXeH5X/DoF7D9NwZSX7D1BeV5raHuzGVcFKDWFaVENUD9JmZ1X7Z1BeHQX7HgBYDkFeV5FaHMJsD9NwH9X7Z1rwD5XGHuzGVIBODWFaDoXGDcBwZ1FGHANOV5JeDEBOHEFiDWFqDoXGHQXGZSBiZ1N7D5JwHuBYVcFeV5FYVoB/D9JmH9B/D1zGD5FaDEvsDkXKHEB7VoFGD9NwDQJsHIrKV5JeDMrYZSJqH5B7VoraD9BiH9FaHIBeZMBODErKVkXeV5FaDoB/D9NmDQBOZ1rwV5BqHgvsDkFCDWJeDoFGD9XOZ1rqD1rKD5rqDMBYHEJGH5FYVoB/HQXGZ9rqD1BeD5rqHuvmVcBOH5B7VoBqD9XOH9B/D1rwD5BiDEBeHEFiV5FaDoXGD9NmDQB/Z1rwHuNUDMNOVcB/H5FqHIraDcFYZ1FGZ1BeHuJwHgvCHArCHEXCHIBiHQFYZ9F7HAveHQJsDMvOZSNiDuX7HMBiD9BsVIraD1rwV5X7HgBeHErsDWrGDoBOHQBiZ9XGHAvmV5JeDMrYV9BUDWrmVEF7HQJmZ1F7Z1vmD5rqDEBOHArCDWBmDoBOHQNmZSBiHAN7VWFaDMrYVcB/DWFaHMFUHQXOH9BOHIveV5X7HgBeHEFiV5B3DoF7D9XsDuFaHAveHuF7HgvsVcFCDWJeDoJeD9BsH9FaD1NaD5raHgBeHEXeDuFYDorqDcBwDQFGHANOVWJsHuNOZSJ3DWXCDoNUDcBqZkFUHArKHuX7DEBeHEXeDuFYZuBODcJeDuBOHAveHQXGHgrKVcBODuFqVoraDcBwZ1FGDSrKZMJwDEBOVkXeHEFqDoB/D9NwH9BiHAveD5NUHgNKDkBOV5FYHMBiHQBqZkFUZ1vmD5Bq";
       $this->prep_conect();
       if (isset($_SESSION['sc_session'][$this->sc_page]['apl_form_add_users_mob']['initialize']) && $_SESSION['sc_session'][$this->sc_page]['apl_form_add_users_mob']['initialize'])  
       { 
@@ -1749,6 +1749,11 @@ ob_start();
             $email = NM_utf8_urldecode($_POST['rsargs'][0]);
             $script_case_init = NM_utf8_urldecode($_POST['rsargs'][1]);
         }
+        if ('ajax_apl_form_add_users_mob_validate_priv_admin' == $_POST['rs'])
+        {
+            $priv_admin = NM_utf8_urldecode($_POST['rsargs'][0]);
+            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][1]);
+        }
         if ('ajax_apl_form_add_users_mob_submit_form' == $_POST['rs'])
         {
             $login = NM_utf8_urldecode($_POST['rsargs'][0]);
@@ -1756,14 +1761,15 @@ ob_start();
             $confirm_pswd = NM_utf8_urldecode($_POST['rsargs'][2]);
             $name = NM_utf8_urldecode($_POST['rsargs'][3]);
             $email = NM_utf8_urldecode($_POST['rsargs'][4]);
-            $nm_form_submit = NM_utf8_urldecode($_POST['rsargs'][5]);
-            $nmgp_url_saida = NM_utf8_urldecode($_POST['rsargs'][6]);
-            $nmgp_opcao = NM_utf8_urldecode($_POST['rsargs'][7]);
-            $nmgp_ancora = NM_utf8_urldecode($_POST['rsargs'][8]);
-            $nmgp_num_form = NM_utf8_urldecode($_POST['rsargs'][9]);
-            $nmgp_parms = NM_utf8_urldecode($_POST['rsargs'][10]);
-            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][11]);
-            $csrf_token = NM_utf8_urldecode($_POST['rsargs'][12]);
+            $priv_admin = NM_utf8_urldecode($_POST['rsargs'][5]);
+            $nm_form_submit = NM_utf8_urldecode($_POST['rsargs'][6]);
+            $nmgp_url_saida = NM_utf8_urldecode($_POST['rsargs'][7]);
+            $nmgp_opcao = NM_utf8_urldecode($_POST['rsargs'][8]);
+            $nmgp_ancora = NM_utf8_urldecode($_POST['rsargs'][9]);
+            $nmgp_num_form = NM_utf8_urldecode($_POST['rsargs'][10]);
+            $nmgp_parms = NM_utf8_urldecode($_POST['rsargs'][11]);
+            $script_case_init = NM_utf8_urldecode($_POST['rsargs'][12]);
+            $csrf_token = NM_utf8_urldecode($_POST['rsargs'][13]);
         }
         if ('ajax_apl_form_add_users_mob_navigate_form' == $_POST['rs'])
         {
@@ -2219,6 +2225,9 @@ ob_start();
     $inicial_apl_form_add_users_mob = new apl_form_add_users_mob_edit();
     $inicial_apl_form_add_users_mob->inicializa();
 
+    $inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->NM_ajax_info['select_html'] = array();
+    $inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->NM_ajax_info['select_html']['priv_admin'] = " onClick=\"\" ";
+
     if (!defined('SC_SAJAX_LOADED'))
     {
         include_once(dirname(__FILE__) . '/apl_form_add_users_mob_sajax.php');
@@ -2236,6 +2245,7 @@ ob_start();
     sajax_export("ajax_apl_form_add_users_mob_validate_confirm_pswd");
     sajax_export("ajax_apl_form_add_users_mob_validate_name");
     sajax_export("ajax_apl_form_add_users_mob_validate_email");
+    sajax_export("ajax_apl_form_add_users_mob_validate_priv_admin");
     sajax_export("ajax_apl_form_add_users_mob_submit_form");
     sajax_export("ajax_apl_form_add_users_mob_navigate_form");
     sajax_handle_client_request();
@@ -2357,7 +2367,26 @@ ob_start();
         exit;
     } // ajax_validate_email
 
-    function ajax_apl_form_add_users_mob_submit_form($login, $pswd, $confirm_pswd, $name, $email, $nm_form_submit, $nmgp_url_saida, $nmgp_opcao, $nmgp_ancora, $nmgp_num_form, $nmgp_parms, $script_case_init, $csrf_token)
+    function ajax_apl_form_add_users_mob_validate_priv_admin($priv_admin, $script_case_init)
+    {
+        global $inicial_apl_form_add_users_mob;
+        //register_shutdown_function("apl_form_add_users_mob_pack_ajax_response");
+        $inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->NM_ajax_flag          = true;
+        $inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->NM_ajax_opcao         = 'validate_priv_admin';
+        $inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->NM_ajax_info['param'] = array(
+                  'priv_admin' => NM_utf8_urldecode($priv_admin),
+                  'script_case_init' => NM_utf8_urldecode($script_case_init),
+                  'buffer_output' => true,
+                 );
+        if ($inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->NM_ajax_info['param']['buffer_output'])
+        {
+            ob_start();
+        }
+        $inicial_apl_form_add_users_mob->contr_apl_form_add_users_mob->controle();
+        exit;
+    } // ajax_validate_priv_admin
+
+    function ajax_apl_form_add_users_mob_submit_form($login, $pswd, $confirm_pswd, $name, $email, $priv_admin, $nm_form_submit, $nmgp_url_saida, $nmgp_opcao, $nmgp_ancora, $nmgp_num_form, $nmgp_parms, $script_case_init, $csrf_token)
     {
         global $inicial_apl_form_add_users_mob;
         //register_shutdown_function("apl_form_add_users_mob_pack_ajax_response");
@@ -2369,6 +2398,7 @@ ob_start();
                   'confirm_pswd' => NM_utf8_urldecode($confirm_pswd),
                   'name' => NM_utf8_urldecode($name),
                   'email' => NM_utf8_urldecode($email),
+                  'priv_admin' => NM_utf8_urldecode($priv_admin),
                   'nm_form_submit' => NM_utf8_urldecode($nm_form_submit),
                   'nmgp_url_saida' => NM_utf8_urldecode($nmgp_url_saida),
                   'nmgp_opcao' => NM_utf8_urldecode($nmgp_opcao),

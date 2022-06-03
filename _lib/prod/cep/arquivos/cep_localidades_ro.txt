@@ -1,0 +1,89 @@
+RO@nm@Abunã@nm@76843000@nm@@nm@-9.6949760@nm@-65.3566402@nm@
+RO@nm@Alta Floresta D'Oeste@nm@76954000@nm@@nm@-11.9287293@nm@-61.9958651@nm@
+RO@nm@Alto Alegre dos Parecis@nm@76952000@nm@@nm@-12.1326079@nm@-61.8566786@nm@
+RO@nm@Alto Paraíso@nm@76862000@nm@@nm@-9.7205134@nm@-63.3188037@nm@
+RO@nm@Alvorada D'Oeste@nm@76930000@nm@@nm@-11.3480881@nm@-62.2877700@nm@
+RO@nm@Ariquemes@nm@@nm@@nm@@nm@@nm@
+RO@nm@Boa Vista de Pacarana@nm@76975810@nm@@nm@-11.5057341@nm@-63.5806110@nm@
+RO@nm@Bom Futuro@nm@76879400@nm@@nm@-9.9061054@nm@-63.0330413@nm@
+RO@nm@Bom Jesus@nm@76897880@nm@@nm@-10.3538465@nm@-62.2630958@nm@
+RO@nm@Buritis@nm@76880000@nm@@nm@-10.1946663@nm@-63.8329681@nm@
+RO@nm@Cabixi@nm@76994000@nm@@nm@-13.4946629@nm@-60.5425293@nm@
+RO@nm@Cacaulândia@nm@76889000@nm@@nm@-10.3419313@nm@-62.9000387@nm@
+RO@nm@Cacoal@nm@@nm@@nm@@nm@@nm@
+RO@nm@Calama@nm@76837000@nm@@nm@-8.0244088@nm@-62.8666467@nm@
+RO@nm@Campo Novo de Rondônia@nm@76887000@nm@@nm@-10.5852032@nm@-63.6042365@nm@
+RO@nm@Candeias do Jamari@nm@76860000@nm@@nm@-8.8098460@nm@-63.6965502@nm@
+RO@nm@Castanheiras@nm@76948000@nm@@nm@-11.4139054@nm@-61.9432368@nm@
+RO@nm@Cerejeiras@nm@76997000@nm@@nm@-13.1873987@nm@-60.8173549@nm@
+RO@nm@Chupinguaia@nm@76990000@nm@@nm@-12.5558272@nm@-60.9029749@nm@
+RO@nm@Colorado do Oeste@nm@76993000@nm@@nm@-13.1178429@nm@-60.5459451@nm@
+RO@nm@Corumbiara@nm@76995000@nm@@nm@-12.9986114@nm@-60.9460291@nm@
+RO@nm@Costa Marques@nm@76937000@nm@@nm@-12.4380274@nm@-64.2266862@nm@
+RO@nm@Cujubim@nm@76864000@nm@@nm@-9.3610478@nm@-62.5851010@nm@
+RO@nm@Demarcação@nm@76839000@nm@@nm@-8.1562974@nm@-62.7736204@nm@
+RO@nm@Espigão do Oeste@nm@76974000@nm@@nm@-11.5323149@nm@-61.0169967@nm@
+RO@nm@Extrema@nm@76847000@nm@@nm@-9.7710952@nm@-66.3560451@nm@
+RO@nm@Fortaleza do Abunã@nm@76845000@nm@@nm@-9.7747700@nm@-65.5170401@nm@
+RO@nm@Governador Jorge Teixeira@nm@76898000@nm@@nm@-10.5272066@nm@-62.6460762@nm@
+RO@nm@Guajará-Mirim@nm@76850000@nm@@nm@-10.7893210@nm@-65.3301049@nm@
+RO@nm@Guaporé@nm@76992000@nm@@nm@-12.5558272@nm@-60.9029749@nm@
+RO@nm@Industrial@nm@76835500@nm@@nm@-8.7392736@nm@-63.8847376@nm@
+RO@nm@Itapuã do Oeste@nm@76861000@nm@@nm@-9.1884652@nm@-63.1856724@nm@
+RO@nm@Jaci Paraná@nm@76840000@nm@@nm@-9.2654178@nm@-64.4008246@nm@
+RO@nm@Jaru@nm@76890000@nm@@nm@-10.4322235@nm@-62.4792921@nm@
+RO@nm@Ji-Paraná@nm@@nm@@nm@@nm@@nm@
+RO@nm@Machadinho D'Oeste@nm@76868000@nm@@nm@-9.4440231@nm@-61.9823198@nm@
+RO@nm@Marco Rondon@nm@76973000@nm@@nm@-12.0125048@nm@-60.8644428@nm@
+RO@nm@Ministro Andreazza@nm@76919000@nm@@nm@-11.0766579@nm@-61.5097380@nm@
+RO@nm@Mirante da Serra@nm@76926000@nm@@nm@-11.0289123@nm@-62.6714775@nm@
+RO@nm@Monte Negro@nm@76888000@nm@@nm@-10.2615840@nm@-63.2975998@nm@
+RO@nm@Mutum Paraná@nm@76842000@nm@@nm@-9.6155833@nm@-64.9466020@nm@
+RO@nm@Nazaré@nm@76836000@nm@@nm@-9.3652070@nm@-64.3788990@nm@
+RO@nm@Nova Brasilândia D'Oeste@nm@76958000@nm@@nm@-11.7250830@nm@-62.3131895@nm@
+RO@nm@Nova Califórnia@nm@76848000@nm@@nm@-8.7611605@nm@-63.9004303@nm@
+RO@nm@Nova Colina@nm@76915000@nm@@nm@-10.7917103@nm@-61.6931139@nm@
+RO@nm@Nova Conquista@nm@76989000@nm@@nm@-12.7505942@nm@-60.1493610@nm@
+RO@nm@Nova Dimensão@nm@76858001@nm@@nm@-10.3658335@nm@-64.8062648@nm@
+RO@nm@Nova Esperança@nm@76975820@nm@@nm@-11.5057341@nm@-63.5806110@nm@
+RO@nm@Nova Londrina@nm@76915500@nm@@nm@-11.0646554@nm@-62.0100295@nm@
+RO@nm@Nova Mamoré@nm@76857000@nm@@nm@-10.4106678@nm@-65.3305618@nm@
+RO@nm@Nova União@nm@76924000@nm@@nm@-10.9147652@nm@-62.5575760@nm@
+RO@nm@Nova Vida@nm@76879000@nm@@nm@-9.9061054@nm@-63.0330413@nm@
+RO@nm@Novo Horizonte do Oeste@nm@76956000@nm@@nm@-11.6965484@nm@-61.9956597@nm@
+RO@nm@Ouro Preto do Oeste@nm@76920000@nm@@nm@-10.7171160@nm@-62.2570544@nm@
+RO@nm@Palmeiras@nm@76859000@nm@@nm@-10.4106678@nm@-65.3305618@nm@
+RO@nm@Parecis@nm@76979000@nm@@nm@-12.1937092@nm@-61.6006124@nm@
+RO@nm@Pedras Negras@nm@76936000@nm@@nm@-12.8413061@nm@-62.8889919@nm@
+RO@nm@Pimenta Bueno@nm@76970000@nm@@nm@-11.6723638@nm@-61.1984811@nm@
+RO@nm@Pimenteiras do Oeste@nm@76999000@nm@@nm@-13.4826834@nm@-61.0475728@nm@
+RO@nm@Porto Velho@nm@@nm@@nm@@nm@@nm@
+RO@nm@Presidente Médici@nm@76916000@nm@@nm@-11.1693755@nm@-61.8991382@nm@
+RO@nm@Primavera de Rondônia@nm@76976000@nm@@nm@-11.8298612@nm@-61.3158550@nm@
+RO@nm@Príncipe da Beira@nm@76939000@nm@@nm@-12.4242086@nm@-64.4132233@nm@
+RO@nm@Rio Crespo@nm@76863000@nm@@nm@-9.7000418@nm@-62.9016513@nm@
+RO@nm@Riozinho@nm@76969000@nm@@nm@-11.4998038@nm@-61.3613177@nm@
+RO@nm@Rolim de Moura@nm@76940000@nm@@nm@-11.7256983@nm@-61.7781409@nm@
+RO@nm@Santa Cruz@nm@76897870@nm@@nm@-10.4322235@nm@-62.4792921@nm@
+RO@nm@Santa Luzia D'Oeste@nm@76950000@nm@@nm@-11.9077667@nm@-61.7782068@nm@
+RO@nm@São Carlos@nm@76835000@nm@@nm@-9.0713610@nm@-64.0967639@nm@
+RO@nm@São Felipe D'Oeste@nm@76977000@nm@@nm@-11.9026632@nm@-61.5031433@nm@
+RO@nm@São Francisco do Guaporé@nm@76935000@nm@@nm@-12.0600752@nm@-63.5691858@nm@
+RO@nm@São Miguel do Guaporé@nm@76932000@nm@@nm@-11.6956721@nm@-62.7197487@nm@
+RO@nm@Seringueiras@nm@76934000@nm@@nm@-11.7654562@nm@-63.0314060@nm@
+RO@nm@Tabajara@nm@76869000@nm@@nm@-8.9385328@nm@-62.0577305@nm@
+RO@nm@Tarilândia@nm@76897890@nm@@nm@-10.8578366@nm@-62.7991390@nm@
+RO@nm@Teixeirópolis@nm@76928000@nm@@nm@-10.9327023@nm@-62.2546668@nm@
+RO@nm@Terra Indígena Massaco@nm@76955810@nm@@nm@-12.5706031@nm@-62.6348531@nm@
+RO@nm@Terra Indígena Rio Branco@nm@76955820@nm@@nm@-12.1800980@nm@-62.5887343@nm@
+RO@nm@Terra Indígena Rio Omerê@nm@76992810@nm@@nm@-@nm@-@nm@
+RO@nm@Terra Indígena Tanaru@nm@76992820@nm@@nm@-12.5820089@nm@-61.1341171@nm@
+RO@nm@Terra Indígena Uru-Eu-Wau-Wau@nm@76931810@nm@@nm@-11.5057341@nm@-63.5806110@nm@
+RO@nm@Theobroma@nm@76866000@nm@@nm@-10.2318448@nm@-62.3451641@nm@
+RO@nm@Triunfo@nm@76860890@nm@@nm@-8.8098460@nm@-63.6965502@nm@
+RO@nm@União Bandeirante@nm@76841000@nm@@nm@-8.7611605@nm@-63.9004303@nm@
+RO@nm@Urupá@nm@76929000@nm@@nm@-11.1242915@nm@-62.3635277@nm@
+RO@nm@Vale do Anari@nm@76867000@nm@@nm@-9.8574613@nm@-62.1757396@nm@
+RO@nm@Vale do Paraíso@nm@76923000@nm@@nm@-10.4330450@nm@-62.1312982@nm@
+RO@nm@Vilhena@nm@@nm@@nm@@nm@@nm@
+RO@nm@Vista Alegre do Abunã@nm@76846000@nm@@nm@-9.6607782@nm@-65.7386621@nm@

@@ -59,10 +59,8 @@ function scEventControl_init(iSeqRow) {
   scEventControl_data["aptnum" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["aptbloco" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["qtdpessoas" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
-  scEventControl_data["data" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["horario_inic" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["horario_fim" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
-  scEventControl_data["__calend_all_day__" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
 }
 
 function scEventControl_active(iSeqRow) {
@@ -114,12 +112,6 @@ function scEventControl_active(iSeqRow) {
   if (scEventControl_data["qtdpessoas" + iSeqRow]["change"]) {
     return true;
   }
-  if (scEventControl_data["data" + iSeqRow]["blur"]) {
-    return true;
-  }
-  if (scEventControl_data["data" + iSeqRow]["change"]) {
-    return true;
-  }
   if (scEventControl_data["horario_inic" + iSeqRow]["blur"]) {
     return true;
   }
@@ -130,12 +122,6 @@ function scEventControl_active(iSeqRow) {
     return true;
   }
   if (scEventControl_data["horario_fim" + iSeqRow]["change"]) {
-    return true;
-  }
-  if (scEventControl_data["__calend_all_day__" + iSeqRow]["blur"]) {
-    return true;
-  }
-  if (scEventControl_data["__calend_all_day__" + iSeqRow]["change"]) {
     return true;
   }
   return false;
@@ -183,17 +169,12 @@ function scJQEventsAdd(iSeqRow) {
                                           .bind('focus', function() { sc_calendar_gestao_alfazema_area_horario_inic_onfocus(this, iSeqRow) });
   $('#id_sc_field_horario_fim' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_horario_fim_onblur(this, iSeqRow) })
                                          .bind('focus', function() { sc_calendar_gestao_alfazema_area_horario_fim_onfocus(this, iSeqRow) });
-  $('#id_sc_field_data' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_data_onblur(this, iSeqRow) })
-                                  .bind('focus', function() { sc_calendar_gestao_alfazema_area_data_onfocus(this, iSeqRow) });
   $('#id_sc_field_aptnum' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_aptnum_onblur(this, iSeqRow) })
                                     .bind('focus', function() { sc_calendar_gestao_alfazema_area_aptnum_onfocus(this, iSeqRow) });
   $('#id_sc_field_aptbloco' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_aptbloco_onblur(this, iSeqRow) })
                                       .bind('focus', function() { sc_calendar_gestao_alfazema_area_aptbloco_onfocus(this, iSeqRow) });
   $('#id_sc_field_qtdpessoas' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_qtdpessoas_onblur(this, iSeqRow) })
                                         .bind('focus', function() { sc_calendar_gestao_alfazema_area_qtdpessoas_onfocus(this, iSeqRow) });
-  $('#id_sc_field___calend_all_day__' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area___calend_all_day___onblur(this, iSeqRow) })
-                                                .bind('click', function() { sc_calendar_gestao_alfazema_area___calend_all_day___onclick(this, iSeqRow) })
-                                                .bind('focus', function() { sc_calendar_gestao_alfazema_area___calend_all_day___onfocus(this, iSeqRow) });
   $('.sc-ui-radio-tipoarea' + iSeqRow).on('click', function() { scMarkFormAsChanged(); });
   $('.sc-ui-radio-aptbloco' + iSeqRow).on('click', function() { scMarkFormAsChanged(); });
   $('.sc-ui-checkbox-__calend_all_day__' + iSeqRow).on('click', function() { scMarkFormAsChanged(); });
@@ -269,16 +250,6 @@ function sc_calendar_gestao_alfazema_area_horario_fim_onfocus(oThis, iSeqRow) {
   scCssFocus(oThis);
 }
 
-function sc_calendar_gestao_alfazema_area_data_onblur(oThis, iSeqRow) {
-  do_ajax_calendar_gestao_alfazema_area_mob_validate_data();
-  scCssBlur(oThis);
-}
-
-function sc_calendar_gestao_alfazema_area_data_onfocus(oThis, iSeqRow) {
-  scEventControl_onFocus(oThis, iSeqRow);
-  scCssFocus(oThis);
-}
-
 function sc_calendar_gestao_alfazema_area_aptnum_onblur(oThis, iSeqRow) {
   do_ajax_calendar_gestao_alfazema_area_mob_validate_aptnum();
   scCssBlur(oThis);
@@ -309,20 +280,6 @@ function sc_calendar_gestao_alfazema_area_qtdpessoas_onfocus(oThis, iSeqRow) {
   scCssFocus(oThis);
 }
 
-function sc_calendar_gestao_alfazema_area___calend_all_day___onblur(oThis, iSeqRow) {
-  do_ajax_calendar_gestao_alfazema_area_mob_validate___calend_all_day__();
-  scCssBlur(oThis);
-}
-
-function sc_calendar_gestao_alfazema_area___calend_all_day___onclick(oThis, iSeqRow) {
-  sc___calend_all_day___onclick();
-}
-
-function sc_calendar_gestao_alfazema_area___calend_all_day___onfocus(oThis, iSeqRow) {
-  scEventControl_onFocus(oThis, iSeqRow);
-  scCssFocus(oThis);
-}
-
 function displayChange_block(block, status) {
 	if ("0" == block) {
 		displayChange_block_0(status);
@@ -344,10 +301,8 @@ function displayChange_block_0(status) {
 }
 
 function displayChange_block_1(status) {
-	displayChange_field("data", "", status);
 	displayChange_field("horario_inic", "", status);
 	displayChange_field("horario_fim", "", status);
-	displayChange_field("__calend_all_day__", "", status);
 }
 
 function displayChange_row(row, status) {
@@ -359,10 +314,8 @@ function displayChange_row(row, status) {
 	displayChange_field_aptnum(row, status);
 	displayChange_field_aptbloco(row, status);
 	displayChange_field_qtdpessoas(row, status);
-	displayChange_field_data(row, status);
 	displayChange_field_horario_inic(row, status);
 	displayChange_field_horario_fim(row, status);
-	displayChange_field___calend_all_day__(row, status);
 }
 
 function displayChange_field(field, row, status) {
@@ -390,17 +343,11 @@ function displayChange_field(field, row, status) {
 	if ("qtdpessoas" == field) {
 		displayChange_field_qtdpessoas(row, status);
 	}
-	if ("data" == field) {
-		displayChange_field_data(row, status);
-	}
 	if ("horario_inic" == field) {
 		displayChange_field_horario_inic(row, status);
 	}
 	if ("horario_fim" == field) {
 		displayChange_field_horario_fim(row, status);
-	}
-	if ("__calend_all_day__" == field) {
-		displayChange_field___calend_all_day__(row, status);
 	}
 }
 
@@ -428,16 +375,10 @@ function displayChange_field_aptbloco(row, status) {
 function displayChange_field_qtdpessoas(row, status) {
 }
 
-function displayChange_field_data(row, status) {
-}
-
 function displayChange_field_horario_inic(row, status) {
 }
 
 function displayChange_field_horario_fim(row, status) {
-}
-
-function displayChange_field___calend_all_day__(row, status) {
 }
 
 function scRecreateSelect2() {

@@ -325,15 +325,15 @@ class apl_grid_sec_users_xls
       $nmgp_select_count = "SELECT count(*) AS countTest from " . $this->Ini->nm_tabela; 
       if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       else 
       { 
-          $nmgp_select = "SELECT login, name, email, active from " . $this->Ini->nm_tabela; 
+          $nmgp_select = "SELECT login, name, email, active, priv_admin from " . $this->Ini->nm_tabela; 
       } 
       $nmgp_select .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
       $nmgp_select_count .= " " . $_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['where_pesq'];
@@ -366,6 +366,7 @@ class apl_grid_sec_users_xls
          $this->name = $rs->fields[1] ;  
          $this->email = $rs->fields[2] ;  
          $this->active = $rs->fields[3] ;  
+         $this->priv_admin = $rs->fields[4] ;  
      if ($this->groupby_show == "S") {
          if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['embutida'])
          { 
@@ -681,6 +682,34 @@ class apl_grid_sec_users_xls
               }
               $this->Xls_col++;
           }
+          $SC_Label = (isset($this->New_label['priv_admin'])) ? $this->New_label['priv_admin'] : ""; 
+          if ($Cada_col == "priv_admin" && (!isset($this->NM_cmp_hidden[$Cada_col]) || $this->NM_cmp_hidden[$Cada_col] != "off"))
+          {
+              $this->count_span++;
+              $current_cell_ref = $this->calc_cell($this->Xls_col);
+              $SC_Label = NM_charset_to_utf8($SC_Label);
+              if ($_SESSION['sc_session'][$this->Ini->sc_page]['apl_grid_sec_users']['embutida'])
+              { 
+                  $this->arr_export['label'][$this->Xls_col]['data']     = $SC_Label;
+                  $this->arr_export['label'][$this->Xls_col]['align']    = "left";
+                  $this->arr_export['label'][$this->Xls_col]['autosize'] = "s";
+                  $this->arr_export['label'][$this->Xls_col]['bold']     = "s";
+              }
+              else
+              { 
+                  if ($this->Use_phpspreadsheet) {
+                      $this->Nm_ActiveSheet->getStyle($current_cell_ref . $this->Xls_row)->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_LEFT);
+                      $this->Nm_ActiveSheet->setCellValueExplicit($current_cell_ref . $this->Xls_row, $SC_Label, \PhpOffice\PhpSpreadsheet\Cell\DataType::TYPE_STRING);
+                  }
+                  else {
+                      $this->Nm_ActiveSheet->getStyle($current_cell_ref . $this->Xls_row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+                      $this->Nm_ActiveSheet->setCellValueExplicit($current_cell_ref . $this->Xls_row, $SC_Label, PHPExcel_Cell_DataType::TYPE_STRING);
+                  }
+                  $this->Nm_ActiveSheet->getStyle($current_cell_ref . $this->Xls_row)->getFont()->setBold(true);
+                  $this->Nm_ActiveSheet->getColumnDimension($current_cell_ref)->setAutoSize(true);
+              }
+              $this->Xls_col++;
+          }
       } 
       $this->Xls_col = 0;
       $this->Xls_row++;
@@ -765,6 +794,26 @@ class apl_grid_sec_users_xls
          }
          $this->Xls_col++;
    }
+   //----- priv_admin
+   function NM_export_priv_admin()
+   {
+         $current_cell_ref = $this->calc_cell($this->Xls_col);
+         if (!isset($this->NM_ctrl_style[$current_cell_ref])) {
+             $this->NM_ctrl_style[$current_cell_ref]['ini'] = $this->Xls_row;
+             $this->NM_ctrl_style[$current_cell_ref]['align'] = "LEFT"; 
+         }
+         $this->NM_ctrl_style[$current_cell_ref]['end'] = $this->Xls_row;
+         $this->priv_admin = html_entity_decode($this->priv_admin, ENT_COMPAT, $_SESSION['scriptcase']['charset']);
+         $this->priv_admin = strip_tags($this->priv_admin);
+         $this->priv_admin = NM_charset_to_utf8($this->priv_admin);
+         if ($this->Use_phpspreadsheet) {
+             $this->Nm_ActiveSheet->setCellValueExplicit($current_cell_ref . $this->Xls_row, $this->priv_admin, \PhpOffice\PhpSpreadsheet\Cell\DataType::TYPE_STRING);
+         }
+         else {
+             $this->Nm_ActiveSheet->setCellValueExplicit($current_cell_ref . $this->Xls_row, $this->priv_admin, PHPExcel_Cell_DataType::TYPE_STRING);
+         }
+         $this->Xls_col++;
+   }
    //----- login
    function NM_sub_cons_login()
    {
@@ -809,6 +858,18 @@ class apl_grid_sec_users_xls
          $this->look_active = NM_charset_to_utf8($this->look_active);
          $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['data']   = $this->look_active;
          $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['align']  = "";
+         $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['type']   = "char";
+         $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['format'] = "";
+         $this->Xls_col++;
+   }
+   //----- priv_admin
+   function NM_sub_cons_priv_admin()
+   {
+         $this->priv_admin = html_entity_decode($this->priv_admin, ENT_COMPAT, $_SESSION['scriptcase']['charset']);
+         $this->priv_admin = strip_tags($this->priv_admin);
+         $this->priv_admin = NM_charset_to_utf8($this->priv_admin);
+         $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['data']   = $this->priv_admin;
+         $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['align']  = "left";
          $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['type']   = "char";
          $this->arr_export['lines'][$this->Xls_row][$this->Xls_col]['format'] = "";
          $this->Xls_col++;

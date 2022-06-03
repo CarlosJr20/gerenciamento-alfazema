@@ -1,0 +1,142 @@
+Aguaí@nm@0@nm@
+Agudos@nm@72281@nm@
+Americana@nm@141910@nm@
+Américo Brasiliense@nm@450111@nm@
+Amparo@nm@506651@nm@
+Andradina@nm@617681@nm@
+Araçatuba@nm@704970@nm@
+Araraquara@nm@1023455@nm@
+Araras@nm@1462954@nm@
+Artur Nogueira@nm@1675087@nm@
+Arujá@nm@1822857@nm@
+Assis@nm@1932271@nm@
+Atibaia@nm@2074194@nm@
+Avaré@nm@2397479@nm@
+Barretos@nm@2576016@nm@
+Barueri@nm@2748861@nm@
+Batatais@nm@2948362@nm@
+Bauru@nm@3098479@nm@
+Bebedouro@nm@3641151@nm@
+Bertioga@nm@3792952@nm@
+Birigüi@nm@3952257@nm@
+Botucatu@nm@4151477@nm@
+Bragança Paulista@nm@4423388@nm@
+Caçapava@nm@4721949@nm@
+Caieiras@nm@4901934@nm@
+Cajamar@nm@5006938@nm@
+Campinas@nm@5124606@nm@
+Campo Limpo Paulista@nm@6501083@nm@
+Canitar@nm@6626707@nm@
+Capão Bonito@nm@6637523@nm@
+Caraguatatuba@nm@6720280@nm@
+Carapicuíba@nm@6992140@nm@
+Catanduva@nm@7241352@nm@
+Cerqueira César@nm@7419380@nm@
+Chavantes@nm@7458253@nm@
+Cosmópolis@nm@7486995@nm@
+Cotia@nm@7577624@nm@
+Cruzeiro@nm@7855002@nm@
+Cubatão@nm@7958226@nm@
+Diadema@nm@8035366@nm@
+Embu das Artes@nm@8292472@nm@
+Engenheiro Coelho@nm@8510237@nm@
+Espírito Santo do Turvo@nm@8531864@nm@
+Fernandópolis@nm@8540105@nm@
+Ferraz de Vasconcelos@nm@8761614@nm@
+Franca@nm@8902634@nm@
+Francisco Morato@nm@9306474@nm@
+Franco da Rocha@nm@9442301@nm@
+Guaratinguetá@nm@9597762@nm@
+Guarujá@nm@9797408@nm@
+Guarulhos@nm@10064835@nm@
+Hortolândia@nm@10966074@nm@
+Ibitinga@nm@11213673@nm@
+Indaiatuba@nm@11343791@nm@
+Itaí@nm@11693693@nm@
+Itapecerica da Serra@nm@11784065@nm@
+Itapetininga@nm@11959947@nm@
+Itapeva@nm@12165560@nm@
+Itapevi@nm@12276452@nm@
+Itapira@nm@12454493@nm@
+Itaquaquecetuba@nm@12589152@nm@
+Itatiba@nm@12863936@nm@
+Itu@nm@13130645@nm@
+Jaboticabal@nm@13415471@nm@
+Jacareí@nm@13582451@nm@
+Jaguariúna@nm@13893656@nm@
+Jales@nm@14030524@nm@
+Jandira@nm@14177266@nm@
+Jaú@nm@14266116@nm@
+Jundiaí@nm@14474709@nm@
+Leme@nm@14954879@nm@
+Lençóis Paulista@nm@15086244@nm@
+Limeira@nm@15206743@nm@
+Lins@nm@15609325@nm@
+Lorena@nm@15752019@nm@
+Macatuba@nm@15843981@nm@
+Mairiporã@nm@15875877@nm@
+Marília@nm@16134138@nm@
+Matão@nm@16516969@nm@
+Mauá@nm@16658541@nm@
+Mirassol@nm@16892533@nm@
+Mococa@nm@17039044@nm@
+Mogi das Cruzes@nm@17177204@nm@
+Mogi Guaçu@nm@17557302@nm@
+Mogi Mirim@nm@17806967@nm@
+Nova Odessa@nm@17974956@nm@
+Ocauçu@nm@18098780@nm@
+Osasco@nm@18109633@nm@
+Ourinhos@nm@18558412@nm@
+Paulínia@nm@18734458@nm@
+Paulistânia@nm@18926626@nm@
+Penápolis@nm@18932642@nm@
+Pindamonhangaba@nm@19100958@nm@
+Piracicaba@nm@19386281@nm@
+Piraju@nm@19972958@nm@
+Pirajuí@nm@20079578@nm@
+Pirassununga@nm@20128748@nm@
+Piratininga@nm@20260801@nm@
+Poá@nm@20298818@nm@
+Porto Ferreira@nm@20395991@nm@
+Praia Grande@nm@20499174@nm@
+Pratânia@nm@20698960@nm@
+Presidente Prudente@nm@20710656@nm@
+Ribeirão Pires@nm@21191168@nm@
+Ribeirão Preto@nm@21337741@nm@
+Rio Claro@nm@22052576@nm@
+Rio das Pedras@nm@22263393@nm@
+Saltinho@nm@22330313@nm@
+Salto@nm@22347662@nm@
+Salto Grande@nm@22530105@nm@
+Santa Bárbara D'Oeste@nm@22544230@nm@
+Santa Cruz da Conceição@nm@22777589@nm@
+Santa Cruz do Rio Pardo@nm@22796759@nm@
+Santana de Parnaíba@nm@22903700@nm@
+Santo André@nm@23138285@nm@
+Santo Antônio de Posse@nm@23603939@nm@
+Santos@nm@23661802@nm@
+São Bernardo do Campo@nm@23862360@nm@
+São Caetano do Sul@nm@24443917@nm@
+São Carlos@nm@24533962@nm@
+São João da Boa Vista@nm@24836179@nm@
+São José do Rio Preto@nm@25055655@nm@
+São José dos Campos@nm@25894559@nm@
+São Paulo@nm@26598885@nm@
+São Pedro do Turvo@nm@33552754@nm@
+São Roque@nm@33567527@nm@
+São Sebastião@nm@33755296@nm@
+São Vicente@nm@33904364@nm@
+Sertãozinho@nm@34063130@nm@
+Sorocaba@nm@34284315@nm@
+Sumaré@nm@35065591@nm@
+Suzano@nm@35362280@nm@
+Taboão da Serra@nm@35627704@nm@
+Taquaritinga@nm@35788272@nm@
+Tatuí@nm@35905850@nm@
+Taubaté@nm@36091069@nm@
+Tupã@nm@36439606@nm@
+Valinhos@nm@36554130@nm@
+Várzea Paulista@nm@36761151@nm@
+Vinhedo@nm@36850096@nm@
+Votorantim@nm@37022284@nm@
+Votuporanga@nm@37174891@nm@

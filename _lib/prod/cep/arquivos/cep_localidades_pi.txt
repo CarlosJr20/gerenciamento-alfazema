@@ -1,0 +1,225 @@
+PI@nm@Acauã@nm@64748000@nm@@nm@-8.2199540@nm@-41.0834279@nm@
+PI@nm@Agricolândia@nm@64440000@nm@@nm@-5.7965162@nm@-42.6604623@nm@
+PI@nm@Água Branca@nm@64460000@nm@@nm@-5.8889577@nm@-42.6373410@nm@
+PI@nm@Alagoinha do Piauí@nm@64655000@nm@@nm@-7.0094589@nm@-40.9376158@nm@
+PI@nm@Alegrete do Piauí@nm@64675000@nm@@nm@-7.2423690@nm@-40.8569531@nm@
+PI@nm@Alto Longá@nm@64360000@nm@@nm@-5.2514685@nm@-42.2100814@nm@
+PI@nm@Altos@nm@64290000@nm@@nm@-5.0392665@nm@-42.4615380@nm@
+PI@nm@Alvorada do Gurguéia@nm@64923000@nm@@nm@-8.4245939@nm@-43.7774074@nm@
+PI@nm@Amarante@nm@64400000@nm@@nm@-6.2434412@nm@-42.8437249@nm@
+PI@nm@Angical do Piauí@nm@64410000@nm@@nm@-6.0882591@nm@-42.7404279@nm@
+PI@nm@Anísio de Abreu@nm@64780000@nm@@nm@-9.1862880@nm@-43.0497275@nm@
+PI@nm@Antônio Almeida@nm@64855000@nm@@nm@-7.2131611@nm@-44.1893226@nm@
+PI@nm@Aroazes@nm@64310000@nm@@nm@-6.1106170@nm@-41.7825530@nm@
+PI@nm@Aroeiras do Itaim@nm@64612000@nm@@nm@-7.2439591@nm@-41.5255643@nm@
+PI@nm@Arraial@nm@64480000@nm@@nm@-6.6511524@nm@-42.5421887@nm@
+PI@nm@Assunção do Piauí@nm@64333000@nm@@nm@-5.8589899@nm@-41.0497073@nm@
+PI@nm@Avelino Lopes@nm@64965000@nm@@nm@-10.1349093@nm@-43.9566998@nm@
+PI@nm@Baixa Grande do Ribeiro@nm@64868000@nm@@nm@-7.8494365@nm@-45.2193794@nm@
+PI@nm@Barra D'Alcântara@nm@64528000@nm@@nm@-6.5168517@nm@-42.1149851@nm@
+PI@nm@Barras@nm@64100000@nm@@nm@-4.2450566@nm@-42.2925372@nm@
+PI@nm@Barreiras do Piauí@nm@64990000@nm@@nm@-9.9300241@nm@-45.4705787@nm@
+PI@nm@Barro Duro@nm@64455000@nm@@nm@-5.8171253@nm@-42.5150349@nm@
+PI@nm@Batalha@nm@64190000@nm@@nm@-4.0226800@nm@-42.0790543@nm@
+PI@nm@Bela Vista do Piauí@nm@64705000@nm@@nm@-7.9885006@nm@-41.8678973@nm@
+PI@nm@Belém do Piauí@nm@64678000@nm@@nm@-7.3669299@nm@-40.9691532@nm@
+PI@nm@Beneditinos@nm@64380000@nm@@nm@-5.4571487@nm@-42.3641974@nm@
+PI@nm@Bertolínia@nm@64870000@nm@@nm@-7.6337822@nm@-43.9501700@nm@
+PI@nm@Betânia do Piauí@nm@64753000@nm@@nm@-8.1441727@nm@-40.7992764@nm@
+PI@nm@Boa Hora@nm@64108000@nm@@nm@-4.4144240@nm@-42.1361230@nm@
+PI@nm@Bocaina@nm@64630000@nm@@nm@-6.9416385@nm@-41.3171218@nm@
+PI@nm@Bom Jesus@nm@64900000@nm@@nm@-9.0716537@nm@-44.3593478@nm@
+PI@nm@Bom Princípio do Piauí@nm@64225000@nm@@nm@-3.1966878@nm@-41.6407033@nm@
+PI@nm@Bonfim do Piauí@nm@64775000@nm@@nm@-9.1813480@nm@-42.8838509@nm@
+PI@nm@Boqueirão do Piauí@nm@64283000@nm@@nm@-4.4873299@nm@-42.1177179@nm@
+PI@nm@Brasileira@nm@64265000@nm@@nm@-4.1340770@nm@-41.7862269@nm@
+PI@nm@Brejo do Piauí@nm@64895000@nm@@nm@-8.2035503@nm@-42.8233004@nm@
+PI@nm@Buriti dos Lopes@nm@64230000@nm@@nm@-3.1765665@nm@-41.8705977@nm@
+PI@nm@Buriti dos Montes@nm@64345000@nm@@nm@-5.3136014@nm@-41.0956470@nm@
+PI@nm@Cabeceiras do Piauí@nm@64105000@nm@@nm@-4.4776834@nm@-42.3072654@nm@
+PI@nm@Cajazeiras do Piauí@nm@64514000@nm@@nm@-6.7970676@nm@-42.3906566@nm@
+PI@nm@Cajueiro da Praia@nm@64222000@nm@@nm@-2.9314859@nm@-41.3411687@nm@
+PI@nm@Caldeirão Grande do Piauí@nm@64695000@nm@@nm@-7.3318099@nm@-40.6369643@nm@
+PI@nm@Campinas do Piauí@nm@64730000@nm@@nm@-7.6597062@nm@-41.8778620@nm@
+PI@nm@Campo Alegre do Fidalgo@nm@64767000@nm@@nm@-8.3827695@nm@-41.8347743@nm@
+PI@nm@Campo Grande do Piauí@nm@64578000@nm@@nm@-7.1286781@nm@-41.0318535@nm@
+PI@nm@Campo Largo do Piauí@nm@64148000@nm@@nm@-3.8110302@nm@-42.6289414@nm@
+PI@nm@Campo Maior@nm@64280000@nm@@nm@-4.8220831@nm@-42.1644994@nm@
+PI@nm@Canavieira@nm@64833000@nm@@nm@-7.6886208@nm@-43.7237203@nm@
+PI@nm@Canto do Buriti@nm@64890000@nm@@nm@-8.1115105@nm@-42.9521053@nm@
+PI@nm@Capitão de Campos@nm@64270000@nm@@nm@-4.4681615@nm@-41.9260192@nm@
+PI@nm@Capitão Gervásio Oliveira@nm@64763000@nm@@nm@-8.4969613@nm@-41.8143483@nm@
+PI@nm@Caracol@nm@64795000@nm@@nm@-9.2797502@nm@-43.3293866@nm@
+PI@nm@Caraúbas do Piauí@nm@64233000@nm@@nm@-3.4756249@nm@-41.8428891@nm@
+PI@nm@Caridade do Piauí@nm@64590000@nm@@nm@-7.7325659@nm@-40.9886064@nm@
+PI@nm@Castelo do Piauí@nm@64340000@nm@@nm@-5.3190832@nm@-41.5502356@nm@
+PI@nm@Caxingó@nm@64228000@nm@@nm@-3.4194195@nm@-41.8958485@nm@
+PI@nm@Cocal@nm@64235000@nm@@nm@-3.4731680@nm@-41.5549927@nm@
+PI@nm@Cocal de Telha@nm@64278000@nm@@nm@-4.5574822@nm@-41.9590416@nm@
+PI@nm@Cocal dos Alves@nm@64238000@nm@@nm@-3.6208482@nm@-41.4405658@nm@
+PI@nm@Coivaras@nm@64335000@nm@@nm@-5.0926301@nm@-42.2083269@nm@
+PI@nm@Colônia do Gurguéia@nm@64885000@nm@@nm@-8.1841062@nm@-43.7943903@nm@
+PI@nm@Colônia do Piauí@nm@64516000@nm@@nm@-7.2269159@nm@-42.1759322@nm@
+PI@nm@Conceição do Canindé@nm@64740000@nm@@nm@-7.8785934@nm@-41.5957876@nm@
+PI@nm@Coronel José Dias@nm@64793000@nm@@nm@-8.8143859@nm@-42.5235765@nm@
+PI@nm@Corrente@nm@64980000@nm@@nm@-10.4391597@nm@-45.1657225@nm@
+PI@nm@Cristalândia do Piauí@nm@64995000@nm@@nm@-10.6447351@nm@-45.1896674@nm@
+PI@nm@Cristino Castro@nm@64920000@nm@@nm@-8.8231442@nm@-44.2233674@nm@
+PI@nm@Curimatá@nm@64960000@nm@@nm@-10.0330292@nm@-44.3005974@nm@
+PI@nm@Currais@nm@64905000@nm@@nm@-9.0121693@nm@-44.4065911@nm@
+PI@nm@Curral Novo do Piauí@nm@64595000@nm@@nm@-7.8317114@nm@-40.8960709@nm@
+PI@nm@Curralinhos@nm@64453000@nm@@nm@-5.6086435@nm@-42.8379834@nm@
+PI@nm@Demerval Lobão@nm@64390000@nm@@nm@-5.3591418@nm@-42.6779629@nm@
+PI@nm@Dirceu Arcoverde@nm@64785000@nm@@nm@-9.3412218@nm@-42.4380249@nm@
+PI@nm@Dom Expedito Lopes@nm@64620000@nm@@nm@-6.9537213@nm@-41.6400045@nm@
+PI@nm@Dom Inocêncio@nm@64790000@nm@@nm@-9.0055748@nm@-41.9701101@nm@
+PI@nm@Domingos Mourão@nm@64250000@nm@@nm@-4.2498802@nm@-41.2686347@nm@
+PI@nm@Elesbão Veloso@nm@64325000@nm@@nm@-6.1998714@nm@-42.1358340@nm@
+PI@nm@Eliseu Martins@nm@64880000@nm@@nm@-8.0966947@nm@-43.6708712@nm@
+PI@nm@Esperantina@nm@64180000@nm@@nm@-3.8945587@nm@-42.2342198@nm@
+PI@nm@Fartura do Piauí@nm@64788000@nm@@nm@-9.4838392@nm@-42.7915604@nm@
+PI@nm@Flores do Piauí@nm@64815000@nm@@nm@-7.7883382@nm@-42.9183928@nm@
+PI@nm@Floresta do Piauí@nm@64563000@nm@@nm@-7.4672269@nm@-41.7887021@nm@
+PI@nm@Floriano@nm@@nm@@nm@@nm@@nm@
+PI@nm@Francinópolis@nm@64520000@nm@@nm@-6.3937387@nm@-42.2594392@nm@
+PI@nm@Francisco Ayres@nm@64475000@nm@@nm@-6.6264631@nm@-42.6885299@nm@
+PI@nm@Francisco Macedo@nm@64683000@nm@@nm@-7.3182877@nm@-40.7639614@nm@
+PI@nm@Francisco Santos@nm@64645000@nm@@nm@-6.9953170@nm@-41.1291572@nm@
+PI@nm@Fronteiras@nm@64690000@nm@@nm@-7.0821311@nm@-40.6149649@nm@
+PI@nm@Geminiano@nm@64613000@nm@@nm@-7.1551630@nm@-41.3412491@nm@
+PI@nm@Gilbués@nm@64930000@nm@@nm@-9.8289361@nm@-45.3382228@nm@
+PI@nm@Guadalupe@nm@64840000@nm@@nm@-6.7916581@nm@-43.5705881@nm@
+PI@nm@Guaribas@nm@64798000@nm@@nm@-9.3868826@nm@-43.6947328@nm@
+PI@nm@Hugo Napoleão@nm@64470000@nm@@nm@-5.9889915@nm@-42.5601344@nm@
+PI@nm@Ilha Grande@nm@64224000@nm@@nm@-2.8581081@nm@-41.8189517@nm@
+PI@nm@Inhuma@nm@64535000@nm@@nm@-6.6654011@nm@-41.7044998@nm@
+PI@nm@Ipiranga do Piauí@nm@64540000@nm@@nm@-6.8246163@nm@-41.7384592@nm@
+PI@nm@Isaías Coelho@nm@64570000@nm@@nm@-7.7363760@nm@-41.6738684@nm@
+PI@nm@Itainópolis@nm@64565000@nm@@nm@-7.4437630@nm@-41.4690844@nm@
+PI@nm@Itaueira@nm@64820000@nm@@nm@-7.6002958@nm@-43.0252845@nm@
+PI@nm@Jacobina do Piauí@nm@64755000@nm@@nm@-7.9357870@nm@-41.2114703@nm@
+PI@nm@Jaicós@nm@64575000@nm@@nm@-7.3613181@nm@-41.1403095@nm@
+PI@nm@Jardim do Mulato@nm@64495000@nm@@nm@-6.1367405@nm@-42.6486022@nm@
+PI@nm@Jatobá do Piauí@nm@64275000@nm@@nm@-4.7706399@nm@-41.8173375@nm@
+PI@nm@Jerumenha@nm@64830000@nm@@nm@-7.0916818@nm@-43.5037069@nm@
+PI@nm@João Costa@nm@64765000@nm@@nm@-8.5077728@nm@-42.4267594@nm@
+PI@nm@Joaquim Pires@nm@64170000@nm@@nm@-3.5086947@nm@-42.1943112@nm@
+PI@nm@Joca Marques@nm@64165000@nm@@nm@-3.4969582@nm@-42.4329424@nm@
+PI@nm@José de Freitas@nm@64110000@nm@@nm@-4.7575646@nm@-42.5761867@nm@
+PI@nm@Juazeiro do Piauí@nm@64343000@nm@@nm@-5.1749780@nm@-41.6979327@nm@
+PI@nm@Júlio Borges@nm@64963000@nm@@nm@-10.3229532@nm@-44.2385393@nm@
+PI@nm@Jurema@nm@64782000@nm@@nm@-9.2203410@nm@-43.1340630@nm@
+PI@nm@Lagoa Alegre@nm@64138000@nm@@nm@-4.5154487@nm@-42.6240321@nm@
+PI@nm@Lagoa de São Francisco@nm@64258000@nm@@nm@-4.3854360@nm@-41.5972535@nm@
+PI@nm@Lagoa do Barro do Piauí@nm@64768000@nm@@nm@-8.4771474@nm@-41.5345729@nm@
+PI@nm@Lagoa do Piauí@nm@64388000@nm@@nm@-5.4190292@nm@-42.6440387@nm@
+PI@nm@Lagoa do Sítio@nm@64308000@nm@@nm@-6.5080631@nm@-41.5656755@nm@
+PI@nm@Lagoinha do Piauí@nm@64465000@nm@@nm@-5.8311353@nm@-42.6227048@nm@
+PI@nm@Landri Sales@nm@64850000@nm@@nm@-7.2596206@nm@-43.9368096@nm@
+PI@nm@Luís Correia@nm@64220000@nm@@nm@-2.8844686@nm@-41.6653679@nm@
+PI@nm@Luzilândia@nm@64160000@nm@@nm@-3.4686717@nm@-42.3721335@nm@
+PI@nm@Madeiro@nm@64168000@nm@@nm@-3.4866207@nm@-42.4984495@nm@
+PI@nm@Manoel Emídio@nm@64875000@nm@@nm@-8.0127479@nm@-43.8758818@nm@
+PI@nm@Marcolândia@nm@64685000@nm@@nm@-7.4420977@nm@-40.6605436@nm@
+PI@nm@Marcos Parente@nm@64845000@nm@@nm@-7.1160506@nm@-43.8929931@nm@
+PI@nm@Massapê do Piauí@nm@64573000@nm@@nm@-7.4629672@nm@-41.1260303@nm@
+PI@nm@Matias Olímpio@nm@64150000@nm@@nm@-3.7152945@nm@-42.5510320@nm@
+PI@nm@Miguel Alves@nm@64130000@nm@@nm@-4.1689558@nm@-42.8966821@nm@
+PI@nm@Miguel Leão@nm@64445000@nm@@nm@-5.6811621@nm@-42.7439747@nm@
+PI@nm@Milton Brandão@nm@64253000@nm@@nm@-4.6837593@nm@-41.4225859@nm@
+PI@nm@Monsenhor Gil@nm@64450000@nm@@nm@-5.5623903@nm@-42.6078725@nm@
+PI@nm@Monsenhor Hipólito@nm@64650000@nm@@nm@-6.9931571@nm@-41.0263704@nm@
+PI@nm@Monte Alegre do Piauí@nm@64940000@nm@@nm@-9.7540562@nm@-45.3041402@nm@
+PI@nm@Morro Cabeça no Tempo@nm@64968000@nm@@nm@-9.7235530@nm@-43.9002390@nm@
+PI@nm@Morro do Chapéu do Piauí@nm@64178000@nm@@nm@-3.7394733@nm@-42.3108387@nm@
+PI@nm@Murici dos Portelas@nm@64175000@nm@@nm@-3.3150326@nm@-42.0792660@nm@
+PI@nm@Nazaré do Piauí@nm@64825000@nm@@nm@-6.9712851@nm@-42.6739670@nm@
+PI@nm@Nazária@nm@64415000@nm@@nm@-5.3484566@nm@-42.8142631@nm@
+PI@nm@Nossa Senhora de Nazaré@nm@64288000@nm@@nm@-4.6305726@nm@-42.1733294@nm@
+PI@nm@Nossa Senhora dos Remédios@nm@64140000@nm@@nm@-3.9761234@nm@-42.6187867@nm@
+PI@nm@Nova Santa Rita@nm@64764000@nm@@nm@-8.0741486@nm@-42.0504401@nm@
+PI@nm@Novo Nilo@nm@64125000@nm@@nm@-4.3998980@nm@-42.8893650@nm@
+PI@nm@Novo Oriente do Piauí@nm@64530000@nm@@nm@-6.4494084@nm@-41.9264985@nm@
+PI@nm@Novo Santo Antônio@nm@64365000@nm@@nm@-5.2878767@nm@-41.9329068@nm@
+PI@nm@Oeiras@nm@64500000@nm@@nm@-7.0161679@nm@-42.1295795@nm@
+PI@nm@Olho D'Água do Piauí@nm@64468000@nm@@nm@-5.8416394@nm@-42.5597713@nm@
+PI@nm@Padre Marcos@nm@64680000@nm@@nm@-7.3514168@nm@-40.9000316@nm@
+PI@nm@Paes Landim@nm@64710000@nm@@nm@-7.7780804@nm@-42.2551694@nm@
+PI@nm@Pajeú do Piauí@nm@64898000@nm@@nm@-7.8554928@nm@-42.8251931@nm@
+PI@nm@Palmeira do Piauí@nm@64925000@nm@@nm@-8.7311735@nm@-44.2470135@nm@
+PI@nm@Palmeirais@nm@64420000@nm@@nm@-5.9768770@nm@-43.0623469@nm@
+PI@nm@Paquetá@nm@64618000@nm@@nm@-7.1054206@nm@-41.7039121@nm@
+PI@nm@Parnaguá@nm@64970000@nm@@nm@-10.2246662@nm@-44.6347098@nm@
+PI@nm@Parnaíba@nm@@nm@@nm@@nm@@nm@
+PI@nm@Passagem Franca do Piauí@nm@64395000@nm@@nm@-5.8587622@nm@-42.4399263@nm@
+PI@nm@Patos do Piauí@nm@64580000@nm@@nm@-7.6727179@nm@-41.2411867@nm@
+PI@nm@Pau D'Arco do Piauí@nm@64295000@nm@@nm@-5.2539777@nm@-42.3876903@nm@
+PI@nm@Paulistana@nm@64750000@nm@@nm@-8.1359897@nm@-41.1416603@nm@
+PI@nm@Pavussu@nm@64838000@nm@@nm@-7.9643247@nm@-43.2243453@nm@
+PI@nm@Pedro II@nm@64255000@nm@@nm@-4.4338427@nm@-41.4537623@nm@
+PI@nm@Pedro Laurentino@nm@64728000@nm@@nm@-8.0665509@nm@-42.2858241@nm@
+PI@nm@Picos@nm@@nm@@nm@@nm@@nm@
+PI@nm@Pimenteiras@nm@64320000@nm@@nm@-6.2286868@nm@-41.4205395@nm@
+PI@nm@Pio IX@nm@64660000@nm@@nm@-6.8304192@nm@-40.6086647@nm@
+PI@nm@Piracuruca@nm@64240000@nm@@nm@-3.9337295@nm@-41.7091502@nm@
+PI@nm@Piripiri@nm@64260000@nm@@nm@-4.2719561@nm@-41.7719409@nm@
+PI@nm@Porto@nm@64145000@nm@@nm@-3.8885327@nm@-42.7001993@nm@
+PI@nm@Porto Alegre do Piauí@nm@64858000@nm@@nm@-6.9707917@nm@-44.1982417@nm@
+PI@nm@Prata do Piauí@nm@64370000@nm@@nm@-5.6730454@nm@-42.2050202@nm@
+PI@nm@Queimada Nova@nm@64758000@nm@@nm@-8.5831993@nm@-41.4174457@nm@
+PI@nm@Redenção do Gurguéia@nm@64915000@nm@@nm@-9.4877043@nm@-44.5817159@nm@
+PI@nm@Regeneração@nm@64490000@nm@@nm@-6.2315462@nm@-42.6845736@nm@
+PI@nm@Riacho Frio@nm@64975000@nm@@nm@-10.1247990@nm@-44.9507288@nm@
+PI@nm@Ribeira do Piauí@nm@64725000@nm@@nm@-7.6906847@nm@-42.7131600@nm@
+PI@nm@Ribeiro Gonçalves@nm@64865000@nm@@nm@-7.5608681@nm@-45.2429492@nm@
+PI@nm@Rio Grande do Piauí@nm@64835000@nm@@nm@-7.7806980@nm@-43.1372716@nm@
+PI@nm@Santa Cruz do Piauí@nm@64545000@nm@@nm@-7.1819631@nm@-41.7652645@nm@
+PI@nm@Santa Cruz dos Milagres@nm@64315000@nm@@nm@-5.8029568@nm@-41.9593009@nm@
+PI@nm@Santa Filomena@nm@64945000@nm@@nm@-9.1126913@nm@-45.9120162@nm@
+PI@nm@Santa Luz@nm@64910000@nm@@nm@-8.9492091@nm@-44.1299618@nm@
+PI@nm@Santa Rosa do Piauí@nm@64518000@nm@@nm@-6.7995291@nm@-42.2795747@nm@
+PI@nm@Santana do Piauí@nm@64615000@nm@@nm@-6.9473633@nm@-41.5181384@nm@
+PI@nm@Santo Antônio de Lisboa@nm@64640000@nm@@nm@-6.9871649@nm@-41.2255710@nm@
+PI@nm@Santo Antônio dos Milagres@nm@64438000@nm@@nm@-6.0473899@nm@-42.7113807@nm@
+PI@nm@Santo Inácio do Piauí@nm@64560000@nm@@nm@-7.4211255@nm@-41.9066271@nm@
+PI@nm@São Braz do Piauí@nm@64783000@nm@@nm@-9.0583831@nm@-43.0080318@nm@
+PI@nm@São Félix do Piauí@nm@64375000@nm@@nm@-5.9352474@nm@-42.1175547@nm@
+PI@nm@São Francisco de Assis do Piauí@nm@64745000@nm@@nm@-8.2396186@nm@-41.6814019@nm@
+PI@nm@São Francisco do Piauí@nm@64550000@nm@@nm@-7.2467027@nm@-42.5413902@nm@
+PI@nm@São Gonçalo do Gurguéia@nm@64993000@nm@@nm@-10.0307118@nm@-45.3035955@nm@
+PI@nm@São Gonçalo do Piauí@nm@64435000@nm@@nm@-5.9943285@nm@-42.7099176@nm@
+PI@nm@São João da Canabrava@nm@64635000@nm@@nm@-6.8124305@nm@-41.3418529@nm@
+PI@nm@São João da Fronteira@nm@64243000@nm@@nm@-3.9553549@nm@-41.2572884@nm@
+PI@nm@São João da Serra@nm@64350000@nm@@nm@-5.5111964@nm@-41.8926826@nm@
+PI@nm@São João da Varjota@nm@64510000@nm@@nm@-6.9412190@nm@-41.8892865@nm@
+PI@nm@São João do Arraial@nm@64155000@nm@@nm@-3.8189753@nm@-42.4462372@nm@
+PI@nm@São João do Piauí@nm@64760000@nm@@nm@-8.3550729@nm@-42.2562768@nm@
+PI@nm@São José do Divino@nm@64245000@nm@@nm@-3.8144925@nm@-41.8311651@nm@
+PI@nm@São José do Peixe@nm@64555000@nm@@nm@-7.4859404@nm@-42.5675426@nm@
+PI@nm@São José do Piauí@nm@64625000@nm@@nm@-6.8723418@nm@-41.4734810@nm@
+PI@nm@São Julião@nm@64670000@nm@@nm@-7.0843099@nm@-40.8250037@nm@
+PI@nm@São Lourenço do Piauí@nm@64778000@nm@@nm@-9.1650503@nm@-42.5499341@nm@
+PI@nm@São Luís do Piauí@nm@64638000@nm@@nm@-6.8197646@nm@-41.3178237@nm@
+PI@nm@São Miguel da Baixa Grande@nm@64378000@nm@@nm@-5.8654443@nm@-42.1849221@nm@
+PI@nm@São Miguel do Fidalgo@nm@64558000@nm@@nm@-7.5975394@nm@-42.3679701@nm@
+PI@nm@São Miguel do Tapuio@nm@64330000@nm@@nm@-5.4976827@nm@-41.3168197@nm@
+PI@nm@São Pedro do Piauí@nm@64430000@nm@@nm@-5.9211739@nm@-42.7195916@nm@
+PI@nm@São Raimundo Nonato@nm@64770000@nm@@nm@-9.0104992@nm@-42.6920906@nm@
+PI@nm@Sebastião Barros@nm@64985000@nm@@nm@-10.8174037@nm@-44.8341208@nm@
+PI@nm@Sebastião Leal@nm@64873000@nm@@nm@-7.5706747@nm@-44.0346947@nm@
+PI@nm@Sigefredo Pacheco@nm@64285000@nm@@nm@-4.9170340@nm@-41.7314949@nm@
+PI@nm@Simões@nm@64585000@nm@@nm@-7.5915027@nm@-40.8140970@nm@
+PI@nm@Simplício Mendes@nm@64700000@nm@@nm@-7.8533526@nm@-41.9079085@nm@
+PI@nm@Socorro do Piauí@nm@64720000@nm@@nm@-7.8681382@nm@-42.4925593@nm@
+PI@nm@Sussuapara@nm@64610000@nm@@nm@-7.0372711@nm@-41.3770693@nm@
+PI@nm@Tamboril do Piauí@nm@64893000@nm@@nm@-8.4097806@nm@-42.9214914@nm@
+PI@nm@Tanque do Piauí@nm@64512000@nm@@nm@-6.6004547@nm@-42.2825878@nm@
+PI@nm@Teresina@nm@@nm@@nm@@nm@@nm@
+PI@nm@União@nm@64120000@nm@@nm@-4.5848377@nm@-42.8572386@nm@
+PI@nm@Uruçuí@nm@64860000@nm@@nm@-7.2410911@nm@-44.5539921@nm@
+PI@nm@Valença do Piauí@nm@64300000@nm@@nm@-6.4051171@nm@-41.7381713@nm@
+PI@nm@Várzea Branca@nm@64773000@nm@@nm@-9.2384204@nm@-42.9696066@nm@
+PI@nm@Várzea Grande@nm@64525000@nm@@nm@-6.5493919@nm@-42.2483502@nm@
+PI@nm@Vera Mendes@nm@64568000@nm@@nm@-7.5978882@nm@-41.4677076@nm@
+PI@nm@Vila Nova do Piauí@nm@64688000@nm@@nm@-7.1331222@nm@-40.9348807@nm@
+PI@nm@Wall Ferraz@nm@64548000@nm@@nm@-7.2319151@nm@-41.9054119@nm@

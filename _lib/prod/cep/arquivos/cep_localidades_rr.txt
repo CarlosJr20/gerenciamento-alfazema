@@ -1,0 +1,20 @@
+RR@nm@Alto Alegre@nm@69350000@nm@@nm@2.8980560@nm@-61.4913890@nm@
+RR@nm@Amajari@nm@69343000@nm@@nm@3.6563932@nm@-61.4214674@nm@
+RR@nm@Boa Vista@nm@@nm@@nm@@nm@@nm@
+RR@nm@Bonfim@nm@69380000@nm@@nm@3.3612854@nm@-59.8338004@nm@
+RR@nm@Cantá@nm@69390000@nm@@nm@2.6110974@nm@-60.6038353@nm@
+RR@nm@Caracaraí@nm@69360000@nm@@nm@1.8142432@nm@-61.1344940@nm@
+RR@nm@Caroebe@nm@69378000@nm@@nm@0.8838597@nm@-59.6963848@nm@
+RR@nm@Félix Pinto@nm@69397000@nm@@nm@2.6110974@nm@-60.6038353@nm@
+RR@nm@Iracema@nm@69348000@nm@@nm@2.1827099@nm@-61.0420529@nm@
+RR@nm@Mucajaí@nm@69340000@nm@@nm@2.4444063@nm@-60.9203557@nm@
+RR@nm@Normandia@nm@69355000@nm@@nm@3.8849797@nm@-59.6209015@nm@
+RR@nm@Novo Paraíso@nm@69365000@nm@@nm@1.8142432@nm@-61.1344940@nm@
+RR@nm@Pacaraima@nm@69345000@nm@@nm@4.4795723@nm@-61.1482037@nm@
+RR@nm@Rorainópolis@nm@69373000@nm@@nm@0.9396129@nm@-60.4394262@nm@
+RR@nm@Santa Cecília@nm@69395000@nm@@nm@2.6110974@nm@-60.6038353@nm@
+RR@nm@São João da Baliza@nm@69375000@nm@@nm@0.9513161@nm@-59.9137931@nm@
+RR@nm@São Luiz@nm@69370000@nm@@nm@1.0098504@nm@-60.0423949@nm@
+RR@nm@Taboca@nm@69399000@nm@@nm@2.6110974@nm@-60.6038353@nm@
+RR@nm@Terra Indígena Pirititi@nm@69374810@nm@@nm@2.7375971@nm@-62.0750998@nm@
+RR@nm@Uiramutã@nm@69358000@nm@@nm@4.6028228@nm@-60.1819672@nm@

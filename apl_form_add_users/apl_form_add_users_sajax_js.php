@@ -3028,6 +3028,43 @@ sajax_show_javascript();
     scAjaxSetMaster();
     scAjaxSetFocus();
   } // do_ajax_apl_form_add_users_validate_email_cb
+
+  // ---------- Validate priv_admin
+  function do_ajax_apl_form_add_users_validate_priv_admin()
+  {
+    var nomeCampo_priv_admin = "priv_admin";
+    var var_priv_admin = scAjaxGetFieldRadio(nomeCampo_priv_admin);
+    var var_script_case_init = document.F1.script_case_init.value;
+    x_ajax_apl_form_add_users_validate_priv_admin(var_priv_admin, var_script_case_init, do_ajax_apl_form_add_users_validate_priv_admin_cb);
+  } // do_ajax_apl_form_add_users_validate_priv_admin
+
+  function do_ajax_apl_form_add_users_validate_priv_admin_cb(sResp)
+  {
+    oResp = scAjaxResponse(sResp);
+    scAjaxRedir();
+    sFieldValid = "priv_admin";
+    scEventControl_onBlur(sFieldValid);
+    scAjaxUpdateFieldErrors(sFieldValid, "valid");
+    sFieldErrors = scAjaxListFieldErrors(sFieldValid, false);
+    if ("" == sFieldErrors)
+    {
+      var sImgStatus = sc_img_status_ok;
+      scAjaxHideErrorDisplay(sFieldValid);
+    }
+    else
+    {
+      var sImgStatus = sc_img_status_err;
+      scAjaxShowErrorDisplay(sFieldValid, sFieldErrors);
+    }
+    var $oImg = $('#id_sc_status_' + sFieldValid);
+    if (0 < $oImg.length)
+    {
+      $oImg.attr('src', sImgStatus).css('display', '');
+    }
+    scAjaxShowDebug();
+    scAjaxSetMaster();
+    scAjaxSetFocus();
+  } // do_ajax_apl_form_add_users_validate_priv_admin_cb
 function scAjaxShowErrorDisplay(sErrorId, sErrorMsg) {
 	if ("table" != sErrorId && !$("id_error_display_" + sErrorId + "_frame").hasClass('scFormToastDivFixed')) {
 		scAjaxShowErrorDisplay_default(sErrorId, sErrorMsg);
@@ -3328,6 +3365,7 @@ function scJs_sweetalert_params(params) {
     var var_confirm_pswd = scAjaxGetFieldText("confirm_pswd");
     var var_name = scAjaxGetFieldText("name");
     var var_email = scAjaxGetFieldText("email");
+    var var_priv_admin = scAjaxGetFieldRadio("priv_admin");
     var var_nm_form_submit = document.F1.nm_form_submit.value;
     var var_nmgp_url_saida = document.F1.nmgp_url_saida.value;
     var var_nmgp_opcao = document.F1.nmgp_opcao.value;
@@ -3337,7 +3375,7 @@ function scJs_sweetalert_params(params) {
     var var_script_case_init = document.F1.script_case_init.value;
     var var_csrf_token = scAjaxGetFieldText("csrf_token");
     scAjaxProcOn();
-    x_ajax_apl_form_add_users_submit_form(var_login, var_pswd, var_confirm_pswd, var_name, var_email, var_nm_form_submit, var_nmgp_url_saida, var_nmgp_opcao, var_nmgp_ancora, var_nmgp_num_form, var_nmgp_parms, var_script_case_init, var_csrf_token, do_ajax_apl_form_add_users_submit_form_cb);
+    x_ajax_apl_form_add_users_submit_form(var_login, var_pswd, var_confirm_pswd, var_name, var_email, var_priv_admin, var_nm_form_submit, var_nmgp_url_saida, var_nmgp_opcao, var_nmgp_ancora, var_nmgp_num_form, var_nmgp_parms, var_script_case_init, var_csrf_token, do_ajax_apl_form_add_users_submit_form_cb);
   } // do_ajax_apl_form_add_users_submit_form
 
   function do_ajax_apl_form_add_users_submit_form_cb(sResp)
@@ -3367,6 +3405,7 @@ function scJs_sweetalert_params(params) {
       scAjaxHideErrorDisplay("confirm_pswd");
       scAjaxHideErrorDisplay("name");
       scAjaxHideErrorDisplay("email");
+      scAjaxHideErrorDisplay("priv_admin");
       scLigEditLookupCall();
 <?php
 if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users']['dashboard_info']['under_dashboard']) && $_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users']['dashboard_info']['under_dashboard']) {
@@ -3428,6 +3467,7 @@ if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['apl_form_add_users']['da
     scAjaxHideErrorDisplay("confirm_pswd");
     scAjaxHideErrorDisplay("name");
     scAjaxHideErrorDisplay("email");
+    scAjaxHideErrorDisplay("priv_admin");
     var var_login = document.F2.login.value;
     var var_nm_form_submit = document.F2.nm_form_submit.value;
     var var_nmgp_opcao = document.F2.nmgp_opcao.value;
@@ -3517,6 +3557,7 @@ if ($this->Embutida_form)
   ajax_field_list[2] = "confirm_pswd";
   ajax_field_list[3] = "name";
   ajax_field_list[4] = "email";
+  ajax_field_list[5] = "priv_admin";
 
   var ajax_block_list = new Array();
   ajax_block_list[0] = "0";
@@ -3526,7 +3567,8 @@ if ($this->Embutida_form)
     "pswd": {"label": "<?php echo $this->Ini->Nm_lang['lang_sec_users_fild_pswd'] ?>", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "confirm_pswd": {"label": "<?php echo $this->Ini->Nm_lang['lang_sec_users_fild_pswd_confirm'] ?>", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "name": {"label": "<?php echo $this->Ini->Nm_lang['lang_sec_users_fild_name'] ?>", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "email": {"label": "<?php echo $this->Ini->Nm_lang['lang_sec_users_fild_email'] ?> ", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5}
+    "email": {"label": "<?php echo $this->Ini->Nm_lang['lang_sec_users_fild_email'] ?> ", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
+    "priv_admin": {"label": "Priv Admin", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5}
   };
   var ajax_error_timeout = 5;
 
@@ -3543,20 +3585,23 @@ if ($this->Embutida_form)
     "pswd": new Array(),
     "confirm_pswd": new Array(),
     "name": new Array(),
-    "email": new Array()
+    "email": new Array(),
+    "priv_admin": new Array()
   };
   ajax_field_mult["login"][1] = "login";
   ajax_field_mult["pswd"][1] = "pswd";
   ajax_field_mult["confirm_pswd"][1] = "confirm_pswd";
   ajax_field_mult["name"][1] = "name";
   ajax_field_mult["email"][1] = "email";
+  ajax_field_mult["priv_admin"][1] = "priv_admin";
 
   var ajax_field_id = {
     "login": new Array("hidden_field_label_login", "hidden_field_data_login"),
     "pswd": new Array("hidden_field_label_pswd", "hidden_field_data_pswd"),
     "confirm_pswd": new Array("hidden_field_label_confirm_pswd", "hidden_field_data_confirm_pswd"),
     "name": new Array("hidden_field_label_name", "hidden_field_data_name"),
-    "email": new Array("hidden_field_label_email", "hidden_field_data_email")
+    "email": new Array("hidden_field_label_email", "hidden_field_data_email"),
+    "priv_admin": new Array("hidden_field_label_priv_admin", "hidden_field_data_priv_admin")
   };
 
   var ajax_read_only = {
@@ -3564,7 +3609,8 @@ if ($this->Embutida_form)
     "pswd": "off",
     "confirm_pswd": "off",
     "name": "off",
-    "email": "off"
+    "email": "off",
+    "priv_admin": "off"
   };
   var bRefreshTable = false;
   function scRefreshTable()
@@ -3647,6 +3693,23 @@ if ($this->Embutida_form)
     if ("email" == sIndex)
     {
       scAjaxSetFieldText(sIndex, aValue, "", "", true);
+      updateHeaderFooter(sIndex, aValue);
+
+      if ($("#id_sc_field_" + sIndex).length) {
+          $("#id_sc_field_" + sIndex).change();
+      }
+      else if (document.F1.elements[sIndex]) {
+          $(document.F1.elements[sIndex]).change();
+      }
+      else if (document.F1.elements[sFieldName + "[]"]) {
+          $(document.F1.elements[sFieldName + "[]"]).change();
+      }
+
+      return;
+    }
+    if ("priv_admin" == sIndex)
+    {
+      scAjaxSetFieldRadio(sIndex, aValue, null, 1, null, "", false, true);
       updateHeaderFooter(sIndex, aValue);
 
       if ($("#id_sc_field_" + sIndex).length) {
