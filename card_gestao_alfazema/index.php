@@ -1,3 +1,7 @@
+/**
+    Testanto meu Commit
+*/
+
 <?php
    include_once('card_gestao_alfazema_session.php');
    @ini_set('session.cookie_httponly', 1);
