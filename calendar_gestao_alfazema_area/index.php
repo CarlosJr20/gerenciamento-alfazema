@@ -2488,6 +2488,7 @@ ob_start();
             $aResp['closeLine'] = 'N';
          }
          if (isset($inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['clearUpload']) && '' != $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['clearUpload'])
+         {
             $aResp['clearUpload'] = $inicial_calendar_gestao_alfazema_area->contr_calendar_gestao_alfazema_area->NM_ajax_info['clearUpload'];
          }
          else
