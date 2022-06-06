@@ -75,7 +75,7 @@ function nm_move(x, y, z)
         document.F2.nmgp_clone.value = "S";
         document.F2.nmgp_opcao.value = x; 
     }
-    if ("novo" == x || "edit_novo" == x)
+    if ("novo" == x || "edit_novo" == x || "reload_novo" == x)
     {
 <?php
        $NM_parm_ifr = (isset($NM_run_iframe) && $NM_run_iframe == 1) ? "NM_run_iframe?#?1?@?" : "";

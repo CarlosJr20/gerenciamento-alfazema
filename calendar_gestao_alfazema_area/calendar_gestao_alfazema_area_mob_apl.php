@@ -8,6 +8,7 @@ class calendar_gestao_alfazema_area_mob_apl
    var $formatado = false;
    var $use_100perc_fields = false;
    var $classes_100perc_fields = array();
+   var $close_modal_after_insert = false;
    var $NM_ajax_flag    = false;
    var $NM_ajax_opcao   = '';
    var $NM_ajax_retorno = '';
@@ -119,6 +120,10 @@ class calendar_gestao_alfazema_area_mob_apl
           {
               $this->csrf_token = $this->NM_ajax_info['param']['csrf_token'];
           }
+          if (isset($this->NM_ajax_info['param']['data']))
+          {
+              $this->data = $this->NM_ajax_info['param']['data'];
+          }
           if (isset($this->NM_ajax_info['param']['email']))
           {
               $this->email = $this->NM_ajax_info['param']['email'];
@@ -202,18 +207,21 @@ class calendar_gestao_alfazema_area_mob_apl
           }
       }
 
+      $this->scSajaxReservedWords = array('rs', 'rst', 'rsrnd', 'rsargs');
       $this->sc_conv_var = array();
       if (!empty($_FILES))
       {
           foreach ($_FILES as $nmgp_campo => $nmgp_valores)
           {
-               if (isset($this->sc_conv_var[$nmgp_campo]))
-               {
-                   $nmgp_campo = $this->sc_conv_var[$nmgp_campo];
-               }
-               elseif (isset($this->sc_conv_var[strtolower($nmgp_campo)]))
-               {
-                   $nmgp_campo = $this->sc_conv_var[strtolower($nmgp_campo)];
+               if (!in_array(strtolower($nmgp_campo), $this->scSajaxReservedWords)) {
+                   if (isset($this->sc_conv_var[$nmgp_campo]))
+                   {
+                       $nmgp_campo = $this->sc_conv_var[$nmgp_campo];
+                   }
+                   elseif (isset($this->sc_conv_var[strtolower($nmgp_campo)]))
+                   {
+                       $nmgp_campo = $this->sc_conv_var[strtolower($nmgp_campo)];
+                   }
                }
                $tmp_scfile_name     = $nmgp_campo . "_scfile_name";
                $tmp_scfile_type     = $nmgp_campo . "_scfile_type";
@@ -245,13 +253,15 @@ class calendar_gestao_alfazema_area_mob_apl
                       $_SESSION['sc_session']['SC_parm_violation'] = true;
                   }
               }
-               if (isset($this->sc_conv_var[$nmgp_var]))
-               {
-                   $nmgp_var = $this->sc_conv_var[$nmgp_var];
-               }
-               elseif (isset($this->sc_conv_var[strtolower($nmgp_var)]))
-               {
-                   $nmgp_var = $this->sc_conv_var[strtolower($nmgp_var)];
+               if (!in_array(strtolower($nmgp_var), $this->scSajaxReservedWords)) {
+                   if (isset($this->sc_conv_var[$nmgp_var]))
+                   {
+                       $nmgp_var = $this->sc_conv_var[$nmgp_var];
+                   }
+                   elseif (isset($this->sc_conv_var[strtolower($nmgp_var)]))
+                   {
+                       $nmgp_var = $this->sc_conv_var[strtolower($nmgp_var)];
+                   }
                }
                $nmgp_val = NM_decode_input($nmgp_val);
                $this->$nmgp_var = $nmgp_val;
@@ -279,13 +289,15 @@ class calendar_gestao_alfazema_area_mob_apl
                        $_SESSION['sc_session']['SC_parm_violation'] = true;
                   }
               }
-               if (isset($this->sc_conv_var[$nmgp_var]))
-               {
-                   $nmgp_var = $this->sc_conv_var[$nmgp_var];
-               }
-               elseif (isset($this->sc_conv_var[strtolower($nmgp_var)]))
-               {
-                   $nmgp_var = $this->sc_conv_var[strtolower($nmgp_var)];
+               if (!in_array(strtolower($nmgp_var), $this->scSajaxReservedWords)) {
+                   if (isset($this->sc_conv_var[$nmgp_var]))
+                   {
+                       $nmgp_var = $this->sc_conv_var[$nmgp_var];
+                   }
+                   elseif (isset($this->sc_conv_var[strtolower($nmgp_var)]))
+                   {
+                       $nmgp_var = $this->sc_conv_var[strtolower($nmgp_var)];
+                   }
                }
                $nmgp_val = NM_decode_input($nmgp_val);
                $this->$nmgp_var = $nmgp_val;
@@ -310,6 +322,12 @@ class calendar_gestao_alfazema_area_mob_apl
       if (isset($_GET["usr_priv_admin"]) && isset($this->usr_priv_admin)) 
       {
           $_SESSION['usr_priv_admin'] = $this->usr_priv_admin;
+      }
+      if (isset($this->nmgp_opcao) && $this->nmgp_opcao == "reload_novo") {
+          $_POST['nmgp_opcao'] = "novo";
+          $this->nmgp_opcao    = "novo";
+          $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['opcao']   = "novo";
+          $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['opc_ant'] = "inicio";
       }
       if (isset($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area_mob']['embutida_parms']))
       { 
@@ -443,30 +461,11 @@ class calendar_gestao_alfazema_area_mob_apl
           {
               if ('calendar' != $this->nmgp_opcao) {
                   $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
-if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
- if($this->sc_temp_usr_priv_admin == FALSE)
-	{
-	$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
-	$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
-	}
-if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
-$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off';
-              }
-              if ('calendar' == $this->nmgp_opcao) {
-                  $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
-if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
- if($this->sc_temp_usr_priv_admin == FALSE)
-	{
-	$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
-	$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
-	}
-if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
+ 	
+	
+	
+
+
 $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off';
               }
           if (isset($_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']))
@@ -509,7 +508,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           if ($this->Ini->sc_page == $this->sc_init_menu && !isset($_SESSION['scriptcase']['menu_apls'][$_SESSION['scriptcase']['menu_atual']][$this->sc_init_menu]['calendar_gestao_alfazema_area_mob']))
           {
                $_SESSION['scriptcase']['menu_apls'][$_SESSION['scriptcase']['menu_atual']][$this->sc_init_menu]['calendar_gestao_alfazema_area_mob']['link'] = $this->Ini->sc_protocolo . $this->Ini->server . $this->Ini->path_link . "" . SC_dir_app_name('calendar_gestao_alfazema_area_mob') . "/";
-               $_SESSION['scriptcase']['menu_apls'][$_SESSION['scriptcase']['menu_atual']][$this->sc_init_menu]['calendar_gestao_alfazema_area_mob']['label'] = "Registro de Evento";
+               $_SESSION['scriptcase']['menu_apls'][$_SESSION['scriptcase']['menu_atual']][$this->sc_init_menu]['calendar_gestao_alfazema_area_mob']['label'] = "REGISTRO DE EVENTO";
                $this->Change_Menu = true;
           }
           elseif ($this->Ini->sc_page == $this->sc_init_menu)
@@ -910,7 +909,6 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       {
           $this->nmgp_dados_form = $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dados_form'];
           if (!isset($this->id_gestao)){$this->id_gestao = $this->nmgp_dados_form['id_gestao'];} 
-          if (!isset($this->data)){$this->data = $this->nmgp_dados_form['data'];} 
           if (!isset($this->__calend_all_day__)){$this->__calend_all_day__ = $this->nmgp_dados_form['__calend_all_day__'];} 
       }
       $glo_senha_protect = (isset($_SESSION['scriptcase']['glo_senha_protect'])) ? $_SESSION['scriptcase']['glo_senha_protect'] : "S";
@@ -1082,6 +1080,18 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
 //
       $this->NM_case_insensitive = false;
       $this->sc_evento = $this->nmgp_opcao;
+      if ('calendar' == $this->nmgp_opcao && (!isset($this->NM_ajax_flag) || ('validate_' != substr($this->NM_ajax_opcao, 0, 9) && 'add_new_line' != $this->NM_ajax_opcao && 'autocomp_' != substr($this->NM_ajax_opcao, 0, 9))))
+      {
+          $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+ 
+	
+			
+			
+
+
+
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+      }
             if ('ajax_check_file' == $this->nmgp_opcao ){
                  ob_start(); 
                  include_once("../_lib/lib/php/nm_api.php"); 
@@ -1090,16 +1100,6 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
                    echo 0;exit;
                break;
                }
-
-            $out1_img_cache = $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['glo_nm_path_imag_temp'] . $file_name;
-            $orig_img = $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['glo_nm_path_imag_temp']. '/sc_'.md5(date('YmdHis').basename($_POST['AjaxCheckImg'])).'.gif';
-            copy($__file_download, $_SERVER['DOCUMENT_ROOT'].$orig_img);
-            echo $orig_img . '_@@NM@@_';
-
-            if(file_exists($out1_img_cache)){
-                echo $out1_img_cache;
-                exit;
-            }
             copy($__file_download, $_SERVER['DOCUMENT_ROOT'].$out1_img_cache);
             $sc_obj_img = new nm_trata_img($_SERVER['DOCUMENT_ROOT'].$out1_img_cache, true);
 
@@ -1114,6 +1114,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       if (isset($this->sobrenome)) { $this->nm_limpa_alfa($this->sobrenome); }
       if (isset($this->fone)) { $this->nm_limpa_alfa($this->fone); }
       if (isset($this->email)) { $this->nm_limpa_alfa($this->email); }
+      if (isset($this->tipoarea)) { $this->nm_limpa_alfa($this->tipoarea); }
       if (isset($this->aptnum)) { $this->nm_limpa_alfa($this->aptnum); }
       if (isset($this->qtdpessoas)) { $this->nm_limpa_alfa($this->qtdpessoas); }
       $Campos_Crit       = "";
@@ -1142,7 +1143,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       $this->field_config['fone']['format_neg'] = $_SESSION['scriptcase']['reg_conf']['neg_num'];
       //-- aptnum
       $this->field_config['aptnum']               = array();
-      $this->field_config['aptnum']['symbol_grp'] = $_SESSION['scriptcase']['reg_conf']['grup_num'];
+      $this->field_config['aptnum']['symbol_grp'] = '';
       $this->field_config['aptnum']['symbol_fmt'] = $_SESSION['scriptcase']['reg_conf']['num_group_digit'];
       $this->field_config['aptnum']['symbol_dec'] = '';
       $this->field_config['aptnum']['symbol_neg'] = $_SESSION['scriptcase']['reg_conf']['simb_neg'];
@@ -1166,6 +1167,12 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       $this->field_config['horario_fim']['time_sep']     = $_SESSION['scriptcase']['reg_conf']['time_sep'];
       $this->field_config['horario_fim']['date_display'] = "hhii";
       $this->new_date_format('HH', 'horario_fim');
+      //-- data
+      $this->field_config['data']                 = array();
+      $this->field_config['data']['date_format']  = $_SESSION['scriptcase']['reg_conf']['date_format'];
+      $this->field_config['data']['date_sep']     = $_SESSION['scriptcase']['reg_conf']['date_sep'];
+      $this->field_config['data']['date_display'] = "ddmmaaaa";
+      $this->new_date_format('DT', 'data');
       //-- id_gestao
       $this->field_config['id_gestao']               = array();
       $this->field_config['id_gestao']['symbol_grp'] = $_SESSION['scriptcase']['reg_conf']['grup_num'];
@@ -1173,12 +1180,6 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       $this->field_config['id_gestao']['symbol_dec'] = '';
       $this->field_config['id_gestao']['symbol_neg'] = $_SESSION['scriptcase']['reg_conf']['simb_neg'];
       $this->field_config['id_gestao']['format_neg'] = $_SESSION['scriptcase']['reg_conf']['neg_num'];
-      //-- data
-      $this->field_config['data']                 = array();
-      $this->field_config['data']['date_format']  = $_SESSION['scriptcase']['reg_conf']['date_format'];
-      $this->field_config['data']['date_sep']     = $_SESSION['scriptcase']['reg_conf']['date_sep'];
-      $this->field_config['data']['date_display'] = "ddmmaaaa";
-      $this->new_date_format('DT', 'data');
    }
 
    function controle()
@@ -1287,13 +1288,13 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'sobrenome');
           }
-          if ('validate_fone' == $this->NM_ajax_opcao)
-          {
-              $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'fone');
-          }
           if ('validate_email' == $this->NM_ajax_opcao)
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'email');
+          }
+          if ('validate_fone' == $this->NM_ajax_opcao)
+          {
+              $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'fone');
           }
           if ('validate_aptnum' == $this->NM_ajax_opcao)
           {
@@ -1314,6 +1315,10 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           if ('validate_horario_fim' == $this->NM_ajax_opcao)
           {
               $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'horario_fim');
+          }
+          if ('validate_data' == $this->NM_ajax_opcao)
+          {
+              $this->Valida_campos($Campos_Crit, $Campos_Falta, $Campos_Erros, 'data');
           }
           calendar_gestao_alfazema_area_mob_pack_ajax_response();
           exit;
@@ -1552,7 +1557,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
 ?>
 <HTML<?php echo $_SESSION['scriptcase']['reg_conf']['html_dir'] ?>>
 <HEAD>
- <TITLE><?php echo strip_tags("Registro de Evento") ?></TITLE>
+ <TITLE><?php echo strip_tags("REGISTRO DE EVENTO") ?></TITLE>
  <META http-equiv="Content-Type" content="text/html; charset=<?php echo $_SESSION['scriptcase']['charset_html'] ?>" />
 <?php
 
@@ -1844,7 +1849,7 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
        switch($campo)
        {
            case 'tipoarea':
-               return "Área";
+               return "Qual Área?";
                break;
            case 'nome':
                return "Nome";
@@ -1852,11 +1857,11 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
            case 'sobrenome':
                return "Sobrenome";
                break;
-           case 'fone':
-               return "Fone";
-               break;
            case 'email':
                return "Email";
+               break;
+           case 'fone':
+               return "Fone";
                break;
            case 'aptnum':
                return "Número do Apartamento";
@@ -1868,16 +1873,16 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
                return "Quantidade de Pessoas";
                break;
            case 'horario_inic':
-               return "Horario Inic";
+               return "Horário de Início";
                break;
            case 'horario_fim':
-               return "Horario Fim";
-               break;
-           case 'id_gestao':
-               return "Id Gestao";
+               return "Horário Final";
                break;
            case 'data':
                return "Data";
+               break;
+           case 'id_gestao':
+               return "Id Gestao";
                break;
            case '__calend_all_day__':
                return "" . $this->Ini->Nm_lang['lang_per_allday'] . "";
@@ -1911,11 +1916,14 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
    function Valida_campos(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros, $filtro = '') 
    {
      global $nm_browser, $teste_validade;
+     if (is_array($filtro) && empty($filtro)) {
+         $filtro = '';
+     }
 //---------------------------------------------------------
      $this->scFormFocusErrorName = '';
      $this->sc_force_zero = array();
 
-     if ('' == $filtro && isset($this->nm_form_submit) && '1' == $this->nm_form_submit && $this->scCsrfGetToken() != $this->csrf_token)
+     if (!is_array($filtro) && '' == $filtro && isset($this->nm_form_submit) && '1' == $this->nm_form_submit && $this->scCsrfGetToken() != $this->csrf_token)
      {
           $this->Campos_Mens_erro .= (empty($this->Campos_Mens_erro)) ? "" : "<br />";
           $this->Campos_Mens_erro .= "CSRF: " . $this->Ini->Nm_lang['lang_errm_ajax_csrf'];
@@ -1933,55 +1941,60 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
           $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_inic'] = true;
           $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_fim'] = true;
       }
-      if ('' == $filtro || 'tipoarea' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'tipoarea' == $filtro)) || (is_array($filtro) && in_array('tipoarea', $filtro)))
         $this->ValidateField_tipoarea($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "tipoarea";
 
-      if ('' == $filtro || 'nome' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'nome' == $filtro)) || (is_array($filtro) && in_array('nome', $filtro)))
         $this->ValidateField_nome($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "nome";
 
-      if ('' == $filtro || 'sobrenome' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'sobrenome' == $filtro)) || (is_array($filtro) && in_array('sobrenome', $filtro)))
         $this->ValidateField_sobrenome($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "sobrenome";
 
-      if ('' == $filtro || 'fone' == $filtro)
-        $this->ValidateField_fone($Campos_Crit, $Campos_Falta, $Campos_Erros);
-      if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
-          $this->scFormFocusErrorName = "fone";
-
-      if ('' == $filtro || 'email' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'email' == $filtro)) || (is_array($filtro) && in_array('email', $filtro)))
         $this->ValidateField_email($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "email";
 
-      if ('' == $filtro || 'aptnum' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'fone' == $filtro)) || (is_array($filtro) && in_array('fone', $filtro)))
+        $this->ValidateField_fone($Campos_Crit, $Campos_Falta, $Campos_Erros);
+      if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
+          $this->scFormFocusErrorName = "fone";
+
+      if ((!is_array($filtro) && ('' == $filtro || 'aptnum' == $filtro)) || (is_array($filtro) && in_array('aptnum', $filtro)))
         $this->ValidateField_aptnum($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "aptnum";
 
-      if ('' == $filtro || 'aptbloco' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'aptbloco' == $filtro)) || (is_array($filtro) && in_array('aptbloco', $filtro)))
         $this->ValidateField_aptbloco($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "aptbloco";
 
-      if ('' == $filtro || 'qtdpessoas' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'qtdpessoas' == $filtro)) || (is_array($filtro) && in_array('qtdpessoas', $filtro)))
         $this->ValidateField_qtdpessoas($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "qtdpessoas";
 
-      if ('' == $filtro || 'horario_inic' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'horario_inic' == $filtro)) || (is_array($filtro) && in_array('horario_inic', $filtro)))
         $this->ValidateField_horario_inic($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "horario_inic";
 
-      if ('' == $filtro || 'horario_fim' == $filtro)
+      if ((!is_array($filtro) && ('' == $filtro || 'horario_fim' == $filtro)) || (is_array($filtro) && in_array('horario_fim', $filtro)))
         $this->ValidateField_horario_fim($Campos_Crit, $Campos_Falta, $Campos_Erros);
       if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
           $this->scFormFocusErrorName = "horario_fim";
+
+      if ((!is_array($filtro) && ('' == $filtro || 'data' == $filtro)) || (is_array($filtro) && in_array('data', $filtro)))
+        $this->ValidateField_data($Campos_Crit, $Campos_Falta, $Campos_Erros);
+      if ('' == $this->scFormFocusErrorName && ( !empty($Campos_Crit) || !empty($Campos_Falta) ))
+          $this->scFormFocusErrorName = "data";
 
       $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_inic'] = false;
       $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_fim'] = false;
@@ -2001,35 +2014,99 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
       $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
 if (isset($this->NM_ajax_flag) && $this->NM_ajax_flag)
 {
+    $original_data = $this->data;
     $original_horario_fim = $this->horario_fim;
     $original_horario_inic = $this->horario_inic;
 }
-if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
- if($this->horario_fim  < $this->horario_inic )
-	{
+ if($this->horario_inic  >= $this->horario_fim  ){
+	
 	
  if (!isset($this->Campos_Mens_erro)){$this->Campos_Mens_erro = "";}
- if (!empty($this->Campos_Mens_erro)){$this->Campos_Mens_erro .= "<br>";}$this->Campos_Mens_erro .= '‘Horário Final inváldio, Colega’';
- if ('submit_form' == $this->NM_ajax_opcao || 'event_' == substr($this->NM_ajax_opcao, 0, 6))
+ if (!empty($this->Campos_Mens_erro)){$this->Campos_Mens_erro .= "<br>";}$this->Campos_Mens_erro .= "Horário final inválido";
+ if ('submit_form' == $this->NM_ajax_opcao || 'event_' == substr($this->NM_ajax_opcao, 0, 6) || (isset($this->wizard_action) && 'change_step' == $this->wizard_action))
  {
-  $sErrorIndex = ('submit_form' == $this->NM_ajax_opcao) ? 'geral_calendar_gestao_alfazema_area_mob' : substr(substr($this->NM_ajax_opcao, 0, strrpos($this->NM_ajax_opcao, '_')), 6);
-  $this->NM_ajax_info['errList'][$sErrorIndex][] = '‘Horário Final inváldio, Colega’';
+  if (isset($this->wizard_action) && 'change_step' == $this->wizard_action) {
+   $sErrorIndex = 'geral_calendar_gestao_alfazema_area_mob';
+  } elseif ('submit_form' == $this->NM_ajax_opcao) {
+   $sErrorIndex = 'geral_calendar_gestao_alfazema_area_mob';
+  } else {
+   $sErrorIndex = substr(substr($this->NM_ajax_opcao, 0, strrpos($this->NM_ajax_opcao, '_')), 6);
+  }
+  $this->NM_ajax_info['errList'][$sErrorIndex][] = "Horário final inválido";
  }
 ;
 	
 	}
 
-if($this->sc_temp_usr_priv_admin == FALSE)
-	{
-	$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
-	$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
-	$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
+
+if($this->sc_evento == "incluir" || $this->sc_evento == "insert"){
+$this->data = $this->data ;
+$hora_ini = $this->horario_inic ;
+$hora_fim = $this->horario_fim ;
+
+$sql = "select horario_inic, horario_fim from gestao_alfazema_area where data = '$this->data'";
+
+ 
+      $nm_select = $sql; 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_select; 
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = ''; 
+      $this->Dataset = array();
+      $this->dataset = array();
+      if ($SCrx = $this->Db->Execute($nm_select)) 
+      { 
+          $SCy = 0; 
+          $nm_count = $SCrx->FieldCount();
+          while (!$SCrx->EOF)
+          { 
+                 for ($SCx = 0; $SCx < $nm_count; $SCx++)
+                 { 
+                      $this->Dataset[$SCy] [$SCx] = $SCrx->fields[$SCx];
+                      $this->dataset[$SCy] [$SCx] = $SCrx->fields[$SCx];
+                 }
+                 $SCy++; 
+                 $SCrx->MoveNext();
+          } 
+          $SCrx->Close();
+      } 
+      elseif (isset($GLOBALS["NM_ERRO_IBASE"]) && $GLOBALS["NM_ERRO_IBASE"] != 1)  
+      { 
+          $this->Dataset = false;
+          $this->Dataset_erro = $this->Db->ErrorMsg();
+          $this->dataset = false;
+          $this->dataset_erro = $this->Db->ErrorMsg();
+      } 
+;
+
+if(!empty($this->dataset )){
+ $count = count($this->dataset );
+
+for ($i = 0; $i < $count; $i++){
+	if ($hora_fim >= $this->dataset[$i][0] && $hora_ini <= $this->dataset[$i][1]){
+		
+ if (!isset($this->Campos_Mens_erro)){$this->Campos_Mens_erro = "";}
+ if (!empty($this->Campos_Mens_erro)){$this->Campos_Mens_erro .= "<br>";}$this->Campos_Mens_erro .= "Horário desejado não está disponível, favor verificar calendário!";
+ if ('submit_form' == $this->NM_ajax_opcao || 'event_' == substr($this->NM_ajax_opcao, 0, 6) || (isset($this->wizard_action) && 'change_step' == $this->wizard_action))
+ {
+  if (isset($this->wizard_action) && 'change_step' == $this->wizard_action) {
+   $sErrorIndex = 'geral_calendar_gestao_alfazema_area_mob';
+  } elseif ('submit_form' == $this->NM_ajax_opcao) {
+   $sErrorIndex = 'geral_calendar_gestao_alfazema_area_mob';
+  } else {
+   $sErrorIndex = substr(substr($this->NM_ajax_opcao, 0, strrpos($this->NM_ajax_opcao, '_')), 6);
+  }
+  $this->NM_ajax_info['errList'][$sErrorIndex][] = "Horário desejado não está disponível, favor verificar calendário!";
+ }
+;
 	}
-if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
+}
+}
+}
 if (isset($this->NM_ajax_flag) && $this->NM_ajax_flag)
 {
+    if (($original_data != $this->data || (isset($bFlagRead_data) && $bFlagRead_data)))
+    {
+        $this->ajax_return_values_data(true);
+    }
     if (($original_horario_fim != $this->horario_fim || (isset($bFlagRead_horario_fim) && $bFlagRead_horario_fim)))
     {
         $this->ajax_return_values_horario_fim(true);
@@ -2063,7 +2140,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
         if (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['tipoarea']) || $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['tipoarea'] == "on")
         { 
           $hasError = true;
-          $Campos_Falta[] = "Área" ; 
+          $Campos_Falta[] = "Qual Área?" ; 
           if (!isset($Campos_Erros['tipoarea']))
           {
               $Campos_Erros['tipoarea'] = array();
@@ -2206,10 +2283,79 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
         }
     } // ValidateField_sobrenome
 
+    function ValidateField_email(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
+    {
+        global $teste_validade;
+        $hasError = false;
+      if ($this->nmgp_opcao != "excluir") 
+      { 
+          if (trim($this->email) != "")  
+          { 
+              if ($teste_validade->Email($this->email) == false)  
+              { 
+                  $hasError = true;
+                      $Campos_Crit .= "Email; " ; 
+                  if (!isset($Campos_Erros['email']))
+                  {
+                      $Campos_Erros['email'] = array();
+                  }
+                  $Campos_Erros['email'][] = "" . $this->Ini->Nm_lang['lang_errm_ajax_data'] . "";
+                      if (!isset($this->NM_ajax_info['errList']['email']) || !is_array($this->NM_ajax_info['errList']['email']))
+                      {
+                          $this->NM_ajax_info['errList']['email'] = array();
+                      }
+                      $this->NM_ajax_info['errList']['email'][] = "" . $this->Ini->Nm_lang['lang_errm_ajax_data'] . "";
+              } 
+          } 
+           elseif (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['email']) || $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['email'] == "on") 
+          { 
+              $hasError = true;
+              $Campos_Falta[] = "Email" ; 
+              if (!isset($Campos_Erros['email']))
+              {
+                  $Campos_Erros['email'] = array();
+              }
+              $Campos_Erros['email'][] = $this->Ini->Nm_lang['lang_errm_ajax_rqrd'];
+                  if (!isset($this->NM_ajax_info['errList']['email']) || !is_array($this->NM_ajax_info['errList']['email']))
+                  {
+                      $this->NM_ajax_info['errList']['email'] = array();
+                  }
+                  $this->NM_ajax_info['errList']['email'][] = $this->Ini->Nm_lang['lang_errm_ajax_rqrd'];
+          } 
+      } 
+        if ($hasError) {
+            global $sc_seq_vert;
+            $fieldName = 'email';
+            if (isset($sc_seq_vert) && '' != $sc_seq_vert) {
+                $fieldName .= $sc_seq_vert;
+            }
+            $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
+        }
+    } // ValidateField_email
+
     function ValidateField_fone(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
     {
         global $teste_validade;
         $hasError = false;
+      if ($this->nmgp_opcao != "excluir") 
+      {
+          if (!$this->nm_validate_mask($this->fone, explode(';', "99 9 9999-9999")))  
+          { 
+              $hasError = true;
+              $Campos_Crit .= $this->Ini->Nm_lang['lang_errm_ajax_data'];
+              if (!isset($Campos_Erros['fone']))
+              {
+                  $Campos_Erros['fone'] = array();
+              }
+              $Campos_Erros['fone'][] = $this->Ini->Nm_lang['lang_errm_ajax_data'];
+                  if (!isset($this->NM_ajax_info['errList']['fone']) || !is_array($this->NM_ajax_info['errList']['fone']))
+                  {
+                      $this->NM_ajax_info['errList']['fone'] = array();
+                  }
+                  $this->NM_ajax_info['errList']['fone'][] = $this->Ini->Nm_lang['lang_errm_ajax_data'];
+          } 
+      }
+      $this->nm_tira_mask($this->fone, "99 9 9999-9999", "(){}[].,;:-+/ "); 
       nm_limpa_numero($this->fone, $this->field_config['fone']['symbol_grp']) ; 
       if ($this->nmgp_opcao != "excluir") 
       { 
@@ -2273,56 +2419,6 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
         }
     } // ValidateField_fone
 
-    function ValidateField_email(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
-    {
-        global $teste_validade;
-        $hasError = false;
-      if ($this->nmgp_opcao != "excluir" && (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['email']) || $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['php_cmp_required']['email'] == "on")) 
-      { 
-          if ($this->email == "")  
-          { 
-              $hasError = true;
-              $Campos_Falta[] =  "Email" ; 
-              if (!isset($Campos_Erros['email']))
-              {
-                  $Campos_Erros['email'] = array();
-              }
-              $Campos_Erros['email'][] = $this->Ini->Nm_lang['lang_errm_ajax_rqrd'];
-                  if (!isset($this->NM_ajax_info['errList']['email']) || !is_array($this->NM_ajax_info['errList']['email']))
-                  {
-                      $this->NM_ajax_info['errList']['email'] = array();
-                  }
-                  $this->NM_ajax_info['errList']['email'][] = $this->Ini->Nm_lang['lang_errm_ajax_rqrd'];
-          } 
-      } 
-      if ($this->nmgp_opcao != "excluir") 
-      { 
-          if (NM_utf8_strlen($this->email) > 50) 
-          { 
-              $hasError = true;
-              $Campos_Crit .= "Email " . $this->Ini->Nm_lang['lang_errm_mxch'] . " 50 " . $this->Ini->Nm_lang['lang_errm_nchr']; 
-              if (!isset($Campos_Erros['email']))
-              {
-                  $Campos_Erros['email'] = array();
-              }
-              $Campos_Erros['email'][] = $this->Ini->Nm_lang['lang_errm_mxch'] . " 50 " . $this->Ini->Nm_lang['lang_errm_nchr'];
-              if (!isset($this->NM_ajax_info['errList']['email']) || !is_array($this->NM_ajax_info['errList']['email']))
-              {
-                  $this->NM_ajax_info['errList']['email'] = array();
-              }
-              $this->NM_ajax_info['errList']['email'][] = $this->Ini->Nm_lang['lang_errm_mxch'] . " 50 " . $this->Ini->Nm_lang['lang_errm_nchr'];
-          } 
-      } 
-        if ($hasError) {
-            global $sc_seq_vert;
-            $fieldName = 'email';
-            if (isset($sc_seq_vert) && '' != $sc_seq_vert) {
-                $fieldName .= $sc_seq_vert;
-            }
-            $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
-        }
-    } // ValidateField_email
-
     function ValidateField_aptnum(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
     {
         global $teste_validade;
@@ -2332,7 +2428,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       { 
           if ($this->aptnum != '')  
           { 
-              $iTestSize = 11;
+              $iTestSize = 4;
               if (strlen($this->aptnum) > $iTestSize)  
               { 
                   $hasError = true;
@@ -2348,7 +2444,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
                   }
                   $this->NM_ajax_info['errList']['aptnum'][] = $this->Ini->Nm_lang['lang_errm_size'];
               } 
-              if ($teste_validade->Valor($this->aptnum, 11, 0, -0, 99999999999, "N") == false)  
+              if ($teste_validade->Valor($this->aptnum, 4, 0, 1, 9999, "N") == false)  
               { 
                   $hasError = true;
                   $Campos_Crit .= "Número do Apartamento; " ; 
@@ -2449,7 +2545,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       { 
           if ($this->qtdpessoas != '')  
           { 
-              $iTestSize = 11;
+              $iTestSize = 8;
               if (strlen($this->qtdpessoas) > $iTestSize)  
               { 
                   $hasError = true;
@@ -2465,7 +2561,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
                   }
                   $this->NM_ajax_info['errList']['qtdpessoas'][] = $this->Ini->Nm_lang['lang_errm_size'];
               } 
-              if ($teste_validade->Valor($this->qtdpessoas, 11, 0, -0, 99999999999, "N") == false)  
+              if ($teste_validade->Valor($this->qtdpessoas, 8, 0, -0, 99999999, "N") == false)  
               { 
                   $hasError = true;
                   $Campos_Crit .= "Quantidade de Pessoas; " ; 
@@ -2521,7 +2617,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
               if ($teste_validade->Hora($this->horario_inic, $Format_Hora) == false)  
               { 
                   $hasError = true;
-                  $Campos_Crit .= "Horario Inic; " ; 
+                  $Campos_Crit .= "Horário de Início; " ; 
                   if (!isset($Campos_Erros['horario_inic']))
                   {
                       $Campos_Erros['horario_inic'] = array();
@@ -2539,7 +2635,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
               if (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_inic']) || !$_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_inic'])
               {
               $hasError = true;
-              $Campos_Falta[] = "Horario Inic" ; 
+              $Campos_Falta[] = "Horário de Início" ; 
               if (!isset($Campos_Erros['horario_inic']))
               {
                   $Campos_Erros['horario_inic'] = array();
@@ -2577,7 +2673,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
               if ($teste_validade->Hora($this->horario_fim, $Format_Hora) == false)  
               { 
                   $hasError = true;
-                  $Campos_Crit .= "Horario Fim; " ; 
+                  $Campos_Crit .= "Horário Final; " ; 
                   if (!isset($Campos_Erros['horario_fim']))
                   {
                       $Campos_Erros['horario_fim'] = array();
@@ -2595,7 +2691,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
               if (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_fim']) || !$_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['bypass_required_time']['horario_fim'])
               {
               $hasError = true;
-              $Campos_Falta[] = "Horario Fim" ; 
+              $Campos_Falta[] = "Horário Final" ; 
               if (!isset($Campos_Erros['horario_fim']))
               {
                   $Campos_Erros['horario_fim'] = array();
@@ -2618,6 +2714,49 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
             $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
         }
     } // ValidateField_horario_fim
+
+    function ValidateField_data(&$Campos_Crit, &$Campos_Falta, &$Campos_Erros)
+    {
+        global $teste_validade;
+        $hasError = false;
+      nm_limpa_data($this->data, $this->field_config['data']['date_sep']) ; 
+      $trab_dt_min = ""; 
+      $trab_dt_max = ""; 
+      if ($this->nmgp_opcao != "excluir") 
+      { 
+          $guarda_datahora = $this->field_config['data']['date_format']; 
+          if (false !== strpos($guarda_datahora, ';')) $this->field_config['data']['date_format'] = substr($guarda_datahora, 0, strpos($guarda_datahora, ';'));
+          $Format_Data = $this->field_config['data']['date_format']; 
+          nm_limpa_data($Format_Data, $this->field_config['data']['date_sep']) ; 
+          if (trim($this->data) != "")  
+          { 
+              if ($teste_validade->Data($this->data, $Format_Data, $trab_dt_min, $trab_dt_max) == false)  
+              { 
+                  $hasError = true;
+                  $Campos_Crit .= "Data; " ; 
+                  if (!isset($Campos_Erros['data']))
+                  {
+                      $Campos_Erros['data'] = array();
+                  }
+                  $Campos_Erros['data'][] = "" . $this->Ini->Nm_lang['lang_errm_ajax_data'] . "";
+                  if (!isset($this->NM_ajax_info['errList']['data']) || !is_array($this->NM_ajax_info['errList']['data']))
+                  {
+                      $this->NM_ajax_info['errList']['data'] = array();
+                  }
+                  $this->NM_ajax_info['errList']['data'][] = "" . $this->Ini->Nm_lang['lang_errm_ajax_data'] . "";
+              } 
+          } 
+          $this->field_config['data']['date_format'] = $guarda_datahora; 
+       } 
+        if ($hasError) {
+            global $sc_seq_vert;
+            $fieldName = 'data';
+            if (isset($sc_seq_vert) && '' != $sc_seq_vert) {
+                $fieldName .= $sc_seq_vert;
+            }
+            $this->NM_ajax_info['fieldsWithErrors'][] = $fieldName;
+        }
+    } // ValidateField_data
 
     function removeDuplicateDttmError($aErrDate, &$aErrTime)
     {
@@ -2645,15 +2784,15 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
     $this->nmgp_dados_form['tipoarea'] = $this->tipoarea;
     $this->nmgp_dados_form['nome'] = $this->nome;
     $this->nmgp_dados_form['sobrenome'] = $this->sobrenome;
-    $this->nmgp_dados_form['fone'] = $this->fone;
     $this->nmgp_dados_form['email'] = $this->email;
+    $this->nmgp_dados_form['fone'] = $this->fone;
     $this->nmgp_dados_form['aptnum'] = $this->aptnum;
     $this->nmgp_dados_form['aptbloco'] = $this->aptbloco;
     $this->nmgp_dados_form['qtdpessoas'] = $this->qtdpessoas;
     $this->nmgp_dados_form['horario_inic'] = (strlen(trim($this->horario_inic)) > 19) ? str_replace(".", ":", $this->horario_inic) : trim($this->horario_inic);
     $this->nmgp_dados_form['horario_fim'] = (strlen(trim($this->horario_fim)) > 19) ? str_replace(".", ":", $this->horario_fim) : trim($this->horario_fim);
+    $this->nmgp_dados_form['data'] = (strlen(trim($this->data)) > 19) ? str_replace(".", ":", $this->data) : trim($this->data);
     $this->nmgp_dados_form['id_gestao'] = $this->id_gestao;
-    $this->nmgp_dados_form['data'] = $this->data;
     $this->nmgp_dados_form['__calend_all_day__'] = $this->__calend_all_day__;
     $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dados_form'] = $this->nmgp_dados_form;
    }
@@ -2663,6 +2802,8 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
          $this->Before_unformat = array();
          $this->formatado = false;
       $this->Before_unformat['fone'] = $this->fone;
+      $this->Before_unformat['fone'] = $this->fone;
+      $this->nm_tira_mask($this->fone, "99 9 9999-9999", "(){}[].,;:-+/ "); 
       nm_limpa_numero($this->fone, $this->field_config['fone']['symbol_grp']) ; 
       $this->Before_unformat['aptnum'] = $this->aptnum;
       nm_limpa_numero($this->aptnum, $this->field_config['aptnum']['symbol_grp']) ; 
@@ -2672,10 +2813,10 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       nm_limpa_hora($this->horario_inic, $this->field_config['horario_inic']['time_sep']) ; 
       $this->Before_unformat['horario_fim'] = $this->horario_fim;
       nm_limpa_hora($this->horario_fim, $this->field_config['horario_fim']['time_sep']) ; 
-      $this->Before_unformat['id_gestao'] = $this->id_gestao;
-      nm_limpa_numero($this->id_gestao, $this->field_config['id_gestao']['symbol_grp']) ; 
       $this->Before_unformat['data'] = $this->data;
       nm_limpa_data($this->data, $this->field_config['data']['date_sep']) ; 
+      $this->Before_unformat['id_gestao'] = $this->id_gestao;
+      nm_limpa_numero($this->id_gestao, $this->field_config['id_gestao']['symbol_grp']) ; 
    }
    function sc_add_currency(&$value, $symbol, $pos)
    {
@@ -2721,6 +2862,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
    {
       if ($Nome_Campo == "fone")
       {
+          $this->nm_tira_mask($this->fone, "99 9 9999-9999", "(){}[].,;:-+/ "); 
           nm_limpa_numero($this->fone, $this->field_config['fone']['symbol_grp']) ; 
       }
       if ($Nome_Campo == "aptnum")
@@ -2746,7 +2888,7 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
      $this->formatado = true;
       if ('' !== $this->fone || (!empty($format_fields) && isset($format_fields['fone'])))
       {
-          nmgp_Form_Num_Val($this->fone, $this->field_config['fone']['symbol_grp'], $this->field_config['fone']['symbol_dec'], "0", "S", $this->field_config['fone']['format_neg'], "", "", "-", $this->field_config['fone']['symbol_fmt']) ; 
+          $this->nm_gera_mask($this->fone, "99 9 9999-9999"); 
       }
       if ('' !== $this->aptnum || (!empty($format_fields) && isset($format_fields['aptnum'])))
       {
@@ -2773,6 +2915,15 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
       elseif ('null' == $this->horario_fim || '' == $this->horario_fim)
       {
           $this->horario_fim = '';
+      }
+      if ((!empty($this->data) && 'null' != $this->data) || (!empty($format_fields) && isset($format_fields['data'])))
+      {
+          nm_volta_data($this->data, $this->field_config['data']['date_format']) ; 
+          nmgp_Form_Datas($this->data, $this->field_config['data']['date_format'], $this->field_config['data']['date_sep']) ;  
+      }
+      elseif ('null' == $this->data || '' == $this->data)
+      {
+          $this->data = '';
       }
    }
    function nm_gera_mask(&$nm_campo, $nm_mask)
@@ -3090,6 +3241,114 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
 
        return $new;
    }
+   function nm_validate_mask($value, $mask_list)
+   {
+       if ('' == $value)
+       {
+           return true;
+       }
+
+       $size_ok   = false;
+       $test_mask = '';
+       foreach ($mask_list as $tmp_mask)
+       {
+           if (mb_strlen($value) == strlen($tmp_mask))
+           {
+               $size_ok   = true;
+               $test_mask = $tmp_mask;
+           }
+       }
+
+       if (!$size_ok)
+       {
+           return false;
+       }
+
+       $i           = 0;
+       $thisPointer = 0;
+       while (false !== ($test_char = $this->nm_next_char($value, $thisPointer)))
+       {
+           if (!$this->nm_validate_mask_char($test_char, $test_mask[$i]))
+           {
+               return false;
+           }
+           $i++;
+       }
+
+       return true;
+       for ($i = 0; $i < strlen($value); $i++)
+       {
+           if (!$this->nm_validate_mask_char($value[$i], $test_mask[$i]))
+           {
+               return false;
+           }
+       }
+
+       return true;
+   }
+
+   function nm_validate_mask_char($value_char, $mask_char)
+   {
+       switch ($mask_char)
+       {
+           case '9':
+               return false !== strpos('0123456789', $value_char);
+               break;
+
+           case 'a':
+               return false !== strpos('abcdefghijklmnopqrstuvwxyz', strtolower($value_char));
+               break;
+
+           case '*':
+               if (false !== strpos('abcdefghijklmnopqrstuvwxyz0123456789', strtolower($value_char))) {
+                   return true;
+               }
+               if (preg_match("/\p{Arabic}/u", $value_char)) {
+                   return true;
+               }
+
+               return false;
+               break;
+
+           default:
+               return $value_char == $mask_char;
+               break;
+       }
+   }
+
+   function nm_next_char($string, &$pointer) {
+       if (!isset($string[$pointer])) {
+           return false;
+       }
+
+       $char = ord($string[$pointer]);
+
+       if ($char < 128) {
+           return $string[$pointer++];
+       }
+       else {
+           if ($char < 224) {
+               $bytes = 2;
+           }
+           elseif ($char < 240) {
+               $bytes = 3;
+           }
+           elseif ($char < 248) {
+               $bytes = 4;
+           }
+           elseif($char == 252) {
+               $bytes = 5;
+           }
+           else {
+               $bytes = 6;
+           }
+
+           $str      = substr($string, $pointer, $bytes);
+           $pointer += $bytes;
+
+           return $str;
+       }
+   }
 //
    function nm_limpa_alfa(&$str)
    {
@@ -3132,6 +3391,14 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           {
               $this->horario_inic_hora = substr($this->horario_inic_hora, 0, -4);
           }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $this->horario_inic_hora = substr($this->horario_inic_hora, 0, -4);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_db2))
+          {
+              $this->horario_inic_hora = substr($this->horario_inic_hora, 0, -4);
+          }
           $this->horario_inic = $this->horario_inic_hora;
       } 
       if ($this->horario_inic == "" && $use_null)  
@@ -3157,6 +3424,14 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           {
               $this->horario_fim_hora = substr($this->horario_fim_hora, 0, -4);
           }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $this->horario_fim_hora = substr($this->horario_fim_hora, 0, -4);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_db2))
+          {
+              $this->horario_fim_hora = substr($this->horario_fim_hora, 0, -4);
+          }
           $this->horario_fim = $this->horario_fim_hora;
       } 
       if ($this->horario_fim == "" && $use_null)  
@@ -3164,6 +3439,37 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           $this->horario_fim = "null" ; 
       } 
       $this->field_config['horario_fim']['date_format'] = $guarda_format_hora;
+      $guarda_format_hora = $this->field_config['data']['date_format'];
+      if ($this->data != "")  
+      { 
+          nm_conv_data($this->data, $this->field_config['data']['date_format']) ; 
+          $this->data_hora = "00:00:00:000" ; 
+          if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_postgres))
+          {
+              $this->data_hora = substr($this->data_hora, 0, -4);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
+          {
+              $this->data_hora = substr($this->data_hora, 0, -4);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+          {
+              $this->data_hora = substr($this->data_hora, 0, -4);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $this->data_hora = substr($this->data_hora, 0, -4);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_db2))
+          {
+              $this->data_hora = substr($this->data_hora, 0, -4);
+          }
+      } 
+      if ($this->data == "" && $use_null)  
+      { 
+          $this->data = "null" ; 
+      } 
+      $this->field_config['data']['date_format'] = $guarda_format_hora;
    }
 //
    function nm_prep_date_change($cmp_date, $format_dt)
@@ -3247,13 +3553,14 @@ $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'of
           $this->ajax_return_values_tipoarea();
           $this->ajax_return_values_nome();
           $this->ajax_return_values_sobrenome();
-          $this->ajax_return_values_fone();
           $this->ajax_return_values_email();
+          $this->ajax_return_values_fone();
           $this->ajax_return_values_aptnum();
           $this->ajax_return_values_aptbloco();
           $this->ajax_return_values_qtdpessoas();
           $this->ajax_return_values_horario_inic();
           $this->ajax_return_values_horario_fim();
+          $this->ajax_return_values_data();
           $this->ajax_return_values_id_gestao();
           if ('navigate_form' == $this->NM_ajax_opcao)
           {
@@ -3344,6 +3651,22 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           }
    }
 
+          //----- email
+   function ajax_return_values_email($bForce = false)
+   {
+          if ('navigate_form' == $this->NM_ajax_opcao || 'backup_line' == $this->NM_ajax_opcao || (isset($this->nmgp_refresh_fields) && in_array("email", $this->nmgp_refresh_fields)) || $bForce)
+          {
+              $sTmpValue = NM_charset_to_utf8($this->email);
+              $aLookup = array();
+          $aLookupOrig = $aLookup;
+          $this->NM_ajax_info['fldList']['email'] = array(
+                       'row'    => '',
+               'type'    => 'text',
+               'valList' => array($sTmpValue),
+              );
+          }
+   }
+
           //----- fone
    function ajax_return_values_fone($bForce = false)
    {
@@ -3356,22 +3679,6 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
                        'row'    => '',
                'type'    => 'text',
                'valList' => array($sTmpValue),
-              );
-          }
-   }
-
-          //----- email
-   function ajax_return_values_email($bForce = false)
-   {
-          if ('navigate_form' == $this->NM_ajax_opcao || 'backup_line' == $this->NM_ajax_opcao || (isset($this->nmgp_refresh_fields) && in_array("email", $this->nmgp_refresh_fields)) || $bForce)
-          {
-              $sTmpValue = NM_charset_to_utf8($this->email);
-              $aLookup = array();
-          $aLookupOrig = $aLookup;
-          $this->NM_ajax_info['fldList']['email'] = array(
-                       'row'    => '',
-               'type'    => 'text',
-               'valList' => array($this->form_encode_input($sTmpValue)),
               );
           }
    }
@@ -3490,6 +3797,22 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           }
    }
 
+          //----- data
+   function ajax_return_values_data($bForce = false)
+   {
+          if ('navigate_form' == $this->NM_ajax_opcao || 'backup_line' == $this->NM_ajax_opcao || (isset($this->nmgp_refresh_fields) && in_array("data", $this->nmgp_refresh_fields)) || $bForce)
+          {
+              $sTmpValue = NM_charset_to_utf8($this->data);
+              $aLookup = array();
+          $aLookupOrig = $aLookup;
+          $this->NM_ajax_info['fldList']['data'] = array(
+                       'row'    => '',
+               'type'    => 'label',
+               'valList' => array($sTmpValue),
+              );
+          }
+   }
+
           //----- id_gestao
    function ajax_return_values_id_gestao($bForce = false)
    {
@@ -3579,6 +3902,27 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
    } // ajax_add_parameters
   function nm_proc_onload($bFormat = true)
   {
+      if ('calendar' != $this->nmgp_opcao) {
+          if (!$this->NM_ajax_flag || !isset($this->nmgp_refresh_fields)) {
+          $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+if (!isset($this->sc_temp_usr_priv_admin)) {$this->sc_temp_usr_priv_admin = (isset($_SESSION['usr_priv_admin'])) ? $_SESSION['usr_priv_admin'] : "";}
+ if ($this->sc_temp_usr_priv_admin != 'Y'){
+$this->NM_ajax_info['buttonDisplay']['update'] = $this->nmgp_botoes["update"] = "off";;
+$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['update'] = 'off';
+$this->NM_ajax_info['buttonDisplay']['delete'] = $this->nmgp_botoes["delete"] = "off";;
+$_SESSION['scriptcase']['sc_apl_conf']['calendar_gestao_alfazema_area']['delete'] = 'off';
+}	
+
+if ($this->sc_evento == "novo") {
+      $this->NM_ajax_info['buttonDisplay']['new'] = $this->nmgp_botoes["new"] = "on";;
+} else {
+
+      $this->NM_ajax_info['buttonDisplay']['new'] = $this->nmgp_botoes["new"] = "off";;
+}
+if (isset($this->sc_temp_usr_priv_admin)) { $_SESSION['usr_priv_admin'] = $this->sc_temp_usr_priv_admin;}
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+          }
+      }
       $this->nm_guardar_campos();
       if ($bFormat) $this->nm_formatar_campos();
   }
@@ -3739,6 +4083,46 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           }
       }
       $this->sc_force_zero = array();
+    if ("alterar" == $this->nmgp_opcao) {
+      $this->sc_evento = $this->nmgp_opcao;
+      $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+ 
+
+
+
+
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+    }
+    if ("excluir" == $this->nmgp_opcao) {
+      $this->sc_evento = $this->nmgp_opcao;
+      $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+ 
+
+
+
+
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+    }
+      if (!empty($this->Campos_Mens_erro)) 
+      {
+          $this->Erro->mensagem(__FILE__, __LINE__, "critica", $this->Campos_Mens_erro); 
+          $this->Campos_Mens_erro = ""; 
+          $this->nmgp_opc_ant = $this->nmgp_opcao ; 
+          if ($this->nmgp_opcao == "incluir") 
+          { 
+              $GLOBALS["erro_incl"] = 1; 
+          }
+          else
+          { 
+              $this->sc_evento = ""; 
+          }
+          if ($this->nmgp_opcao == "alterar" || $this->nmgp_opcao == "incluir" || $this->nmgp_opcao == "excluir") 
+          {
+              $this->nmgp_opcao = "nada"; 
+          } 
+          $this->NM_rollback_db(); 
+          $this->Campos_Mens_erro = ""; 
+      }
       $_SESSION['scriptcase']['sc_sql_ult_conexao'] = ''; 
       $salva_opcao = $this->nmgp_opcao; 
       if ($this->sc_evento != "novo" && $this->sc_evento != "incluir") 
@@ -3752,15 +4136,15 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
       $NM_val_form['tipoarea'] = $this->tipoarea;
       $NM_val_form['nome'] = $this->nome;
       $NM_val_form['sobrenome'] = $this->sobrenome;
-      $NM_val_form['fone'] = $this->fone;
       $NM_val_form['email'] = $this->email;
+      $NM_val_form['fone'] = $this->fone;
       $NM_val_form['aptnum'] = $this->aptnum;
       $NM_val_form['aptbloco'] = $this->aptbloco;
       $NM_val_form['qtdpessoas'] = $this->qtdpessoas;
       $NM_val_form['horario_inic'] = $this->horario_inic;
       $NM_val_form['horario_fim'] = $this->horario_fim;
-      $NM_val_form['id_gestao'] = $this->id_gestao;
       $NM_val_form['data'] = $this->data;
+      $NM_val_form['id_gestao'] = $this->id_gestao;
       $NM_val_form['__calend_all_day__'] = $this->__calend_all_day__;
       if ($this->id_gestao === "" || is_null($this->id_gestao))  
       { 
@@ -3781,7 +4165,7 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           $this->qtdpessoas = 0;
           $this->sc_force_zero[] = 'qtdpessoas';
       } 
-      $nm_bases_lob_geral = array_merge($this->Ini->nm_bases_ibase, $this->Ini->nm_bases_mysql, $this->Ini->nm_bases_access, $this->Ini->nm_bases_sqlite);
+      $nm_bases_lob_geral = array_merge($this->Ini->nm_bases_oracle, $this->Ini->nm_bases_ibase, $this->Ini->nm_bases_informix, $this->Ini->nm_bases_mysql, $this->Ini->nm_bases_access, $this->Ini->nm_bases_sqlite, array('pdo_ibm'), array('pdo_sqlsrv'));
       if ($this->nmgp_opcao == "alterar" || $this->nmgp_opcao == "incluir") 
       {
           $this->nome_before_qstr = $this->nome;
@@ -3805,6 +4189,8 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $this->email = "null"; 
               $NM_val_null[] = "email";
           } 
+          $this->tipoarea_before_qstr = $this->tipoarea;
+          $this->tipoarea = substr($this->Db->qstr($this->tipoarea), 1, -1); 
           if ($this->tipoarea == "" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))  
           { 
               $this->tipoarea = "null"; 
@@ -3850,6 +4236,21 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao ";
               $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
           }  
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+          {
+              $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao ";
+              $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+          }  
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao ";
+              $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+          }  
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+          {
+              $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao ";
+              $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+          }  
           else  
           {
               $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao ";
@@ -3878,40 +4279,56 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           if ($bUpdateOk)
           { 
               $rs1->Close(); 
+              $aDoNotUpdate = array();
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = #$this->horario_inic#, horario_fim = #$this->horario_fim#, aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = #$this->horario_inic#, horario_fim = #$this->horario_fim#, data = #$this->data#, aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+              } 
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+              { 
+                  $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+              } 
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+              { 
+                  $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+              } 
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+              { 
+                  $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = EXTEND('$this->data', YEAR TO DAY), aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase))
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
               else 
               { 
                   $comando = "UPDATE " . $this->Ini->nm_tabela . " SET ";  
-                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
+                  $SC_fields_update[] = "nome = '$this->nome', sobrenome = '$this->sobrenome', fone = $this->fone, email = '$this->email', tipoArea = '$this->tipoarea', horario_inic = " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", horario_fim = " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", aptNum = $this->aptnum, aptBloco = '$this->aptbloco', qtdPessoas = $this->qtdpessoas"; 
               } 
-              if (isset($NM_val_form['data']) && $NM_val_form['data'] != $this->nmgp_dados_select['data']) 
-              { 
-                  if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
-                  { 
-                      $SC_fields_update[] = "data = #$this->data#"; 
-                  } 
-                  else
-                  { 
-                      $SC_fields_update[] = "data = " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ""; 
-                  } 
-              } 
-              $aDoNotUpdate = array();
               $comando .= implode(",", $SC_fields_update);  
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+              {
+                  $comando .= " WHERE id_gestao = $this->id_gestao ";  
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+              {
+                  $comando .= " WHERE id_gestao = $this->id_gestao ";  
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+              {
+                  $comando .= " WHERE id_gestao = $this->id_gestao ";  
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
               {
                   $comando .= " WHERE id_gestao = $this->id_gestao ";  
               }  
@@ -3923,6 +4340,13 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $comando = str_replace("'null'", "null", $comando) ; 
               $comando = str_replace("#null#", "null", $comando) ; 
               $comando = str_replace($this->Ini->date_delim . "null" . $this->Ini->date_delim1, "null", $comando) ; 
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+              {
+                $comando = str_replace("EXTEND('', YEAR TO FRACTION)", "null", $comando) ; 
+                $comando = str_replace("EXTEND(null, YEAR TO FRACTION)", "null", $comando) ; 
+                $comando = str_replace("EXTEND('', YEAR TO DAY)", "null", $comando) ; 
+                $comando = str_replace("EXTEND(null, YEAR TO DAY)", "null", $comando) ; 
+              }  
               $useUpdateProcedure = false;
               if (!empty($SC_fields_update) || $useUpdateProcedure)
               { 
@@ -3952,6 +4376,7 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $this->nome = $this->nome_before_qstr;
               $this->sobrenome = $this->sobrenome_before_qstr;
               $this->email = $this->email_before_qstr;
+              $this->tipoarea = $this->tipoarea_before_qstr;
               if (in_array(strtolower($this->Ini->nm_tpbanco), $nm_bases_lob_geral))
               { 
               }   
@@ -3981,15 +4406,20 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               elseif (isset($this->fone)) { $this->nm_limpa_alfa($this->fone); }
               if     (isset($NM_val_form) && isset($NM_val_form['email'])) { $this->email = $NM_val_form['email']; }
               elseif (isset($this->email)) { $this->nm_limpa_alfa($this->email); }
+              if     (isset($NM_val_form) && isset($NM_val_form['tipoarea'])) { $this->tipoarea = $NM_val_form['tipoarea']; }
+              elseif (isset($this->tipoarea)) { $this->nm_limpa_alfa($this->tipoarea); }
               if     (isset($NM_val_form) && isset($NM_val_form['aptnum'])) { $this->aptnum = $NM_val_form['aptnum']; }
               elseif (isset($this->aptnum)) { $this->nm_limpa_alfa($this->aptnum); }
               if     (isset($NM_val_form) && isset($NM_val_form['qtdpessoas'])) { $this->qtdpessoas = $NM_val_form['qtdpessoas']; }
               elseif (isset($this->qtdpessoas)) { $this->nm_limpa_alfa($this->qtdpessoas); }
 
               $this->nm_formatar_campos();
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+              {
+              }
 
               $aOldRefresh               = $this->nmgp_refresh_fields;
-              $this->nmgp_refresh_fields = array_diff(array('tipoarea', 'nome', 'sobrenome', 'fone', 'email', 'aptnum', 'aptbloco', 'qtdpessoas', 'horario_inic', 'horario_fim'), $aDoNotUpdate);
+              $this->nmgp_refresh_fields = array_diff(array('tipoarea', 'nome', 'sobrenome', 'email', 'fone', 'aptnum', 'aptbloco', 'qtdpessoas', 'horario_inic', 'horario_fim', 'data'), $aDoNotUpdate);
               $this->ajax_return_values();
               $this->nmgp_refresh_fields = $aOldRefresh;
 
@@ -4043,15 +4473,31 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               { 
                   $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES ('$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', #$this->horario_inic#, #$this->horario_fim#, #$this->data#, $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
               }
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+              { 
+                  $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
+              }
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
               { 
                   $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
+              }
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+              {
+                  $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
+              }
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+              {
+                  $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", EXTEND('$this->data', YEAR TO DAY), $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
               }
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
               {
                   $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
               }
               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sqlite))
+              {
+                  $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
+              }
+              elseif ($this->Ini->nm_tpbanco == 'pdo_ibm')
               {
                   $comando = "INSERT INTO " . $this->Ini->nm_tabela . " (" . $NM_cmp_auto . "nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas) VALUES (" . $NM_seq_auto . "'$this->nome', '$this->sobrenome', $this->fone, '$this->email', '$this->tipoarea', " . $this->Ini->date_delim . $this->horario_inic . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->horario_fim . $this->Ini->date_delim1 . ", " . $this->Ini->date_delim . $this->data . $this->Ini->date_delim1 . ", $this->aptnum, '$this->aptbloco', $this->qtdpessoas)"; 
               }
@@ -4063,6 +4509,13 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $comando = str_replace("'null'", "null", $comando) ; 
               $comando = str_replace("#null#", "null", $comando) ; 
               $comando = str_replace($this->Ini->date_delim . "null" . $this->Ini->date_delim1, "null", $comando) ; 
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+              {
+                $comando = str_replace("EXTEND('', YEAR TO FRACTION)", "null", $comando) ; 
+                $comando = str_replace("EXTEND(null, YEAR TO FRACTION)", "null", $comando) ; 
+                $comando = str_replace("EXTEND('', YEAR TO DAY)", "null", $comando) ; 
+                $comando = str_replace("EXTEND(null, YEAR TO DAY)", "null", $comando) ; 
+              }  
               $_SESSION['scriptcase']['sc_sql_ult_comando'] = $comando; 
               $rs = $this->Db->Execute($comando); 
               if ($rs === false)  
@@ -4088,7 +4541,7 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               }  
               if ('refresh_insert' != $this->nmgp_opcao)
               {
-              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access) || in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase)) 
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql) || in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access) || in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase)) 
               { 
                   $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select @@identity"; 
                   $rsy = $this->Db->Execute($_SESSION['scriptcase']['sc_sql_ult_comando']); 
@@ -4108,6 +4561,47 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
               { 
                   $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select last_insert_id()"; 
+                  $rsy = $this->Db->Execute($_SESSION['scriptcase']['sc_sql_ult_comando']); 
+                  if ($rsy === false && !$rsy->EOF)  
+                  { 
+                      $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dbas'], $this->Db->ErrorMsg()); 
+                      exit; 
+                  } 
+                  $this->id_gestao = $rsy->fields[0];
+                  $rsy->Close(); 
+              } 
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+              { 
+                  $_SESSION['scriptcase']['sc_sql_ult_comando'] = "SELECT dbinfo('sqlca.sqlerrd1') FROM " . $this->Ini->nm_tabela; 
+                  $rsy = $this->Db->Execute($_SESSION['scriptcase']['sc_sql_ult_comando']); 
+                  if ($rsy === false && !$rsy->EOF)  
+                  { 
+                      $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dbas'], $this->Db->ErrorMsg()); 
+                      exit; 
+                  } 
+                  $this->id_gestao = $rsy->fields[0];
+                  $rsy->Close(); 
+              } 
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+              { 
+                  $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select .currval from dual"; 
+                  $rsy = $this->Db->Execute($_SESSION['scriptcase']['sc_sql_ult_comando']); 
+                  if ($rsy === false && !$rsy->EOF)  
+                  { 
+                      $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dbas'], $this->Db->ErrorMsg()); 
+                      exit; 
+                  } 
+                  $this->id_gestao = $rsy->fields[0];
+                  $rsy->Close(); 
+              } 
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_db2))
+              { 
+                  $str_tabela = "SYSIBM.SYSDUMMY1"; 
+                  if($this->Ini->nm_con_use_schema == "N") 
+                  { 
+                          $str_tabela = "SYSDUMMY1"; 
+                  } 
+                  $_SESSION['scriptcase']['sc_sql_ult_comando'] = "SELECT IDENTITY_VAL_LOCAL() FROM " . $str_tabela; 
                   $rsy = $this->Db->Execute($_SESSION['scriptcase']['sc_sql_ult_comando']); 
                   if ($rsy === false && !$rsy->EOF)  
                   { 
@@ -4156,6 +4650,7 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $this->nome = $this->nome_before_qstr;
               $this->sobrenome = $this->sobrenome_before_qstr;
               $this->email = $this->email_before_qstr;
+              $this->tipoarea = $this->tipoarea_before_qstr;
               }
 
               $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['db_changed'] = true;
@@ -4171,6 +4666,7 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $this->nome = $this->nome_before_qstr;
               $this->sobrenome = $this->sobrenome_before_qstr;
               $this->email = $this->email_before_qstr;
+              $this->tipoarea = $this->tipoarea_before_qstr;
               if (empty($this->sc_erro_insert)) {
                   $this->record_insert_ok = true;
               } 
@@ -4183,7 +4679,6 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               } 
               }
               $this->nm_flag_iframe = true;
-              $_SESSION[""] = $this->aptbloco;  
           } 
           if ($this->lig_edit_lookup)
           {
@@ -4201,6 +4696,21 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           {
 
           if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+          {
+              $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao"; 
+              $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+          }  
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+          {
+              $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao"; 
+              $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+          }  
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao"; 
+              $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+          }  
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
           {
               $_SESSION['scriptcase']['sc_sql_ult_comando'] = "select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao"; 
               $rs1 = $this->Db->Execute("select count(*) AS countTest from " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
@@ -4231,6 +4741,21 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           { 
               $rs1->Close(); 
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+              {
+                  $_SESSION['scriptcase']['sc_sql_ult_comando'] = "DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "; 
+                  $rs = $this->Db->Execute("DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+              {
+                  $_SESSION['scriptcase']['sc_sql_ult_comando'] = "DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "; 
+                  $rs = $this->Db->Execute("DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+              {
+                  $_SESSION['scriptcase']['sc_sql_ult_comando'] = "DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "; 
+                  $rs = $this->Db->Execute("DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
               {
                   $_SESSION['scriptcase']['sc_sql_ult_comando'] = "DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "; 
                   $rs = $this->Db->Execute("DELETE FROM " . $this->Ini->nm_tabela . " where id_gestao = $this->id_gestao "); 
@@ -4300,6 +4825,41 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               eval('$this->' . $sc_val_null_field . ' = "";');
           }
       }
+    if ("update" == $this->sc_evento && $this->nmgp_opcao != "nada") {
+        $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+ 
+
+
+
+
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+    }
+    if ("delete" == $this->sc_evento && $this->nmgp_opcao != "nada") {
+      $_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'on';
+ 
+
+
+
+
+$_SESSION['scriptcase']['calendar_gestao_alfazema_area_mob']['contr_erro'] = 'off'; 
+    }
+      if (!empty($this->Campos_Mens_erro)) 
+      {
+          $this->Erro->mensagem(__FILE__, __LINE__, "critica", $this->Campos_Mens_erro); 
+          $this->Campos_Mens_erro = ""; 
+          $this->nmgp_opc_ant = $salva_opcao ; 
+          if ($salva_opcao == "incluir") 
+          { 
+              $GLOBALS["erro_incl"] = 1; 
+          }
+          if ($this->nmgp_opcao == "alterar" || $this->nmgp_opcao == "incluir" || $this->nmgp_opcao == "excluir") 
+          {
+              $this->nmgp_opcao = "nada"; 
+          } 
+          $this->sc_evento = ""; 
+          $this->NM_rollback_db(); 
+          return; 
+      }
       if ($salva_opcao == "incluir" && $GLOBALS["erro_incl"] != 1) 
       { 
           $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['parms'] = "id_gestao?#?$this->id_gestao?@?"; 
@@ -4360,6 +4920,18 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           { 
               $nmgp_select = "SELECT id_gestao, nome, sobrenome, fone, email, tipoArea, str_replace (convert(char(10),horario_inic,102), '.', '-') + ' ' + convert(char(8),horario_inic,20), str_replace (convert(char(10),horario_fim,102), '.', '-') + ' ' + convert(char(8),horario_fim,20), str_replace (convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20), aptNum, aptBloco, qtdPessoas from " . $this->Ini->nm_tabela ; 
           } 
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+          { 
+              $nmgp_select = "SELECT id_gestao, nome, sobrenome, fone, email, tipoArea, convert(char(23),horario_inic,121), convert(char(23),horario_fim,121), convert(char(23),data,121), aptNum, aptBloco, qtdPessoas from " . $this->Ini->nm_tabela ; 
+          } 
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          { 
+              $nmgp_select = "SELECT id_gestao, nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas from " . $this->Ini->nm_tabela ; 
+          } 
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+          { 
+              $nmgp_select = "SELECT id_gestao, nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, EXTEND(data, YEAR TO DAY), aptNum, aptBloco, qtdPessoas from " . $this->Ini->nm_tabela ; 
+          } 
           else 
           { 
               $nmgp_select = "SELECT id_gestao, nome, sobrenome, fone, email, tipoArea, horario_inic, horario_fim, data, aptNum, aptBloco, qtdPessoas from " . $this->Ini->nm_tabela ; 
@@ -4369,6 +4941,18 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
           if ($this->nmgp_opcao == "igual" || (($_SESSION['sc_session'][$this->Ini->sc_page]['form_adm_clientes']['run_iframe'] == "F" || $_SESSION['sc_session'][$this->Ini->sc_page]['form_adm_clientes']['run_iframe'] == "R") && ($this->sc_evento == "insert" || $this->sc_evento == "update")) )
           { 
               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+              {
+                  $aWhere[] = "id_gestao = $this->id_gestao"; 
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+              {
+                  $aWhere[] = "id_gestao = $this->id_gestao"; 
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+              {
+                  $aWhere[] = "id_gestao = $this->id_gestao"; 
+              }  
+              elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
               {
                   $aWhere[] = "id_gestao = $this->id_gestao"; 
               }  
@@ -4522,10 +5106,10 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
               $this->nmgp_dados_form["email"] = $this->email;
               $this->tipoarea = "";  
               $this->nmgp_dados_form["tipoarea"] = $this->tipoarea;
-              $this->horario_inic = "";  
+              $this->horario_inic = "08:00";  
               $this->horario_inic_hora = "" ;  
               $this->nmgp_dados_form["horario_inic"] = $this->horario_inic;
-              $this->horario_fim = "";  
+              $this->horario_fim = "22:00";  
               $this->horario_fim_hora = "" ;  
               $this->nmgp_dados_form["horario_fim"] = $this->horario_fim;
               $this->data = "";  
@@ -4552,8 +5136,6 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
 
               $this->data = date('Y-m-d', $iTimestampIni);
               $this->horario_inic = date($sTimeFormat1, $iTimestampIni);
-              $this->data = date('Y-m-d', $iTimestampEnd);
-              $this->horario_fim = date($sTimeFormat1, $iTimestampEnd);
           }
 
           if (($this->Embutida_form || $this->Embutida_multi) && isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['foreign_key']) && !empty($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['foreign_key']))
@@ -4573,7 +5155,6 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
 //-- 
       if ($this->nmgp_opcao != "novo") 
       {
-          $_SESSION[""] = $this->aptbloco;  
       }
       if (!isset($this->nmgp_refresh_fields)) 
       { 
@@ -4742,10 +5323,10 @@ $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob'
     function form_highlight_search_quicksearch(&$result, $field, $value)
     {
         $searchOk = false;
-        if ('SC_all_Cmp' == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "fone", "email", "aptnum", "aptbloco", "qtdpessoas", "horario_inic", "horario_fim"))) {
+        if ('SC_all_Cmp' == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "email", "fone", "aptnum", "aptbloco", "qtdpessoas", "horario_inic", "horario_fim", "data"))) {
             $searchOk = true;
         }
-        elseif ($field == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "fone", "email", "aptnum", "aptbloco", "qtdpessoas", "horario_inic", "horario_fim"))) {
+        elseif ($field == $this->nmgp_fast_search && in_array($field, array("tipoarea", "nome", "sobrenome", "email", "fone", "aptnum", "aptbloco", "qtdpessoas", "horario_inic", "horario_fim", "data"))) {
             $searchOk = true;
         }
 
@@ -4846,25 +5427,41 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
  <script type="text/javascript" src="<?php echo $this->Ini->path_prod; ?>/third/jquery_plugin/fullcalendar-3.4.0/fullcalendar.min.js"></script>
  <script type="text/javascript" src="<?php echo $this->Ini->path_prod; ?>/third/jquery_plugin/fullcalendar-3.4.0/gcal.min.js"></script>
  <script type="text/javascript" src="<?php echo $this->Ini->path_prod; ?>/third/jquery_plugin/thickbox/thickbox-compressed.js"></SCRIPT>
-<script type="text/javascript">
-  function calendarGoBack() {
-    document.F6.action = "<?php echo $appReturn; ?>";
-    document.F6.submit();
-  }
-</script>
-<style type="text/css">
+<?php
+    $javascriptParams = array(
+        'app_return' => $appReturn,
+        'date_col' => $sCalDateCol,
+        'first_day' => $iFirstDay,
+        'url_google_import' => $url_importGoogle,
+        'url_google_export' => $url_exportGoogle,
+    );
+    $this->calendarOutput_css();
+    $this->calendarOutput_javascript($javascriptParams);
+?>
+</head>
+<body class="scAppCalendarPage" style="">
+<?php
+    $this->calendarOutput_calendar();
+    $this->calendarOutput_form();
+?>
+</body>
+</html>
+<?php
+   } // calendarOutputDisplay
 
+    function calendarOutput_css()
+    {
+?>
+<style type="text/css">
 @media (max-width: 1200px) {
     .fc-toolbar .fc-center{
         display:none;
     }
 }
-
 @media (max-width: 1150px) {
     .fc-toolbar .fc-center{
         display:inline-block !important;
     }
-
     button.fc-today-button,
     button.fc-print-button,
     button.fc-importGoogle-button,
@@ -4878,46 +5475,36 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         background-position: center;
         text-indent: -9999px;
     }
-
     button.fc-today-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_today.png)!important;
     }
-
     button.fc-print-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_print.png)!important;
     }
-
     button.fc-importGoogle-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_down.png)!important;
     }
-
     button.fc-exportGoogle-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_up.png)!important;
     }
-
     button.fc-month-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_month.png)!important;
     }
-
     button.fc-agendaWeek-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_week.png)!important;
     }
-
     button.fc-agendaDay-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_day.png)!important;
     }
-
     button.fc-listMonth-button {
         background-image: url(../_lib/img/scriptcase__NM__ico__NM__sc_cal_list.png)!important;
     }
 }
-
 @media (max-width: 670px) {
     button.fc-print-button{
         display:none !important;
     }
 }
-
 @media (max-width: 853px) {
     .fc-toolbar .fc-center{
         display:none !important;
@@ -4927,290 +5514,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
         padding: 2px 5px!important;
     }
 }
-</style>
- <script type="text/javascript">
-  function sc_session_redir(url_redir)
-  {
-      if (window.parent && window.parent.document != window.document && typeof window.parent.sc_session_redir === 'function')
-      {
-          window.parent.sc_session_redir(url_redir);
-      }
-      else
-      {
-          if (window.opener && typeof window.opener.sc_session_redir === 'function')
-          {
-              window.close();
-              window.opener.sc_session_redir(url_redir);
-          }
-          else
-          {
-              window.location = url_redir;
-          }
-      }
-  }
-  function calendar_reload() {
-    $('#calendar').fullCalendar('refetchEvents');
-  }
-  function calendar_print() {
-      $.ajax({
-          url: 'calendar_gestao_alfazema_area_mob.php',
-          type: 'GET',
-          dataType: 'json',
-          data: {
-              nmgp_opcao: 'calendar_print',
-              start: $('#calendar').fullCalendar('getView').start.format(),
-              end: $('#calendar').fullCalendar('getView').end.format()
-          }
-      }).done(function(data) {
-          if ('html' == data.outputFormat) {
-              var newWindow = window.open('');
-              newWindow.document.write(data.printHtml);
-              newWindow.document.close();
-              newWindow.focus();
-          }
-          else {
-              var newWindow = window.open(data.fileHtml);
-          }
-          //newWindow.print();
-      });
-  }
-  $(document).ready(function() {
-    $('#calendar').fullCalendar({
-      monthNames: ["<?php      echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_janu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_febr"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_marc"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_apri"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_mayy"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_june"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_july"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_augu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_sept"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_octo"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_nove"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_dece"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>"],
-      monthNamesShort: ["<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_janu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_febr"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_marc"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_apri"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_mayy"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_june"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_july"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_augu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_sept"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_octo"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_nove"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_dece"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>"],
-      dayNames: ["<?php        echo html_entity_decode($this->Ini->Nm_lang["lang_days_sund"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_mond"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_tued"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_wend"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_thud"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_frid"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_satd"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>"],
-      dayNamesShort: ["<?php   echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_sund"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_mond"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_tued"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_wend"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_thud"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_frid"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_satd"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>"],
-      allDayText: "<?php       echo html_entity_decode($this->Ini->Nm_lang["lang_per_allday"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);     ?>",
-      allDayHtml: "<?php       echo html_entity_decode($this->Ini->Nm_lang["lang_per_allday"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);     ?>",
-      noEventsMessage: "<?php       echo html_entity_decode($this->Ini->Nm_lang["lang_per_nevent"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);     ?>",
-      buttonText: {
-        today: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_per_today"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);       ?>",
-        month: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_per_month"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);       ?>",
-        week: "<?php   echo html_entity_decode($this->Ini->Nm_lang["lang_per_week"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);        ?>",
-        day: "<?php    echo html_entity_decode($this->Ini->Nm_lang["lang_per_day"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);         ?>",
-        agenda: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_agenda"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
-        print: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_print"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);  ?>",
-        listMonth: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_agenda"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);  ?>",
-      },
-      views: {
-        month: {titleFormat: 'MMMM YYYY', columnFormat: 'ddd', timeFormat: 'H:mm',slotLabelFormat: ['ddd','H:mm'],},
-        week: {titleFormat: 'MMM D YYYY', columnFormat: 'ddd <?php echo $sCalDateCol; ?>', timeFormat: 'H:mm',slotLabelFormat: ['ddd <?php echo $sCalDateCol; ?>','H:mm'],},
-        day: {titleFormat: 'dddd[,] MMM D[,] YYYY', columnFormat: 'dddd <?php echo $sCalDateCol; ?>', timeFormat: 'H:mm',slotLabelFormat: ['dddd <?php echo $sCalDateCol; ?>','H:mm'],},
-      },
-      firstDay: <?php echo $iFirstDay; ?>,
-      header: {
-        left: 'prev,next today print',
-        center: 'title',
-        right: 'month,agendaWeek,agendaDay,listMonth<?php if ('' != $appReturn) { echo ' goBack'; } ?>'
-      },
-      customButtons: {
-        goBack: {
-          text: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_btns_back"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
-          click: function() {
-            calendarGoBack();
-          }
-        },
-        print: {
-          text: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_print"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);  ?>",
-          click: function() {
-            calendar_print();
-          }
-        }
-      },
-      editable: <?php echo ($this->calendarConfigValues['update'] ? 'true' : 'false'); ?>,
-      slotDuration: "00:30:00",
-      snapDuration: "00:05:00",
-      nextDayThreshold: "00:00:00",
-      eventStartEditable: false,
-      allDaySlot: true,
-      minTime: "08:00",
-      maxTime: "22:00",
-<?php
-       if (isset($this->Ini->Nm_lang["lang_calendar_no_events"]) && '' != $this->Ini->Nm_lang["lang_calendar_no_events"]) {
-?>
-      noEventsMessage: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_no_events"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
-<?php
-       }
-?>
-      events: 'calendar_gestao_alfazema_area_mob.php?script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_opcao=calendar_fetch' + getCategory(false),
-      eventRender: function (event, element, view) {
-        if(event.hasOwnProperty('description') && event.description != '')
-        {
-            element.find('.fc-title').append('<div class="hr-line-solid-no-margin"></div><span style="font-size: 80%;">'+event.description+'</span></div>');
-        }
-      },
-      dayClick: function(date, jsEvent, view) {
-<?php
-       if ($this->calendarConfigValues['insert'])
-       {
-?>
-        var sDate = date.format(), sTime = '00:00:00', allDay = false;
-        if (sDate.indexOf('T') > 0)
-        {
-            dateParts = date.format().split('T');
-            sDate = dateParts[0], sTime = dateParts[1];
-        }
-        else if ('month' == view.type)
-        {
-            sTime = '06:00:00';
-        }
-        else
-        {
-            allDay = true;
-        }
-<?php
-
-if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile'])
-{
-?>
-        scAddNewEvent(sDate, sTime, allDay);
-<?php
-}
-else
-{
-?>
-        tb_show('', 'calendar_gestao_alfazema_area_mob.php?nmgp_opcao=edit_novo&sc_cal_click_date=' + sDate + '&sc_cal_click_time=' + sTime + '&sc_cal_click_allday=' + allDay + '&script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_outra_jan=true&nmgp_url_saida=modal&TB_iframe=true&modal=true&height=500&width=700', '');
-<?php
-}
-
-?>
-<?php
-       }
-?>
-      },
-      eventClick: function(calEvent, jsEvent, view) {
-<?php
-
-if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile'])
-{
-?>
-        scEditEvent(calEvent.id);
-<?php
-}
-else
-{
-?>
-        tb_show('', 'calendar_gestao_alfazema_area_mob.php?nmgp_opcao=igual_calendar&id_gestao=' + calEvent.id + '&__orig_id_gestao=' + calEvent.id + '&script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_outra_jan=true&nmgp_url_saida=modal&TB_iframe=true&modal=true&height=500&width=700', '');
-<?php
-}
-
-?>
-      },
-      eventDrop: function(event, delta, revertFunc) {
-        $.ajax({
-          url: 'calendar_gestao_alfazema_area_mob.php',
-          type: 'POST',
-          dataType: 'json',
-          data: { 'script_case_init': '<?php echo $this->Ini->sc_page ?>', 'nmgp_opcao': 'calendar_drop', 'sc_event_id': event.id, 'sc_day_delta': delta._data.days, 'sc_time_delta': (delta._data.hours * 60) + delta._data.minutes, 'sc_all_day': event.allDay, 'sc_fullcal_start': (event._start && event._start._d ? event._start._d.toISOString() : ''), 'sc_fullcal_end': (event._end && event._end._d ? event._end._d.toISOString() : '') },
-          originalEvent: event,
-          success: function(data) {
-            var bChanged = false;
-            if (typeof data['status'] !== "undefined" && false == data['status']) {
-              revertFunc();
-            }
-            else {
-              if (typeof data['backgroundColor'] !== "undefined" && '' != data['backgroundColor']) {
-                if (this.originalEvent.backgroundColor != data['backgroundColor']) {
-                  bChanged = true;
-                }
-                this.originalEvent.backgroundColor = data['backgroundColor'];
-              }
-              if (typeof data['borderColor'] !== "undefined" && '' != data['borderColor']) {
-                if (this.originalEvent.borderColor != data['borderColor']) {
-                  bChanged = true;
-                }
-                this.originalEvent.borderColor = data['borderColor'];
-              }
-              if (this.originalEvent.allDay || this.originalEvent.originalAllDay || bChanged) {
-                $('#calendar').fullCalendar('refetchEvents');
-              }
-              else {
-                $('#calendar').fullCalendar('updateEvent', this.originalEvent);
-              }
-            }
-            if (typeof data['message'] !== "undefined" && '' != data['message']) {
-              alert(data['message']);
-            }
-          }
-        });
-      },
-      eventResize: function(event, delta, revertFunc) {
-        $.post(
-          'calendar_gestao_alfazema_area_mob.php',
-          { 'script_case_init': '<?php echo $this->Ini->sc_page ?>', 'nmgp_opcao': 'calendar_resize', 'sc_event_id': event.id, 'sc_day_delta': delta._data.days, 'sc_time_delta': (delta._data.hours * 60) + delta._data.minutes, 'sc_fullcal_start': (event._start && event._start._d ? event._start._d.toISOString() : ''), 'sc_fullcal_end': (event._end && event._end._d ? event._end._d.toISOString() : '') },
-          function(data) {
-            if (false == data['status']) {
-              revertFunc();
-            }
-            if (typeof data['message'] !== "undefined" && '' != data['message']) {
-              alert(data['message']);
-            }
-          },
-          'json'
-        );
-      },
-      defaultView: 'month',
-    });
-  });
-  function scAddNewEvent(sDate, sTime, allDay) {
-    $("#sc-ui-nmgp_opcao").val("edit_novo");
-    $("#sc-ui-click-date").val(sDate);
-    $("#sc-ui-click-time").val(sTime);
-    $("#sc-ui-click-allday").val(allDay);
-    $("#sc-ui-form").submit();
-  }
-  function scEditEvent(sEventId) {
-    $("#sc-ui-nmgp_opcao").val("igual");
-    $("#sc-ui-event-id").val(sEventId);
-    $("#sc-ui-form").submit();
-  }
-
-        function filterCategory(category) {
-                if ($("#id_calendar_category_" + category).hasClass('scCalendarCategoryItemActive')) {
-                        $("#id_calendar_category_" + category).removeClass('scCalendarCategoryItemActive');
-                }
-                else {
-                        $("#id_calendar_category_" + category).addClass('scCalendarCategoryItemActive');
-                }
-
-                refreshFilterCategories();
-        }
-
-        function refreshFilterCategories() {
-                $('#calendar').fullCalendar('removeEventSource', 'calendar_gestao_alfazema_area_mob.php?script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_opcao=calendar_fetch' + getCategory(false));
-
-                setCategory();
-
-                $('#calendar').fullCalendar('addEventSource', 'calendar_gestao_alfazema_area_mob.php?script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_opcao=calendar_fetch' + getCategory(false));
-        }
-
-        function setCategory() {
-                var selectedCategories = $(".scCalendarCategoryItemActive"), categoryList = new Array(), i;
-
-                for (i = 0; i < selectedCategories.length; i++) {
-                        categoryList.push($(selectedCategories[i]).attr("id").substr(21));
-                }
-
-                $("#category_filter").val(categoryList.join(")SCCL)"))
-        }
-
-        function getCategory(isPrint) {
-                var categoryFilter = $("#category_filter");
-
-                if (!categoryFilter.length) {
-                        return "";
-                }
-                else if (isPrint) {
-                        return categoryFilter.val();
-                }
-                else {
-                        return "&category=" + categoryFilter.val();
-                }
-        }
- </script>
-</head>
-<body class="scAppCalendarPage" style="">
-<style type="text/css">
 .sc-cal-page-container {
     display: flex;
     flex-direction: row;
@@ -5238,42 +5541,735 @@ a#id_bcalendargoogleimport {
 a#id_bcalendargoogleexport {
     white-space: nowrap;
 }
+.sc-month-picker-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.sc-month-picker-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.sc-month-picker-cell {
+    display: inline-grid;
+    flex-grow: 1;
+    width: 30%;
+}
+.sc-month-picker-button {
+    display: grid;
+    border-radius: 25px;
+    justify-items: center;
+    padding: 10px;
+    width: 75%;
+}
+.sc-month-picker-nav-button {
+    font-size: 125%;
+}
 </style>
-<div class='scCalendarBorder sc-cal-page-container'>
-    
-    <div class="sc-cal-calendar-container">
+<?php
+    } // calendarOutput_css
+
+    function calendarOutput_javascript($javascriptParams)
+    {
+?>
+<script type="text/javascript">
+<?php
+        $this->calendarOutput_javascriptGeneral($javascriptParams);
+        $this->calendarOutput_javascriptDesktop();
+        $this->calendarOutput_javascriptMobile();
+?>
+$(function() {
+<?php
+        $this->calendarOutput_javascriptOnReady($javascriptParams);
+?>
+});
+</script>
+<?php
+    } // calendarOutput_javascript
+
+    function calendarOutput_javascriptGeneral($javascriptParams)
+    {
+?>
+function sc_session_redir(url_redir)
+{
+    if (window.parent && window.parent.document != window.document && typeof window.parent.sc_session_redir === 'function')
+    {
+        window.parent.sc_session_redir(url_redir);
+    }
+    else
+    {
+        if (window.opener && typeof window.opener.sc_session_redir === 'function')
+        {
+            window.close();
+            window.opener.sc_session_redir(url_redir);
+        }
+        else
+        {
+            window.location = url_redir;
+        }
+    }
+}
+
+function calendarGoBack()
+{
+    document.F6.action = "<?php echo $javascriptParams['app_return']; ?>";
+    document.F6.submit();
+}
+function calendar_reload()
+{
+    $("#calendar").fullCalendar("refetchEvents");
+}
+function calendar_print()
+{
+    $.ajax({
+        url: "calendar_gestao_alfazema_area_mob.php",
+        type: "GET",
+        dataType: "json",
+        data: {
+            nmgp_opcao: "calendar_print",
+            start: $("#calendar").fullCalendar("getView").start.format(),
+            end: $("#calendar").fullCalendar("getView").end.format()
+        }
+    }).done(function(data) {
+        if ("html" == data.outputFormat) {
+            var newWindow = window.open("");
+            newWindow.document.write(data.printHtml);
+            newWindow.document.close();
+            newWindow.focus();
+        } else {
+            var newWindow = window.open(data.fileHtml);
+        }
+        //newWindow.print();
+    });
+}
+function filterCategory(category)
+{
+    if ($("#id_calendar_category_" + category).hasClass('scCalendarCategoryItemActive')) {
+        $("#id_calendar_category_" + category).removeClass('scCalendarCategoryItemActive');
+    } else {
+        $("#id_calendar_category_" + category).addClass('scCalendarCategoryItemActive');
+    }
+    refreshFilterCategories();
+}
+function refreshFilterCategories()
+{
+    $('#calendar').fullCalendar('removeEventSource', 'calendar_gestao_alfazema_area_mob.php?script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_opcao=calendar_fetch' + getCategory(false));
+    setCategory();
+    $('#calendar').fullCalendar('addEventSource', 'calendar_gestao_alfazema_area_mob.php?script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_opcao=calendar_fetch' + getCategory(false));
+}
+function setCategory()
+{
+    var selectedCategories = $(".scCalendarCategoryItemActive"), categoryList = new Array(), i;
+    for (i = 0; i < selectedCategories.length; i++) {
+        categoryList.push($(selectedCategories[i]).attr("id").substr(21));
+    }
+    $("#category_filter").val(categoryList.join(")SCCL)"))
+}
+function getCategory(isPrint)
+{
+    var categoryFilter = $("#category_filter");
+    if (!categoryFilter.length) {
+        return "";
+    } else if (isPrint) {
+        return categoryFilter.val();
+    } else {
+        return "&category=" + categoryFilter.val();
+    }
+}
+function addNewEvent(sDate, sTime, allDay)
+{
+<?php
+        if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile']) {
+?>
+    addNewEvent_mobile(sDate, sTime, allDay);
+<?php
+        } else {
+?>
+    addNewEvent_desktop(sDate, sTime, allDay);
+<?php
+        }
+?>
+}
+function editEvent(sEventId)
+{
+<?php
+        if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile']) {
+?>
+    editEvent_mobile(sEventId);
+<?php
+        } else {
+?>
+    editEvent_desktop(sEventId);
+<?php
+        }
+?>
+}
+<?php
+    } // calendarOutput_javascriptGeneral
+
+    function calendarOutput_javascriptDesktop()
+    {
+?>
+function addNewEvent_desktop(sDate, sTime, allDay)
+{
+    tb_show('', 'calendar_gestao_alfazema_area_mob.php?nmgp_opcao=edit_novo&sc_cal_click_date=' + sDate + '&sc_cal_click_time=' + sTime + '&sc_cal_click_allday=' + allDay + '&script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_outra_jan=true&nmgp_url_saida=modal&TB_iframe=true&modal=true&height=500&width=700', '');
+}
+function editEvent_desktop(sEventId)
+{
+    tb_show('', 'calendar_gestao_alfazema_area_mob.php?nmgp_opcao=igual_calendar&id_gestao=' + sEventId + '&__orig_id_gestao=' + sEventId + '&script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_outra_jan=true&nmgp_url_saida=modal&TB_iframe=true&modal=true&height=500&width=700', '');
+}
+<?php
+    } // calendarOutput_javascriptDesktop
+
+    function calendarOutput_javascriptMobile()
+    {
+?>
+function addNewEvent_mobile(sDate, sTime, allDay)
+{
+    $("#sc-ui-nmgp_opcao").val("edit_novo");
+    $("#sc-ui-click-date").val(sDate);
+    $("#sc-ui-click-time").val(sTime);
+    $("#sc-ui-click-allday").val(allDay);
+    $("#sc-ui-form").submit();
+}
+function editEvent_mobile(sEventId)
+{
+    $("#sc-ui-nmgp_opcao").val("igual");
+    $("#sc-ui-event-id").val(sEventId);
+    $("#sc-ui-form").submit();
+}
+<?php
+    } // calendarOutput_javascriptMobile
+
+    function calendarOutput_javascriptOnReady($javascriptParams)
+    {
+        $this->calendarOutput_javascriptOnReady_miniCalendar($javascriptParams);
+        $this->calendarOutput_javascriptOnReady_mainCalendar($javascriptParams);
+    } // calendarOutput_javascriptOnReady
+
+    function calendarOutput_javascriptOnReady_miniCalendar($javascriptParams)
+    {
+    } // calendarOutput_javascriptOnReady_miniCalendar
+
+    function calendarOutput_javascriptOnReady_mainCalendar($javascriptParams)
+    {
+?>
+    $('#calendar').fullCalendar({
+        monthNames: [
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_janu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_febr"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_marc"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_apri"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_mayy"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_june"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_july"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_augu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_sept"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_octo"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_nove"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_dece"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>"
+        ],
+        monthNamesShort: [
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_janu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_febr"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_marc"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_apri"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_mayy"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_june"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_july"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_augu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_sept"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_octo"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_nove"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_dece"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>"
+        ],
+        dayNames: [
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_sund"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_mond"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_tued"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_wend"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_thud"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_frid"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_days_satd"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>"
+        ],
+        dayNamesShort: [
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_sund"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_mond"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_tued"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_wend"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_thud"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_frid"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_days_satd"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>"
+        ],
+        allDayText: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_allday"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+        allDayHtml: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_allday"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+        buttonText: {
+            today: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_today"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            month: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_month"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            week: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_week"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            day: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_day"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            agenda: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_agenda"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            print: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_print"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+            listMonth: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_agenda"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+        },
+        views: {
+            month: {
+                titleFormat: 'MMMM YYYY',
+                columnFormat: 'ddd',
+                timeFormat: 'H:mm',
+                slotLabelFormat: [
+                    'ddd',
+                    'H:mm'
+                ],
+            },
+            week: {
+                titleFormat: 'MMM D YYYY',
+                columnFormat: 'ddd <?php echo $javascriptParams['date_col']; ?>',
+                timeFormat: 'H:mm',
+                slotLabelFormat: [
+                    'ddd <?php echo $javascriptParams['date_col']; ?>',
+                    'H:mm'
+                ],
+            },
+            day: {
+                titleFormat: 'dddd[,] MMM D[,] YYYY',
+                columnFormat: 'dddd <?php echo $javascriptParams['date_col']; ?>',
+                timeFormat: 'H:mm',
+                slotLabelFormat: [
+                    'dddd <?php echo $javascriptParams['date_col']; ?>',
+                    'H:mm'
+                ],
+            },
+        },
+        firstDay: <?php echo $javascriptParams['first_day']; ?>,
+        header: {
+            left: 'prev,next today print',
+            center: 'title',
+            right: 'month,agendaWeek,agendaDay,listMonth<?php if ('' != $javascriptParams['app_return']) { echo ' goBack'; } ?>'
+        },
+        customButtons: {
+            print: {
+                text: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_print"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+                click: function() {
+                    calendar_print();
+                }
+            },
+            goBack: {
+                text: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_btns_back"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+                click: function() {
+                    calendarGoBack();
+                }
+            }
+        },
+        editable: <?php echo ($this->calendarConfigValues['update'] ? 'true' : 'false'); ?>,
+        slotDuration: "00:30:00",
+        snapDuration: "00:05:00",
+        nextDayThreshold: "00:00:00",
+        eventStartEditable: false,
+        allDaySlot: false,
+        minTime: "08:00",
+        maxTime: "22:00",
+<?php
+        if (isset($this->Ini->Nm_lang["lang_calendar_no_events"]) && '' != $this->Ini->Nm_lang["lang_calendar_no_events"]) {
+?>
+        noEventsMessage: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_no_events"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+<?php
+        } else {
+?>
+        noEventsMessage: "<?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_nevent"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>",
+<?php
+        }
+?>
+        events: 'calendar_gestao_alfazema_area_mob.php?script_case_init=<?php echo $this->Ini->sc_page ?>&nmgp_opcao=calendar_fetch' + getCategory(false),
+        eventRender: function (event, element, view) {
+            if (event.hasOwnProperty('description') && event.description != '') {
+                element.find('.fc-title').append('<div class="hr-line-solid-no-margin"></div><span style="font-size: 80%;">' + event.description + '</span></div>');
+            }
+        },
+        dayClick: function(date, jsEvent, view) {
+<?php
+        if ($this->calendarConfigValues['insert']) {
+?>
+            var sDate = date.format(), sTime = '00:00:00', allDay = false;
+            if (sDate.indexOf('T') > 0) {
+                dateParts = date.format().split('T');
+                sDate = dateParts[0], sTime = dateParts[1];
+            } else if ('month' == view.type) {
+                sTime = '06:00:00';
+            } else {
+                allDay = true;
+            }
+            addNewEvent(sDate, sTime, allDay);
+<?php
+        }
+?>
+        },
+        eventClick: function(calEvent, jsEvent, view) {
+            editEvent(calEvent.id);
+        },
+        eventDrop: function(event, delta, revertFunc) {
+            $.ajax({
+                url: 'calendar_gestao_alfazema_area_mob.php',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    'script_case_init': '<?php echo $this->Ini->sc_page ?>',
+                    'nmgp_opcao': 'calendar_drop',
+                    'sc_event_id': event.id,
+                    'sc_day_delta': delta._data.days,
+                    'sc_time_delta': (delta._data.hours * 60) + delta._data.minutes,
+                    'sc_all_day': event.allDay,
+                    'sc_fullcal_start': (event._start && event._start._d ? event._start._d.toISOString() : ''),
+                    'sc_fullcal_end': (event._end && event._end._d ? event._end._d.toISOString() : '')
+                },
+                originalEvent: event,
+                success: function(data) {
+                    var bChanged = false;
+                    if (typeof data['status'] !== "undefined" && false == data['status']) {
+                        revertFunc();
+                    } else {
+                        if (typeof data['backgroundColor'] !== "undefined" && '' != data['backgroundColor']) {
+                            if (this.originalEvent.backgroundColor != data['backgroundColor']) {
+                                bChanged = true;
+                            }
+                            this.originalEvent.backgroundColor = data['backgroundColor'];
+                        }
+                        if (typeof data['borderColor'] !== "undefined" && '' != data['borderColor']) {
+                            if (this.originalEvent.borderColor != data['borderColor']) {
+                                bChanged = true;
+                            }
+                            this.originalEvent.borderColor = data['borderColor'];
+                        }
+                        if (this.originalEvent.allDay || this.originalEvent.originalAllDay || bChanged) {
+                            $('#calendar').fullCalendar('refetchEvents');
+                        } else {
+                            $('#calendar').fullCalendar('updateEvent', this.originalEvent);
+                        }
+                    }
+                    if (typeof data['message'] !== "undefined" && '' != data['message']) {
+                        alert(data['message']);
+                    }
+                }
+            });
+        },
+        eventResize: function(event, delta, revertFunc) {
+            $.post(
+                'calendar_gestao_alfazema_area_mob.php',
+                {
+                    'script_case_init': '<?php echo $this->Ini->sc_page ?>',
+                    'nmgp_opcao': 'calendar_resize',
+                    'sc_event_id': event.id,
+                    'sc_day_delta': delta._data.days,
+                    'sc_time_delta': (delta._data.hours * 60) + delta._data.minutes,
+                    'sc_fullcal_start': (event._start && event._start._d ? event._start._d.toISOString() : ''),
+                    'sc_fullcal_end': (event._end && event._end._d ? event._end._d.toISOString() : '')
+                },
+                function(data) {
+                    if (false == data['status']) {
+                        revertFunc();
+                    }
+                    if (typeof data['message'] !== "undefined" && '' != data['message']) {
+                        alert(data['message']);
+                    }
+                },
+                'json'
+            );
+        },
+        defaultView: 'month',
+    });
+<?php
+    } // calendarOutput_javascriptOnReady_mainCalendar
+
+    function calendarOutput_javascriptOnReady_mobile()
+    {
+?>
+    bootstrapMobile();
+    $("#sc-mobile-menu-month").on("click", function() {
+        mobileMenuMonthClick();
+    });
+    $("#sc-mobile-menu-week").on("click", function() {
+        mobileMenuWeekClick();
+    });
+    $("#sc-mobile-menu-day").on("click", function() {
+        mobileMenuDayClick();
+    });
+    $("#sc-mobile-menu-agenda").on("click", function() {
+        mobileMenuAgendaClick();
+    });
+    $("#sc-mobile-menu-categories").on("click", function() {
+        mobileMenuCategoriesClick();
+    });
+    $("#sc-mobile-menu-print").on("click", function() {
+        mobileMenuPrintClick();
+    });
+    $("#sc-mobile-menu-import").on("click", function() {
+        mobileMenuImportClick();
+    });
+    $("#sc-mobile-menu-export").on("click", function() {
+        mobileMenuExportClick();
+    });
+    $(".sc-nav-prev").on("click", function() {
+        monthPicker_goToPrevious();
+    });
+    $(".sc-nav-next").on("click", function() {
+        monthPicker_goToNext();
+    });
+    $(".sc-nav-month").on("click", function() {
+        monthPicker_showMonthInterval();
+    });
+    $(".sc-month-picker-month").on("click", function() {
+        monthPicker_goToDate($(this).attr("id").substr(12));
+    });
+    $(".sc-month-picker-year").on("click", function() {
+        monthPicker_goToYear($(this).html());
+    });
+<?php
+    } // calendarOutput_javascriptOnReady_mobile
+
+    function calendarOutput_calendar()
+    {
+        if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile']) {
+            $this->calendarOutput_calendarMobile();
+        } else {
+            $this->calendarOutput_calendarDesktop();
+        }
+    } // calendarOutput_calendar
+
+    function calendarOutput_calendarDesktop()
+    {
+?>
+<div class="scCalendarBorder sc-cal-page-container">
+<?php
+        $this->calendarOutput_sideBar();
+        $this->calendarOutput_mainCalendar();
+?>
+</div>
+<?php
+    } // calendarOutput_calendarDesktop
+
+    function calendarOutput_calendarMobile()
+    {
+?>
+<div class="scCalendarBorder sc-cal-page-container">
+<?php
+        $this->calendarOutput_sideBar();
+        $this->calendarOutput_mainCalendar();
+?>
+</div>
+<?php
+    } // calendarOutput_calendarMobile
+
+    function calendarOutput_mainCalendar()
+    {
+?>
+<div class="sc-cal-calendar-container">
     <div id="calendar" style=""></div>
+</div>
+<?php
+    } // calendarOutput_mainCalendar
+
+    function calendarOutput_sideBar()
+    {
+    } // calendarOutput_sideBar
+
+    function calendarOutput_googleCalendarButtons()
+    {
+    } // calendarOutput_googleCalendarButtons
+
+    function calendarOutput_miniCalendar()
+    {
+    } // calendarOutput_miniCalendar
+
+    function calendarOutput_categoriesFilter()
+    {
+    } // calendarOutput_categoriesFilter
+
+    function calendarOutput_monthPicker()
+    {
+?>
+<div id="sc-id-month-picker" style="display: none">
+    <div class="sc-month-picker-nav">
+        <div>
+            <span class="sc-nav-prev sc-month-picker-nav-button fas fa-arrow-left"></span>
+        </div>
+        <div>
+            <span class="sc-nav-month"></span>
+            <span class="sc-nav-month-interval" style="display: none"></span>
+        </div>
+        <div>
+            <span class="sc-nav-next sc-month-picker-nav-button fas fa-arrow-right"></span>
+        </div>
+    </div>
+    <div id="sc-id-month-list">
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-01" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_janu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-02" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_febr"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-03" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_marc"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+        </div>
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-04" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_apri"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-05" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_mayy"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-06" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_june"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+        </div>
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-07" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_july"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-08" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_augu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-09" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_sept"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+        </div>
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-10" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_octo"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-11" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_nove"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-month-12" class="scButton_default sc-month-picker-month sc-month-picker-button"><?php echo html_entity_decode($this->Ini->Nm_lang["lang_shrt_mnth_dece"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?></span>
+            </div>
+        </div>
+    </div>
+    <div id="sc-id-year-list" style="display: none">
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-1" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-2" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-3" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+        </div>
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-4" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-5" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-6" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+        </div>
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-7" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-8" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-9" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+        </div>
+        <div class="sc-month-picker-row">
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-10" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-11" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+            <div class="sc-month-picker-cell">
+                <span id="sc-id-year-12" class="scButton_default sc-month-picker-year sc-month-picker-button"></span>
+            </div>
+        </div>
     </div>
 </div>
 <?php
+    } // calendarOutput_monthPicker
 
-if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile'])
-{
+    function calendarOutput_mobileMenu()
+    {
 ?>
-<form name="F1" id="sc-ui-form" method="post"
-      action="calendar_gestao_alfazema_area.php"
-      target="_self">
- <input type="hidden" name="nm_form_submit" value="1" />
- <input type="hidden" name="nmgp_url_saida" value="" />
- <input type="hidden" name="nmgp_opcao" id="sc-ui-nmgp_opcao" value="" />
- <input type="hidden" name="nmgp_parms" value="" />
- <input type="hidden" name="script_case_init" value="<?php echo $this->form_encode_input($this->Ini->sc_page); ?>" />
- <input type="hidden" name="sc_cal_click_date" id="sc-ui-click-date" value="" />
- <input type="hidden" name="sc_cal_click_time" id="sc-ui-click-time" value="" />
- <input type="hidden" name="sc_cal_click_allday" id="sc-ui-click-allday" value="" />
- <input type="hidden" name="id_gestao" id="sc-ui-event-id" value="" />
-</form>
+<div class="calendar-mobile-menu-overlay"></div>
+<div class="calendar-mobile-menu">
+    <div class="calendar-mobile-menu-toolbar"></div>
+    <div class="calendar-mobile-menu-items">
+        <div><span id="sc-mobile-menu-month" style="align-items: center">
+            <span class="far fa-calendar-alt"></span>
+            &nbsp;
+            <?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_month"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>
+        </span></div>
+        <div><span id="sc-mobile-menu-week" style="align-items: center">
+            <span class="fas fa-columns"></span>
+            &nbsp;
+            <?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_week"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>
+        </span></div>
+        <div><span id="sc-mobile-menu-day" style="align-items: center">
+            <span class="far fa-calendar-times""></span>
+            &nbsp;
+            <?php echo html_entity_decode($this->Ini->Nm_lang["lang_per_day"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>
+        </span></div>
+        <div><span id="sc-mobile-menu-agenda" style="align-items: center">
+            <span class="fas fa-list"></span>
+            &nbsp;
+            <?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_agenda"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>
+        </span></div>
+        <hr />
+        <div><span id="sc-mobile-menu-print" style="align-items: center">
+            <span class="fas fa-print"></span>
+            &nbsp;
+            <?php echo html_entity_decode($this->Ini->Nm_lang["lang_calendar_print"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]); ?>
+        </span></div>
+    </div>
+</div>
 <?php
-}
+    } // calendarOutput_mobileMenu
 
+    function calendarOutput_form()
+    {
+        $this->calendarOutput_formGeneral();
+        $this->calendarOutput_formMobile();
+    } // calendarOutput_form
+
+    function calendarOutput_formGeneral()
+    {
 ?>
 <form name="F6" method="post" action="./" target="_self">
-  <input type="hidden" name="script_case_init" value="<?php echo $this->form_encode_input($this->Ini->sc_page); ?>" />
+    <input type="hidden" name="script_case_init" value="<?php echo $this->form_encode_input($this->Ini->sc_page); ?>" />
 </form>
-</body>
-</html>
 <?php
-   } // calendarOutputDisplay
+    } // calendarOutput_formGeneral
+
+    function calendarOutput_formMobile()
+    {
+        if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && $_SESSION['scriptcase']['display_mobile']) {
+?>
+<form name="F1" id="sc-ui-form" method="post" action="calendar_gestao_alfazema_area.php" target="_self">
+    <input type="hidden" name="nm_form_submit" value="1" />
+    <input type="hidden" name="nmgp_url_saida" value="" />
+    <input type="hidden" name="nmgp_opcao" id="sc-ui-nmgp_opcao" value="" />
+    <input type="hidden" name="nmgp_parms" value="" />
+    <input type="hidden" name="script_case_init" value="<?php echo $this->form_encode_input($this->Ini->sc_page); ?>" />
+    <input type="hidden" name="sc_cal_click_date" id="sc-ui-click-date" value="" />
+    <input type="hidden" name="sc_cal_click_time" id="sc-ui-click-time" value="" />
+    <input type="hidden" name="sc_cal_click_allday" id="sc-ui-click-allday" value="" />
+    <input type="hidden" name="id_gestao" id="sc-ui-event-id" value="" />
+</form>
+<?php
+        }
+    } // calendarOutput_formMobile
 
    function calendarOutputJson($returnArray, $integerIndexes = false)
    {
@@ -5415,8 +6411,8 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
        $_SESSION['scriptcase']['sc_sql_ult_comando'] = $sSql; 
        $oRs = $this->Db->Execute($sSql);
 
-           $calendarDisplayStart = isset($_GET['start']) && '' != $_GET['start'] ? str_replace('-', '', $_GET['start']) : '';
-           $calendarDisplayEnd   = isset($_GET['end'])   && '' != $_GET['end']   ? str_replace('-', '', $_GET['end'])   : '';
+       $calendarDisplayStart = isset($_GET['start']) && '' != $_GET['start'] ? str_replace('-', '', $_GET['start']) : '';
+       $calendarDisplayEnd   = isset($_GET['end'])   && '' != $_GET['end']   ? str_replace('-', '', $_GET['end'])   : '';
 
        $aEvents = array();
 
@@ -5486,19 +6482,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
 
        if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
        {
-           $aSelect['end'] = "convert(char(23),data,121)";
-       }
-       elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
-       {
-           $aSelect['end'] = "str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20)";
-       }
-       else
-       {
-           $aSelect['end'] = "data";
-       }
-
-       if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
-       {
            $aSelect['start_time'] = "convert(char(8),horario_inic,108)";
        }
        elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
@@ -5544,57 +6527,29 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
            $sEnd        = isset($_GET['end'])      && '' != $_GET['end']      ? $_GET['end']      : '';
            $sCategory   = isset($_GET['category']) && '' != $_GET['category'] ? $_GET['category'] : '';
 
-           if ('' != $sStart && '' != $sEnd)
-           {
-               $s_Ini_StartFormat = $sStart;
-               $s_Ini_EndFormat   = $sEnd;
-               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+           if (!$bRecur) {
+               if ('' != $sStart && '' != $sEnd)
                {
-                   $aWhere[] = "convert(char(23),data,121) >= '" . $s_Ini_StartFormat . "' AND convert(char(23),data,121) <= '" . $s_Ini_EndFormat . "'";
+                   $s_Ini_StartFormat = $sStart;
+                   $s_Ini_EndFormat   = $sEnd;
+                   if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+                   {
+                       $aWhere[] = "convert(char(23),data,121) >= '" . $s_Ini_StartFormat . "' AND convert(char(23),data,121) <= '" . $s_Ini_EndFormat . "'";
+                   }
+                   elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
+                   {
+                       $aWhere[] = "str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) >= '" . $s_Ini_StartFormat . "' AND str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) <= '" . $s_Ini_EndFormat . "'";
+                   }
+                   elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+                   {
+                       $aWhere[] = "data >= #" . $s_Ini_StartFormat . "# AND data <= #" . $s_Ini_EndFormat . "#";
+                   }
+                   else
+                   {
+                       $aWhere[] = "data >= '" . $s_Ini_StartFormat . "' AND data <= '" . $s_Ini_EndFormat . "'";
+                   }
                }
-               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
-               {
-                   $aWhere[] = "str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) >= '" . $s_Ini_StartFormat . "' AND str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) <= '" . $s_Ini_EndFormat . "'";
-               }
-               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
-               {
-                   $aWhere[] = "data >= #" . $s_Ini_StartFormat . "# AND data <= #" . $s_Ini_EndFormat . "#";
-               }
-               else
-               {
-                   $aWhere[] = "data >= '" . $s_Ini_StartFormat . "' AND data <= '" . $s_Ini_EndFormat . "'";
-               }
-
-               if (!$bPrintCalendar)
-               {
-                   $s_Fin_StartFormat = date('Y-m-d', $this->calendarFullcalendarToTimestamp($sStart));
-                   $s_Fin_EndFormat   = date('Y-m-d', $this->calendarFullcalendarToTimestamp($sEnd));
-               }
-               else
-               {
-                   $s_Fin_StartFormat = $sStart;
-                   $s_Fin_EndFormat   = $sEnd;
-               }
-               if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
-               {
-                   $aWhere[] = "convert(char(23),data,121) >= '" . $s_Fin_StartFormat . "' AND convert(char(23),data,121) <= '" . $s_Fin_EndFormat . "'";
-                   $aWhere[] = "convert(char(23),data,121) <= '" . $s_Ini_StartFormat . "' AND convert(char(23),data,121) >= '" . $s_Fin_EndFormat . "'";
-               }
-               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
-               {
-                   $aWhere[] = "str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) >= '" . $s_Fin_StartFormat . "' AND str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) <= '" . $s_Fin_EndFormat . "'";
-                   $aWhere[] = "str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) <= '" . $s_Ini_StartFormat . "' AND str_replace(convert(char(10),data,102), '.', '-') + ' ' + convert(char(8),data,20) >= '" . $s_Fin_EndFormat . "'";
-               }
-               elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
-               {
-                   $aWhere[] = "data >= #" . $s_Fin_StartFormat . "# AND data <= #" . $s_Fin_EndFormat . "#";
-                   $aWhere[] = "data <= #" . $s_Ini_StartFormat . "# AND data >= #" . $s_Fin_EndFormat . "#";
-               }
-               else
-               {
-                   $aWhere[] = "data >= '" . $s_Fin_StartFormat . "' AND data <= '" . $s_Fin_EndFormat . "'";
-                   $aWhere[] = "data <= '" . $s_Ini_StartFormat . "' AND data >= '" . $s_Fin_EndFormat . "'";
-               }
+           } else {
            }
 
            $aFinal = array('(' . implode(') OR (', $aWhere) . ')');
@@ -5753,10 +6708,10 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
     } // calendarRecurrenceInDate
 
     function calendarRecurrenceGetEvents(&$eventsToDisplay, $thisEvent, $params) {
-    $params['displayStartDate'] = $this->calendarGetDateOnly($params['displayStartDate']);
-    $params['displayEndDate']   = $this->calendarGetDateOnly($params['displayEndDate']);
-    $params['startDate']        = $this->calendarGetDateOnly($params['startDate']);
-    $params['endDate']          = $this->calendarGetDateOnly($params['endDate']);
+        $params['displayStartDate'] = $this->calendarGetDateOnly($params['displayStartDate']);
+        $params['displayEndDate']   = $this->calendarGetDateOnly($params['displayEndDate']);
+        $params['startDate']        = $this->calendarGetDateOnly($params['startDate']);
+        $params['endDate']          = $this->calendarGetDateOnly($params['endDate']);
 
         $thisStartDate  = $params['startDate'];
         $thisEndDate    = $params['testEndDate'];
@@ -5784,7 +6739,7 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
                 if ($addEvent) {
                     // add date only
                     if (empty($params['daysToAdd'])) {
-                        if ($params['displayStartDate'] <= $thisStartDate) {
+                        if ($params['startDate'] <= $thisStartDate && $params['displayStartDate'] <= $thisStartDate) {
                             $newEvent = $thisEvent;
                             $this->calendarTimestampToStart($newEvent, $this->calendarGetMktime($thisStartDate, $params['startTime']), $newEvent['allDay']);
                             if ($params['forceEndToStart']) {
@@ -5811,8 +6766,8 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
                         foreach ($params['daysToAdd'] as $newDay) {
                             $newDate = $this->calendarRecurrentAddDay($sundayDate, $daysCorrection[$newDay]);
 
-                            if ($params['displayEndDate'] > $newDate && $newDate <= $params['endDate']) {
-                                if ($params['displayStartDate'] <= $newDate) {
+                            if ($params['displayEndDate'] > $newDate && $newDate <= $params['endDate'] && $newDate >= $params['startDate']) {
+                                if ($params['startDate'] <= $newDate && $params['displayStartDate'] <= $newDate) {
                                     $newEvent = $thisEvent;
                                     $this->calendarTimestampToStart($newEvent, $this->calendarGetMktime($newDate, $params['startTime']), $newEvent['allDay']);
                                     $this->calendarTimestampToEnd($newEvent, $this->calendarGetMktime($newDate, $params['endTime']), $newEvent['allDay']);
@@ -5838,12 +6793,12 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
     } // calendarRecurrenceGetEvents
 
     function calendarGetDateOnly($date) {
-    if (false !== strpos($date, 'T')) {
-      $parts = explode('T', $date);
-      return $parts[0];
-    }
+        if (false !== strpos($date, 'T')) {
+          $parts = explode('T', $date);
+          return $parts[0];
+        }
 
-    return $date;
+        return $date;
     } // calendarGetDateOnly
 
     function calendarRecurrenceAddPeriod($period, $periodCount, &$thisStart, &$thisEnd, $start, $end) {
@@ -5970,11 +6925,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
            if (8 < strlen($aEventData['start_time']))
            {
                $aEventData['start_time'] = substr($aEventData['start_time'], 0, 8);
-           }
-           if (false !== strpos($aEventData['end'], ' '))
-           {
-               $aTemp             = explode(' ', $aEventData['end']);
-               $aEventData['end'] = $aTemp[0];
            }
            if (false !== strpos($aEventData['end_time'], ' '))
            {
@@ -6306,24 +7256,17 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
        $aEvent = $aEvents[0];
 
        $iStart = $this->calendarStartToTimestamp($aEvent);
-       $iEnd   = $this->calendarEndToTimestamp($aEvent);
 
        if (false === $iStart)
        {
            return array('status' => false, 'message' => 'Erro na manipulacao da data inicial');
        }
-       elseif (false === $iEnd)
-       {
-           return array('status' => false, 'message' => 'Erro na manipulacao da data final');
-       }
 
        if ('move' == $sOp) {
            $iStart += ($iDays * 86400) + ($iMinutes * 60);
        }
-       $iEnd += ($iDays * 86400) + ($iMinutes * 60);
 
        $this->calendarTimestampToStart($aEvent, $iStart, $bAllDay);
-       $this->calendarTimestampToEnd($aEvent, $iEnd, $bAllDay);
 
        if ('' == $aEvent['start'])
        {
@@ -6333,10 +7276,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
        {
            $aEvent['start_time'] = 'null';
        }
-       if ('' == $aEvent['end'])
-       {
-           $aEvent['end'] = 'null';
-       }
        if ('' == $aEvent['end_time'])
        {
            $aEvent['end_time'] = 'null';
@@ -6344,15 +7283,15 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
 
        if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
        {
-           $sSql = 'UPDATE ' . $this->Ini->nm_tabela . " SET data = #" . $aEvent['start'] . "#, horario_inic = #" . $aEvent['start_time'] . "#, data = #" . $aEvent['end'] . "#, horario_fim = #" . $aEvent['end_time'] . "#" . $this->calendarWhere($sId);
+           $sSql = 'UPDATE ' . $this->Ini->nm_tabela . " SET data = #" . $aEvent['start'] . "#, horario_inic = #" . $aEvent['start_time'] . "#, horario_fim = #" . $aEvent['end_time'] . "#" . $this->calendarWhere($sId);
        }
        elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
        {
-           $sSql = 'UPDATE ' . $this->Ini->nm_tabela . " SET data = EXTEND(data, YEAR TO DAY), data = EXTEND(data, YEAR TO DAY)" . $this->calendarWhere($sId);
+           $sSql = 'UPDATE ' . $this->Ini->nm_tabela . " SET data = EXTEND(data, YEAR TO DAY)" . $this->calendarWhere($sId);
        }
        else
        {
-           $sSql = 'UPDATE ' . $this->Ini->nm_tabela . " SET data = '" . $aEvent['start'] . "', horario_inic = '" . $aEvent['start_time'] . "', data = '" . $aEvent['end'] . "', horario_fim = '" . $aEvent['end_time'] . "'" . $this->calendarWhere($sId);
+           $sSql = 'UPDATE ' . $this->Ini->nm_tabela . " SET data = '" . $aEvent['start'] . "', horario_inic = '" . $aEvent['start_time'] . "', horario_fim = '" . $aEvent['end_time'] . "'" . $this->calendarWhere($sId);
        }
 
        $sSql = str_replace(array('#null#', "'null'"), array('null', 'null'), $sSql);
@@ -6507,143 +7446,6 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
 
        return array($iInit, $iEnd);
    } // calendarInitTimestamp
-
-   function jqueryCalendarDtFormat($sFormat, $sSep)
-   {
-       $sFormat = chunk_split(str_replace('yyyy', 'yy', $sFormat), 2, $sSep);
-
-       if ($sSep == substr($sFormat, -1))
-       {
-           $sFormat = substr($sFormat, 0, -1);
-       }
-
-       return $sFormat;
-   } // jqueryCalendarDtFormat
-
-   function jqueryCalendarTimeStart($sFormat)
-   {
-       $aDateParts = explode(';', $sFormat);
-
-       if (2 == sizeof($aDateParts))
-       {
-           $sTime = $aDateParts[1];
-       }
-       else
-       {
-           $sTime = 'hh:mm:ss';
-       }
-
-       return str_replace(array('h', 'm', 'i', 's'), array('0', '0', '0', '0'), $sTime);
-   } // jqueryCalendarTimeStart
-
-   function jqueryCalendarWeekInit($sDay)
-   {
-       switch ($sDay) {
-           case 'MO': return 1; break;
-           case 'TU': return 2; break;
-           case 'WE': return 3; break;
-           case 'TH': return 4; break;
-           case 'FR': return 5; break;
-           case 'SA': return 6; break;
-           default  : return 7; break;
-       }
-   } // jqueryCalendarWeekInit
-
-   function jqueryIconFile($sModule)
-   {
-       $sImage = '';
-       if ('calendar' == $sModule)
-       {
-           if (isset($this->arr_buttons['bcalendario']) && isset($this->arr_buttons['bcalendario']['type']) && 'image' == $this->arr_buttons['bcalendario']['type'] && 'only_fontawesomeicon' != $this->arr_buttons['bcalendario']['display'])
-           {
-               $sImage = $this->arr_buttons['bcalendario']['image'];
-           }
-       }
-       elseif ('calculator' == $sModule)
-       {
-           if (isset($this->arr_buttons['bcalculadora']) && isset($this->arr_buttons['bcalculadora']['type']) && 'image' == $this->arr_buttons['bcalculadora']['type'] && 'only_fontawesomeicon' != $this->arr_buttons['bcalculadora']['display'])
-           {
-               $sImage = $this->arr_buttons['bcalculadora']['image'];
-           }
-       }
-
-       return '' == $sImage ? '' : $this->Ini->path_icones . '/' . $sImage;
-   } // jqueryIconFile
-
-   function jqueryFAFile($sModule)
-   {
-       $sFA = '';
-       if ('calendar' == $sModule)
-       {
-           if (isset($this->arr_buttons['bcalendario']) && isset($this->arr_buttons['bcalendario']['type']) && ('image' == $this->arr_buttons['bcalendario']['type'] || 'button' == $this->arr_buttons['bcalendario']['type']) && 'only_fontawesomeicon' == $this->arr_buttons['bcalendario']['display'])
-           {
-               $sFA = $this->arr_buttons['bcalendario']['fontawesomeicon'];
-           }
-       }
-       elseif ('calculator' == $sModule)
-       {
-           if (isset($this->arr_buttons['bcalculadora']) && isset($this->arr_buttons['bcalculadora']['type']) && ('image' == $this->arr_buttons['bcalculadora']['type'] || 'button' == $this->arr_buttons['bcalculadora']['type']) && 'only_fontawesomeicon' == $this->arr_buttons['bcalculadora']['display'])
-           {
-               $sFA = $this->arr_buttons['bcalculadora']['fontawesomeicon'];
-           }
-       }
-
-       return '' == $sFA ? '' : "<span class='scButton_fontawesome " . $sFA . "'></span>";
-   } // jqueryFAFile
-
-   function jqueryButtonText($sModule)
-   {
-       $sClass = '';
-       $sText  = '';
-       if ('calendar' == $sModule)
-       {
-           if (isset($this->arr_buttons['bcalendario']) && isset($this->arr_buttons['bcalendario']['type']) && ('image' == $this->arr_buttons['bcalendario']['type'] || 'button' == $this->arr_buttons['bcalendario']['type']))
-           {
-               if ('only_text' == $this->arr_buttons['bcalendario']['display'])
-               {
-                   $sClass = 'scButton_' . $this->arr_buttons['bcalendario']['style'];
-                   $sText  = $this->arr_buttons['bcalendario']['value'];
-               }
-               elseif ('text_fontawesomeicon' == $this->arr_buttons['bcalendario']['display'])
-               {
-                   $sClass = 'scButton_' . $this->arr_buttons['bcalendario']['style'];
-                   if ('text_right' == $this->arr_buttons['bcalendario']['display_position'])
-                   {
-                       $sText = "<i class='icon_fa " . $this->arr_buttons['bcalendario']['fontawesomeicon'] . "'></i> " . $this->arr_buttons['bcalendario']['value'];
-                   }
-                   else
-                   {
-                       $sText = $this->arr_buttons['bcalendario']['value'] . " <i class='icon_fa " . $this->arr_buttons['bcalendario']['fontawesomeicon'] . "'></i>";
-                   }
-               }
-           }
-       }
-       elseif ('calculator' == $sModule)
-       {
-           if (isset($this->arr_buttons['bcalculadora']) && isset($this->arr_buttons['bcalculadora']['type']) && ('image' == $this->arr_buttons['bcalculadora']['type'] || 'button' == $this->arr_buttons['bcalculadora']['type']))
-           {
-               if ('only_text' == $this->arr_buttons['bcalculadora']['display'])
-               {
-                   $sClass = 'scButton_' . $this->arr_buttons['bcalendario']['style'];
-                   $sText  = $this->arr_buttons['bcalculadora']['value'];
-               }
-               elseif ('text_fontawesomeicon' == $this->arr_buttons['bcalculadora']['display'])
-               {
-                   $sClass = 'scButton_' . $this->arr_buttons['bcalendario']['style'];
-                   if ('text_right' == $this->arr_buttons['bcalendario']['display_position'])
-                   {
-                       $sText = "<i class='icon_fa " . $this->arr_buttons['bcalculadora']['fontawesomeicon'] . "'></i> " . $this->arr_buttons['bcalculadora']['value'];
-                   }
-                   else
-                   {
-                       $sText = $this->arr_buttons['bcalculadora']['value'] . " <i class='icon_fa " . $this->arr_buttons['bcalculadora']['fontawesomeicon'] . "'></i> ";
-                   }
-               }
-           }
-       }
-
-       return '' == $sText ? array('', '') : array($sText, $sClass);
-   } // jqueryButtonText
 
 
     function scCsrfGetToken()
@@ -7008,13 +7810,13 @@ function sc_file_size($file, $format = false)
           {
               $this->SC_monta_condicao($comando, "sobrenome", $arg_search, $data_search);
           }
-          if ($field == "SC_all_Cmp" || $field == "fone") 
-          {
-              $this->SC_monta_condicao($comando, "fone", $arg_search, str_replace(",", ".", $data_search));
-          }
           if ($field == "SC_all_Cmp" || $field == "email") 
           {
               $this->SC_monta_condicao($comando, "email", $arg_search, $data_search);
+          }
+          if ($field == "SC_all_Cmp" || $field == "fone") 
+          {
+              $this->SC_monta_condicao($comando, "fone", $arg_search, str_replace(",", ".", $data_search));
           }
           if ($field == "SC_all_Cmp" || $field == "aptnum") 
           {
@@ -7039,6 +7841,10 @@ function sc_file_size($file, $format = false)
           if ($field == "SC_all_Cmp" || $field == "horario_fim") 
           {
               $this->SC_monta_condicao($comando, "horario_fim", $arg_search, $data_search);
+          }
+          if ($field == "SC_all_Cmp" || $field == "data") 
+          {
+              $this->SC_monta_condicao($comando, "data", $arg_search, $data_search);
           }
       }
       if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['where_detal']) && !empty($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['where_detal']) && !empty($comando)) 
@@ -7149,7 +7955,13 @@ function sc_file_size($file, $format = false)
              $nm_aspas  = "'";
              $nm_aspas1 = "'";
          }
-      $Nm_datas['horario_inic'] = "time";$Nm_datas['horario_fim'] = "time";$Nm_datas['data'] = "date";
+         if (in_array($campo_join, $nm_numeric) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_progress) && (strtoupper($condicao) == "II" || strtoupper($condicao) == "QP" || strtoupper($condicao) == "NP"))
+         {
+             $nome      = "CAST ($nome AS VARCHAR(255))";
+             $nm_aspas  = "'";
+             $nm_aspas1 = "'";
+         }
+      $Nm_datas["horario_inic"] = "time";$Nm_datas["horario_fim"] = "time";$Nm_datas["data"] = "date";
          if (isset($Nm_datas[$campo_join]))
          {
              for ($x = 0; $x < strlen($campo); $x++)
@@ -7191,6 +8003,34 @@ function sc_file_size($file, $format = false)
           elseif ($Nm_datas[$campo_join] == "time" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_postgres))
           {
               $nome = "to_char (" . $nome . ", 'hh24:mi:ss')";
+          }
+          elseif ($Nm_datas[$campo_join] == "date" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+          {
+              $nome = "convert(char(10)," . $nome . ",121)";
+          }
+          elseif (($Nm_datas[$campo_join] == "datetime" || $Nm_datas[$campo_join] == "timestamp") && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+          {
+              $nome = "convert(char(19)," . $nome . ",121)";
+          }
+          elseif (($Nm_datas[$campo_join] == "times" || $Nm_datas[$campo_join] == "datetime" || $Nm_datas[$campo_join] == "timestamp") && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $nome  = "TO_DATE(TO_CHAR(" . $nome . ", 'yyyy-mm-dd hh24:mi:ss'), 'yyyy-mm-dd hh24:mi:ss')";
+          }
+          elseif ($Nm_datas[$campo_join] == "datetime" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+          {
+              $nome = "EXTEND(" . $nome . ", YEAR TO FRACTION)";
+          }
+          elseif ($Nm_datas[$campo_join] == "date" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+          {
+              $nome = "EXTEND(" . $nome . ", YEAR TO DAY)";
+          }
+          elseif ($Nm_datas[$campo_join] == "datetime" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_progress))
+          {
+              $nome = "to_char (" . $nome . ", 'YYYY-MM-DD hh24:mi:ss')";
+          }
+          elseif ($Nm_datas[$campo_join] == "date" && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_progress))
+          {
+              $nome = "to_char (" . $nome . ", 'YYYY-MM-DD')";
           }
       }
          $comando .= (!empty($comando) ? " or " : "");
@@ -7508,5 +8348,154 @@ if (parent && parent.scAjaxDetailValue)
 <?php
   exit;
 }
+    function getButtonIds($buttonName) {
+        switch ($buttonName) {
+            case "help":
+                return array("sc_b_hlp_b");
+                break;
+            case "exit":
+                return array("sc_b_sai_t.sc-unique-btn-1", "sc_b_sai_t.sc-unique-btn-3", "sc_b_sai_b.sc-unique-btn-9", "sc_b_sai_b.sc-unique-btn-11", "sc_b_sai_t.sc-unique-btn-12", "sc_b_sai_t.sc-unique-btn-14", "sc_b_sai_b.sc-unique-btn-20", "sc_b_sai_b.sc-unique-btn-22", "sc_b_sai_t.sc-unique-btn-2", "sc_b_sai_b.sc-unique-btn-10", "sc_b_sai_t.sc-unique-btn-13", "sc_b_sai_b.sc-unique-btn-21");
+                break;
+            case "new":
+                return array("sc_b_new_b.sc-unique-btn-4", "sc_b_new_b.sc-unique-btn-15");
+                break;
+            case "insert":
+                return array("sc_b_ins_b.sc-unique-btn-5", "sc_b_ins_b.sc-unique-btn-16");
+                break;
+            case "update":
+                return array("sc_b_upd_b.sc-unique-btn-6", "sc_b_upd_b.sc-unique-btn-17");
+                break;
+            case "delete":
+                return array("sc_b_del_b.sc-unique-btn-7", "sc_b_del_b.sc-unique-btn-18");
+                break;
+            case "0":
+                return array("sys_separator.sc-unique-btn-8", "sys_separator.sc-unique-btn-19");
+                break;
+        }
+
+        return array($buttonName);
+    } // getButtonIds
+
+    function displayAppHeader()
+    {
+        if ($this->Embutida_call) {
+            return;
+        }
+        if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['mostra_cab']) && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['mostra_cab'] == "N") {
+            return;
+        }
+        if ($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dashboard_info']['under_dashboard'] && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dashboard_info']['compact_mode'] && !$_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['dashboard_info']['maximized']) {
+            return;
+        }
+        if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['link_info']['compact_mode']) && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['link_info']['compact_mode']) {
+            return;
+        }
+?>
+    <tr><td class="sc-app-header">
+<style>
+    .scMenuTHeaderFont img, .scGridHeaderFont img , .scFormHeaderFont img , .scTabHeaderFont img , .scContainerHeaderFont img , .scFilterHeaderFont img { height:23px;}
+</style>
+<div class="scFormHeader" style="height: 54px; padding: 17px 15px; box-sizing: border-box;margin: -1px 0px 0px 0px;width: 100%;">
+    <div class="scFormHeaderFont" style="float: left; text-transform: uppercase;"><?php if ($this->nmgp_opcao == "novo") { echo "REGISTRO DE EVENTO"; } else { echo "REGISTRO DE EVENTO"; } ?></div>
+    <div class="scFormHeaderFont" style="float: right;"><span id="head_mark_data_0"><?php echo $this->data ?></span></div>
+</div>
+    </td></tr>
+<?php
+    }
+
+    function displayAppFooter()
+    {
+    }
+
+    function displayAppToolbars()
+    {
+        if (($this->Embutida_form || !$this->Embutida_call || $this->Grid_editavel || $this->Embutida_multi || ($this->Embutida_call && 'on' == $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['embutida_liga_form_btn_nav'])) && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['run_iframe'] != "F" && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['run_iframe'] != "R") {
+        } else {
+            return false;
+        }
+        return true;
+    } // displayAppToolbars
+
+    function displayTopToolbar()
+    {
+        if (!$this->displayAppToolbars()) {
+            return;
+        }
+    } // displayTopToolbar
+
+    function displayBottomToolbar()
+    {
+        if (!$this->displayAppToolbars()) {
+            return;
+        }
+    } // displayBottomToolbar
+
+    function scGetColumnOrderRule($fieldName, &$orderColName, &$orderColOrient, &$orderColRule)
+    {
+        $sortRule = 'nosort';
+        if ($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['ordem_cmp'] == $fieldName) {
+            $orderColName = $fieldName;
+            if ($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area_mob']['ordem_ord'] == " desc") {
+                $orderColOrient = $nome_img = $this->Ini->Label_sort_desc;
+                $orderColRule = $sortRule = 'desc';
+            } else {
+                $orderColOrient = $nome_img = $this->Ini->Label_sort_asc;
+                $orderColRule = $sortRule = 'asc';
+            }
+        }
+        return $sortRule;
+    }
+
+    function scGetColumnOrderIcon($fieldName, $sortRule)
+    {        if ('desc' == $sortRule) {
+            return "<img src=\"" . $this->Ini->path_img_global . "/" . $this->Ini->Label_sort_desc . "\" class=\"sc-ui-img-order-column\" id=\"sc-id-img-order-" . $fieldName . "\" />";
+        } elseif ('asc' == $sortRule) {
+            return "<img src=\"" . $this->Ini->path_img_global . "/" . $this->Ini->Label_sort_asc . "\" class=\"sc-ui-img-order-column\" id=\"sc-id-img-order-" . $fieldName . "\" />";
+        } elseif ('' != $this->Ini->Label_sort) {
+            return "<img src=\"" . $this->Ini->path_img_global . "/" . $this->Ini->Label_sort . "\" class=\"sc-ui-img-order-column\" id=\"sc-id-img-order-" . $fieldName . "\" />";
+        } else {
+            return '';
+        }
+    }
+
+    function scIsFieldNumeric($fieldName)
+    {
+        switch ($fieldName) {
+            case "fone":
+                return true;
+            case "aptNum":
+                return true;
+            case "qtdPessoas":
+                return true;
+            case "id_gestao":
+                return true;
+            default:
+                return false;
+        }
+        return false;
+    }
+
+    function scGetDefaultFieldOrder($fieldName)
+    {
+        switch ($fieldName) {
+            case "fone":
+                return 'desc';
+            case "aptNum":
+                return 'desc';
+            case "qtdPessoas":
+                return 'desc';
+            case "horario_inic":
+                return 'desc';
+            case "horario_fim":
+                return 'desc';
+            case "data":
+                return 'desc';
+            case "id_gestao":
+                return 'desc';
+            default:
+                return 'asc';
+        }
+        return 'asc';
+    }
 }
 ?>

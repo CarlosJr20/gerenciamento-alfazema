@@ -98,17 +98,17 @@
                if (isset($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['lig_iframe_modal']))
                {
                    $iframe_master = $_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['lig_iframe_modal'];
-                   $saida_final = "if (typeof parent.document.getElementById('" . $iframe_master . "').contentWindow.nm_gp_move == 'function') {parent.document.getElementById('" . $iframe_master . "').contentWindow.nm_gp_move('edit');} self.parent.tb_remove()";
+                   $saida_final = "if (typeof parent.document.getElementById('" . $iframe_master . "').contentWindow.nm_gp_move == 'function') { parent.document.getElementById('" . $iframe_master . "').contentWindow.nm_gp_move('edit'); } closeModal()";
                    unset($_SESSION['sc_session'][$script_case_init]['calendar_gestao_alfazema_area']['lig_iframe_modal']);
                }
                else
                {
-               $saida_final = "if (typeof parent.nm_gp_move == 'function') {parent.nm_gp_move('edit');} self.parent.tb_remove()";
+                   $saida_final = "if (typeof parent.nm_gp_move == 'function') { parent.nm_gp_move('edit'); } closeModal()";
                }
            }
            else
            {
-               $saida_final = "self.parent.tb_remove()";
+               $saida_final = "closeModal()";
            }
        }
        else
@@ -153,6 +153,10 @@ if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['
 </HEAD>
 <BODY>
 <SCRIPT LANGUAGE="Javascript">
+    function closeModal()
+    {
+        self.parent.tb_remove();
+    }
 <?php
 if (isset($fecha_aba_menu) && $fecha_aba_menu)
 {

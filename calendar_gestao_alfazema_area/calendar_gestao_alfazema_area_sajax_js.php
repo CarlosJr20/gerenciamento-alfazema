@@ -66,7 +66,7 @@ sajax_show_javascript();
     {
       document.getElementById("id_debug_window").style.display = "";
       document.getElementById("id_debug_text").innerHTML = scAjaxFormatDebug(oResp["htmOutput"]) + document.getElementById("id_debug_text").innerHTML;
-      scCenterElement(document.getElementById("id_debug_window"));
+      //scCenterElement(document.getElementById("id_debug_window"));
     }
   } // scAjaxShowDebug
 
@@ -339,11 +339,24 @@ sajax_show_javascript();
 
   function scAjaxCalendarReload()
   {
-    if (oResp["calendarReload"] && "OK" == oResp["calendarReload"])
+    if (oResp["calendarReload"] && "OK" == oResp["calendarReload"] && typeof self.parent.calendar_reload == "function")
     {
+<?php
+if (isset($_SESSION['scriptcase']['device_mobile']) && $_SESSION['scriptcase']['device_mobile'] && isset($_SESSION['scriptcase']['display_mobile']) && $_SESSION['scriptcase']['display_mobile']) {
+?>
       self.parent.calendar_reload();
       self.parent.tb_remove();
+<?php
+} else {
+?>
+      self.parent.calendar_reload();
+      self.parent.tb_remove();
+<?php
+}
+?>
+      return true;
     }
+    return false;
   } // scCalendarReload
 
   function scAjaxUpdateErrors(sType)
@@ -2234,11 +2247,17 @@ sajax_show_javascript();
       }
 	  //scCheckPagesWithoutBlock();
     }
-	var fieldDisplay = {};
+	var fieldDisplay = {}, controlHtmlHideField = [], controlHtmlShowField = [];
     if (oResp["fieldDisplay"])
     {
       for (iDisplay = 0; iDisplay < oResp["fieldDisplay"].length; iDisplay++)
       {
+        if (typeof scHideUserField === "function" && "off" == oResp["fieldDisplay"][iDisplay][1]) {
+          controlHtmlHideField.push(oResp["fieldDisplay"][iDisplay][0]);
+        }
+        if (typeof scShowUserField === "function" && "on" == oResp["fieldDisplay"][iDisplay][1]) {
+          controlHtmlShowField.push(oResp["fieldDisplay"][iDisplay][0]);
+        }
         for (iDisplay2 = 1; iDisplay2 < ajax_field_mult[ oResp["fieldDisplay"][iDisplay][0] ].length; iDisplay2++)
         {
           aFieldIds = ajax_field_id[ ajax_field_mult[ oResp["fieldDisplay"][iDisplay][0] ][iDisplay2] ];
@@ -2324,6 +2343,16 @@ sajax_show_javascript();
 	}
 	for (var fieldId in fieldDisplay) {
 		displayChange_field(fieldId, "", fieldDisplay[fieldId]);
+	}
+	if (controlHtmlHideField.length) {
+	  for (iDisplay = 0; iDisplay < controlHtmlHideField.length; iDisplay++) {
+	    scHideUserField(controlHtmlHideField[iDisplay]);
+	  }
+	}
+	if (controlHtmlShowField.length) {
+	  for (iDisplay = 0; iDisplay < controlHtmlShowField.length; iDisplay++) {
+	    scShowUserField(controlHtmlShowField[iDisplay]);
+	  }
 	}
   } // scAjaxSetDisplay
 
@@ -2805,7 +2834,72 @@ sajax_show_javascript();
   }
 
   function scAjax_formReload() {
-    nm_move('igual');
+<?php
+    if ($this->nmgp_opcao == 'novo') {
+        echo "      nm_move('reload_novo');";
+    } else {
+        echo "      nm_move('igual');";
+    }
+?>
+  }
+
+  function scBtnDisabled()
+  {
+    var btnNameNav, hasNavButton = false;
+
+    if (typeof oResp.btnDisabled != undefined) {
+      for (var btnName in oResp.btnDisabled) {
+        btnNameNav = btnName.substring(0, 9);
+
+        if ("on" == oResp.btnDisabled[btnName]) {
+          $("#" + btnName).addClass("disabled");
+
+          if ("sc_b_ini_" == btnNameNav) {
+            Nav_binicio_macro_disabled = "on";
+            hasNavButton = true;
+          } else if ("sc_b_ret_" == btnNameNav) {
+            Nav_bretorna_macro_disabled = "on";
+            hasNavButton = true;
+          } else if ("sc_b_avc_" == btnNameNav) {
+            Nav_bavanca_macro_disabled = "on";
+            hasNavButton = true;
+          } else if ("sc_b_fim_" == btnNameNav) {
+            Nav_bfinal_macro_disabled = "on";
+            hasNavButton = true;
+          }
+        } else {
+          $("#" + btnName).removeClass("disabled");
+
+          if ("sc_b_ini_" == btnNameNav) {
+            Nav_binicio_macro_disabled = "off";
+            hasNavButton = true;
+          } else if ("sc_b_ret_" == btnNameNav) {
+            Nav_bretorna_macro_disabled = "off";
+            hasNavButton = true;
+          } else if ("sc_b_avc_" == btnNameNav) {
+            Nav_bavanca_macro_disabled = "off";
+            hasNavButton = true;
+          } else if ("sc_b_fim_" == btnNameNav) {
+            Nav_bfinal_macro_disabled = "off";
+            hasNavButton = true;
+          }
+        }
+      }
+    }
+
+    if (hasNavButton) {
+      nav_atualiza(Nav_permite_ret, Nav_permite_ava, 't');
+      nav_atualiza(Nav_permite_ret, Nav_permite_ava, 'b');
+    }
+  }
+
+  function scBtnLabel()
+  {
+    if (typeof oResp.btnLabel != undefined) {
+      for (var btnName in oResp.btnLabel) {
+        $("#" + btnName).find(".btn-label").html(oResp.btnLabel[btnName]);
+      }
+    }
   }
 
   var scFormHasChanged = false;
@@ -2963,43 +3057,6 @@ sajax_show_javascript();
     scAjaxSetFocus();
   } // do_ajax_calendar_gestao_alfazema_area_validate_sobrenome_cb
 
-  // ---------- Validate fone
-  function do_ajax_calendar_gestao_alfazema_area_validate_fone()
-  {
-    var nomeCampo_fone = "fone";
-    var var_fone = scAjaxGetFieldText(nomeCampo_fone);
-    var var_script_case_init = document.F1.script_case_init.value;
-    x_ajax_calendar_gestao_alfazema_area_validate_fone(var_fone, var_script_case_init, do_ajax_calendar_gestao_alfazema_area_validate_fone_cb);
-  } // do_ajax_calendar_gestao_alfazema_area_validate_fone
-
-  function do_ajax_calendar_gestao_alfazema_area_validate_fone_cb(sResp)
-  {
-    oResp = scAjaxResponse(sResp);
-    scAjaxRedir();
-    sFieldValid = "fone";
-    scEventControl_onBlur(sFieldValid);
-    scAjaxUpdateFieldErrors(sFieldValid, "valid");
-    sFieldErrors = scAjaxListFieldErrors(sFieldValid, false);
-    if ("" == sFieldErrors)
-    {
-      var sImgStatus = sc_img_status_ok;
-      scAjaxHideErrorDisplay(sFieldValid);
-    }
-    else
-    {
-      var sImgStatus = sc_img_status_err;
-      scAjaxShowErrorDisplay(sFieldValid, sFieldErrors);
-    }
-    var $oImg = $('#id_sc_status_' + sFieldValid);
-    if (0 < $oImg.length)
-    {
-      $oImg.attr('src', sImgStatus).css('display', '');
-    }
-    scAjaxShowDebug();
-    scAjaxSetMaster();
-    scAjaxSetFocus();
-  } // do_ajax_calendar_gestao_alfazema_area_validate_fone_cb
-
   // ---------- Validate email
   function do_ajax_calendar_gestao_alfazema_area_validate_email()
   {
@@ -3036,6 +3093,43 @@ sajax_show_javascript();
     scAjaxSetMaster();
     scAjaxSetFocus();
   } // do_ajax_calendar_gestao_alfazema_area_validate_email_cb
+
+  // ---------- Validate fone
+  function do_ajax_calendar_gestao_alfazema_area_validate_fone()
+  {
+    var nomeCampo_fone = "fone";
+    var var_fone = scAjaxGetFieldText(nomeCampo_fone);
+    var var_script_case_init = document.F1.script_case_init.value;
+    x_ajax_calendar_gestao_alfazema_area_validate_fone(var_fone, var_script_case_init, do_ajax_calendar_gestao_alfazema_area_validate_fone_cb);
+  } // do_ajax_calendar_gestao_alfazema_area_validate_fone
+
+  function do_ajax_calendar_gestao_alfazema_area_validate_fone_cb(sResp)
+  {
+    oResp = scAjaxResponse(sResp);
+    scAjaxRedir();
+    sFieldValid = "fone";
+    scEventControl_onBlur(sFieldValid);
+    scAjaxUpdateFieldErrors(sFieldValid, "valid");
+    sFieldErrors = scAjaxListFieldErrors(sFieldValid, false);
+    if ("" == sFieldErrors)
+    {
+      var sImgStatus = sc_img_status_ok;
+      scAjaxHideErrorDisplay(sFieldValid);
+    }
+    else
+    {
+      var sImgStatus = sc_img_status_err;
+      scAjaxShowErrorDisplay(sFieldValid, sFieldErrors);
+    }
+    var $oImg = $('#id_sc_status_' + sFieldValid);
+    if (0 < $oImg.length)
+    {
+      $oImg.attr('src', sImgStatus).css('display', '');
+    }
+    scAjaxShowDebug();
+    scAjaxSetMaster();
+    scAjaxSetFocus();
+  } // do_ajax_calendar_gestao_alfazema_area_validate_fone_cb
 
   // ---------- Validate aptnum
   function do_ajax_calendar_gestao_alfazema_area_validate_aptnum()
@@ -3221,6 +3315,43 @@ sajax_show_javascript();
     scAjaxSetMaster();
     scAjaxSetFocus();
   } // do_ajax_calendar_gestao_alfazema_area_validate_horario_fim_cb
+
+  // ---------- Validate data
+  function do_ajax_calendar_gestao_alfazema_area_validate_data()
+  {
+    var nomeCampo_data = "data";
+    var var_data = scAjaxGetFieldHidden(nomeCampo_data);
+    var var_script_case_init = document.F1.script_case_init.value;
+    x_ajax_calendar_gestao_alfazema_area_validate_data(var_data, var_script_case_init, do_ajax_calendar_gestao_alfazema_area_validate_data_cb);
+  } // do_ajax_calendar_gestao_alfazema_area_validate_data
+
+  function do_ajax_calendar_gestao_alfazema_area_validate_data_cb(sResp)
+  {
+    oResp = scAjaxResponse(sResp);
+    scAjaxRedir();
+    sFieldValid = "data";
+    scEventControl_onBlur(sFieldValid);
+    scAjaxUpdateFieldErrors(sFieldValid, "valid");
+    sFieldErrors = scAjaxListFieldErrors(sFieldValid, false);
+    if ("" == sFieldErrors)
+    {
+      var sImgStatus = sc_img_status_ok;
+      scAjaxHideErrorDisplay(sFieldValid);
+    }
+    else
+    {
+      var sImgStatus = sc_img_status_err;
+      scAjaxShowErrorDisplay(sFieldValid, sFieldErrors);
+    }
+    var $oImg = $('#id_sc_status_' + sFieldValid);
+    if (0 < $oImg.length)
+    {
+      $oImg.attr('src', sImgStatus).css('display', '');
+    }
+    scAjaxShowDebug();
+    scAjaxSetMaster();
+    scAjaxSetFocus();
+  } // do_ajax_calendar_gestao_alfazema_area_validate_data_cb
 function scAjaxShowErrorDisplay(sErrorId, sErrorMsg) {
 	if ("table" != sErrorId && !$("id_error_display_" + sErrorId + "_frame").hasClass('scFormToastDivFixed')) {
 		scAjaxShowErrorDisplay_default(sErrorId, sErrorMsg);
@@ -3519,13 +3650,14 @@ function scJs_sweetalert_params(params) {
     var var_tipoarea = scAjaxGetFieldRadio("tipoarea");
     var var_nome = scAjaxGetFieldText("nome");
     var var_sobrenome = scAjaxGetFieldText("sobrenome");
-    var var_fone = scAjaxGetFieldText("fone");
     var var_email = scAjaxGetFieldText("email");
+    var var_fone = scAjaxGetFieldText("fone");
     var var_aptnum = scAjaxGetFieldText("aptnum");
     var var_aptbloco = scAjaxGetFieldRadio("aptbloco");
     var var_qtdpessoas = scAjaxGetFieldText("qtdpessoas");
     var var_horario_inic = scAjaxGetFieldText("horario_inic");
     var var_horario_fim = scAjaxGetFieldText("horario_fim");
+    var var_data = scAjaxGetFieldHidden("data");
     var var_nm_form_submit = document.F1.nm_form_submit.value;
     var var_nmgp_url_saida = document.F1.nmgp_url_saida.value;
     var var_nmgp_opcao = document.F1.nmgp_opcao.value;
@@ -3535,14 +3667,16 @@ function scJs_sweetalert_params(params) {
     var var_script_case_init = document.F1.script_case_init.value;
     var var_csrf_token = scAjaxGetFieldText("csrf_token");
     scAjaxProcOn();
-    x_ajax_calendar_gestao_alfazema_area_submit_form(var_tipoarea, var_nome, var_sobrenome, var_fone, var_email, var_aptnum, var_aptbloco, var_qtdpessoas, var_horario_inic, var_horario_fim, var_nm_form_submit, var_nmgp_url_saida, var_nmgp_opcao, var_nmgp_ancora, var_nmgp_num_form, var_nmgp_parms, var_script_case_init, var_csrf_token, do_ajax_calendar_gestao_alfazema_area_submit_form_cb);
+    x_ajax_calendar_gestao_alfazema_area_submit_form(var_tipoarea, var_nome, var_sobrenome, var_email, var_fone, var_aptnum, var_aptbloco, var_qtdpessoas, var_horario_inic, var_horario_fim, var_data, var_nm_form_submit, var_nmgp_url_saida, var_nmgp_opcao, var_nmgp_ancora, var_nmgp_num_form, var_nmgp_parms, var_script_case_init, var_csrf_token, do_ajax_calendar_gestao_alfazema_area_submit_form_cb);
   } // do_ajax_calendar_gestao_alfazema_area_submit_form
 
   function do_ajax_calendar_gestao_alfazema_area_submit_form_cb(sResp)
   {
     scAjaxProcOff();
     oResp = scAjaxResponse(sResp);
-    scAjaxCalendarReload();
+    if (scAjaxCalendarReload()) {
+      return;
+    }
     scAjaxUpdateErrors("valid");
     sAppErrors = scAjaxListErrors(true);
     if ("" == sAppErrors || "menu_link" == document.F1.nmgp_opcao.value)
@@ -3563,13 +3697,14 @@ function scJs_sweetalert_params(params) {
       scAjaxHideErrorDisplay("tipoarea");
       scAjaxHideErrorDisplay("nome");
       scAjaxHideErrorDisplay("sobrenome");
-      scAjaxHideErrorDisplay("fone");
       scAjaxHideErrorDisplay("email");
+      scAjaxHideErrorDisplay("fone");
       scAjaxHideErrorDisplay("aptnum");
       scAjaxHideErrorDisplay("aptbloco");
       scAjaxHideErrorDisplay("qtdpessoas");
       scAjaxHideErrorDisplay("horario_inic");
       scAjaxHideErrorDisplay("horario_fim");
+      scAjaxHideErrorDisplay("data");
       scLigEditLookupCall();
 <?php
 if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['dashboard_info']['under_dashboard']) && $_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema_area']['dashboard_info']['under_dashboard']) {
@@ -3596,6 +3731,8 @@ if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema
     }
     scAjaxShowDebug();
     scAjaxSetDisplay();
+    scBtnDisabled();
+    scBtnLabel();
     scAjaxSetLabel();
     scAjaxSetReadonly();
     scAjaxAlert(do_ajax_calendar_gestao_alfazema_area_submit_form_cb_after_alert);
@@ -3633,13 +3770,14 @@ if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['calendar_gestao_alfazema
     scAjaxHideErrorDisplay("tipoarea");
     scAjaxHideErrorDisplay("nome");
     scAjaxHideErrorDisplay("sobrenome");
-    scAjaxHideErrorDisplay("fone");
     scAjaxHideErrorDisplay("email");
+    scAjaxHideErrorDisplay("fone");
     scAjaxHideErrorDisplay("aptnum");
     scAjaxHideErrorDisplay("aptbloco");
     scAjaxHideErrorDisplay("qtdpessoas");
     scAjaxHideErrorDisplay("horario_inic");
     scAjaxHideErrorDisplay("horario_fim");
+    scAjaxHideErrorDisplay("data");
     var var_id_gestao = document.F2.id_gestao.value;
     var var_nm_form_submit = document.F2.nm_form_submit.value;
     var var_nmgp_opcao = document.F2.nmgp_opcao.value;
@@ -3681,6 +3819,7 @@ foreach ($this->Ini->sc_lig_iframe as $tmp_i => $tmp_v)
     scAjaxSetLabel(true);
     scAjaxSetReadonly(true);
     scAjaxSetMaster();
+    scAjaxSetNavStatus("t");
     scAjaxSetNavStatus("b");
     scAjaxSetDisplay(true);
     scAjaxSetBtnVars();
@@ -3704,6 +3843,7 @@ if ($this->Embutida_form)
       sc_form_onload();
     }
   } // do_ajax_calendar_gestao_alfazema_area_navigate_form_cb_after_alert
+
   function sc_hide_calendar_gestao_alfazema_area_form()
   {
     for (var block_id in ajax_block_id) {
@@ -3727,29 +3867,31 @@ if ($this->Embutida_form)
   ajax_field_list[0] = "tipoarea";
   ajax_field_list[1] = "nome";
   ajax_field_list[2] = "sobrenome";
-  ajax_field_list[3] = "fone";
-  ajax_field_list[4] = "email";
+  ajax_field_list[3] = "email";
+  ajax_field_list[4] = "fone";
   ajax_field_list[5] = "aptnum";
   ajax_field_list[6] = "aptbloco";
   ajax_field_list[7] = "qtdpessoas";
   ajax_field_list[8] = "horario_inic";
   ajax_field_list[9] = "horario_fim";
+  ajax_field_list[10] = "data";
 
   var ajax_block_list = new Array();
   ajax_block_list[0] = "0";
   ajax_block_list[1] = "1";
 
   var ajax_error_list = {
-    "tipoarea": {"label": "Área", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
+    "tipoarea": {"label": "Qual Área?", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "nome": {"label": "Nome", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "sobrenome": {"label": "Sobrenome", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "fone": {"label": "Fone", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "email": {"label": "Email", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
+    "fone": {"label": "Fone", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "aptnum": {"label": "Número do Apartamento", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "aptbloco": {"label": "Bloco", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
     "qtdpessoas": {"label": "Quantidade de Pessoas", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "horario_inic": {"label": "Horario Inic", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
-    "horario_fim": {"label": "Horario Fim", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5}
+    "horario_inic": {"label": "Horário de Início", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
+    "horario_fim": {"label": "Horário Final", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5},
+    "data": {"label": "Data", "valid": new Array(), "onblur": new Array(), "onchange": new Array(), "onclick": new Array(), "onfocus": new Array(), "timeout": 5}
   };
   var ajax_error_timeout = 5;
 
@@ -3767,49 +3909,53 @@ if ($this->Embutida_form)
     "tipoarea": new Array(),
     "nome": new Array(),
     "sobrenome": new Array(),
-    "fone": new Array(),
     "email": new Array(),
+    "fone": new Array(),
     "aptnum": new Array(),
     "aptbloco": new Array(),
     "qtdpessoas": new Array(),
     "horario_inic": new Array(),
-    "horario_fim": new Array()
+    "horario_fim": new Array(),
+    "data": new Array()
   };
   ajax_field_mult["tipoarea"][1] = "tipoarea";
   ajax_field_mult["nome"][1] = "nome";
   ajax_field_mult["sobrenome"][1] = "sobrenome";
-  ajax_field_mult["fone"][1] = "fone";
   ajax_field_mult["email"][1] = "email";
+  ajax_field_mult["fone"][1] = "fone";
   ajax_field_mult["aptnum"][1] = "aptnum";
   ajax_field_mult["aptbloco"][1] = "aptbloco";
   ajax_field_mult["qtdpessoas"][1] = "qtdpessoas";
   ajax_field_mult["horario_inic"][1] = "horario_inic";
   ajax_field_mult["horario_fim"][1] = "horario_fim";
+  ajax_field_mult["data"][1] = "data";
 
   var ajax_field_id = {
     "tipoarea": new Array("hidden_field_label_tipoarea", "hidden_field_data_tipoarea"),
     "nome": new Array("hidden_field_label_nome", "hidden_field_data_nome"),
     "sobrenome": new Array("hidden_field_label_sobrenome", "hidden_field_data_sobrenome"),
-    "fone": new Array("hidden_field_label_fone", "hidden_field_data_fone"),
     "email": new Array("hidden_field_label_email", "hidden_field_data_email"),
+    "fone": new Array("hidden_field_label_fone", "hidden_field_data_fone"),
     "aptnum": new Array("hidden_field_label_aptnum", "hidden_field_data_aptnum"),
     "aptbloco": new Array("hidden_field_label_aptbloco", "hidden_field_data_aptbloco"),
     "qtdpessoas": new Array("hidden_field_label_qtdpessoas", "hidden_field_data_qtdpessoas"),
     "horario_inic": new Array("hidden_field_label_horario_inic", "hidden_field_data_horario_inic"),
-    "horario_fim": new Array("hidden_field_label_horario_fim", "hidden_field_data_horario_fim")
+    "horario_fim": new Array("hidden_field_label_horario_fim", "hidden_field_data_horario_fim"),
+    "data": new Array("hidden_field_label_data", "hidden_field_data_data")
   };
 
   var ajax_read_only = {
     "tipoarea": "off",
     "nome": "off",
     "sobrenome": "off",
-    "fone": "off",
     "email": "off",
+    "fone": "off",
     "aptnum": "off",
     "aptbloco": "off",
     "qtdpessoas": "off",
     "horario_inic": "off",
-    "horario_fim": "off"
+    "horario_fim": "off",
+    "data": "off"
   };
   var bRefreshTable = false;
   function scRefreshTable()
@@ -3872,7 +4018,7 @@ if ($this->Embutida_form)
 
       return;
     }
-    if ("fone" == sIndex)
+    if ("email" == sIndex)
     {
       scAjaxSetFieldText(sIndex, aValue, "", "", true);
       updateHeaderFooter(sIndex, aValue);
@@ -3889,7 +4035,7 @@ if ($this->Embutida_form)
 
       return;
     }
-    if ("email" == sIndex)
+    if ("fone" == sIndex)
     {
       scAjaxSetFieldText(sIndex, aValue, "", "", true);
       updateHeaderFooter(sIndex, aValue);
@@ -3977,6 +4123,23 @@ if ($this->Embutida_form)
     if ("horario_fim" == sIndex)
     {
       scAjaxSetFieldText(sIndex, aValue, "", "", true);
+      updateHeaderFooter(sIndex, aValue);
+
+      if ($("#id_sc_field_" + sIndex).length) {
+          $("#id_sc_field_" + sIndex).change();
+      }
+      else if (document.F1.elements[sIndex]) {
+          $(document.F1.elements[sIndex]).change();
+      }
+      else if (document.F1.elements[sFieldName + "[]"]) {
+          $(document.F1.elements[sFieldName + "[]"]).change();
+      }
+
+      return;
+    }
+    if ("data" == sIndex)
+    {
+      scAjaxSetFieldLabel(sIndex, aValue);
       updateHeaderFooter(sIndex, aValue);
 
       if ($("#id_sc_field_" + sIndex).length) {

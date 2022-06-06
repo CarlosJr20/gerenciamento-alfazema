@@ -94,6 +94,11 @@ function sc_inline_form(seqRow, keyParams, width, height)
   nm_gp_submit('<?php echo $this->Ini->link_calendar_gestao_alfazema_area_inline ?>', '<?php echo $this->nm_location ?>', 'NM_btn_insert*scinN*scoutNM_btn_update*scinS*scoutNM_btn_delete*scinN*scoutNM_btn_navega*scinN*scoutNMSC_modal*scinok*scoutsc_redir_atualiz*scinok*scoutsc_inline_call*scinY*scoutsc_seq_row*scin' + seqRow + '*scout' + callParams, '', 'modal', height, width);
 }
 
+function sc_inline_form_add(width, height)
+{
+  nm_gp_submit('<?php echo $this->Ini->link_calendar_gestao_alfazema_area_inline ?>', '<?php echo $this->nm_location ?>', 'NM_btn_insert*scinY*scoutNM_btn_update*scinN*scoutNM_btn_delete*scinN*scoutNM_btn_navega*scinN*scoutNMSC_modal*scinok*scoutsc_redir_atualiz*scinok*scoutsc_inline_call*scinY*scoutnmgp_opcao*scinnovo*scout', '', 'modal', height, width);
+}
+
 function scInlineFormReceive(oResponse, iLine)
 {
   var i;
@@ -150,7 +155,7 @@ function nm_move(x, y, z)
         document.F2.nmgp_clone.value = "S";
         document.F2.nmgp_opcao.value = x; 
     }
-    if ("novo" == x || "edit_novo" == x)
+    if ("novo" == x || "edit_novo" == x || "reload_novo" == x)
     {
 <?php
        $NM_parm_ifr = (isset($NM_run_iframe) && $NM_run_iframe == 1) ? "NM_run_iframe?#?1?@?" : "";

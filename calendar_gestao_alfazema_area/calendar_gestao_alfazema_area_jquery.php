@@ -54,13 +54,14 @@ function scEventControl_init(iSeqRow) {
   scEventControl_data["tipoarea" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["nome" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["sobrenome" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
-  scEventControl_data["fone" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["email" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
+  scEventControl_data["fone" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["aptnum" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["aptbloco" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["qtdpessoas" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["horario_inic" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
   scEventControl_data["horario_fim" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
+  scEventControl_data["data" + iSeqRow] = {"blur": false, "change": false, "autocomp": false, "original": "", "calculated": ""};
 }
 
 function scEventControl_active(iSeqRow) {
@@ -82,16 +83,16 @@ function scEventControl_active(iSeqRow) {
   if (scEventControl_data["sobrenome" + iSeqRow]["change"]) {
     return true;
   }
-  if (scEventControl_data["fone" + iSeqRow]["blur"]) {
-    return true;
-  }
-  if (scEventControl_data["fone" + iSeqRow]["change"]) {
-    return true;
-  }
   if (scEventControl_data["email" + iSeqRow]["blur"]) {
     return true;
   }
   if (scEventControl_data["email" + iSeqRow]["change"]) {
+    return true;
+  }
+  if (scEventControl_data["fone" + iSeqRow]["blur"]) {
+    return true;
+  }
+  if (scEventControl_data["fone" + iSeqRow]["change"]) {
     return true;
   }
   if (scEventControl_data["aptnum" + iSeqRow]["blur"]) {
@@ -122,6 +123,12 @@ function scEventControl_active(iSeqRow) {
     return true;
   }
   if (scEventControl_data["horario_fim" + iSeqRow]["change"]) {
+    return true;
+  }
+  if (scEventControl_data["data" + iSeqRow]["blur"]) {
+    return true;
+  }
+  if (scEventControl_data["data" + iSeqRow]["change"]) {
     return true;
   }
   return false;
@@ -177,7 +184,9 @@ function scJQEventsAdd(iSeqRow) {
   $('#id_sc_field_horario_fim' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_horario_fim_onblur(this, iSeqRow) })
                                          .bind('change', function() { sc_calendar_gestao_alfazema_area_horario_fim_onchange(this, iSeqRow) })
                                          .bind('focus', function() { sc_calendar_gestao_alfazema_area_horario_fim_onfocus(this, iSeqRow) });
-  $('#id_sc_field_data' + iSeqRow).bind('change', function() { sc_calendar_gestao_alfazema_area_data_onchange(this, iSeqRow) });
+  $('#id_sc_field_data' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_data_onblur(this, iSeqRow) })
+                                  .bind('change', function() { sc_calendar_gestao_alfazema_area_data_onchange(this, iSeqRow) })
+                                  .bind('focus', function() { sc_calendar_gestao_alfazema_area_data_onfocus(this, iSeqRow) });
   $('#id_sc_field_aptnum' + iSeqRow).bind('blur', function() { sc_calendar_gestao_alfazema_area_aptnum_onblur(this, iSeqRow) })
                                     .bind('change', function() { sc_calendar_gestao_alfazema_area_aptnum_onchange(this, iSeqRow) })
                                     .bind('focus', function() { sc_calendar_gestao_alfazema_area_aptnum_onfocus(this, iSeqRow) });
@@ -295,8 +304,18 @@ function sc_calendar_gestao_alfazema_area_horario_fim_onfocus(oThis, iSeqRow) {
   scCssFocus(oThis);
 }
 
+function sc_calendar_gestao_alfazema_area_data_onblur(oThis, iSeqRow) {
+  do_ajax_calendar_gestao_alfazema_area_validate_data();
+  scCssBlur(oThis);
+}
+
 function sc_calendar_gestao_alfazema_area_data_onchange(oThis, iSeqRow) {
   scMarkFormAsChanged();
+}
+
+function sc_calendar_gestao_alfazema_area_data_onfocus(oThis, iSeqRow) {
+  scEventControl_onFocus(oThis, iSeqRow);
+  scCssFocus(oThis);
 }
 
 function sc_calendar_gestao_alfazema_area_aptnum_onblur(oThis, iSeqRow) {
@@ -358,8 +377,8 @@ function displayChange_block_0(status) {
 	displayChange_field("tipoarea", "", status);
 	displayChange_field("nome", "", status);
 	displayChange_field("sobrenome", "", status);
-	displayChange_field("fone", "", status);
 	displayChange_field("email", "", status);
+	displayChange_field("fone", "", status);
 	displayChange_field("aptnum", "", status);
 	displayChange_field("aptbloco", "", status);
 	displayChange_field("qtdpessoas", "", status);
@@ -368,19 +387,21 @@ function displayChange_block_0(status) {
 function displayChange_block_1(status) {
 	displayChange_field("horario_inic", "", status);
 	displayChange_field("horario_fim", "", status);
+	displayChange_field("data", "", status);
 }
 
 function displayChange_row(row, status) {
 	displayChange_field_tipoarea(row, status);
 	displayChange_field_nome(row, status);
 	displayChange_field_sobrenome(row, status);
-	displayChange_field_fone(row, status);
 	displayChange_field_email(row, status);
+	displayChange_field_fone(row, status);
 	displayChange_field_aptnum(row, status);
 	displayChange_field_aptbloco(row, status);
 	displayChange_field_qtdpessoas(row, status);
 	displayChange_field_horario_inic(row, status);
 	displayChange_field_horario_fim(row, status);
+	displayChange_field_data(row, status);
 }
 
 function displayChange_field(field, row, status) {
@@ -393,11 +414,11 @@ function displayChange_field(field, row, status) {
 	if ("sobrenome" == field) {
 		displayChange_field_sobrenome(row, status);
 	}
-	if ("fone" == field) {
-		displayChange_field_fone(row, status);
-	}
 	if ("email" == field) {
 		displayChange_field_email(row, status);
+	}
+	if ("fone" == field) {
+		displayChange_field_fone(row, status);
 	}
 	if ("aptnum" == field) {
 		displayChange_field_aptnum(row, status);
@@ -414,36 +435,53 @@ function displayChange_field(field, row, status) {
 	if ("horario_fim" == field) {
 		displayChange_field_horario_fim(row, status);
 	}
+	if ("data" == field) {
+		displayChange_field_data(row, status);
+	}
 }
 
 function displayChange_field_tipoarea(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_nome(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_sobrenome(row, status) {
-}
-
-function displayChange_field_fone(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_email(row, status) {
+    var fieldId;
+}
+
+function displayChange_field_fone(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_aptnum(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_aptbloco(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_qtdpessoas(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_horario_inic(row, status) {
+    var fieldId;
 }
 
 function displayChange_field_horario_fim(row, status) {
+    var fieldId;
+}
+
+function displayChange_field_data(row, status) {
+    var fieldId;
 }
 
 function scRecreateSelect2() {
@@ -464,64 +502,20 @@ function scCheckNoPageSelected() {
 		}
 	}
 }
-var sc_jq_calendar_value = {};
-
-function scJQCalendarAdd(iSeqRow) {
-  $("#id_sc_field_data" + iSeqRow).datepicker({
-    beforeShow: function(input, inst) {
-      var $oField = $(this),
-          aParts  = $oField.val().split(" "),
-          sTime   = "";
-      sc_jq_calendar_value["#id_sc_field_data" + iSeqRow] = $oField.val();
+function scJQSpinAdd(iSeqRow) {
+  $("#id_sc_field_qtdpessoas" + iSeqRow).spinner({
+    max: 99999999,
+    min: 0,
+    step: 1,
+    page: 5,
+    change: function(event, ui) {
+      $(this).trigger("change");
     },
-    onClose: function(dateText, inst) {
-      var elemName;
-      if ("" != dateText) {
-        elemName = $(this).attr("name");
-        $("input[name=sc_clone_" + elemName + "]").hide();
-        $("input[name=" + elemName + "]").show();
-      }
-      setTimeout(function() { do_ajax_calendar_gestao_alfazema_area_validate_data(iSeqRow); }, 200);
-    },
-    showWeek: true,
-    numberOfMonths: 1,
-    changeMonth: true,
-    changeYear: true,
-    yearRange: 'c-5:c+5',
-    dayNames: ["<?php        echo html_entity_decode($this->Ini->Nm_lang['lang_days_sund'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_days_mond'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_days_tued'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_days_wend'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_days_thud'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_days_frid'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_days_satd'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);        ?>"],
-    dayNamesMin: ["<?php     echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_sund'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_mond'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_tued'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_wend'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_thud'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_frid'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_substr_days_satd'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>"],
-    monthNames: ["<?php      echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_janu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_febr"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_marc"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_apri"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_mayy"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_june"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_july"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_augu"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_sept"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_octo"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_nove"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>","<?php echo html_entity_decode($this->Ini->Nm_lang["lang_mnth_dece"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);      ?>"],
-    monthNamesShort: ["<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_janu'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_febr'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_marc'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_apri'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_mayy'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_june'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_july'], ENT_COMPAT, $_SESSION['scriptcase']['charset']);   ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_augu'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_sept'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_octo'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_nove'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>","<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_mnth_dece'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>"],
-    weekHeader: "<?php echo html_entity_decode($this->Ini->Nm_lang['lang_shrt_days_sem'], ENT_COMPAT, $_SESSION['scriptcase']['charset']); ?>",
-    firstDay: <?php echo $this->jqueryCalendarWeekInit("" . $_SESSION['scriptcase']['reg_conf']['date_week_ini'] . ""); ?>,
-    dateFormat: "<?php echo $this->jqueryCalendarDtFormat("" . str_replace(array('/', 'aaaa', $_SESSION['scriptcase']['reg_conf']['date_sep']), array('', 'yyyy', ''), $this->field_config['data']['date_format']) . "", "" . $_SESSION['scriptcase']['reg_conf']['date_sep'] . ""); ?>",
-    showOtherMonths: true,
-    showOn: "button",
-<?php
-$miniCalendarIcon   = $this->jqueryIconFile('calendar');
-$miniCalendarFA     = $this->jqueryFAFile('calendar');
-$miniCalendarButton = $this->jqueryButtonText('calendar');
-if ('' != $miniCalendarIcon) {
-?>
-    buttonImage: "<?php echo $miniCalendarIcon; ?>",
-    buttonImageOnly: true,
-<?php
-}
-elseif ('' != $miniCalendarFA) {
-?>
-    buttonText: "<?php echo $miniCalendarFA; ?>",
-<?php
-}
-elseif ('' != $miniCalendarButton[0]) {
-?>
-    buttonText: "<?php echo $miniCalendarButton[0]; ?>",
-<?php
-}
-?>
-    currentText: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_per_today"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);       ?>",
-    closeText: "<?php  echo html_entity_decode($this->Ini->Nm_lang["lang_btns_mess_clse"], ENT_COMPAT, $_SESSION["scriptcase"]["charset"]);       ?>",
+    stop: function(event, ui) {
+      $(this).trigger("change");
+    }
   });
-} // scJQCalendarAdd
+} // scJQSpinAdd
 
 function scJQUploadAdd(iSeqRow) {
 } // scJQUploadAdd
@@ -662,7 +656,9 @@ function do_ajax_check_file(rs, field  ,t, iSeqRow){
 }
 
 $(document).ready(function(){
-});function scJQPasswordToggleAdd(seqRow) {
+});
+
+function scJQPasswordToggleAdd(seqRow) {
   $(".sc-ui-pwd-toggle-icon" + seqRow).on("click", function() {
     var fieldName = $(this).attr("id").substr(17), fieldObj = $("#id_sc_field_" + fieldName), fieldFA = $("#id_pwd_fa_" + fieldName);
     if ("text" == fieldObj.attr("type")) {
@@ -682,7 +678,7 @@ function scJQSelect2Add(seqRow, specificField) {
 function scJQElementsAdd(iLine) {
   scJQEventsAdd(iLine);
   scEventControl_init(iLine);
-  scJQCalendarAdd(iLine);
+  scJQSpinAdd(iLine);
   scJQUploadAdd(iLine);
   scJQPasswordToggleAdd(iLine);
   scJQSelect2Add(iLine);
